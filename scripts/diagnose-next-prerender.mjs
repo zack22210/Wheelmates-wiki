@@ -29,27 +29,30 @@ for (const [needle, replacement] of patches) {
 
 if (patched !== source) fs.writeFileSync(target, patched, 'utf8');
 
-for (const reactServerFile of [
-  'react-server-dom-webpack-server.node.production.js',
-  'react-server-dom-webpack-server.node.unbundled.production.js'
+for (const reactPackage of [
+  'react-server-dom-webpack',
+  'react-server-dom-webpack-experimental'
 ]) {
-  const reactTarget = path.join(
+  const cjsDirectory = path.join(
     process.cwd(),
     'node_modules',
     'next',
     'dist',
     'compiled',
-    'react-server-dom-webpack',
-    'cjs',
-    reactServerFile
+    reactPackage,
+    'cjs'
   );
-  const reactSource = fs.readFileSync(reactTarget, 'utf8');
-  const needle = 'function logRecoverableError(request, error) {';
-  const replacement = `${needle}\n  console.error('[react-server-original-error]', error);`;
-  if (!reactSource.includes(replacement)) {
-    if (!reactSource.includes(needle)) {
-      throw new Error(`Unable to find React server diagnostic target in ${reactServerFile}.`);
+  const reactServerFiles = fs.readdirSync(cjsDirectory).filter((file) =>
+    /^react-server-dom-webpack-server\..*production\.js$/.test(file)
+  );
+
+  for (const reactServerFile of reactServerFiles) {
+    const reactTarget = path.join(cjsDirectory, reactServerFile);
+    const reactSource = fs.readFileSync(reactTarget, 'utf8');
+    const needle = 'var errorDigest = requestStorage.run(void 0, request.onError, error);';
+    const diagnostic = "errorDigest = '[react-server-source]' + (error && error.stack ? error.stack : error && error.message ? error.message : String(error));";
+    if (!reactSource.includes(diagnostic) && reactSource.includes(needle)) {
+      fs.writeFileSync(reactTarget, reactSource.replace(needle, `${needle}\n    ${diagnostic}`), 'utf8');
     }
-    fs.writeFileSync(reactTarget, reactSource.replace(needle, replacement), 'utf8');
   }
 }
