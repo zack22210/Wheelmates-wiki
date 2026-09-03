@@ -14,7 +14,7 @@ const source = fs.readFileSync(target, 'utf8');
 const patches = [
   [
     'finally{ey=r}if(null!=n&&',
-    'finally{ey=r}(globalThis.__wheelmatesRscErrors||(globalThis.__wheelmatesRscErrors={}))[n]=null!=t&&"string"==typeof t.message?encodeURIComponent(t.message.slice(0,2e3)):"non-error%20throw";if(null!=n&&'
+    'finally{ey=r}(globalThis.__wheelmatesRscErrors||(globalThis.__wheelmatesRscErrors=[])).push([n,null!=t&&"string"==typeof t.message?encodeURIComponent(t.message.slice(0,2e3)):"non-error%20throw"]);if(null!=n&&'
   ],
   [
     'let a=to(r);a.digest||',
@@ -30,7 +30,7 @@ const patches = [
   ],
   [
     'e&&tt(d),!(t&&',
-    'console.error("[next-prerender-recovered-error] "+(globalThis.__wheelmatesRscErrors&&globalThis.__wheelmatesRscErrors[d.digest]||encodeURIComponent(null!=s&&"string"==typeof s.message?s.message.slice(0,2e3):"non-error throw"))),e&&tt(d),!(t&&'
+    'console.error("[rsc-error-catalog] "+JSON.stringify(globalThis.__wheelmatesRscErrors||[])),console.error("[next-prerender-recovered-error] "+encodeURIComponent(null!=s&&"string"==typeof s.message?s.message.slice(0,2e3):"non-error throw")),e&&tt(d),!(t&&'
   ]
 ];
 
