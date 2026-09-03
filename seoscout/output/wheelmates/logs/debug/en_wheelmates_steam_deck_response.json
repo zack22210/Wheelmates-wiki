@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030259287024287858268d9d6FPCaiT0T",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404388,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Steam Deck Guide: Local Play and Performance\",\n  description: \"Learn how to enable local multiplayer on Steam Deck for WheelMates and troubleshoot performance drops caused by environment variable changes.\",\n  category: \"technical\",\n  date: \"2026-09-03\",\n}\n\nWheelMates is playable on the Steam Deck, but users may encounter specific limitations regarding multiplayer functionality and performance optimizations. By default, the game detects the handheld environment and disables certain features, such as local co-op, while simultaneously activating hidden performance profiles to maintain steady frame rates.\n\n## Enabling Local Multiplayer on Steam Deck\n\nA common issue for Steam Deck users is that the \"Play Local\" option is disabled in the main menu. This restriction appears to be an intentional design choice by the developers for handheld mode, likely assuming the device will not be used for couch co-op. However, players who dock their Steam Decks to a television can bypass this restriction.\n\nThe game identifies the hardware using an environment variable. To force the \"Play Local\" option to appear, you must manually override the device detection in the Steam launch settings.\n\n### Steps to Enable Play Local\n1. Navigate to WheelMates in your Steam Library.\n2. Select the **Settings** (gear icon) and choose **Properties**.\n3. Under the **General** tab, locate the **Launch Options** text box.\n4. Input the following command: `SteamDeck=0 %command%`\n5. Close the properties window and launch the game.\n\nBy setting the variable to zero, the game treats the Steam Deck as a standard PC, which restores the local multiplayer menu options.\n\n## Performance and FPS Trade-offs\n\nWhile the launch parameter fix enables local play, it comes with a documented performance cost. WheelMates utilizes \"secret performance settings\" that are only active when the game detects it is running on a Steam Deck (`SteamDeck=1`). \n\nWhen you use the workaround to enable local play, these optimizations are disabled. Players have reported the following technical changes:\n* **Menu Frame Rates:** FPS in menus may drop from a stable 30 FPS to approximately 25 FPS.\n* **Graphics Settings:** Standard in-game graphics options typically do not restore the lost performance once the Steam Deck environment variable is overridden.\n\nCurrently, there is no verified method to keep the \"Play Local\" option enabled while also retaining the specific performance optimizations reserved for the Deck. Players must choose between optimized handheld performance or the ability to access local multiplayer modes.\n\n## Troubleshooting Menu Lag\n\nIf you experience significant lag after applying the launch parameter, it is likely due to the loss of the device-specific optimizations mentioned above. Because these settings are hidden from the standard graphics menu, manual adjustments to shadows, textures, or resolution may not fully compensate for the change.\n\nIf you primarily play in handheld mode and do not require local co-op, it is recommended to remove the `SteamDeck=0 %command%` parameter to restore the default 30 FPS performance profile.\n\n## FAQ\n\n### Why is Play Local disabled on my Steam Deck?\nThe game detects the Steam Deck environment variable and automatically hides the local multiplayer option. This is likely because the developers optimized the handheld experience for single-player or online play rather than couch co-op.\n\n### Can I play WheelMates couch co-op on a TV using the Deck?\nYes. By adding `SteamDeck=0 %command%` to the Steam launch options, you can enable the \"Play Local\" menu. This allows you to play with others when the Steam Deck is docked to a monitor or TV.\n\n### Will changing the launch options affect my frame rate?\nYes. Disabling the Steam Deck detection flag removes specific background optimizations. Users have reported a drop from 30 FPS to 25 FPS in menus when the game is forced into \"PC mode\" on the handheld.\n\n## Sources\n\n* [WheelMates Official Site](https://wheelmatesgame.com/)\n* [Steam Community: What is going on with Steam Deck?](https://steamcommunity.com/app/3905450/discussions/0/565911524757073765/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1398,
+    "completion_tokens": 1703,
+    "total_tokens": 3101,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1398,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 900,
+        "totalTokenCount": 3101,
+        "thoughtsTokenCount": 803,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1398
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 900
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1398,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 900,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 803
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

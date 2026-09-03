@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030259384467677118268d9d6efhNlFoa",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404384,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Game Length and Gameplay Overview\",\n  description: \"Curious about the length of WheelMates? Discover what to expect from this 2-player co-op RC car adventure and how the Friend's Pass works for your team.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## Understanding WheelMates Gameplay\nWheelMates is a 2-player cooperative driving adventure that tasks players with navigating RC cars through Professor Bloom’s home laboratory. While there is no official \"completion time\" or hour-count provided by the developers at this stage, the game focuses on puzzle-solving, exploration, and uncovering the narrative behind the events in the laboratory.\n\nPlayers can expect a casual, relaxing experience that involves finding hidden paths and overcoming environmental challenges. Because the game emphasizes cooperative mechanics and puzzle-solving, the total time spent playing will vary depending on how quickly you and your partner navigate the laboratory’s obstacles.\n\n## Is There a Standard Playtime?\nAt this time, there is no verified average playtime for WheelMates. As a title centered on exploration and cooperative puzzles, the duration of your session will depend on your team's pace. \n\nThe game features various environments, such as the Backyard and the Shed, which contain specific puzzles that require coordination between both players. If you find yourself stuck on complex segments—such as the rebus puzzles found in the \"Through the Wasteland\" level—your total playtime may increase as you experiment with solutions.\n\n## Maximizing Your Co-op Experience\nOne of the most significant features of WheelMates is the Friend’s Pass. This system allows you to play the entire game with a partner even if only one person owns the full version. This accessibility makes it easy to jump in and play at your own pace without worrying about strict time limits or purchase requirements for your teammate.\n\nTo ensure your session goes smoothly and to avoid potential delays that could extend your playtime unnecessarily:\n\n*   Ensure both players are running the same version of the game.\n*   Check the lower-left corner of the main menu to verify your version number.\n*   Keep your game updated to the latest hotfix to ensure that progression-blocking issues in areas like the Shed or Backyard are resolved.\n\n## Tips for Progressing Through the Laboratory\nBecause the game relies on cooperative interaction, communication is your most valuable tool. If you encounter a puzzle that seems difficult, remember that the game is designed for two players to work in tandem. \n\nIf you suspect a bug is preventing you from progressing, follow these steps to help the development team:\n1.  Document the issue with as much detail as possible, including step-by-step actions.\n2.  Note your current game version from the main menu.\n3.  Report the issue via the official Steam community discussions or the developer's Discord server.\n\n## Frequently Asked Questions\n\n### How long does it take to beat WheelMates?\nThere is no official average playtime listed for WheelMates. The duration depends on your pace in solving puzzles and exploring the Professor's laboratory.\n\n### Does the Friend's Pass affect game length?\nNo, the Friend’s Pass provides the full cooperative experience. It simply allows a second player to join the owner for free, meaning you can play the entire game from start to finish together.\n\n### What should I do if I get stuck on a puzzle?\nIf you are struggling with a specific puzzle, such as the rebus in \"Through the Wasteland,\" try communicating with your partner to coordinate your movements. If you believe you are stuck due to a technical error, check the official Steam community page for the latest hotfixes.\n\n## Sources\n[WheelMates on Steam](https://steamcommunity.com/app/3905450)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3469,
+    "completion_tokens": 810,
+    "total_tokens": 4279,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 3469,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 810,
+        "totalTokenCount": 4279,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3469,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

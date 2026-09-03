@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030324012115686868268d9d61KiK3bqI",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405868,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Date de sortie et état de WheelMates sur PS5\",\n  description: \"WheelMates est annoncé sur PS5, mais sa date de sortie exacte et sa page PlayStation Store n'étaient pas vérifiées au 3 septembre 2026.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## WheelMates est-il disponible sur PS5 ?\n\nWheelMates a été annoncé sur **PlayStation 5**, mais la date de sortie exacte sur PS5 et la fiche officielle du PlayStation Store n'avaient pas été vérifiées au 3 septembre 2026. La version disponible à cette date était la version Windows PC sur Steam, lancée le 1er septembre.\n\nL'annonce initiale des plateformes prévoyait WheelMates pour 2026 sur PS5, Xbox Series X|S et PC. Une année large n'est pas synonyme d'un jour de lancement confirmé sur console ; toute page affichant une date précise sur PS5 sans source PlayStation ou Firevolt doit donc être traitée avec prudence.\n\n## Ce qui reste à confirmer sur PlayStation\n\nTant que la page du PlayStation Store n'apparaît pas, les détails suivants concernant la PS5 ne sont pas vérifiés :\n\n- Prix de la console et remise de lancement\n- Taille du téléchargement et temps de préchargement\n- Liste des trophées et parité avec les 21 succès de Steam\n- Disponibilité du Friend's Pass sur PlayStation\n- Cross-play en ligne avec Steam ou Xbox\n- Fonctionnalités spécifiques à la DualSense\n- Transfert de sauvegarde entre PC et PS5\n\nWheelMates prend en charge la coopération en ligne et en écran scindé local sur sa version PC, mais ces caractéristiques ne doivent pas être automatiquement appliquées à une fiche de console non publiée.\n\n## Comment vérifier les mises à jour PS5 officielles\n\nUtilisez le site officiel de WheelMates, les réseaux sociaux vérifiés de Firevolt et le PlayStation Store. Une mise à jour authentique doit identifier la plateforme, la région, la date et la page du magasin. Évitez les offres de précommande ou de revente de clés qui ne renvoient pas vers la boutique officielle de Sony.\n\n## FAQ\n\n### Quelle est la date de sortie de WheelMates sur PS5 ?\n\nAucune date exacte sur PS5 n'a été vérifiée au 3 septembre 2026. La fenêtre annoncée était 2026.\n\n### Existe-t-il un prix pour WheelMates sur PS5 ?\n\nL'absence de fiche vérifiée sur le PlayStation Store signifie qu'aucun prix PS5 n'a encore été confirmé. Il ne faut pas supposer que le prix sera identique à celui de Steam sur PC.\n\n### La PS5 peut-elle jouer avec le PC ?\n\nLe cross-play n'a pas été vérifié. Attendez une liste de fonctionnalités officielle sur PS5 ou une annonce de Firevolt.\n\n## Sources\n\n- [Site officiel de WheelMates](https://wheelmatesgame.com/)\n- [Couverture de l'annonce des plateformes de WheelMates](https://www.gematsu.com/2026/01/co-op-rc-adventure-game-wheelmates-announced-for-ps5-xbox-series-and-pc)\n- [WheelMates sur Steam](https://store.steampowered.com/app/3905450/WheelMates/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 900,
+    "completion_tokens": 2970,
+    "total_tokens": 3870,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 900,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 767,
+        "totalTokenCount": 3870,
+        "thoughtsTokenCount": 2203,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 900
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 767
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 900,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 767,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 2203
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

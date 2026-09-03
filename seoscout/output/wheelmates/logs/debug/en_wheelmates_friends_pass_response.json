@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030258478004192298268d9d6pAjvuMQX",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404343,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Friends Pass: How to Play Co-op for Free\",\n  description: \"Learn how to use the WheelMates Friends Pass to play the full co-op driving adventure with a friend who doesn't own the game. Step-by-step invite guide included.\",\n  category: \"multiplayer\",\n  date: \"2026-09-03\",\n}\n\nThe WheelMates Friends Pass is a multiplayer feature that allows two players to experience the entire co-op driving adventure together while only requiring one person to own the full game. By downloading a specific version of the client, the second player can join a host's session for free, participating in every puzzle, mini-game, and story beat within Professor Everett Bloom’s house. This system supports the game's core design as a dedicated two-player experience, whether playing online or via local split-screen.\n\n## How the Friends Pass Works\n\nWheelMates is built specifically for two players, focusing on RC car exploration and physics-based puzzles. The Friends Pass ensures that the barrier to entry is low for \"Player Two.\" While one player must purchase the full version of WheelMates, their partner only needs to download the \"Friends Pass\" version, which is available on the game's main store page. \n\nNotably, the Friends Pass version of the game was previously the game's demo. If a player already has the demo installed, it functions as the gateway to joining a full game hosted by a friend. This version does not allow a player to start a solo game or host others; it is strictly designed to act as a client for joining an existing owner's session.\n\n## Step-by-Step Invite Guide\n\nTo successfully connect two players using the Friends Pass, both users must follow a specific sequence in the game menus. Ensure both players have a stable internet connection before beginning the process.\n\n### Instructions for the Game Owner (Host)\n1. Launch the full version of WheelMates.\n2. From the main menu, select **Play**.\n3. Choose **Play Online** and then select **Host**.\n4. Look at the bottom right corner of the lobby screen to find the **Invite Code**.\n5. Copy this code and send it to your friend.\n\n### Instructions for the Friend (Guest)\n1. Download and launch the **WheelMates Friends Pass** version.\n2. From the main menu, select **Play**.\n3. Select the **Friends Pass** option.\n4. Enter the **Invite Code** provided by the host. Note that this code is case-sensitive.\n5. Click **Join** to enter the host's lobby.\n\nOnce both players are in the lobby, the host can select a new game or load an existing save file to begin the adventure.\n\n## Co-op Gameplay and Mechanics\n\nIn WheelMates, players control tiny RC cars navigating an oversized laboratory. The gameplay revolves around cooperation rather than combat. Players must use unique vehicular abilities to reach hidden corners of the house and solve environmental puzzles.\n\n*   **Magnetic Wheels:** These allow the RC cars to drive onto walls and ceilings, reaching areas inaccessible to standard vehicles.\n*   **The Rope:** Used to swing across large gaps or pull objects.\n*   **Magnetic Grabber:** A tool for interacting with the environment and moving objects required for puzzles.\n*   **Narrative Journal:** Both players contribute to a shared journal that tracks story fragments and clues regarding the disappearance of Professor Bloom.\n\nThe house acts as the primary challenge. While exploration is the main focus, players will also encounter mini-games designed to test driving skills and determine who is the better driver in a competitive setting.\n\n## Technical Requirements and Troubleshooting\n\nFor the best experience when using the Friends Pass, players should ensure their software versions are identical. The developers at Firevolt Team frequently release hotfixes to address progression issues and synchronization bugs, such as the \"Rope Swing\" not appearing for the joining player.\n\nTo verify your version, look at the lower-left corner of the main menu. If the version numbers do not match, the guest may be unable to join the host's session. If connection issues persist, players are encouraged to restart the Steam client to trigger any pending updates.\n\nWheelMates also supports local co-op via split-screen. If playing on the same computer, the Friends Pass is not required, as both players can play using the single full copy of the game on one machine.\n\n## FAQ\n\n### Does my friend need to buy WheelMates to play with me?\nNo. Only one player needs to own the full game. The second player can download the WheelMates Friends Pass version for free to join your online session.\n\n### Is the Friends Pass available for split-screen play?\nThe Friends Pass is specifically for online co-op. For split-screen play, you only need the full version of the game and two controllers (or a keyboard and controller) on a single computer.\n\n### Why is the invite code not working?\nThe invite code is case-sensitive. Ensure the joining player enters the code exactly as it appears on the host's screen. Additionally, check that both players are running the same version of the game, visible in the bottom left corner of the menu.\n\n### Can the Friends Pass player host a game?\nNo. The Friends Pass version is only for joining a player who owns the full game. To host a session, you must purchase the full version of WheelMates.\n\n## Sources\n* https://wheelmatesgame.com/\n* https://steamcommunity.com/app/3905450\n* https://www.youtube.com/watch?v=wR6raQZibbs\n* https://www.youtube.com/watch?v=dqnlGPrB1po"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5229,
+    "completion_tokens": 1961,
+    "total_tokens": 7190,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 5229,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1235,
+        "totalTokenCount": 7190,
+        "thoughtsTokenCount": 726,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5229
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1235
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5229,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1235,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 726
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

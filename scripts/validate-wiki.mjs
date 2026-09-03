@@ -255,7 +255,7 @@ function leafEntries(value, prefix = '') {
 
 function shouldTranslateMessage(key, value) {
   if (typeof value !== 'string') return false;
-  if (/^(?:links|media)(?:\.|$)|(?:^|\.)(?:href|src|url|path|videoId|localeCode)$/i.test(key)) return false;
+  if (/^(?:links|media|languages)(?:\.|$)|(?:^|\.)(?:href|src|url|path|videoId|localeCode|linkKey|contentType|slug)$/i.test(key)) return false;
   if (/^site\.(?:gameName|name|shortName)$/i.test(key)) return false;
   const text = value.trim();
   if (!text || /^https?:\/\//i.test(text) || /^\//.test(text) || /^[^@\s]+@[^@\s]+$/.test(text)) return false;

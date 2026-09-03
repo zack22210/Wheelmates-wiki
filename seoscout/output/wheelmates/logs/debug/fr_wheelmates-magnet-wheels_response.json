@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030316365390983958268d9d6ukQiH7Z8",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405401,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guide des roues aimantées de WheelMates : rouler sur les murs\",\n  description: \"Découvrez comment fonctionnent les roues aimantées dans WheelMates pour rouler sur les murs et plafonds et percer les secrets de la maison du professeur Bloom.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\nDans l'aventure en coopération pour deux joueurs WheelMates, les roues aimantées sont une amélioration de véhicule spécialisée qui modifie fondamentalement la façon dont les joueurs naviguent dans l'environnement. Ce gadget permet aux petites voitures télécommandées de défier la gravité en adhérant aux surfaces verticales et aux plafonds. Grâce aux roues aimantées, les joueurs peuvent atteindre des zones auparavant inaccessibles de la maison du professeur Everett Bloom, qui sert de décor principal et de laboratoire au jeu.\n\n## Comment fonctionnent les roues aimantées\n\nLes roues aimantées font partie des capacités de déplacement essentielles que les joueurs débloquent au fil de l'histoire. Contrairement aux roues standard, limitées aux sols et aux légères inclinaisons, les roues aimantées offrent l'adhérence nécessaire pour conduire directement sur les murs et sous les meubles ou les poutres structurelles.\n\nCe mécanisme est crucial pour résoudre des énigmes environnementales qui nécessitent un changement de perspective. Comme le jeu est conçu pour la coopération, les joueurs doivent souvent coordonner leurs mouvements, l'un d'eux pouvant naviguer au plafond pour activer un interrupteur ou faire tomber un objet pour son partenaire resté au sol.\n\n## Progression et exploration\n\nWheelMates encourage le retour dans les zones déjà visitées grâce à son approche de type « Metroidvania » vis-à-vis des gadgets. Bien que vous puissiez découvrir une pièce au début du jeu qui semble simple, l'acquisition des roues aimantées vous donne une raison d'y revenir. De nouvelles capacités révèlent des chemins cachés et des indices qu'il était physiquement impossible d'atteindre lors de votre première visite.\n\nLa maison regorge de pièces surdimensionnées qui font office de laboratoires étranges. Les roues aimantées vous permettent d'explorer les « recoins » de ces pièces, comme les étagères hautes ou les conduits de ventilation. Ces zones contiennent souvent :\n*   Des fragments d'histoire pour le journal narratif.\n*   De nouvelles pièces de voiture pour la personnalisation.\n*   Des indices cachés sur la disparition du professeur Bloom.\n*   Des entrées vers des mini-jeux où vous pouvez tester vos talents de pilote.\n\n## Synergie avec d'autres gadgets\n\nBien que les roues aimantées gèrent la verticalité, elles sont souvent utilisées conjointement avec d'autres outils déverrouillables pour naviguer sur le terrain complexe du laboratoire.\n\n*   **La corde :** Utilisée pour se balancer au-dessus de larges fossés où même les roues aimantées ne trouvent pas de surface.\n*   **La pince magnétique :** Un outil polyvalent utilisé pour interagir avec des objets. Combinée à la capacité de rouler sur les murs, la pince permet aux joueurs de manipuler l'environnement sous des angles uniques.\n\nDes mises à jour techniques récentes ont également amélioré le comportement des véhicules sur les pentes raides. Un correctif publié par l'équipe de développement a spécifiquement traité le comportement des véhicules pour assurer des transitions plus fluides lors de la navigation dans la géométrie complexe de la maison.\n\n## Mécaniques de coopération et accessibilité\n\nWheelMates est conçu spécifiquement pour deux joueurs, offrant à la fois une coopération en ligne et des modes en écran scindé local. Pour rendre le jeu plus accessible, les développeurs ont inclus un « Friend’s Pass ». Cette fonctionnalité permet à une personne possédant le jeu complet d'inviter un partenaire à jouer gratuitement à toute l'aventure.\n\nLorsque vous utilisez les roues aimantées en coopération, la communication est vitale. Le jeu ne comporte aucun combat, ce qui signifie que le défi principal est l'environnement lui-même. Les joueurs doivent travailler ensemble pour déterminer quelles surfaces sont assez métalliques pour supporter les roues aimantées et comment utiliser leurs positions élevées pour aider leur partenaire.\n\n## FAQ\n\n### Comment obtenir les roues aimantées dans WheelMates ?\nLes roues aimantées sont une capacité déverrouillable obtenue en progressant dans l'histoire. En explorant la maison du professeur Bloom et en résolvant des énigmes, vous finirez par débloquer ce gadget pour accéder à de nouvelles zones et à des indices cachés.\n\n### Les deux joueurs peuvent-ils utiliser les roues aimantées ?\nOui, WheelMates est une expérience coopérative où les deux joueurs contrôlent des voitures télécommandées. À mesure que les capacités sont débloquées, les deux joueurs peuvent les utiliser pour résoudre des énigmes et explorer le laboratoire ensemble.\n\n### Y a-t-il des combats dans WheelMates ?\nIl n'y a aucun combat dans WheelMates. Le gameplay se concentre entièrement sur la conduite, l'exploration, la résolution d'énigmes et la compétition dans des mini-jeux non violents pour déterminer qui est le meilleur pilote.\n\n## Sources\n\n*   [WheelMates Official Steam Community Page](https://steamcommunity.com/app/3905450)\n*   [WheelMates: Official Gameplay Overview + Trailer](https://www.youtube.com/watch?v=L6tJeeb9BWg)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1179,
+    "completion_tokens": 1193,
+    "total_tokens": 2372,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1179,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1193,
+        "totalTokenCount": 2372,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1179,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

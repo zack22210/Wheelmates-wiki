@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030258485922362788268d9d6aBPDGokc",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404350,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Level Guide: Locations and Puzzles\",\n  description: \"Discover the levels in WheelMates, including the Backyard, Shed, and Through the Wasteland. Learn about co-op puzzles and Professor Bloom's laboratory.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\nWheelMates is a cooperative driving adventure that tasks two players with navigating RC cars through the oversized environments of Professor Bloom’s home. Players must work together to solve environmental puzzles, uncover hidden paths, and navigate tricky terrain. While the game focuses on a seamless journey through the professor's estate, several distinct areas and levels define the progression of the story.\n\nUnderstanding the layout of these levels is essential for overcoming the game's physics-based challenges. Whether you are navigating the cluttered interior of the laboratory or the hazardous exterior zones, each area requires precise coordination between both players.\n\n## Known Levels and Locations\n\nThe journey in WheelMates takes place within and around Professor Bloom's house. Based on official progression notes and community reports, the following areas serve as the primary stages for the RC car adventure:\n\n*   **Professor Bloom’s Home Laboratory:** This serves as the central hub and starting point. It is filled with scientific equipment that creates makeshift ramps and platforms for the RC cars.\n*   **The Backyard:** A large outdoor area that introduces more verticality and natural obstacles. Recent updates have addressed progression issues here to ensure players can move smoothly into the next zones.\n*   **The Shed:** A dense, puzzle-heavy environment located outside the main house. This area often requires players to interact with tools and storage items to create paths.\n*   **Through the Wasteland:** A specific segment or level known for its high difficulty and complex puzzles. It features a notable rebus puzzle that requires players to input specific codes or patterns to proceed.\n\n## Cooperative Gameplay Mechanics\n\nProgression through all levels in WheelMates is built entirely around two-player cooperation. You cannot complete these stages alone, as many puzzles require one player to hold a position or trigger a mechanism while the other drives through.\n\nKey mechanics found across various levels include the Rope Swing, which allows one car to pull or swing the other across gaps. In online co-op, players should ensure they are on the latest version of the game to prevent issues where interactive objects, like the Rope Swing, fail to appear for the joining player.\n\nAdditionally, players will encounter NeuroVoids. These are specific quest-related elements that can sometimes block progress if collision issues occur. The developers have released hotfixes to improve vehicle behavior on steep slopes, which is a frequent challenge in the Backyard and Shed levels.\n\n## Solving Level Puzzles\n\nThe puzzles in WheelMates range from simple physics tasks to complex logic riddles. In the \"Through the Wasteland\" level, players encounter a rebus puzzle similar to the \"numbers of May.\" These segments often involve an input panel where players must cycle through options to find the correct sequence.\n\nIf you find yourself stuck in the Backyard or Shed areas, check your game version in the lower-left corner of the main menu. Early versions of the game had progression bugs in these specific levels that prevented players from continuing. Updating to the latest hotfix allows you to resume from your last checkpoint without losing progress.\n\n## How to Access All Levels with Friend's Pass\n\nOne of the most accessible features of WheelMates is the Friend's Pass. This allows the owner of the full game to invite a partner to play through every level, including the endgame content, for free. The second player does not need to purchase the game.\n\nTo play through all levels together:\n1. The host launches the full version of WheelMates.\n2. The second player downloads the \"WheelMates Friend’s Pass\" version (previously the Demo).\n3. The host selects **Play > Play Online > Host** to generate an invite code.\n4. The friend selects **Play > Friend's Pass > Enter the Code** to join the lobby.\n\n## FAQ\n\n### How many players can play WheelMates levels at once?\nWheelMates is designed specifically for 2-player co-op. It supports both local co-op and online play.\n\n### What should I do if I get stuck in the Backyard or Shed levels?\nEnsure you have installed the latest hotfix. The developers addressed specific progression issues in these areas that previously blocked players from moving forward.\n\n### Is there a way to skip the rebus puzzle in \"Through the Wasteland\"?\nCurrently, there is no skip function for puzzles. Players must solve the rebus using the input panel provided in the level. If the panel does not respond, ensure both players have a stable connection and matching game versions.\n\n## Sources\n\n*   [WheelMates Official Steam Community Hub](https://steamcommunity.com/app/3905450)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3468,
+    "completion_tokens": 1961,
+    "total_tokens": 5429,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 3468,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1035,
+        "totalTokenCount": 5429,
+        "thoughtsTokenCount": 926,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3468
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1035
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3468,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1035,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 926
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

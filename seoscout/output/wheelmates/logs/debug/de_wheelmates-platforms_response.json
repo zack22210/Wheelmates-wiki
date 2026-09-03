@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030323357047966088268d9d6qjv5gpwQ",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405820,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates-Plattformen: Status für PC, PS5 und Xbox\",\n  description: \"Prüfen Sie den verifizierten WheelMates-Plattformstatus für Steam PC, PlayStation 5 und Xbox Series X|S, einschließlich verfügbarer und offener Daten.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## Wo können Sie WheelMates spielen?\n\nWheelMates ist **jetzt für Windows-PC über Steam erhältlich**. Firevolt hat die PC-Version am 1. September 2026 veröffentlicht. Versionen für PlayStation 5 und Xbox Series X|S wurden in der Ankündigung des Spiels für 2026 erwähnt, jedoch wurde bis zum 3. September 2026 weder ein genaues Veröffentlichungsdatum für Konsolen noch eine offizielle Store-Seite bestätigt.\n\n| Plattform | Verifizierter Status am 3. September 2026 |\n|---|---|\n| Windows PC | Auf Steam veröffentlicht |\n| PlayStation 5 | Angekündigt; genaues Datum und PS Store-Seite nicht verifiziert |\n| Xbox Series X|S | Angekündigt; genaues Datum und Microsoft Store-Seite nicht verifiziert |\n| Xbox One | Nicht durch die genannte Ankündigung bestätigt |\n| PlayStation 4 | Nicht durch die genannte Ankündigung bestätigt |\n| Nintendo Switch | Nicht durch die genannte Ankündigung bestätigt |\n\n## PC-Version und Koop-Funktionen\n\nDie Steam-Version unterstützt Online-Koop sowie geteilten Bildschirm oder Splitscreen-Koop. WheelMates ist für zwei Spieler konzipiert und bietet keine Einzelspielerkampagne. Für das Online-Spiel kann ein Besitzer einen Partner über den kostenlosen Friend's Pass einladen.\n\nSteam listet Windows 10 oder 11, DirectX 12 und 15 GB freien Speicherplatz. Die Store-Seite ist die maßgebliche Quelle, um aktuelle PC-Anforderungen, Preise, unterstützte Sprachen und Funktionsmerkmale zu überprüfen.\n\n## Erwartungen an PS5 und Xbox\n\nDie Konsolenankündigung legt die geplanten Plattformen fest, nicht jedoch einen genauen Veröffentlichungstag. Bis ein Eintrag im PlayStation Store oder Microsoft Store live ist, bleiben Details wie Konsolenpreis, Vorladezeiten, Trophäen oder Erfolge, die Verfügbarkeit des Friend's Pass, Crossplay und Spielstandübertragungen unbestätigt.\n\nVermeiden Sie Key-Reseller-Seiten, die behaupten, eine Konsolenversion zu verkaufen, bevor ein offizieller Store-Eintrag überprüft werden kann. Folgen Sie der offiziellen Website und den sozialen Kanälen von Firevolt für plattformspezifische Updates.\n\n## FAQ\n\n### Ist WheelMates auf Steam erhältlich?\n\nJa. Die Windows-PC-Version wurde am 1. September 2026 auf Steam veröffentlicht.\n\n### Ist WheelMates jetzt für PS5 oder Xbox verfügbar?\n\nBeide Konsolenversionen der aktuellen Generation wurden angekündigt, aber dieses Wiki konnte bis zum 3. September 2026 keine offizielle Store-Seite oder ein genaues Datum für die Konsolen bestätigen.\n\n### Kommt WheelMates für Nintendo Switch?\n\nDie Nintendo Switch wurde in der hier zitierten Plattformankündigung nicht bestätigt.\n\n## Quellen\n\n- [WheelMates auf Steam](https://store.steampowered.com/app/3905450/WheelMates/)\n- [Offizielle WheelMates-Website](https://wheelmatesgame.com/)\n- [Berichterstattung zur WheelMates-Plattformankündigung](https://www.gematsu.com/2026/01/co-op-rc-adventure-game-wheelmates-announced-for-ps5-xbox-series-and-pc)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 961,
+    "completion_tokens": 848,
+    "total_tokens": 1809,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 961,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 848,
+        "totalTokenCount": 1809,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 961,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

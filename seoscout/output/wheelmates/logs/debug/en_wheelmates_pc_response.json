@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030259290477172768268d9d6VL4UoChz",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404373,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates PC: Co-op Driving Adventure Guide\",\n  description: \"Learn about playing WheelMates on PC, including co-op features, the Friends Pass system, and gameplay mechanics for this RC car exploration adventure.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## Playing WheelMates on PC\n\nWheelMates is a two-player cooperative driving adventure designed for PC players who enjoy exploration, puzzle-solving, and narrative discovery. In this game, you and a partner control tiny RC cars navigating the oversized, mysterious home of a missing scientist, Professor Everett Bloom.\n\nThe game is built specifically for two-player interaction. Whether you prefer playing online with a friend or sitting side-by-side on the couch using split-screen, the experience is tailored to foster teamwork. The game features no combat, focusing instead on environmental challenges and the secrets hidden within the house.\n\n## Cooperative Gameplay and Friends Pass\n\nOne of the most notable features for PC players is the inclusion of a Friends Pass. This system ensures that only one person in your duo needs to own a copy of the game to enjoy the full experience together. This makes it easier to jump into the adventure without requiring both players to purchase the title separately.\n\nThe gameplay centers on communication and coordination. As you navigate the house, you will encounter various puzzles that require both players to work in tandem. You can also engage in mini-games to test your driving skills against your partner and determine who is the better driver.\n\n## Exploration and RC Car Abilities\n\nAs you progress through the house, your tiny RC cars will gain new abilities that allow you to reach previously inaccessible areas. These mechanics are essential for solving puzzles and uncovering the story behind Professor Bloom’s disappearance.\n\nKey movement and utility abilities include:\n\n*   **Magnetic Wheels:** Allows your RC car to traverse walls and ceilings.\n*   **Rope:** Essential for crossing gaps between surfaces.\n*   **Magnetic Grabber:** A versatile tool that can be used creatively to interact with the environment.\n\nThe game encourages backtracking. As you unlock new abilities, you are encouraged to revisit rooms you have already explored to find hidden paths and additional story clues.\n\n## Customization and Narrative\n\nWhile the primary focus is on exploration, you can customize your RC cars to give them a unique look. As you explore new locations, you can collect car parts and colors to personalize your four-wheeled hero.\n\nThe story is told through environmental discovery and a narrative journal. This journal tracks the story fragments you collect, helping you piece together the history of the house and the events surrounding the professor. You can explore the narrative at your own pace, whether you want to focus on the mystery or simply enjoy the driving experience with your friend.\n\n## Frequently Asked Questions\n\n**Do both players need to buy WheelMates to play on PC?**\nNo. The game includes a Friends Pass, which allows one owner to invite a friend to play the entire game together without the second player needing to own a copy.\n\n**Is there combat in WheelMates?**\nNo, there is no combat in the game. The primary challenges are the environment, puzzles, and the mysteries hidden within the house.\n\n**Can I play WheelMates solo?**\nWheelMates is built as a two-player co-op experience. You will need a partner to play, either via online co-op or local split-screen.\n\n## Sources\n\n[WheelMates: Official Gameplay Overview + New Release Date Trailer](https://www.youtube.com/watch?v=L6tJeeb9BWg)\n[Official WheelMates Game Site](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1919,
+    "completion_tokens": 784,
+    "total_tokens": 2703,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1919,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 784,
+        "totalTokenCount": 2703,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1919,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

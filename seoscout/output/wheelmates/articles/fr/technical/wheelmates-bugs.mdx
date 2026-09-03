@@ -1,0 +1,54 @@
+export const metadata = {
+  title: "WheelMates : Bugs connus et dépannage technique",
+  description: "Trouvez des informations vérifiées sur les problèmes de WheelMates : crashs, coop, bugs signalés, mises à jour et solutions de dépannage sécurisées.",
+  category: "technical",
+  date: "2026-09-03",
+}
+
+## Comprendre les problèmes techniques dans WheelMates
+
+WheelMates est actuellement en phase de développement actif et les joueurs ont identifié plusieurs obstacles techniques lors de la démo. Bien que ces problèmes soient courants pour les titres en accès anticipé ou en phase de test, l'équipe de développement a déjà commencé à corriger des bugs graphiques et de gameplay spécifiques. Ce guide résume les problèmes techniques les plus fréquemment signalés pour vous aider à résoudre les difficultés rencontrées.
+
+## Bugs de gameplay et de commandes signalés
+
+Les rapports de la communauté ont mis en évidence quelques problèmes récurrents affectant la navigation et les entrées. Si vous les rencontrez, notez que certains disposent de solutions temporaires :
+
+*   **Entrées dans le menu principal :** Plusieurs joueurs ont signalé que les manettes ne fonctionnent pas dans le menu principal. Cependant, les commandes fonctionnent généralement comme prévu une fois la partie lancée.
+*   **Blocage de la caméra :** Si un joueur meurt pendant la cinématique du levier double, sa caméra peut rester bloquée sous le véhicule. Cela peut être résolu en faisant réapparaître le personnage.
+*   **Activation du levier :** Certains joueurs ont noté que l'interaction pour le levier final nécessite un positionnement extrêmement précis pour déclencher l'invite « LB ». Si vous avez du mal à saisir le levier, ajustez légèrement l'angle et la distance de votre personnage.
+*   **Mécaniques de crochet :** Une particularité connue permet à un joueur de rester accroché après avoir utilisé la fonction « retour » si le bouton du crochet n'est pas relâché simultanément. Assurez-vous de relâcher la commande pour éviter tout accrochage involontaire.
+*   **Exploits de mouvement :** Des joueurs ont découvert que conduire en marche arrière permet d'atteindre des vitesses allant jusqu'à 70 dans des zones limitées à 50. De plus, il existe de rares rapports de joueurs passant à travers certains conduits, ce qui suggère des problèmes potentiels de limites de collision.
+
+## Connectivité réseau et multijoueur
+
+Jouer à WheelMates en ligne en mode coopératif a révélé quelques limitations concernant la stabilité des salons et la connectivité :
+
+*   **Problèmes d'invitation Steam :** Certains utilisateurs ont signalé des difficultés à envoyer des invitations directement via l'interface Steam. Si une invitation échoue, les joueurs ont réussi en hébergeant une nouvelle partie en réseau depuis le salon et en demandant au deuxième joueur de rejoindre la nouvelle session.
+*   **Limitations de reconnexion :** Si un joueur client est déconnecté ou retourne au menu, il peut être incapable de rejoindre la partie active de l'hôte. Dans ce scénario, l'hôte reste souvent seul dans la session, ce qui nécessite de redémarrer le salon de jeu en réseau.
+
+## Correctifs graphiques et de performance
+
+Les premiers tests ont identifié une erreur graphique spécifique affectant le rendu de la fumée. Les utilisateurs équipés de GPU AMD (spécifiquement ceux utilisant le pilote 25.12.1) ont signalé que la fumée provenant des conduits de voiture et d'autres sources apparaissait noire et opaque.
+
+L'équipe de développement a confirmé qu'un correctif a été déployé pour résoudre ce problème. Si vous voyez toujours de la fumée noire et opaque, assurez-vous que votre client de jeu est mis à jour vers la dernière version. Si le problème persiste, vérifiez que vos pilotes GPU sont à jour, car les développeurs ont spécifiquement traité ce point pour le matériel AMD.
+
+## Problèmes bloquant la progression
+
+Un bug important signalé dans la zone du garage concerne la séquence d'activation des pompes. Certains joueurs ont rencontré une situation où les trois pompes sont activées et le levier tiré, mais le conduit reste fermé et le jeu continue de demander l'activation de la troisième pompe.
+
+Malheureusement, redémarrer le jeu ne réinitialise pas toujours ce déclencheur d'événement spécifique. Si vous rencontrez ce problème, essayez de vérifier vos fichiers de jeu via le client Steam ou de rechercher des correctifs en attente, car ces bugs de progression basés sur la logique sont des cibles fréquentes pour les correctifs prioritaires.
+
+## Foire aux questions
+
+**Existe-t-il un correctif pour le problème de fumée noire sur les cartes AMD ?**
+Oui, les développeurs ont publié un correctif spécifiquement pour résoudre le problème de rendu de fumée non transparente signalé sur le matériel AMD. Assurez-vous que votre jeu est mis à jour vers la dernière version.
+
+**Que dois-je faire si ma manette ne fonctionne pas dans les menus ?**
+Il s'agit d'un bug connu où l'entrée de la manette peut échouer dans le menu principal mais fonctionner correctement dans le jeu. Essayez d'utiliser votre souris et votre clavier pour naviguer dans le menu jusqu'à ce que vous soyez dans la session active.
+
+**Comment corriger le bug de caméra pendant l'action du levier ?**
+Si votre caméra reste bloquée sous le véhicule après une cinématique, faire réapparaître votre personnage réinitialise généralement la caméra à sa position correcte.
+
+## Sources
+
+* [Bugs Found in Demo :: WheelMates Dyskusje ogólne](https://steamcommunity.com/app/3905450/discussions/0/780947379776168974/?l=polish)

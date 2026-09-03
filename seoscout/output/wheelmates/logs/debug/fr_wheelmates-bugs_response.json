@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030328078203064508268d9d6seUE9YLc",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788406094,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates : Bugs connus et dépannage technique\",\n  description: \"Trouvez des informations vérifiées sur les problèmes de WheelMates : crashs, coop, bugs signalés, mises à jour et solutions de dépannage sécurisées.\",\n  category: \"technical\",\n  date: \"2026-09-03\",\n}\n\n## Comprendre les problèmes techniques dans WheelMates\n\nWheelMates est actuellement en phase de développement actif et les joueurs ont identifié plusieurs obstacles techniques lors de la démo. Bien que ces problèmes soient courants pour les titres en accès anticipé ou en phase de test, l'équipe de développement a déjà commencé à corriger des bugs graphiques et de gameplay spécifiques. Ce guide résume les problèmes techniques les plus fréquemment signalés pour vous aider à résoudre les difficultés rencontrées.\n\n## Bugs de gameplay et de commandes signalés\n\nLes rapports de la communauté ont mis en évidence quelques problèmes récurrents affectant la navigation et les entrées. Si vous les rencontrez, notez que certains disposent de solutions temporaires :\n\n*   **Entrées dans le menu principal :** Plusieurs joueurs ont signalé que les manettes ne fonctionnent pas dans le menu principal. Cependant, les commandes fonctionnent généralement comme prévu une fois la partie lancée.\n*   **Blocage de la caméra :** Si un joueur meurt pendant la cinématique du levier double, sa caméra peut rester bloquée sous le véhicule. Cela peut être résolu en faisant réapparaître le personnage.\n*   **Activation du levier :** Certains joueurs ont noté que l'interaction pour le levier final nécessite un positionnement extrêmement précis pour déclencher l'invite « LB ». Si vous avez du mal à saisir le levier, ajustez légèrement l'angle et la distance de votre personnage.\n*   **Mécaniques de crochet :** Une particularité connue permet à un joueur de rester accroché après avoir utilisé la fonction « retour » si le bouton du crochet n'est pas relâché simultanément. Assurez-vous de relâcher la commande pour éviter tout accrochage involontaire.\n*   **Exploits de mouvement :** Des joueurs ont découvert que conduire en marche arrière permet d'atteindre des vitesses allant jusqu'à 70 dans des zones limitées à 50. De plus, il existe de rares rapports de joueurs passant à travers certains conduits, ce qui suggère des problèmes potentiels de limites de collision.\n\n## Connectivité réseau et multijoueur\n\nJouer à WheelMates en ligne en mode coopératif a révélé quelques limitations concernant la stabilité des salons et la connectivité :\n\n*   **Problèmes d'invitation Steam :** Certains utilisateurs ont signalé des difficultés à envoyer des invitations directement via l'interface Steam. Si une invitation échoue, les joueurs ont réussi en hébergeant une nouvelle partie en réseau depuis le salon et en demandant au deuxième joueur de rejoindre la nouvelle session.\n*   **Limitations de reconnexion :** Si un joueur client est déconnecté ou retourne au menu, il peut être incapable de rejoindre la partie active de l'hôte. Dans ce scénario, l'hôte reste souvent seul dans la session, ce qui nécessite de redémarrer le salon de jeu en réseau.\n\n## Correctifs graphiques et de performance\n\nLes premiers tests ont identifié une erreur graphique spécifique affectant le rendu de la fumée. Les utilisateurs équipés de GPU AMD (spécifiquement ceux utilisant le pilote 25.12.1) ont signalé que la fumée provenant des conduits de voiture et d'autres sources apparaissait noire et opaque.\n\nL'équipe de développement a confirmé qu'un correctif a été déployé pour résoudre ce problème. Si vous voyez toujours de la fumée noire et opaque, assurez-vous que votre client de jeu est mis à jour vers la dernière version. Si le problème persiste, vérifiez que vos pilotes GPU sont à jour, car les développeurs ont spécifiquement traité ce point pour le matériel AMD.\n\n## Problèmes bloquant la progression\n\nUn bug important signalé dans la zone du garage concerne la séquence d'activation des pompes. Certains joueurs ont rencontré une situation où les trois pompes sont activées et le levier tiré, mais le conduit reste fermé et le jeu continue de demander l'activation de la troisième pompe.\n\nMalheureusement, redémarrer le jeu ne réinitialise pas toujours ce déclencheur d'événement spécifique. Si vous rencontrez ce problème, essayez de vérifier vos fichiers de jeu via le client Steam ou de rechercher des correctifs en attente, car ces bugs de progression basés sur la logique sont des cibles fréquentes pour les correctifs prioritaires.\n\n## Foire aux questions\n\n**Existe-t-il un correctif pour le problème de fumée noire sur les cartes AMD ?**\nOui, les développeurs ont publié un correctif spécifiquement pour résoudre le problème de rendu de fumée non transparente signalé sur le matériel AMD. Assurez-vous que votre jeu est mis à jour vers la dernière version.\n\n**Que dois-je faire si ma manette ne fonctionne pas dans les menus ?**\nIl s'agit d'un bug connu où l'entrée de la manette peut échouer dans le menu principal mais fonctionner correctement dans le jeu. Essayez d'utiliser votre souris et votre clavier pour naviguer dans le menu jusqu'à ce que vous soyez dans la session active.\n\n**Comment corriger le bug de caméra pendant l'action du levier ?**\nSi votre caméra reste bloquée sous le véhicule après une cinématique, faire réapparaître votre personnage réinitialise généralement la caméra à sa position correcte.\n\n## Sources\n\n* [Bugs Found in Demo :: WheelMates Dyskusje ogólne](https://steamcommunity.com/app/3905450/discussions/0/780947379776168974/?l=polish)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1240,
+    "completion_tokens": 1275,
+    "total_tokens": 2515,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1240,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1275,
+        "totalTokenCount": 2515,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1240,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

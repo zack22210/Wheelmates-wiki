@@ -1,0 +1,21 @@
+{
+  "id": "e9fda6fc-cfb6-4abf-a9ac-f85053dc8071",
+  "object": "chat.completion",
+  "created": 1788405393,
+  "model": "gemini-2.5-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates: Checkliste für den Erfolg „100% Mates“\",\n  description: \"Nutze diese verifizierte 100%-Checkliste für WheelMates, um Kampagnenlevel, Gadgets, Sammelobjekte, Neuro-Nodes und Minispiele lückenlos zu erfassen.\",\n  category: \"achievements\",\n  date: \"2026-09-03\",\n}\n\n## So schaltest du „100% Mates“ frei\n\nDie offizielle Steam-Beschreibung für **100% Mates** lautet: Schließe WheelMates zu 100 % ab und finde alle Sammelobjekte. Es ist ein übergreifender Erfolg für den vollständigen Abschluss und keine Belohnung, die man nur durch das Beenden des letzten Kampagnenbereichs erhält. Steam führt separate Erfolge für Level, Fähigkeiten, vier Sammlungssets, Neuro-Nodes, Minispiele und optionale Aktionen auf, die zusammen die sicherste, verifizierte Checkliste bilden.\n\n## Kampagnen-Checkliste\n\nSchließe jeden benannten Level-Erfolg ab:\n\n- Küche (Kitchen)\n- Flur (Hallway)\n- Garage\n- Neuro-Void: Fragmente\n- Schuppen (Shed)\n- Hinterhof (Backyard)\n\nErhalte jeden benannten Gadget-Erfolg:\n\n- Greifhaken (Grapple)\n- Magnetgreifer (Magnetic Grabber)\n- Magneträder (Magnet Wheels)\n- Phasenverschieber (Phase Shifter)\n- Farbpistole (Paintgun)\n\nDiese Meilensteine zeigen, dass beide Spieler die Kampagne vorangebracht und deren wichtigste kooperative Werkzeuge erworben haben. Sollte ein Fortschrittserfolg nicht freigeschaltet werden, stelle sicher, dass Steam online ist, lade den aktuellen Kontrollpunkt neu und prüfe, ob der Vollspiel-Client und der Friend's Pass-Client dieselbe Version verwenden.\n\n## Checkliste für Sammelobjekte und Aktivitäten\n\nSteam definiert die folgenden Abschlussziele:\n\n- **Charge to full capacity!** – Sammle alle Neuro-Cores.\n- **Story driven** – Sammle alle Neuro-Speicherkarten.\n- **Ultra-Fine-tuning** – Sammle alle Custom-Teile.\n- **Seek & Scan** – Finde alle scanbaren Objekte.\n- **What does Everett have to say about it?** – Höre dir alle Neuro-Nodes an.\n- **Mini-games lovers** – Spiele alle Minispiele.\n\nVerfolge jede Kategorie separat. Eine Speicherkarte und ein scanbares Objekt sind nicht austauschbar, und das Abschließen eines Sets erfüllt nicht die Anforderungen der anderen. Die öffentliche Steam-Erfolgsseite bestätigt diese Kategorien, bietet jedoch keine aktuelle raumbezogene Standortliste. Daher vermeidet diese Checkliste bewusst nicht unterstützte Koordinaten für Fundorte.\n\n## Vergiss nicht die optionalen Erfolge\n\nBevor du den Erfolg „100% Mates“ erwartest, überprüfe die verbleibenden Einträge auf Steam. **Seek & Destroy** erfordert das Zerstören von 50 Gegenständen. Steam zeigt zudem **Plug into an outlet** ohne öffentliche Beschreibung sowie **Right where they're belongs to be** mit dem Hinweis „Aber wo ist das Wasser?“ an. Da diese beiden Einträge bewusst kryptisch sind, nutze die Spielumgebung und die Erfolgsbenachrichtigungen, anstatt eine nicht verifizierte Lösung als Tatsache zu betrachten.\n\nDie Abschlussprozentsätze auf Steam sind Live-Statistiken und ändern nichts an den Anforderungen. Die permanenten Erfolgsbeschreibungen sind die relevante Quelle.\n\n## FAQ\n\n### Schaltet das Beenden der Story „100% Mates“ frei?\n\nNicht von allein. Die offizielle Beschreibung erfordert zusätzlich das Finden aller Sammelobjekte.\n\n### Welche Gruppen von Sammelobjekten sind bestätigt?\n\nNeuro-Cores, Neuro-Speicherkarten, Custom-Teile und scanbare Objekte haben jeweils einen eigenen Steam-Erfolg.\n\n### Sind Neuro-Nodes und Minispiele wichtig?\n\nSie haben eigene Erfolge für „alle Objekte“ oder „alle Aktivitäten“ und sollten daher für einen vollständigen Abschluss einbezogen werden.\n\n## Quellen\n\n- [WheelMates globale Erfolge auf Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [WheelMates auf Steam](https://store.steampowered.com/app/3905450/WheelMates/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1015,
+    "completion_tokens": 1000,
+    "total_tokens": 2015
+  }
+}

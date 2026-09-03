@@ -1,6 +1,8 @@
-import {BookOpenText, ExternalLink} from 'lucide-react';
+import Image from 'next/image';
+import {ExternalLink} from 'lucide-react';
 import {getTranslations} from 'next-intl/server';
 import {Link} from '@/i18n/navigation';
+import {SITE_LOGO_PATH} from '@/config/site';
 
 type FooterConfig = {
   navigationLabel: string;
@@ -17,7 +19,7 @@ export async function SiteFooter() {
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div className="footer-brand">
-          <span className="brand-mark"><BookOpenText aria-hidden="true" /></span>
+          <span className="brand-mark"><Image src={SITE_LOGO_PATH} alt="" width={106} height={64} /></span>
           <div>
             <strong>{t('site.name')}</strong>
             <p>{config.notice}</p>

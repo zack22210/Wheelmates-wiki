@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030316363939793428268d9d6WcqqEPCG",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405418,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guía del gancho de WheelMates: mecánica y cooperativo\",\n  description: \"Aprende a usar el gancho en WheelMates para recorrer la casa del científico, resolver puzles y dominar el movimiento cooperativo con tu coche RC.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\nEn WheelMates, el gancho de agarre es un artilugio experimental fundamental que permite a los jugadores recorrer los entornos verticales y complejos del hogar de un científico excéntrico. Como uno de los diversos potenciadores equipados en los coches RC, el gancho permite a los jugadores engancharse a puntos distantes, balancearse sobre huecos y acceder a zonas que, de otro modo, serían inalcanzables mediante la conducción o el salto estándar. Dominar esta herramienta es esencial para resolver los puzles mecánicos del juego y progresar a través del diseño de la mansión inspirado en el género Metroidvania.\n\n## Cómo funciona el gancho de agarre\n\nEl gancho de agarre funciona como un accesorio especializado para tu coche RC, diseñado para salvar la distancia entre plataformas. Según el desarrollador FireVolt, la herramienta permite a los jugadores \"engancharse a puntos lejanos\", proporcionando una sujeción que puede utilizarse tanto para el desplazamiento como para la resolución de puzles.\n\nMientras conducen por la casa, los jugadores encontrarán anclajes o asideros ambientales específicos. Al apuntar y desplegar el gancho, el coche se asegura a estos puntos. Esta mecánica se utiliza a menudo en combinación con el motor de física del juego, lo que permite a los coches colgarse de objetos o impulsarse hacia un objetivo. En algunos casos, los jugadores pueden necesitar colgarse de una palanca o manivela para activar un mecanismo mientras su compañero realiza una acción independiente.\n\n## Sincronización cooperativa y desplazamiento\n\nWheelMates se basa totalmente en el concepto de dos jugadores que actúan como \"dos piezas de un mismo puzle\". El gancho de agarre rara vez se utiliza de forma aislada; en su lugar, a menudo requiere que un jugador sirva de base o distracción mientras el otro utiliza su gancho para alcanzar una nueva altura.\n\nPor ejemplo, los jugadores pueden encontrarse con situaciones en las que un coche RC debe situarse sobre una plataforma elevadora o un carro móvil para dar al segundo coche la altura suficiente para alcanzar un punto de enganche. Una vez que el segundo coche se ha enganchado a un asidero superior, podría bajar una escalera, abrir un conducto de ventilación o pulsar un botón para subir a su compañero al mismo nivel. Este \"entrelazamiento de dos mentes en una\" es la forma principal en que los jugadores superan los sistemas de seguridad de la casa.\n\n## Progresión estilo Metroidvania y backtracking\n\nLa mansión de WheelMates está diseñada con una estructura de Metroidvania, lo que significa que muchos caminos están bloqueados inicialmente por obstáculos que requieren artilugios específicos para ser superados. El gancho de agarre es una de las herramientas clave que facilita esta progresión.\n\nA medida que los jugadores exploran habitaciones como el pasillo o el laboratorio secreto, notarán plataformas distantes u objetos coleccionables en las alturas, como neuro-orbes y tarjetas SD, que están fuera de su alcance. Una vez que se desbloquea o se domina el gancho de agarre, se anima a los jugadores a realizar backtracking por las habitaciones visitadas anteriormente. La capacidad de engancharse a puntos lejanos revela caminos ocultos y puzles anteriormente irresolubles, abriendo gradualmente toda la escala del hogar del científico.\n\n## Combinar el gancho con otros artilugios\n\nEl gancho de agarre forma parte de un conjunto de equipos experimentales que los jugadores deben gestionar. Para navegar completamente por la casa, los jugadores a menudo deben combinar el gancho con otras habilidades de movimiento:\n\n*   **Propulsores de salto:** Se utilizan para ganar altura inicial antes de desplegar el gancho en el aire para alcanzar anclajes aún más altos.\n*   **Ruedas magnéticas:** Permiten que los coches se adhieran a superficies metálicas. Un jugador puede engancharse a una viga metálica y luego cambiar a las ruedas magnéticas para conducir por la parte inferior de una estructura.\n*   **Imanes:** Se utilizan para manipular objetos metálicos lejanos, lo que a veces puede crear nuevos puntos de enganche o despejar el camino para un coche que se balancea.\n\n## Preguntas frecuentes sobre el gancho de agarre\n\n### ¿Cómo consigo el gancho de agarre en WheelMates?\nEl gancho de agarre forma parte del equipo experimental proporcionado a los coches RC a medida que avanzan en la historia. Se introduce como una herramienta necesaria para resolver puzles mecánicos dentro de las diversas estancias de la casa, como el pasillo y el laboratorio.\n\n### ¿Pueden ambos jugadores usar el gancho de agarre?\nSí, WheelMates es una experiencia cooperativa en la que ambos jugadores controlan coches RC equipados con el mismo conjunto de artilugios experimentales. La coordinación entre los ganchos de ambos jugadores suele ser necesaria para mover objetos grandes o alcanzar botones sincronizados.\n\n### ¿En qué plataformas está disponible WheelMates?\nEl lanzamiento de WheelMates está previsto para 2026. El desarrollador FireVolt ha confirmado que el juego estará disponible en Steam para PC, PlayStation 5 y Xbox Series X|S.\n\n## Fuentes\n\n*   [Sitio oficial de WheelMates](https://wheelmatesgame.com/)\n*   [WheelMates - Tráiler oficial de lanzamiento](https://www.youtube.com/watch?v=OagIhMNeRDo)\n*   [WheelMates, aventura cooperativa con coches RC, revelada](https://www.xpnnetwork.com/post/wheelmates-co-op-adventure-with-rc-cars-revealed-coming-to-pc-and-console)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 2669,
+    "total_tokens": 3987,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1318,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1315,
+        "totalTokenCount": 3987,
+        "thoughtsTokenCount": 1354,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1318
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1315
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1318,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1315,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1354
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

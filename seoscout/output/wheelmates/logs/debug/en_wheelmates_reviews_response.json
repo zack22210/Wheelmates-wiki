@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030259364110524198268d9d6BT0hAueq",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404402,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Reviews: Gameplay, Co-op, and Technical Status\",\n  description: \"Explore WheelMates reviews covering its RC car co-op gameplay, Friend Pass system, and technical performance. Learn about Professor Bloom's house and puzzles.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\nWheelMates is a two-player cooperative driving adventure developed by Firevolt that places players in the role of miniature RC cars. Reviews generally characterize the game as a casual, four-hour experience focused on puzzle-solving and traversal within a massive household environment. While the game has received praise for its \"Toy Story\" aesthetic and polished local split-screen play, early reviews highlighted significant technical hurdles with its online cooperative mode.\n\nThe game is currently available on Steam for $19.99 and features a Friend Pass system, allowing a second player to join the adventure for free if the host owns the full version.\n\n## Core Gameplay and RC Mechanics\n\nThe primary appeal of WheelMates lies in its movement and physics. Players control toy cars navigating a world where regular household objects are enormous. Reviewers note that the driving physics feel \"funky and erratic\" in a way that mimics real-world RC cars from the 1990s, offering a mix of wheel stickiness and playful movement.\n\nAs players progress through Professor Bloom's house, they unlock various tools to aid in traversal and puzzle-solving:\n*   **Grappling Hooks:** Used to swing across gaps or reach higher platforms.\n*   **Magnetism:** Allows cars to interact with specific metallic surfaces or objects.\n*   **Jumps and Flips:** Essential for navigating ramps and avoiding obstacles.\n\nThe environment is highly interactive, featuring a large number of destructible objects. Players can swat items off ledges, adding a sense of chaotic fun to the exploration of kitchens, garages, and laboratories.\n\n## Puzzle Design and Exploration\n\nWheelMates is structured as a linear series of open zones. Players move from room to room, solving puzzles to unlock the path forward. The puzzle design is frequently described as \"casual,\" often relying on a \"you scratch my back, I scratch yours\" philosophy. Common tasks include:\n*   Player one holding a button to deactivate a steam vent so player two can pass.\n*   Both players pulling large levers simultaneously to open heavy doors.\n*   One player moving a vertical lift while the other stands on it to reach a higher switch.\n\nWhile some critics found these puzzles to be overly simplistic, others noted that the low difficulty makes the game an excellent choice for playing with non-gaming partners or children. Beyond the main path, players can search for collectibles such as Neural Cores, lore fragments, and car parts. Car customization allows for changing wheels and paint jobs, though some players found the variety of parts to be limited during a standard playthrough.\n\n## The Friend Pass and Co-op Modes\n\nWheelMates is designed strictly as a two-player experience. To facilitate this, the developers implemented a Friend Pass system similar to titles like *A Way Out* or *It Takes Two*.\n\nTo use the Friend Pass:\n1.  **The Owner:** Launches the full version of WheelMates, selects \"Play Online,\" and hosts a session to generate an invite code.\n2.  **The Friend:** Downloads the free \"WheelMates Friend’s Pass\" version on Steam.\n3.  **Joining:** The friend enters the host's invite code to join the lobby.\n\nThe game supports both local split-screen and online co-op. According to early reviews, the split-screen experience is significantly more stable and polished. The online mode faced criticism at launch for physics bugs, desynchronization between players, and issues with lobby codes.\n\n## Narrative and Setting\n\nThe story follows two RC cars attempting to escape the home laboratory of a scientist named Professor Bloom. The professor narratively guides the players, speaking to them as a disembodied voice trapped within a computer system. \n\nThe narrative is delivered through this direct narration and by scanning objects throughout the house to uncover lore fragments. While the voice acting is generally considered solid, reviewers noted that the story is relatively shallow and concludes with a somewhat abrupt ending. The focus remains primarily on the \"Toy Story\" sensation of traveling through air ducts like highways and turning everyday rooms into playgrounds.\n\n## Technical Status and Hotfixes\n\nFollowing its September 1, 2026, release, the development team at Firevolt has been active in addressing technical complaints. Early reviewers reported \"moldy pepperoni\" levels of jank in online play, including characters getting stuck in the environment and grappling hooks failing to attach.\n\nRecent hotfixes have targeted several of these issues:\n*   **Progression Fixes:** Resolved bugs that caused players to get stuck in the Backyard and Shed areas.\n*   **Online Stability:** Addressed the \"Rope Swing\" not appearing for the second player in online sessions.\n*   **Controller Support:** Fixed repeated D-pad inputs on DualSense and DualShock 4 controllers.\n*   **Physics Improvements:** Enhanced vehicle behavior on steep slopes and fixed collision issues with NeuroVoids.\n\nThe developers recommend that both players ensure they are running the same version number (visible in the main menu) to avoid connectivity issues.\n\n## FAQ\n\n### How long does it take to beat WheelMates?\nMost players can complete the main story and puzzles in approximately four hours. This time may increase if you choose to hunt for all car parts and Neural Cores.\n\n### Can I play WheelMates alone?\nWheelMates is designed specifically for two players. While the puzzles are simple, they require two separate inputs (such as two buttons being pressed at once), making a partner necessary for progression.\n\n### Does my friend need to buy the game to play online with me?\nNo. Only one player needs to own the full game. The second player can download the \"Friend’s Pass\" version for free and join using an invite code provided by the owner.\n\n### What mini-games are included in WheelMates?\nPlayers can find and activate small distractions within the levels, such as Tag and a coin-collecting challenge. These serve as short breaks from the main puzzle-solving gameplay.\n\n## Sources\n\n*   [WheelMates Official Steam Page](https://steamcommunity.com/app/3905450)\n*   [WheelMates Review | More Casual Than Cooperative](https://www.youtube.com/watch?v=IX8uiLgeg4M)\n*   [WheelMates Review - Co‑Op RC Racing Meets Puzzle‑Solving Adventure!](https://www.youtube.com/watch?v=jYlkEgMPsQQ)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14894,
+    "completion_tokens": 2467,
+    "total_tokens": 17361,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 14894,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1427,
+        "totalTokenCount": 17361,
+        "thoughtsTokenCount": 1040,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 14894
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1427
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 14894,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1427,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1040
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

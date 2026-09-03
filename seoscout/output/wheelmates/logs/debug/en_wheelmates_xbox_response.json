@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030259278054633558268d9d6fdYQAKLF",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404393,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Xbox Release Status and Platform Guide\",\n  description: \"Discover if the co-op RC driving game WheelMates is on Xbox, and explore its current PC release, Friend's Pass features, and controller support.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n};\n\nAs of its launch on September 1, 2026, WheelMates is not available on Xbox Series X/S or Xbox One. The 2-player cooperative RC driving adventure developed by The Firevolt Team is currently exclusive to PC via Steam. While there is no official announcement regarding an Xbox console port, PC players can fully utilize Xbox controllers and other gamepads to enjoy the game's physics-based driving and puzzle-solving mechanics.\n\n## Current Platform Availability for WheelMates\n\nWheelMates officially launched on September 1, 2026, exclusively for PC on the Steam platform. The game is priced at a base rate of $19.99 / £15.99 / €19.99 / ¥ 77.00 / 849 RUB / 59.99 PLN / R$ 59.99 before any launch discounts.\n\nCurrently, The Firevolt Team has not announced plans or release dates for an Xbox, PlayStation, or Nintendo Switch version. Players hoping to experience the miniature RC car adventure must do so on PC. However, because the game is built with robust controller support, players can easily replicate a console-like experience on their computers.\n\n## Controller Support on PC\n\nAlthough WheelMates is currently restricted to PC, it features full support for gamepads, which is highly recommended given the driving nature of the gameplay. The developers have optimized the game for various inputs, including:\n\n*   Xbox Controllers (and other standard PC-compatible gamepads)\n*   PlayStation DualSense and DualShock 4 controllers (with recent hotfixes addressing repeated D-pad input bugs)\n*   Keyboard and mouse setups\n\nUsing an Xbox controller on PC provides a seamless plug-and-play experience that mirrors how the game would control on an actual Xbox console.\n\n## How the Friend's Pass Works\n\nOne of the standout features of WheelMates is its Friend's Pass system. This system allows you to play the entire 2-player co-op campaign online with a partner, even if only one of you owns the full game. Your friend can join the session completely free of charge.\n\nTo invite a friend using the Friend's Pass, follow these steps:\n\n1. **Host Setup:** The game owner downloads and launches the full version of WheelMates.\n2. **Friend Setup:** The friend downloads and launches the free \"WheelMates Friend's Pass\" version (which was previously available as the demo).\n3. **Generate Code:** The owner goes to the Lobby, selects **PLAY** -> **PLAY ONLINE** -> **HOST**, and copies the unique Invite Code.\n4. **Share and Join:** The owner shares this code with the friend. The friend enters the Lobby, selects **PLAY** -> **FRIEND'S PASS** -> **ENTER THE CODE**, inputs the code, and joins the lobby.\n\nBoth players must ensure they have the same version of the game installed, which is displayed in the lower-left corner of the main menu.\n\n## Gameplay and Features\n\nWheelMates is a cooperative driving adventure where players control small RC cars. The gameplay is reminiscent of cooperative puzzle-platformers like *It Takes Two*, but focused entirely on vehicle physics and quirky driving mechanics.\n\nPlayers explore the vast home laboratory, backyard, and shed of Professor Bloom. Along the way, you must work together to solve environmental puzzles, discover hidden pathways, and uncover the mystery of what happened inside the laboratory. The game supports both local (split-screen) co-op and online co-op play.\n\n## Frequently Asked Questions\n\n### Is WheelMates coming to Xbox Series X/S or Xbox One?\nThere is currently no official announcement or confirmed release date for WheelMates on Xbox consoles. The game is currently exclusive to PC via Steam.\n\n### Can I play WheelMates with an Xbox controller?\nYes. WheelMates fully supports gamepads on PC, meaning you can plug in any standard Xbox controller to play the game.\n\n### Does WheelMates support cross-play?\nBecause WheelMates is currently only available on PC via Steam, cross-play between different platforms does not apply. However, online co-op is fully supported between the full Steam game and the free Friend's Pass version.\n\n## Sources\n* Steam Community Hub: https://steamcommunity.com/app/3905450\n* Official WheelMates Website: https://wheelmatesgame.com/"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3658,
+    "completion_tokens": 4082,
+    "total_tokens": 7740,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 3658,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1021,
+        "totalTokenCount": 7740,
+        "thoughtsTokenCount": 3061,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3658
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1021
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3658,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1021,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 3061
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

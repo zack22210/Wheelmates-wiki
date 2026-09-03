@@ -1,0 +1,21 @@
+{
+  "id": "0dc837fb-a5a0-45e2-936e-a930089adbd7",
+  "object": "chat.completion",
+  "created": 1788405475,
+  "model": "gemini-2.5-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates: Guide zu Levels und Fortschritt\",\n  description: \"Folge den verifizierten Kampagnenbereichen und Gadget-Meilensteinen von WheelMates – von der Küche über den Flur bis hin zu Garage, Neuro-Void, Schuppen und Garten.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\n## WheelMates Kampagnen-Reihenfolge\n\nWheelMates folgt einer Kampagne durch das überdimensionierte Haus und Labor von Professor Everett Bloom. Die Abfolge der Steam-Erfolge bestätigt sechs namentlich genannte Abschlussbereiche und fünf wichtige Fähigkeits-Meilensteine. Der praktische Fortschritt sieht wie folgt aus:\n\n1. **Greifhaken**-Fähigkeit\n2. **Küche**\n3. **Flur**\n4. **Magnetgreifer**-Fähigkeit\n5. **Garage**\n6. **Magneträder**-Fähigkeit\n7. **Neuro-Void: Fragmente**\n8. **Phasenverschieber**-Fähigkeit\n9. **Farbpistole**-Fähigkeit\n10. **Schuppen**\n11. **Garten**\n\nSteam präsentiert diese als Erfolge und nicht als formellen Kapitel-Auswahlbildschirm, aber ihr Fortschritt und das globale Freischaltmuster bieten eine nützliche Roadmap für die Kampagne. Sollte dein aktueller Spielstand einen Kontrollpunkt anders bezeichnen, ist die Bezeichnung im Spiel maßgeblich.\n\n## Was sich zwischen den Bereichen ändert\n\nDie Kampagne wechselt zwischen dem Abschluss großer Haushaltsumgebungen und dem Erhalt neuer kooperativer Werkzeuge. Greifhaken, Magnetgreifer, Magneträder, Phasenverschieber und Farbpistole sind keine optionalen, für diesen Guide erfundenen Namen; für jede dieser Fähigkeiten gibt es einen offiziellen Steam-Erfolg.\n\nErwarte, dass spätere Routen auf früheren Fähigkeiten aufbauen. WheelMates ist für genau zwei Spieler ausgelegt, daher hängt der Fortschritt meist von Kommunikation und ergänzenden Aktionen ab, anstatt dass ein Auto alleine den Ausgang erreicht. Erkunde Nebenwege, wenn beide Autos zusammen sind, und achte auf das Tutorial, das angezeigt wird, wenn ein neues Gadget freigeschaltet wird.\n\n## Wenn sich das nächste Level nicht öffnet\n\nÜberprüfe zuerst, ob beide Spieler das aktuelle Ziel erreicht und den Kontrollpunkt gemeinsam passiert haben. Online-Paare sollten ihre Versionsnummern vergleichen und sicherstellen, dass sowohl das vollständige Spiel als auch der Friend's Pass-Client aktualisiert sind. Firevolt hat Korrekturen für Fortschrittsprobleme veröffentlicht, einschließlich der Probleme, die rund um den Schuppen und den Garten gemeldet wurden.\n\nVerwende keine alten Demo-Komplettlösungen als Beweis dafür, dass die Verkaufsversion defekt ist. Demo-Routen und -Bezeichnungen können vom veröffentlichten Spiel abweichen. Starte den aktuellen Kontrollpunkt neu, bevor du einen ganzen Bereich wiederholst, und nutze den offiziellen Steam-Community- oder Discord-Link, falls ein reproduzierbarer Fehler bestehen bleibt.\n\n## FAQ\n\n### Wie viele namentlich genannte WheelMates-Levels sind bestätigt?\n\nSteam hat Erfolge für den Abschluss von Küche, Flur, Garage, Neuro-Void: Fragmente, Schuppen und Garten.\n\n### Ist Neuro-Void ein Level?\n\nJa. Die offizielle Erfolgsliste nennt **Neuro-Void: Fragmente** und vergibt einen Erfolg für den Abschluss.\n\n### Sind die Gadgets Teil des Fortschritts?\n\nJa. Fünf benannte Gadget-Erfolge erscheinen zwischen den Level-Meilensteinen und markieren wichtige Fähigkeits-Freischaltungen.\n\n## Quellen\n\n- [WheelMates globale Erfolge auf Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [WheelMates auf Steam](https://store.steampowered.com/app/3905450/WheelMates/)\n- [Offizielle Website von WheelMates](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 926,
+    "completion_tokens": 918,
+    "total_tokens": 1844
+  }
+}

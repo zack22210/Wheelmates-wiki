@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030259277023980238268d9d6i5ZLcQHR",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404399,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates PS5: Official Announcement and Game Details\",\n  description: \"Get the latest official information on WheelMates following its announcement trailer. Learn about the game's reveal and updates regarding a PS5 release.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\nWheelMates has officially been revealed to the public through a debut announcement trailer, generating significant interest in a potential PlayStation 5 (PS5) release. As of the current announcement phase, the developers have focused on showcasing the game's high-energy atmosphere and aesthetic. While players are eager for specific platform confirmation, the official trailer serves as the primary verified look at the project.\n\n## Official Announcement Trailer\n\nThe reveal of WheelMates was marked by the release of the \"Official Announcement Trailer.\" This video serves as the first formal introduction to the game's world. The content of the trailer is characterized by an upbeat and energetic tone, featuring a driving musical score and vocal expressions of excitement.\n\nThe trailer does not currently provide a deep dive into specific gameplay mechanics or narrative elements. Instead, it focuses on establishing the \"vibe\" of the experience. The use of enthusiastic audio cues suggests a game centered around fun, speed, or high-intensity action, though the specific genre remains to be detailed in future updates.\n\n## Platform Availability and PS5 Status\n\nFor players searching for WheelMates on PS5, it is important to note that the initial announcement materials prioritize the creative vision of the game over technical platform specifications. In the gaming industry, platform-specific logos and release windows are often revealed in follow-up communications or updated store listings.\n\nCurrently, the most reliable way to track the official confirmation of a PlayStation 5 version is through the game's official website. As development progresses, hardware compatibility and digital storefront links are expected to be updated there first.\n\n## Current Development Phase\n\nBased on the nature of the announcement trailer, WheelMates appears to be in an early promotional stage. Announcement trailers of this type are designed to build community awareness and establish the brand identity. Because the provided source material consists of a teaser-style reveal, specific details such as release dates, pre-order bonuses, or edition differences (such as a PS5 Digital vs. Physical edition) have not yet been disclosed.\n\nFans are encouraged to view the official trailer to get a sense of the game's art style and energy, which are the only verified elements available at this time.\n\n## How to Stay Updated\n\nAs WheelMates moves closer to its launch, more information regarding console support and gameplay features will become available. To ensure you are receiving accurate information directly from the creators, you should rely on the following official channels:\n\n*   **Official Website:** The central hub for all major news and platform announcements.\n*   **Official YouTube Channel:** The location for future gameplay walkthroughs, developer diaries, and platform reveal trailers.\n*   **Official Social Media:** Often used for quick updates regarding beta tests or community events.\n\n## Frequently Asked Questions\n\n### Is WheelMates confirmed for a PS5 release?\nWhile the official announcement trailer has been released, specific platform confirmation for the PS5 is typically updated on the official game website as the project reaches later stages of development.\n\n### Where can I watch the WheelMates announcement trailer?\nThe official trailer is available on YouTube and the official WheelMates website. It features the game's signature music and provides the first look at the game's energetic tone.\n\n### What is the release date for WheelMates?\nAn official release date has not been specified in the initial announcement materials. Release windows are usually announced following the debut of gameplay footage.\n\n## Sources\n\n*   [WheelMates Official Website](https://wheelmatesgame.com/)\n*   [WheelMates - Official Announcement Trailer](https://www.youtube.com/watch?v=nKAsdKNX3vE)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 3115,
+    "total_tokens": 4213,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1098,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 833,
+        "totalTokenCount": 4213,
+        "thoughtsTokenCount": 2282,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1098
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 833
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1098,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 833,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 2282
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

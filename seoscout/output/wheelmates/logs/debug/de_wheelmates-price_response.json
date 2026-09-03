@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030323354990128538268d9d6XcG8zDer",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405820,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates: Preis, Friend's Pass und Kaufberatung\",\n  description: \"Erfahren Sie alles über den WheelMates PC-Preis, regionale Steam-Preise, den Lieferumfang und wie der kostenlose Friend's Pass die Kosten beeinflusst.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## Wie viel kostet WheelMates?\n\nWheelMates startete auf Steam mit einem **Standard-PC-Preis von 19,99 USD**. Steam zeigt den Endbetrag in der jeweiligen Landeswährung an, sodass der genaue Preis je nach Land, Steuern und laufenden Werbeaktionen variieren kann. Überprüfen Sie vor dem Kauf die aktuelle Steam-Produktseite, anstatt sich auf einen alten Angebotspreis zu verlassen.\n\nFür ein Online-Paar ist nur eine Vollversion erforderlich, wenn der zweite Spieler den kostenlosen **WheelMates Friend's Pass** nutzt. Dadurch unterscheiden sich die effektiven Kosten von einem herkömmlichen Koop-Spiel, das zwei Exemplare erfordert, obwohl der Käufer weiterhin die einzige vollständige Lizenz besitzt.\n\n## Was der Kauf beinhaltet\n\nDer Steam-Eintrag beschreibt ein Koop-Fahrabenteuer für zwei Spieler und bietet Online-Koop sowie Unterstützung für geteilten Bildschirm. Zudem sind 21 Steam-Erfolge gelistet. WheelMates ist nicht als Einzelspieler-Kampagne konzipiert, daher sollten Käufer vor dem Erwerb einen Partner organisieren.\n\nDer Friend's Pass ist für den eingeladenen zweiten Spieler gedacht. Der Besitzer startet das vollständige Spiel und hostet die Sitzung; der Partner installiert den kostenlosen Pass und tritt bei. Der Pass wird nicht zu einem zweiten Exemplar im Besitz des Spielers und sollte nicht als eigenständiges Vollspiel betrachtet werden.\n\n## Steam-Angebote und regionale Preise\n\nRabattaktionen sind zeitlich begrenzt. Ein während der Startwoche oder eines Sales angezeigter Prozentsatz stellt keinen dauerhaft niedrigeren Preis dar. Steam kann Steuern je nach Standort unterschiedlich berechnen. Für eine aktuelle Antwort:\n\n1. Öffnen Sie die offizielle WheelMates Steam-Seite, während Sie in der korrekten Region angemeldet sind.\n2. Bestätigen Sie, dass der Verkäufer der offizielle Steam-Store ist und die App-ID **3905450** lautet.\n3. Lesen Sie den angezeigten Endpreis und das Ende der Werbeaktion ab.\n4. Lassen Sie den zweiten Spieler den offiziellen Friend's Pass-Eintrag verwenden, anstatt inoffizielle Downloads.\n\nVermeiden Sie Repacks, Torrents, Key-Reseller-Seiten und Downloads, die behaupten, die Besitzverpflichtung zu umgehen. Dies sind keine offiziellen WheelMates-Quellen und können beide Spieler unsicheren Dateien oder inkompatiblen Spielversionen aussetzen.\n\n## FAQ\n\n### Müssen beide Spieler WheelMates kaufen?\n\nNein. Der offizielle Friend's Pass ermöglicht es einem eingeladenen Partner, dem Besitzer kostenlos online beizutreten.\n\n### Ist der Preis für PS5 oder Xbox bestätigt?\n\nDie hier verwendete verifizierte Kaufseite bezieht sich auf Steam für Windows-PCs. Überprüfen Sie den Store der jeweiligen Konsole, falls eine Konsolenversion in Ihrer Region verfügbar wird.\n\n### Ist die Demo dasselbe wie der Friend's Pass?\n\nDie aktuellen Store-Informationen präsentieren den Friend's Pass als kostenloses Begleitprogramm, um einem Besitzer beizutreten. Installieren Sie immer den aktuellen offiziellen Eintrag, damit beide Spieler kompatible Versionen verwenden.\n\n## Quellen\n\n- [WheelMates auf Steam](https://store.steampowered.com/app/3905450/WheelMates/)\n- [Offizielle WheelMates-Website](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 930,
+    "completion_tokens": 858,
+    "total_tokens": 1788,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 930,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 858,
+        "totalTokenCount": 1788,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 930,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

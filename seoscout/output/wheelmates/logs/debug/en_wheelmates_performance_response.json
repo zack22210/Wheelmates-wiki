@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030259290591047508268d9d6pOU8iQbn",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404375,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Performance and Technical Troubleshooting Guide\",\n  description: \"Improve your WheelMates experience with our technical guide covering performance updates, controller fixes, and co-op connectivity troubleshooting.\",\n  category: \"technical\",\n  date: \"2026-09-03\",\n}\n\n## Optimizing WheelMates Performance\n\nWheelMates is designed as a smooth, co-op driving experience, but like any title featuring complex physics and online synchronization, players may occasionally encounter performance hurdles. The Firevolt Team is actively monitoring player reports to ensure the game runs as intended.\n\nIf you experience performance issues, such as stuttering or input lag, the first step is to ensure your game is fully updated. Check the bottom-left corner of the main menu to confirm your version number matches the latest release. Developers frequently push hotfixes to address specific collision issues and vehicle behavior, particularly on steep slopes, which can significantly impact the feel of your RC car.\n\n## Troubleshooting Controller and Input Issues\n\nPlayers using gamepads have reported occasional input irregularities. If you are using a DualSense or DualShock 4 controller and notice repeated D-pad inputs or erratic vehicle behavior, ensure your controller firmware is up to date and that the game is patched to the latest version.\n\nFor the best experience, verify that you are not running conflicting software that might interfere with controller input mapping. If the issue persists, consider testing your controller in other applications to rule out hardware failure. The developers have specifically addressed controller input bugs in recent hotfixes, so keeping the game updated via Steam is the most effective way to resolve these technical hiccups.\n\n## Resolving Co-op Connectivity and Sync Problems\n\nWheelMates relies on a stable connection between the host and the player using the Friend’s Pass. If you or your partner are experiencing desyncs, such as the \"Rope Swing\" not appearing for the joining player, it is likely a version mismatch.\n\nTo ensure a smooth session, follow these steps:\n\n1. **Verify Versions:** Both the host and the guest must be on the exact same game version. Check the version number in the main menu before starting your session.\n2. **Restart Steam:** If you encounter login issues or connectivity errors, a full restart of the Steam client often forces the platform to recognize available updates.\n3. **Report Bugs:** If you encounter a persistent bug, provide the developers with your specific setup details, including whether you are using a keyboard and mouse or a gamepad. Detailed, step-by-step reports help the team reproduce and fix issues faster.\n\n## Improving Gameplay Stability\n\nBeyond connectivity, some players have reported progression blocks in specific areas like the Backyard and the Shed. If you find yourself stuck, ensure you have installed the most recent hotfix. These updates are designed to clear collision errors and ensure quest triggers function correctly.\n\nIf you are struggling with a specific puzzle or a \"rebus\" segment, remember that the game is designed for cooperation. If a puzzle seems impassable, verify that both players are correctly synced, as some environmental objects require both RC cars to be present or positioned correctly to trigger the next stage of the level.\n\n## Frequently Asked Questions\n\n**How do I fix performance issues or glitches?**\nAlways ensure your game is updated to the latest version by checking the number in the bottom-left corner of the main menu. If problems persist, restart your Steam client to ensure all hotfixes have been applied.\n\n**Why is my friend unable to see certain objects in co-op?**\nThis is often caused by a version mismatch. Ensure both players have the exact same version of the game installed. If the issue continues, both players should restart their game and verify their files through Steam.\n\n**Where can I report a technical issue?**\nYou can report bugs directly to the Firevolt Team via the official Steam discussions or their Discord server. Include your game version, a detailed description of the steps to reproduce the bug, and your hardware setup (e.g., controller vs. keyboard).\n\n## Sources\n\n[WheelMates on Steam](https://steamcommunity.com/app/3905450)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3467,
+    "completion_tokens": 867,
+    "total_tokens": 4334,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 3467,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 867,
+        "totalTokenCount": 4334,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3467,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

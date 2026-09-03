@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030328567634353848268d9d6DR3eShX3",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788406141,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Compatibilité et configuration de WheelMates sur Steam Deck\",\n  description: \"Découvrez l'état de WheelMates sur Steam Deck, incluant son statut non vérifié, le rapport sur la coop locale et une liste de contrôle pour vos tests.\",\n  category: \"technical\",\n  date: \"2026-09-03\",\n}\n\n## WheelMates est-il vérifié pour Steam Deck ?\n\nAucune évaluation officielle **Steam Deck Verified** n'était visible dans les sources examinées pour cette page. WheelMates est un jeu PC Windows sur Steam, et les rapports de compatibilité de la communauté ne valent pas certification par Valve. Considérez le jeu sur Deck comme une expérience à tester sur la version actuelle plutôt que comme une prise en charge garantie.\n\nUn rapport de la communauté Steam indique que l'option **Jouer en local** (Play Local) était désactivée lorsque le jeu était lancé sur Steam Deck. C'est un avertissement utile pour les joueurs prévoyant des sessions de coop sur canapé, mais il s'agit d'un rapport isolé qui n'établit pas une règle de conception permanente pour chaque mise à jour.\n\n## Liste de contrôle pour tester le Steam Deck en toute sécurité\n\n1. Installez les dernières mises à jour de WheelMates et de SteamOS.\n2. Lancez le jeu sans fichiers tiers ni commandes de lancement non prises en charge.\n3. Confirmez que les deux manettes sont bien reconnues dans Steam Input.\n4. Vérifiez si l'option Jouer en local est sélectionnable avant d'organiser une session en coop.\n5. Testez une courte section de conduite pour évaluer le rythme des images, la lisibilité du texte et l'utilisation de la batterie.\n6. Pour le jeu en ligne, assurez-vous que le propriétaire du jeu et le joueur utilisant le Friend's Pass disposent de versions de jeu identiques.\n\nÉvitez de copier des solutions de contournement basées sur des variables d'environnement provenant de discussions isolées, sauf si Firevolt les confirme. De tels changements peuvent altérer la détection de l'appareil ou désactiver les réglages de performance, et les preuves disponibles n'établissent aucune configuration officiellement prise en charge.\n\n## Attentes en matière de performances\n\nLa configuration PC requise sur Steam mentionne un GPU de classe GTX 1060 ou RX 580, 8 Go de RAM, DirectX 12 et Windows 10 ou 11. Ces exigences de bureau ne se traduisent pas par un objectif de fréquence d'images officiel sur Deck. Utilisez la superposition de performances du Deck pour mesurer la version actuelle et réduisez les paramètres un par un si nécessaire.\n\nL'écran scindé local génère deux vues et peut être plus exigeant que la coop en ligne. Si le jeu local est indisponible dans la version actuelle sur Deck, utilisez un PC Windows pris en charge ou attendez une mise à jour officielle plutôt que de supposer qu'une solution de contournement est sans risque.\n\n## FAQ\n\n### WheelMates est-il officiellement vérifié pour Steam Deck ?\n\nAucune évaluation vérifiée par Valve n'était disponible dans les sources examinées.\n\n### La coop locale fonctionne-t-elle sur Steam Deck ?\n\nUn rapport de la communauté indique que l'option Jouer en local était désactivée sur Deck. Vérifiez la version actuelle, car cela pourrait changer.\n\n### Dois-je utiliser une commande de lancement Steam Deck ?\n\nCe guide ne recommande pas d'outrepasser la détection de l'appareil sans confirmation de la part de Firevolt.\n\n## Sources\n\n- [WheelMates sur Steam](https://store.steampowered.com/app/3905450/WheelMates/)\n- [Rapport de la communauté Steam : What is going on with Steam Deck?](https://steamcommunity.com/app/3905450/discussions/0/565911524757073765/)\n- [Site officiel de WheelMates](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 935,
+    "completion_tokens": 902,
+    "total_tokens": 1837,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 935,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 902,
+        "totalTokenCount": 1837,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 935,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

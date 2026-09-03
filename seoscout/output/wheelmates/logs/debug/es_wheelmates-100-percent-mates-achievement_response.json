@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030315522319495798268d9d6dqL6VtgH",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405357,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Lista de logros para 100% Mates en WheelMates\",\n  description: \"Usa esta lista de verificación verificada de WheelMates para completar niveles, gadgets, coleccionables, Neuro-nodes y minijuegos al 100%.\",\n  category: \"achievements\",\n  date: \"2026-09-03\",\n}\n\n## Cómo desbloquear 100% Mates\n\nLa descripción oficial en Steam para **100% Mates** es: completa WheelMates al 100% y encuentra todos los coleccionables. Es un logro de finalización general, no una recompensa por terminar solo el área final de la campaña. Steam enumera logros separados para niveles, habilidades, cuatro conjuntos de coleccionables, Neuro-nodes, minijuegos y acciones opcionales, que juntos proporcionan la lista de verificación verificada más segura.\n\n## Lista de verificación de la campaña\n\nCompleta cada logro de nivel nombrado:\n\n- Cocina (Kitchen)\n- Pasillo (Hallway)\n- Garaje (Garage)\n- Neuro-Void: Fragmentos (Neuro-Void: Fragments)\n- Cobertizo (Shed)\n- Patio trasero (Backyard)\n\nObtén cada logro de gadget nombrado:\n\n- Gancho (Grapple)\n- Agarrador magnético (Magnetic Grabber)\n- Ruedas magnéticas (Magnet Wheels)\n- Cambiador de fase (Phase Shifter)\n- Pistola de pintura (Paintgun)\n\nEstos hitos demuestran que ambos jugadores han progresado en la campaña y han adquirido sus principales herramientas cooperativas. Si un logro de progreso no se desbloquea, confirma que Steam esté en línea, recarga el punto de control actual y asegúrate de que el cliente del juego completo y el cliente Friend's Pass utilicen la misma versión.\n\n## Lista de verificación de coleccionables y actividades\n\nSteam identifica los siguientes objetivos de finalización:\n\n- **¡Carga a capacidad máxima!** (Charge to full capacity!) — recolecta todos los Neuro-Cores.\n- **Impulsado por la historia** (Story driven) — recolecta todas las tarjetas de memoria Neuro (Neuro-Memory Cards).\n- **Ajuste ultra fino** (Ultra-Fine-tuning) — recolecta todas las piezas personalizadas (Custom parts).\n- **Buscar y escanear** (Seek & Scan) — encuentra todos los objetos escaneables.\n- **¿Qué tiene que decir Everett al respecto?** (What does Everett have to say about it?) — escucha todos los Neuro-nodes.\n- **Amantes de los minijuegos** (Mini-games lovers) — juega todos los minijuegos.\n\nRealiza el seguimiento de cada categoría por separado. Una tarjeta de memoria y un objeto escaneable no son intercambiables, y completar un conjunto no satisface los demás. La página pública de logros de Steam confirma estas categorías, pero no proporciona una lista de ubicaciones habitación por habitación actual, por lo que esta lista de verificación evita intencionalmente las coordenadas de recolección no verificadas.\n\n## No olvides los logros opcionales\n\nAntes de esperar el 100% Mates, revisa las entradas restantes en Steam. **Buscar y destruir** (Seek & Destroy) requiere romper 50 objetos. Steam también muestra **Conectar a un enchufe** (Plug into an outlet) sin una descripción pública y **Justo donde pertenecen** (Right where they're belongs to be) con la pista \"¿Pero dónde está el agua?\". Debido a que esas dos entradas son intencionalmente crípticas, utiliza el entorno del juego y la notificación de logros en lugar de tratar una solución no verificada como un hecho.\n\nLos porcentajes de finalización en Steam son estadísticas en tiempo real y no cambian los requisitos. Las descripciones permanentes de los logros son la fuente relevante.\n\n## Preguntas frecuentes\n\n### ¿Terminar la historia desbloquea 100% Mates?\n\nNo por sí solo. La descripción oficial también requiere todos los coleccionables.\n\n### ¿Qué grupos de coleccionables están confirmados?\n\nLos Neuro-Cores, las tarjetas de memoria Neuro, las piezas personalizadas y los objetos escaneables tienen cada uno su propio logro en Steam.\n\n### ¿Son importantes los Neuro-nodes y los minijuegos?\n\nTienen logros separados de \"todos los objetos\" o \"todas las actividades\" y deben incluirse en una partida de finalización completa.\n\n## Fuentes\n\n- [Logros globales de WheelMates en Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [WheelMates en Steam](https://store.steampowered.com/app/3905450/WheelMates/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1015,
+    "completion_tokens": 1047,
+    "total_tokens": 2062,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1015,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1047,
+        "totalTokenCount": 2062,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1015,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

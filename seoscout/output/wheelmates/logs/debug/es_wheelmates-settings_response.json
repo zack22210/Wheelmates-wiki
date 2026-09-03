@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030328567461594518268d9d6keiFrPT9",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788406141,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guía de ajustes, DLSS y rendimiento de WheelMates\",\n  description: \"Configura WheelMates en PC con un enfoque verificado en opciones de pantalla, DLSS, control, estabilidad cooperativa y pruebas de rendimiento.\",\n  category: \"technical\",\n  date: \"2026-09-03\",\n}\n\n## Comienza con una base estable\n\nWheelMates es un juego para dos jugadores, por lo que una prueba de configuración útil debe considerar tanto la tasa de fotogramas como la estabilidad en línea. Comienza con la resolución nativa de tu pantalla, utiliza un límite de fotogramas que tu PC pueda mantener y cambia una opción gráfica a la vez. Prueba el movimiento, la respuesta de la cámara y un rompecabezas cooperativo complejo antes de guardar un cambio.\n\nSteam indica que la versión de PC requiere Windows 10 u 11, DirectX 12 y 15 GB de almacenamiento disponible. Cumplir con estos requisitos no garantiza una tasa de fotogramas específica, ya que la página de la tienda no publica objetivos de rendimiento oficiales por preajuste.\n\n## DLSS y ajustes de pantalla\n\nFirevolt publicó una actualización oficial de la demo que menciona específicamente **mejoras en DLSS** junto con correcciones de estabilidad de conexión. Esto confirma la compatibilidad con DLSS en los ajustes de PC, pero no establece un modo universal óptimo.\n\nSi el DLSS está disponible en hardware compatible, comienza con la opción orientada a la calidad y compara la claridad de la imagen mientras los vehículos están en movimiento. Utiliza un modo más enfocado al rendimiento solo cuando sea necesario ganar fotogramas. Los jugadores sin hardware compatible deben usar las opciones de resolución nativa o de escalado alternativas del juego en lugar de forzar ajustes no compatibles.\n\nCambia el V-Sync y los límites de fotogramas de forma deliberada. Los informes de la comunidad discuten las interacciones entre el DLSS y el V-Sync, pero dichos informes no constituyen una matriz de compatibilidad oficial completa. Después de cada cambio, verifica que la opción seleccionada se mantenga aplicada tras reiniciar el juego.\n\n## Controles y consistencia en el modo cooperativo\n\nEl manejo de los coches RC se basa intencionalmente en el impulso. Antes de reducir la calidad gráfica, distingue un problema de tiempo de fotogramas (frame-time) de un comportamiento de dirección normal. Prueba con la misma configuración de mando o teclado y ajusta la sensibilidad solo si esa opción está presente en tu versión actual.\n\nPara las sesiones en línea, ambos jugadores deben usar la misma versión del juego. Si uno de los compañeros experimenta interacciones faltantes o desconexiones frecuentes, actualiza el juego completo y el cliente del \"Friend's Pass\" antes de comparar los ajustes gráficos. Una discrepancia de versión es un problema distinto al rendimiento de la GPU.\n\n## Un orden de ajuste repetible\n\n1. Actualiza el controlador de la GPU y WheelMates.\n2. Verifica la resolución nativa y el modo de pantalla completa.\n3. Establece un objetivo de tasa de fotogramas sostenible.\n4. Prueba el DLSS en modo Calidad si el hardware lo permite.\n5. Reduce los ajustes visuales exigentes uno por uno si es necesario.\n6. Vuelve a comprobar un rompecabezas real para dos jugadores, no solo el menú principal.\n7. Registra el cambio que solucionó el problema para poder revertirlo después de un parche.\n\n## Preguntas frecuentes\n\n### ¿Es compatible WheelMates con DLSS?\n\nSí. Una noticia oficial de Steam sobre la demo anunció explícitamente mejoras en DLSS.\n\n### ¿Cuáles son los mejores ajustes para WheelMates?\n\nNo existe un preajuste universal oficial. La resolución nativa, un límite de fotogramas estable y un escalado orientado a la calidad son puntos de partida razonables.\n\n### ¿Pueden los ajustes gráficos solucionar la falta de sincronización en línea?\n\nNo necesariamente. Actualiza ambos clientes y confirma que las versiones coincidan antes de tratar un problema de conexión como un problema gráfico.\n\n## Fuentes\n\n- [Demo Update: Connection Stability and DLSS Improvements](https://store.steampowered.com/news/app/3905450/view/685257749622162469)\n- [WheelMates on Steam](https://store.steampowered.com/app/3905450/WheelMates/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 967,
+    "total_tokens": 2000,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1033,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 967,
+        "totalTokenCount": 2000,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1033,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

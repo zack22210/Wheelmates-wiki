@@ -1,0 +1,21 @@
+{
+  "id": "ab27920a-af1c-4ab0-ba91-757230d98b27",
+  "object": "chat.completion",
+  "created": 1788405845,
+  "model": "gemini-2.5-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates PS5: Release-Datum und aktueller Status\",\n  description: \"WheelMates wurde für PlayStation 5 angekündigt, aber das genaue Release-Datum und die Store-Seite waren am 3. September 2026 noch nicht offiziell.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## Ist WheelMates für PS5 erhältlich?\n\nWheelMates wurde für die **PlayStation 5** angekündigt, doch das exakte PS5-Veröffentlichungsdatum und ein offizieller Eintrag im PlayStation Store waren zum Stand vom 3. September 2026 noch nicht bestätigt. Die zu diesem Zeitpunkt verfügbare Version war der am 1. September erschienene PC-Release für Windows über Steam.\n\nDie ursprüngliche Ankündigung der Plattformen nannte für WheelMates einen Zeitrahmen für das Jahr 2026 für PS5, Xbox Series X|S und PC. Ein allgemeines Jahr ist jedoch nicht mit einem bestätigten Startdatum für Konsolen gleichzusetzen. Daher sollten alle Seiten, die ein präzises PS5-Datum ohne eine offizielle Quelle von PlayStation oder Firevolt angeben, mit Vorsicht betrachtet werden.\n\n## Was ist für PlayStation noch unbestätigt?\n\nBis die Seite im PlayStation Store erscheint, sind die folgenden PS5-Details nicht verifiziert:\n\n- Konsolenpreis und Startrabatte\n- Download-Größe und Preload-Zeit\n- Trophäenliste und Gleichstand bei den Trophäen mit den 21 Erfolgen auf Steam\n- Verfügbarkeit des „Friend's Pass“ auf PlayStation\n- Online-Crossplay mit Steam oder Xbox\n- DualSense-spezifische Funktionen\n- Speicherstand-Übertragung zwischen PC und PS5\n\nWheelMates unterstützt in der bereits veröffentlichten PC-Version Online- und lokalen Split-Screen-Koop, jedoch sollten diese PC-Funktionsmerkmale nicht ungeprüft auf einen noch nicht erschienenen Konsoleneintrag übertragen werden.\n\n## So überprüfen Sie echte PS5-Updates\n\nNutzen Sie die offizielle Website von WheelMates, die verifizierten Social-Media-Kanäle von Firevolt und den PlayStation Store. Ein echtes Release-Update sollte die Plattform, die Region, das Datum und die entsprechende Store-Seite klar benennen. Vermeiden Sie Vorbestellungen oder Angebote von Key-Resellern, die nicht direkt auf den offiziellen Store von Sony verweisen.\n\n## FAQ\n\n### Was ist das Veröffentlichungsdatum für WheelMates auf PS5?\n\nAm 3. September 2026 war kein genaues PS5-Datum bestätigt. Der angekündigte Zeitraum ist das Jahr 2026.\n\n### Gibt es einen Preis für die WheelMates PS5-Version?\n\nDa es keinen verifizierten Eintrag im PlayStation Store gibt, existiert bisher auch kein offiziell bestätigter PS5-Preis. Der Steam-Preis für den PC sollte nicht automatisch als identisch angenommen werden.\n\n### Kann man auf PS5 mit PC spielen?\n\nCross-play wurde bisher nicht bestätigt. Warten Sie auf eine offizielle Auflistung der PS5-Funktionen oder eine Ankündigung von Firevolt.\n\n## Quellen\n\n- [Offizielle Website von WheelMates](https://wheelmatesgame.com/)\n- [Berichterstattung zur Ankündigung der Plattformen für WheelMates](https://www.gematsu.com/2026/01/co-op-rc-adventure-game-wheelmates-announced-for-ps5-xbox-series-and-pc)\n- [WheelMates auf Steam](https://store.steampowered.com/app/3905450/WheelMates/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 901,
+    "completion_tokens": 822,
+    "total_tokens": 1723
+  }
+}

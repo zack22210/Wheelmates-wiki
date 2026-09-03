@@ -94,6 +94,14 @@ export default async function LocaleLayout({children, params}: Props) {
         <script dangerouslySetInnerHTML={{__html: `(function(){try{var t=localStorage.getItem('game-wiki-theme');var d=t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.classList.toggle('dark',d);document.documentElement.dataset.theme=d?'dark':'light'}catch(e){}})()`}} />
       </head>
       <body>
+        <template dangerouslySetInnerHTML={{__html: `<!--
+THESIS: WheelMates reads like a two-lane RC marshal board, not a generic game-wiki hero.
+OWN-WORLD: Cobalt and signal orange divide cream workbench paper; mechanical rails, wheel marks, and official gameplay imagery carry the system.
+STORY: Visitors identify the released PC co-op game, confirm Friend's Pass and play modes, then move toward verified guides.
+FIRST VIEWPORT: The official two-car scene fills the frame; the logo, compact answer-led copy, and Steam action sit on the left while both cars remain visible.
+FORM: Slot-car marshal board, grounded direction 4, seed 75790ef1.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->`}} />
         <NextIntlClientProvider messages={messages}>
           <JsonLd data={organization} />
           <SiteHeader groups={navigationGroups} />

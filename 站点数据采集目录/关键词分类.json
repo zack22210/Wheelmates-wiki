@@ -1,9 +1,155 @@
 {
-  "topic_name": "",
+  "topic_name": "wheelmates",
   "categories": [
     {
       "category": "guide",
-      "keywords": []
+      "keywords": [
+        "wheelmates walkthrough",
+        "wheelmates garage walkthrough",
+        "wheelmates level order",
+        "wheelmates demo guide"
+      ]
+    },
+    {
+      "category": "achievements",
+      "keywords": [
+        "wheelmates achievements",
+        "wheelmates 100 percent mates achievement"
+      ]
+    },
+    {
+      "category": "multiplayer",
+      "keywords": [
+        "wheelmates friends pass",
+        "wheelmates co op",
+        "wheelmates local co op",
+        "wheelmates online co op"
+      ]
+    },
+    {
+      "category": "controls",
+      "keywords": [
+        "wheelmates controls"
+      ]
+    },
+    {
+      "category": "collectibles",
+      "keywords": [
+        "wheelmates collectibles guide"
+      ]
+    },
+    {
+      "category": "gadgets",
+      "keywords": [
+        "wheelmates gadgets",
+        "wheelmates grapple",
+        "wheelmates magnetic grabber",
+        "wheelmates magnet wheels",
+        "wheelmates phase shifter",
+        "wheelmates paintgun"
+      ]
+    },
+    {
+      "category": "technical",
+      "keywords": [
+        "wheelmates fatal error",
+        "wheelmates steam deck",
+        "wheelmates settings",
+        "wheelmates pc system requirements",
+        "wheelmates bugs"
+      ]
+    },
+    {
+      "category": "information",
+      "keywords": [
+        "wheelmates price",
+        "wheelmates release date",
+        "wheelmates platforms",
+        "wheelmates ps5",
+        "wheelmates xbox",
+        "wheelmates steam",
+        "wheelmates trailer",
+        "wheelmates gameplay",
+        "wheelmates reviews",
+        "wheelmates game length",
+        "wheelmates story",
+        "wheelmates neuro void"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "group": "piracy",
+      "terms": [
+        "wheelmates download repack",
+        "wheelmates download utorrent igruha"
+      ],
+      "reason": "Unauthorized download and piracy intent."
+    },
+    {
+      "group": "off_topic",
+      "terms": [
+        "orbitals",
+        "rayman legends retold",
+        "hela game",
+        "crimson moon",
+        "ikuma the frozen compass",
+        "out of words release date"
+      ],
+      "reason": "Different games with no WheelMates search intent."
+    },
+    {
+      "group": "merged_or_noisy",
+      "terms": [
+        "wheelmates",
+        "wheelmates:",
+        "cuanto costara wheelmates",
+        "wheelmates how much",
+        "cuando sale wheelmates?",
+        "wheelmates price ps5",
+        "wheelmates ps5 release date",
+        "wheelmates xbox duplicate",
+        "wheelmatesgame fatal error",
+        "wheelmates trailer in Russian",
+        "wheelmates demo bugs in Russian",
+        "wheelmates reviews misspelling",
+        "wheelmates steamdb",
+        "wheelmates hltb",
+        "wheelmates Chinese title query",
+        "wheelmates keyboard-layout typo"
+      ],
+      "reason": "Merged into a stronger canonical intent, duplicated, navigational-only, locale-excluded, or too noisy for a standalone page."
+    },
+    {
+      "group": "video_title_clusters",
+      "terms": [
+        "official and community trailer titles",
+        "demo and gameplay video titles",
+        "review and preview video titles",
+        "co-op and Friend's Pass video titles",
+        "Steam Deck performance video title"
+      ],
+      "reason": "Treated as research leads and consolidated into trailer, gameplay, demo, reviews, multiplayer, walkthrough, gadgets, and technical intents."
+    },
+    {
+      "group": "intent_consolidation_after_source_audit",
+      "terms": [
+        "wheelmates all levels",
+        "wheelmates friends pass setup",
+        "wheelmates split screen",
+        "wheelmates controller controls",
+        "wheelmates keyboard controls",
+        "wheelmates neuro core locations",
+        "wheelmates memory card locations",
+        "wheelmates custom part locations",
+        "wheelmates scannable object locations",
+        "wheelmates performance",
+        "wheelmates dlss",
+        "wheelmates pc",
+        "wheelmates everett bloom",
+        "wheelmates oliver bloom"
+      ],
+      "reason": "Merged into broader pages with the same search intent after source review. Exact collectible-location and character pages lacked enough verified route or story evidence for trustworthy standalone articles."
     }
   ]
 }

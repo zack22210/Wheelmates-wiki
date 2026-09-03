@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030326365040016698268d9d6iVGtN3O9",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788406023,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Friends Pass : Jouer en coop gratuitement\",\n  description: \"Découvrez comment utiliser le WheelMates Friends Pass pour jouer en coop avec un ami sans qu'il possède le jeu. Guide complet et étapes d'invitation.\",\n  category: \"multiplayer\",\n  date: \"2026-09-03\",\n}\n\nLe WheelMates Friends Pass est une fonctionnalité multijoueur qui permet à deux joueurs de vivre l'intégralité de l'aventure de conduite en coopération alors qu'une seule personne possède le jeu complet. En téléchargeant une version spécifique du client, le second joueur peut rejoindre gratuitement la session d'un hôte, participant à chaque énigme, mini-jeu et moment clé de l'histoire dans la maison du professeur Everett Bloom. Ce système soutient la conception de base du jeu en tant qu'expérience dédiée à deux joueurs, que ce soit en ligne ou en écran scindé local.\n\n## Comment fonctionne le Friends Pass\n\nWheelMates est conçu spécifiquement pour deux joueurs, se concentrant sur l'exploration en voiture télécommandée et les énigmes basées sur la physique. Le Friends Pass garantit que la barrière à l'entrée est faible pour le « Joueur 2 ». Alors qu'un joueur doit acheter la version complète de WheelMates, son partenaire a seulement besoin de télécharger la version « Friends Pass », disponible sur la page principale de la boutique du jeu.\n\nNotamment, la version Friends Pass du jeu était auparavant la démo du titre. Si un joueur a déjà installé la démo, elle sert de passerelle pour rejoindre une partie complète hébergée par un ami. Cette version ne permet pas à un joueur de lancer une partie en solo ou d'héberger d'autres joueurs ; elle est strictement conçue pour servir de client afin de rejoindre la session d'un propriétaire existant.\n\n## Guide d'invitation étape par étape\n\nPour connecter avec succès deux joueurs à l'aide du Friends Pass, les deux utilisateurs doivent suivre une séquence spécifique dans les menus du jeu. Assurez-vous que les deux joueurs disposent d'une connexion Internet stable avant de commencer le processus.\n\n### Instructions pour le propriétaire du jeu (Hôte)\n1. Lancez la version complète de WheelMates.\n2. Dans le menu principal, sélectionnez **Jouer**.\n3. Choisissez **Jouer en ligne**, puis sélectionnez **Héberger**.\n4. Regardez dans le coin inférieur droit de l'écran du salon pour trouver le **Code d'invitation**.\n5. Copiez ce code et envoyez-le à votre ami.\n\n### Instructions pour l'ami (Invité)\n1. Téléchargez et lancez la version **WheelMates Friends Pass**.\n2. Dans le menu principal, sélectionnez **Jouer**.\n3. Sélectionnez l'option **Friends Pass**.\n4. Saisissez le **Code d'invitation** fourni par l'hôte. Notez que ce code est sensible à la casse.\n5. Cliquez sur **Rejoindre** pour entrer dans le salon de l'hôte.\n\nUne fois que les deux joueurs sont dans le salon, l'hôte peut sélectionner une nouvelle partie ou charger une sauvegarde existante pour commencer l'aventure.\n\n## Gameplay et mécaniques de coopération\n\nDans WheelMates, les joueurs contrôlent de petites voitures télécommandées naviguant dans un laboratoire surdimensionné. Le gameplay s'articule autour de la coopération plutôt que du combat. Les joueurs doivent utiliser des capacités de véhicule uniques pour atteindre les coins cachés de la maison et résoudre des énigmes environnementales.\n\n*   **Roues magnétiques :** Elles permettent aux voitures télécommandées de rouler sur les murs et les plafonds, atteignant des zones inaccessibles aux véhicules standards.\n*   **La corde :** Utilisée pour se balancer au-dessus de grands vides ou pour tirer des objets.\n*   **Pince magnétique :** Un outil pour interagir avec l'environnement et déplacer les objets nécessaires aux énigmes.\n*   **Journal narratif :** Les deux joueurs contribuent à un journal partagé qui suit les fragments de l'histoire et les indices concernant la disparition du professeur Bloom.\n\nLa maison constitue le défi principal. Bien que l'exploration soit l'objectif central, les joueurs rencontreront également des mini-jeux conçus pour tester leurs compétences de conduite et déterminer qui est le meilleur pilote dans un cadre compétitif.\n\n## Configuration technique et dépannage\n\nPour une expérience optimale lors de l'utilisation du Friends Pass, les joueurs doivent s'assurer que leurs versions logicielles sont identiques. Les développeurs de Firevolt Team publient fréquemment des correctifs pour résoudre les problèmes de progression et les bugs de synchronisation, comme la « Balançoire à corde » n'apparaissant pas pour le joueur invité.\n\nPour vérifier votre version, regardez dans le coin inférieur gauche du menu principal. Si les numéros de version ne correspondent pas, l'invité pourrait être incapable de rejoindre la session de l'hôte. Si les problèmes de connexion persistent, les joueurs sont encouragés à redémarrer le client Steam pour déclencher les mises à jour en attente.\n\nWheelMates prend également en charge la coop locale via écran scindé. Si vous jouez sur le même ordinateur, le Friends Pass n'est pas requis, car les deux joueurs peuvent jouer en utilisant l'unique copie complète du jeu sur une seule machine.\n\n## FAQ\n\n### Mon ami doit-il acheter WheelMates pour jouer avec moi ?\nNon. Un seul joueur doit posséder le jeu complet. Le deuxième joueur peut télécharger gratuitement la version WheelMates Friends Pass pour rejoindre votre session en ligne.\n\n### Le Friends Pass est-il disponible pour le jeu en écran scindé ?\nLe Friends Pass est spécifiquement destiné à la coopération en ligne. Pour le jeu en écran scindé, vous avez seulement besoin de la version complète du jeu et de deux manettes (ou un clavier et une manette) sur un seul ordinateur.\n\n### Pourquoi le code d'invitation ne fonctionne-t-il pas ?\nLe code d'invitation est sensible à la casse. Assurez-vous que le joueur invité saisit le code exactement tel qu'il apparaît sur l'écran de l'hôte. De plus, vérifiez que les deux joueurs utilisent la même version du jeu, visible dans le coin inférieur gauche du menu.\n\n### Le joueur utilisant le Friends Pass peut-il héberger une partie ?\nNon. La version Friends Pass sert uniquement à rejoindre un joueur qui possède le jeu complet. Pour héberger une session, vous devez acheter la version complète de WheelMates.\n\n## Sources\n* https://wheelmatesgame.com/\n* https://steamcommunity.com/app/3905450\n* https://www.youtube.com/watch?v=wR6raQZibbs\n* https://www.youtube.com/watch?v=dqnlGPrB1po"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1480,
+    "completion_tokens": 3427,
+    "total_tokens": 4907,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1480,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1502,
+        "totalTokenCount": 4907,
+        "thoughtsTokenCount": 1925,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1480
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1502
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1480,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1502,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1925
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

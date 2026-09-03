@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030328325957792848268d9d64ubiOVLG",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788406133,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Configuration PC requise pour WheelMates\",\n  description: \"Consultez les configurations PC minimales et recommandées pour WheelMates sur Windows : CPU, GPU, mémoire, DirectX 12, stockage et mode coopératif.\",\n  category: \"technical\",\n  date: \"2026-09-03\",\n}\n\n## Configuration PC officielle pour WheelMates\n\nWheelMates nécessite un PC Windows 64 bits, DirectX 12 et 15 Go d'espace de stockage disponible. La fiche Steam officielle détaille les paliers matériels minimaux et recommandés.\n\n| Composant | Minimale | Recommandée |\n|---|---|---|\n| Système d'exploitation | Windows 10/11 64 bits | Windows 10/11 64 bits |\n| Processeur | Intel Core i5-8400 ou AMD Ryzen 5 2600 | Intel Core i7-10700K ou AMD Ryzen 7 3700X |\n| Mémoire vive | 8 Go de RAM | 16 Go de RAM |\n| Carte graphique | NVIDIA GTX 1060 ou AMD RX 580 | NVIDIA RTX 3060 ou AMD RX 6600 XT |\n| DirectX | Version 12 | Version 12 |\n| Espace disque | 15 Go d'espace disponible | 15 Go d'espace disponible |\n\nLa boutique n'associe aucune résolution officielle, préréglage graphique ou objectif de fréquence d'images à ces paliers. La configuration « Recommandée » désigne donc une machine plus puissante, sans garantir les 60 FPS ou des réglages visuels spécifiques.\n\n## Configuration pour les modes à deux joueurs\n\nWheelMates prend en charge la coopération en ligne ainsi que le partage d'écran ou l'écran scindé. L'écran scindé local demande au PC de calculer deux points de vue, ce qui peut être plus exigeant qu'une session en ligne. Si un PC aux spécifications minimales peine en local, baissez la résolution ou les réglages graphiques et testez à nouveau la même scène avant de modifier plusieurs options à la fois.\n\nPour jouer en ligne via le Friend's Pass, les deux ordinateurs doivent pouvoir faire tourner leur client installé. Le fait que l'hôte respecte la configuration recommandée ne compense pas une machine invitée située sous le seuil minimal.\n\n## Avant l'achat ou le dépannage\n\n1. Comparez les modèles exacts de CPU et de GPU, et pas seulement les noms de marques.\n2. Vérifiez que Windows est en 64 bits et supporte DirectX 12 avec le pilote installé.\n3. Conservez plus de 15 Go libres pour l'installation et la marge de manœuvre des mises à jour.\n4. Mettez à jour le jeu complet ainsi que le client Friend's Pass.\n5. Utilisez les informations de remboursement et d'assistance de Steam plutôt que les garanties de sites tiers du type « can I run it ».\n\nLes GPU d'ordinateurs portables peuvent avoir des performances différentes des cartes de bureau aux noms similaires. Steam liste des familles de modèles mais ne garantit pas l'équivalence selon les limites de puissance.\n\n## FAQ\n\n### Quel est l'espace de stockage nécessaire pour WheelMates ?\n\nSteam indique 15 Go d'espace disponible.\n\n### WheelMates peut-il fonctionner avec 8 Go de RAM ?\n\nOui, 8 Go est le minimum requis. Le palier recommandé indique 16 Go.\n\n### WheelMates nécessite-t-il DirectX 12 ?\n\nOui. DirectX 12 apparaît dans les deux paliers de configuration.\n\n## Sources\n\n- [WheelMates on Steam](https://store.steampowered.com/app/3905450/WheelMates/)\n- [WheelMates official site](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 974,
+    "completion_tokens": 2501,
+    "total_tokens": 3475,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 974,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 874,
+        "totalTokenCount": 3475,
+        "thoughtsTokenCount": 1627,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 974
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 874
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 974,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 874,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1627
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

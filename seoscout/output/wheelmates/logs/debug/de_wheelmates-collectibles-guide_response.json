@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030315523615408548268d9d6GAtOEwwy",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405358,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates: Sammler-Guide und 100%-Checkliste\",\n  description: \"Verfolge alle WheelMates-Sammelobjekte: Neuro-Cores, Neuro-Speicherkarten, Custom-Teile, scannbare Objekte, Neuro-Nodes und Mini-Spiele.\",\n  category: \"collectibles\",\n  date: \"2026-09-03\",\n}\n\n## Was zählt für den 100%-Abschluss in WheelMates?\n\nDie offizielle Steam-Erfolgsliste bestätigt vier benannte Sammler-Sets in WheelMates: **Neuro-Cores**, **Neuro-Speicherkarten**, **Custom-Teile** und **scannbare Objekte**. Zudem werden alle Neuro-Nodes und alle Mini-Spiele als separate Abschlussziele erfasst. Diese Seite dient als verlässliche Checkliste für diese Kategorien; sie erhebt keinen Anspruch auf unbestätigte raumweise Fundorte.\n\n| Kategorie | Zugehöriger Steam-Erfolg | Anforderung |\n|---|---|---|\n| Neuro-Cores | Charge to full capacity! | Sammle alle Neuro-Cores |\n| Neuro-Speicherkarten | Story driven | Sammle alle Neuro-Speicherkarten |\n| Custom-Teile | Ultra-Fine-tuning | Sammle alle Custom-Teile |\n| Scannbare Objekte | Seek & Scan | Finde alle scannbaren Objekte |\n| Neuro-Nodes | What does Everett have to say about it? | Höre dir alle Neuro-Nodes an |\n| Mini-Spiele | Mini-games lovers | Spiele alle Mini-Spiele |\n\n## So organisierst du einen 100%-Durchgang\n\nVerwende für jede Sammler-Kategorie eine eigene Notiz, anstatt jeden Fund als gleichwertig zu behandeln. Wenn du einen neuen Bereich betrittst, erkunde alternative Routen, bevor du die finale Fortschritts-Interaktion auslöst. WheelMates ist um zwei Fahrzeuge und kooperative Fähigkeiten herum aufgebaut; ein Seitenweg, der unerreichbar aussieht, könnte zugänglich werden, nachdem beide Spieler koordiniert haben oder ein späteres Gadget verfügbar ist.\n\nSpiele die Geschichte einmal komplett durch, bevor du dich an eine Aufräum-Route machst. Die Kampagne schaltet Erfolge für den Greifhaken, den magnetischen Greifer, Magneträder, den Phasenwandler und die Farbpistole frei. Diese Fähigkeiten können die Interaktion des Duos mit der Umgebung verändern, und ein früher Standort lässt sich nach dem Spielfortschritt möglicherweise leichter untersuchen.\n\nSteam bietet auf seiner öffentlichen Erfolgsseite keine offizielle Aufschlüsselung der Zähler pro Ort. Verlasse dich nicht auf Guides, die präzise Zahlen oder Raumnamen nennen, ohne einen aktuellen Spielstand zu zeigen. Patches können zudem Kollisionen oder den Fortschrittsverlauf verändern.\n\n## Die 100%-Mates-Anforderung\n\nDer Erfolg **100% Mates** verlangt, das Spiel zu 100 % abzuschließen und alle Sammelobjekte zu finden. Diese Formulierung macht ihn umfassender als jeden einzelnen Sammler-Erfolg. Eine sinnvolle Checkliste für den Abschluss ist:\n\n1. Schließe die sechs benannten Level-Erfolge ab: Küche, Flur, Garage, Neuro-Void: Fragmente, Schuppen und Hinterhof.\n2. Schalte alle fünf benannten Gadget-Erfolge frei.\n3. Vervollständige alle vier Sammler-Sets.\n4. Höre dir jeden Neuro-Node an und spiele jedes Mini-Spiel.\n5. Schließe die verbleibenden optionalen Erfolge ab, einschließlich Seek & Destroy.\n\nDies ist eine Checkliste, die von den offiziellen Steam-Erfolgskategorien abgeleitet wurde, und keine Behauptung, dass das Spiel die Gegenstände exakt in dieser Reihenfolge bewertet.\n\n## FAQ\n\n### Sind Speicherkarten echte Sammelobjekte in WheelMates?\n\nJa. Steam nennt sie Neuro-Speicherkarten und verleiht den Erfolg **Story driven** für das Sammeln aller Karten.\n\n### Sind scannbare Objekte für 100% erforderlich?\n\nSie haben ihren eigenen Erfolg für alle Objekte, **Seek & Scan**, und der 100%-Erfolg erfordert alle Sammelobjekte.\n\n### Wo befinden sich die genauen Fundorte der Sammelobjekte?\n\nSteam bestätigt die Kategorien, veröffentlicht jedoch keine vollständige Karte der Fundorte. Dieses Wiki wird keine exakten Platzierungen erfinden, ohne eine verifizierbare Komplettlösung für den aktuellen Spielstand.\n\n## Quellen\n\n- [WheelMates globale Erfolge auf Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [Offizielle WheelMates-Website](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 1075,
+    "total_tokens": 2145,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1070,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1075,
+        "totalTokenCount": 2145,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1070,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

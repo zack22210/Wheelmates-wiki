@@ -4,6 +4,7 @@ import {HomePageClient} from './HomePageClient';
 import {getAllContentGroups} from '@/lib/content';
 import {JsonLd} from '@/components/JsonLd';
 import {absoluteUrl, SITE_IMAGE_PATH, SITE_URL} from '@/config/site';
+import {routing} from '@/i18n/routing';
 
 type Props = {params: Promise<{locale: string}>};
 type ContentTypeOverview = {overviewTitle: string; overviewDescription: string};
@@ -13,14 +14,18 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
   const t = await getTranslations({locale});
   const title = t('seo.homeTitle');
   const description = t('seo.homeDescription');
+  const canonical = locale === routing.defaultLocale ? '/' : `/${locale}`;
+  const languages = Object.fromEntries(
+    routing.locales.map((item) => [item, item === routing.defaultLocale ? '/' : `/${item}`])
+  );
   return {
     title,
     description,
     keywords: t('seo.keywords'),
-    alternates: {canonical: '/'},
+    alternates: {canonical, languages},
     openGraph: {
       type: 'website',
-      url: SITE_URL,
+      url: absoluteUrl(canonical),
       title,
       description,
       images: [{url: absoluteUrl(SITE_IMAGE_PATH), alt: t('media.heroAlt')}]
@@ -59,10 +64,30 @@ export default async function HomePage({params}: Props) {
     url: SITE_URL,
     publisher: {'@id': `${SITE_URL}/#organization`}
   };
+  const game = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: 'WheelMates',
+    description: t('seo.homeDescription'),
+    image: absoluteUrl(SITE_IMAGE_PATH),
+    url: 'https://wheelmatesgame.com/',
+    datePublished: '2026-09-01',
+    genre: ['Adventure', 'Indie', 'Racing', 'Co-op'],
+    gamePlatform: 'PC',
+    operatingSystem: ['Windows 10', 'Windows 11'],
+    playMode: 'MultiPlayer',
+    author: {'@type': 'Organization', name: 'Firevolt'},
+    publisher: {'@type': 'Organization', name: 'Firevolt'},
+    sameAs: [
+      'https://store.steampowered.com/app/3905450/WheelMates/',
+      'https://www.youtube.com/@WheelMatesGame'
+    ]
+  };
 
   return (
     <>
       <JsonLd data={website} />
+      <JsonLd data={game} />
       <HomePageClient groups={contentGroups} />
     </>
   );

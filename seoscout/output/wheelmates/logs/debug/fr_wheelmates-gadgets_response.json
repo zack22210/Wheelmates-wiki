@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030316366277561458268d9d6gFgFsmON",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405401,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Gadgets de WheelMates : Les cinq capacités vérifiées\",\n  description: \"Découvrez les cinq capacités de gadgets de WheelMates : Grappin, Aimant, Roues magnétiques, Phaseur et Pistolet à peinture, et suivez chaque déverrouillage.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\n## Tous les gadgets vérifiés de WheelMates\n\nWheelMates propose cinq succès liés à des capacités sur Steam : **Grappin (Grapple)**, **Aimant (Magnetic Grabber)**, **Roues magnétiques (Magnet Wheels)**, **Phaseur (Phase Shifter)** et **Pistolet à peinture (Paintgun)**. Chaque succès se débloque lors de l'obtention de la capacité correspondante, confirmant que les gadgets sont des jalons de progression de la campagne plutôt qu'un équipement de départ fixe.\n\n| Capacité | Rôle vérifié dans la progression |\n|---|---|\n| Grappin | Capacité initiale nommée avec son propre succès Steam |\n| Aimant | Amélioration de voiture utilisée pour l'interaction coopérative avec l'environnement |\n| Roues magnétiques | Amélioration de déplacement associée aux parcours magnétiques |\n| Phaseur | Capacité de fin de campagne avec un succès dédié |\n| Pistolet à peinture | Amélioration de voiture ultérieure utilisée pour étendre les interactions de puzzle |\n\nLes descriptions officielles indiquent que les nouvelles capacités ouvrent des moyens supplémentaires d'explorer des salles familières et des zones cachées. Les cibles exactes et les invites de touches s'apprennent mieux via le tutoriel actuel en jeu, car le texte de la boutique publique ne documente pas toutes les interactions.\n\n## Comment apprendre une nouvelle capacité\n\nLorsqu'un gadget est introduit, arrêtez-vous avant de quitter sa zone de tutoriel. Les deux joueurs doivent tester l'invite, la portée, les cibles valides et le comportement de réinitialisation. De nombreux puzzles de WheelMates dépendent de la capacité d'une voiture à créer une opportunité pour l'autre ; confirmer ce que chaque joueur voit est donc plus utile que de traiter un gadget comme un raccourci en solo.\n\nNe supposez pas que chaque objet métallique, coloré ou distant est interactif. WheelMates utilise des indices visuels pour distinguer les éléments de puzzle. Si une cible attendue ne réagit pas, vérifiez l'angle et la distance, confirmez que les deux clients sont à jour et rechargez le point de contrôle avant de signaler un bug.\n\n## Liste de contrôle des gadgets\n\nSteam répertorie un succès distinct pour l'obtention de chaque capacité nommée. Une partie complète avec tous les gadgets devrait donc afficher les cinq entrées débloquées. Ces succès sont distincts des objectifs de collection pour les Neuro-Cores, les cartes Neuro-Mémoire, les pièces personnalisées et les objets scannables.\n\nLe retour en arrière (backtracking) peut révéler des itinéraires optionnels après avoir obtenu une amélioration ultérieure, mais les sources officielles disponibles ne publient pas de carte universelle de retour en arrière salle par salle. Utilisez la structure actuelle des points de contrôle du jeu et les invites de capacités visibles.\n\n## FAQ\n\n### Combien de gadgets WheelMates sont confirmés ?\n\nCinq capacités nommées possèdent des succès d'acquisition sur Steam.\n\n### Commence-t-on avec toutes les capacités ?\n\nNon. Leurs descriptions Steam indiquent qu'il faut obtenir chaque capacité, et la séquence des succès les place tout au long de la progression de la campagne.\n\n### Les gadgets sont-ils des objets à collectionner ?\n\nIls sont suivis en tant que déblocages de capacités. Steam répertorie les quatre ensembles d'objets à collectionner séparément.\n\n## Sources\n\n- [Succès mondiaux de WheelMates sur Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [Site officiel de WheelMates](https://wheelmatesgame.com/)\n- [Bande-annonce de présentation du gameplay de WheelMates](https://www.youtube.com/watch?v=wR6raQZibbs)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 917,
+    "completion_tokens": 921,
+    "total_tokens": 1838,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 917,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 921,
+        "totalTokenCount": 1838,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 917,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

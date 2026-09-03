@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030328325648586368268d9d6PysPDbgD",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788406133,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Solucionar errores fatales y cierres en WheelMates\",\n  description: \"¿Tienes errores fatales en WheelMates? Aprende a corregir cierres, asegurar la compatibilidad de versiones y resolver problemas de conexión en Steam.\",\n  category: \"technical\",\n  date: \"2026-09-03\",\n}\n\nSi estás experimentando un \"error fatal\" o problemas de estabilidad al jugar a *WheelMates*, es probable que te enfrentes a un desajuste de sincronización o a un cliente del juego desactualizado. El equipo de desarrollo de Firevolt ha lanzado varios hotfixes desde el lanzamiento para solucionar bloqueos de progresión y problemas de conectividad. Asegurarse de que tanto tú como tu compañero de cooperativo tengan exactamente la misma versión del juego es el paso más crítico para resolver estas interrupciones técnicas.\n\n## Comprueba la versión de tu juego\nLa causa más frecuente de cierres y errores en *WheelMates* es un desajuste de versión entre el anfitrión y el jugador que se une a través del Friend's Pass. Debido a que el juego recibe hotfixes frecuentes para corregir errores de colisión y problemas de progresión, ambos jugadores deben estar completamente actualizados.\n\nPara verificar tu versión:\n1. Inicia *WheelMates* o la versión *Friend’s Pass*.\n2. Observa la esquina inferior izquierda de la pantalla del menú principal.\n3. Compara el número de versión que aparece allí con el número de versión de tu compañero.\n\nSi los números no coinciden, ambos jugadores deben reiniciar Steam para activar cualquier actualización pendiente.\n\n## Resolver errores de conexión e inicio de sesión\nSi no puedes iniciar sesión o experimentas un error fatal al intentar conectarte a una sala, el problema puede estar relacionado con tu cliente local de Steam. Sigue estos pasos para estabilizar tu conexión:\n\n*   **Reiniciar Steam:** Sal por completo y reinicia la aplicación de Steam para asegurar que se apliquen los últimos parches.\n*   **Verificar la integridad de los archivos del juego:** Si el error persiste, utiliza la función de Steam \"Verificar integridad de los archivos del juego\" para asegurarte de que ningún archivo de instalación se haya corrompido durante una actualización.\n*   **Buscar hotfixes:** Los desarrolladores lanzan actualizaciones frecuentes para problemas específicos, como las correcciones recientes para la progresión en el Patio (Backyard) y el Cobertizo (Shed), o el error de colisión de NeuroVoids. Asegúrate siempre de que tu cliente esté en la última versión.\n\n## Informar sobre errores persistentes\nSi continúas experimentando errores fatales a pesar de tener la versión correcta, los desarrolladores solicitan comentarios detallados para ayudarlos a reproducir el problema. Al informar sobre un error, proporciona la siguiente información:\n\n1.  **Descripción detallada:** Explica exactamente qué estabas haciendo en el juego cuando ocurrió el error. Las instrucciones paso a paso ayudan al equipo a identificar la causa más rápido.\n2.  **Versión del juego:** Incluye siempre el número de versión que se encuentra en el menú principal.\n3.  **Configuración de hardware:** Especifica si estás jugando con teclado y ratón o con un mando específico (por ejemplo, DualSense o DualShock 4), ya que algunos problemas relacionados con la entrada se han solucionado en parches recientes.\n\nPuedes enviar estos informes directamente a los desarrolladores a través de los foros de la comunidad de *WheelMates* en Steam o en su servidor oficial de Discord.\n\n## Preguntas frecuentes\n\n**¿Por qué recibo un error al unirme a un amigo?**\nEsto suele deberse a un desajuste de versiones. Asegúrate de que tanto tú como tu compañero hayan actualizado sus juegos a través de Steam para que los números de versión en la esquina inferior izquierda del menú principal coincidan.\n\n**¿Cómo soluciono los cierres relacionados con el mando?**\nLos hotfixes recientes han abordado problemas con las pulsaciones repetidas del D-pad en los mandos DualSense y DualShock 4. Si sigues experimentando cierres, asegúrate de que tu juego esté actualizado a la última versión.\n\n**¿Dónde puedo informar de un error fatal?**\nEl equipo de Firevolt supervisa los foros de la comunidad de *WheelMates* en Steam y su servidor de Discord. Por favor, proporciona tu versión del juego y una descripción detallada de los pasos que provocaron el cierre.\n\n## Fuentes\n[https://steamcommunity.com/app/3905450](https://steamcommunity.com/app/3905450)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 2647,
+    "total_tokens": 3721,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1074,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 997,
+        "totalTokenCount": 3721,
+        "thoughtsTokenCount": 1650,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1074
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 997
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1074,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 997,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1650
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

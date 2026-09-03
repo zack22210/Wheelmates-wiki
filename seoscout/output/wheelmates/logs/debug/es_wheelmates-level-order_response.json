@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030317512530389048268d9d6rWFi7T4n",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405474,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guía de niveles y progresión de WheelMates\",\n  description: \"Sigue las áreas de campaña y los hitos de gadgets de WheelMates, desde la cocina y el pasillo hasta el garaje, Neuro-Void, el cobertizo y el patio.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\n## Orden de la campaña de WheelMates\n\nWheelMates sigue una campaña a través de la enorme casa y el laboratorio del profesor Everett Bloom. La secuencia de logros de Steam confirma seis áreas de finalización con nombre y cinco hitos de habilidades principales. La progresión práctica es la siguiente:\n\n1. Habilidad **Grapple** (Gancho)\n2. **Kitchen** (Cocina)\n3. **Hallway** (Pasillo)\n4. Habilidad **Magnetic Grabber** (Agarre magnético)\n5. **Garage** (Garaje)\n6. Habilidad **Magnet Wheels** (Ruedas magnéticas)\n7. **Neuro-Void: Fragments** (Neuro-Vacío: Fragmentos)\n8. Habilidad **Phase Shifter** (Desplazador de fase)\n9. Habilidad **Paintgun** (Pistola de pintura)\n10. **Shed** (Cobertizo)\n11. **Backyard** (Patio trasero)\n\nSteam presenta esto como logros en lugar de una pantalla formal de selección de capítulo, pero su progresión y patrón de desbloqueo global proporcionan una hoja de ruta útil para la campaña. Si tu versión actual etiqueta un punto de control de forma diferente, utiliza la etiqueta del juego como la autoridad definitiva.\n\n## Qué cambia entre áreas\n\nLa campaña alterna entre completar grandes entornos domésticos y obtener nuevas herramientas cooperativas. Grapple, Magnetic Grabber, Magnet Wheels, Phase Shifter y Paintgun no son nombres opcionales inventados para una guía; cada uno tiene un logro oficial de Steam por obtener la habilidad.\n\nEspera que las rutas posteriores aprovechen las habilidades aprendidas anteriormente. WheelMates está diseñado exactamente para dos jugadores, por lo que la progresión suele depender de la comunicación y de acciones complementarias, en lugar de que un solo coche llegue a la salida. Explora caminos secundarios cuando ambos coches estén juntos y presta atención al tutorial que se muestra cuando se desbloquea un nuevo gadget.\n\n## Si el siguiente nivel no se abre\n\nPrimero, confirma que ambos jugadores completaron el objetivo actual y llegaron juntos al punto de control. Las parejas en línea deben comparar sus números de versión y asegurarse de que tanto el juego completo como el cliente del Friend's Pass estén actualizados. Firevolt ha publicado correcciones para problemas de progresión, incluidos los reportados en el cobertizo y el patio trasero.\n\nNo utilices una guía antigua de la demo como prueba de que la versión de lanzamiento está rota. Las rutas y etiquetas de la demo pueden diferir del juego lanzado. Reinicia el punto de control actual antes de volver a jugar un área completa y utiliza el enlace oficial de la comunidad de Steam o Discord si persiste un bloqueo repetible.\n\n## Preguntas frecuentes\n\n### ¿Cuántos niveles confirmados hay en WheelMates?\n\nSteam tiene logros de finalización para Kitchen, Hallway, Garage, Neuro-Void: Fragments, Shed y Backyard.\n\n### ¿Es Neuro-Void un nivel?\n\nSí. La lista oficial de logros nombra **Neuro-Void: Fragments** y otorga un logro por completarlo.\n\n### ¿Los gadgets son parte de la progresión?\n\nSí. Cinco logros de gadgets aparecen entre los hitos de nivel y marcan desbloqueos de habilidades importantes.\n\n## Fuentes\n\n- [Logros globales de WheelMates en Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [WheelMates en Steam](https://store.steampowered.com/app/3905450/WheelMates/)\n- [Sitio oficial de WheelMates](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 926,
+    "completion_tokens": 870,
+    "total_tokens": 1796,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 926,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 870,
+        "totalTokenCount": 1796,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 926,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

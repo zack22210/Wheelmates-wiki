@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030258486653258758268d9d6DgCfvmLn",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404353,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Co-Op Guide: Friend Pass and Gameplay Mechanics\",\n  description: \"Learn how WheelMates co-op works, including the free Friend Pass, local split-screen, and how to solve RC car puzzles with a partner.\",\n  category: \"multiplayer\",\n  date: \"2026-09-03\",\n}\n\nWheelMates is a dedicated cooperative 3D puzzle-platformer that requires two players to progress. In this RC car adventure, players take control of toy vehicles to navigate a large, cluttered scientist's house, solving environmental puzzles and mastering traversal mechanics. Because the game is designed specifically for two people, it cannot be played solo. To facilitate this, the developers provide multiple ways to connect, including a Friend Pass system that allows two players to experience the full campaign even if only one person owns the game.\n\n## How Co-Op Works in WheelMates\n\nWheelMates is built from the ground up as a two-player experience. The game supports both local split-screen play and online multiplayer. For those playing online, the game utilizes a \"Friend Pass\" model similar to titles like *A Way Out* or *It Takes Two*. This means that if you own the full version of WheelMates, you can invite a friend to download a free trial version of the game. Once they receive your invite, they can join your session and play through the entire story with you at no additional cost to them.\n\nThe narrative follows two players who have either been turned into RC cars or are telepathically controlling them via a specialized helmet. A disembodied scientist, who is trapped within the house's electrical wiring, narrates the journey and provides objectives. Cooperation is mandatory, as almost every room contains \"roadblocks\" that require both cars to interact with objects simultaneously to proceed.\n\n## Cooperative Puzzle Design\n\nThe core of WheelMates' gameplay revolves around environmental puzzles that utilize a \"you scratch my back, I scratch yours\" philosophy. While some puzzles are simple, others require coordinated movement and timing.\n\nCommon cooperative tasks include:\n*   **Simultaneous Inputs:** Many doors and gates are locked behind dual levers or buttons that both players must trigger at the exact same time.\n*   **Platform Manipulation:** One player may need to stand on a scissor lift or vertical platform while the other player drives to a control panel to raise or lower them.\n*   **Clearing Obstacles:** In levels like the kitchen or the hallway, one player might hit a button to turn off hazardous steam or move an object, allowing the second player to reach a new area and return the favor.\n*   **Navigation Assistance:** Certain sections require one player to lead the other through a maze from a higher vantage point or use tools to create a path for their partner.\n\n## Specialized Tools and Abilities\n\nAs you progress through the scientist's house, both players unlock a suite of tools that expand their traversal and puzzle-solving capabilities. Both RC cars receive the same upgrades, ensuring that neither player is restricted to a specific \"class\" or role.\n\n### Grappling Hook\nThe grappling hook is the first major tool acquired. It allows players to snag onto handles, pull heavy levers, or open drawers. It is also essential for traversal, enabling the RC cars to swing across large gaps or reach high-up platforms that are otherwise inaccessible.\n\n### Magnets and Magnet Tires\nThe Magnet ability functions similarly to telekinesis, allowing the cars to pick up and move objects, such as metal caps or even non-magnetic items like oranges. This is frequently used to plug pipes or move puzzle pieces into place. Later, players unlock Magnet Tires, which allow the RC cars to drive on metal surfaces regardless of orientation. This enables players to drive up walls and across ceilings to reach hidden neural cores or car parts.\n\n### Paint Gun\nThe paint gun is a late-game tool used primarily for interacting with distant targets. Players can shoot specific buttons to trigger mechanisms or complete timed challenges where multiple targets must be hit in rapid succession.\n\n## Exploration and Collectibles\n\nWheelMates features a variety of open-zone levels, including the kitchen, garage, air ducts, and a swimming pool. While the game follows a linear progression from room to room, each area is designed as a playground for RC cars with ramps, loops, and hidden corners.\n\nPlayers can hunt for several types of collectibles:\n*   **Neural Cores:** Yellow electrical bubbles scattered throughout the environment. These often serve as a metric for completionists.\n*   **Car Parts:** Hidden chests or rewards for difficult puzzles contain new wheels and paint jobs. Players can customize their RC car's appearance, though these changes are purely cosmetic.\n*   **Lore Fragments:** Scanning specific objects in the house provides additional context for the scientist’s story and how the players ended up in their current situation.\n\n## Tips for Handling RC Car Controls\n\nThe most unique aspect of WheelMates is also its greatest challenge: the RC car physics. Unlike standard platforming characters, the vehicles have momentum and a turning radius that can make precise movements difficult in cramped spaces like air vents.\n\nTo manage the controls effectively, players should utilize the \"Relocate\" accessibility feature. If you fall from a high platform, a prompt often appears allowing you to teleport back to your previous stable position. This saves significant time, as the cars can feel \"icy\" or slide when trying to stop quickly. \n\nAdditionally, if a vehicle becomes wedged between objects or stuck on a piece of geometry, players can trigger a manual reset. This causes the car to explode and respawn at the nearest checkpoint. Mastering the balance between high-speed jumps and slow, controlled trigger-pulls for platforming is key to finishing the 4 to 7-hour campaign without frustration.\n\n## FAQ\n\n### Does WheelMates have a single-player mode?\nNo, WheelMates is designed exclusively for two players. You must have a partner via local split-screen or online co-op to play the game.\n\n### How do I use the WheelMates Friend Pass?\nTo use the Friend Pass, the owner of the game must send an invite to a friend through the game's online menu. The friend must download the free version of WheelMates on their respective platform to join the session.\n\n### What happens if I fall off a ledge?\nWheelMates is relatively forgiving. You will usually respawn near where you fell. There is also a teleport feature that allows you to return to a higher ledge if the game detects a significant drop.\n\n### Can I customize my RC car in co-op?\nYes, you can find car parts like wheels and paint colors hidden throughout the levels. Both players can customize their looks independently, though the parts must be discovered first.\n\n## Sources\n\n*   Official WheelMates Site: https://wheelmatesgame.com/\n*   Co-Op Bros Review: https://www.youtube.com/watch?v=IX8uiLgeg4M\n*   WheelMates Gameplay Review: https://www.youtube.com/watch?v=PDU4TpeR2vk"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12593,
+    "completion_tokens": 2285,
+    "total_tokens": 14878,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 12593,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1495,
+        "totalTokenCount": 14878,
+        "thoughtsTokenCount": 790,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 12593
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1495
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12593,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1495,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 790
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

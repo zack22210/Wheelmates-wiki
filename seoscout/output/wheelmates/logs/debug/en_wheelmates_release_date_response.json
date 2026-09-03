@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030259290472296748268d9d6q1JuNSDZ",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404374,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Release Date and Game Information\",\n  description: \"Learn when WheelMates was released and discover details about this 2-player co-op RC car adventure, including the Friend's Pass feature.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\nWheelMates was officially released on Steam on September 1, 2026. This 2-player cooperative driving adventure allows players to take control of tiny RC cars to explore the home laboratory of the missing scientist, Professor Everett Bloom.\n\n## Game Overview\nIn WheelMates, players navigate oversized household environments, solving puzzles and uncovering the mystery behind the professor's disappearance. The gameplay focuses on exploration and cooperation rather than combat. As players progress, they unlock new abilities—such as magnetic wheels for scaling walls and ceilings, a rope for crossing gaps, and a magnetic grabber—that allow them to reach previously inaccessible areas.\n\nThe game features a narrative journal that tracks story fragments, allowing players to piece together the history of the house at their own pace. Between exploration segments, players can participate in mini-games designed to test their driving skills.\n\n## Cooperative Play and Friend's Pass\nWheelMates is built specifically for two players, supporting both online co-op and local split-screen play. A notable feature of the title is the \"Friend's Pass,\" which allows a friend to join the game for free without needing to purchase their own copy.\n\nTo invite a friend using the Friend's Pass, follow these steps:\n1. The owner of the game launches WheelMates, while the guest downloads and launches the \"WheelMates Friend’s Pass\" version.\n2. The host selects **PLAY → PLAY ONLINE → HOST** to generate and copy an invite code.\n3. The guest selects **PLAY → FRIEND'S PASS → ENTER THE CODE** in their game menu to join the session.\n\n## Pricing and Availability\nAs of its September 2026 launch, WheelMates is available on Steam. The base price for the game is $19.99 USD, with regional pricing adjustments applied for other currencies (e.g., €19.99, £15.99). The developers at The Firevolt Team have actively supported the game post-launch with hotfixes to address progression issues, collision bugs, and controller input refinements.\n\n## Frequently Asked Questions\n\n**When was WheelMates released?**\nWheelMates was released on September 1, 2026.\n\n**Do both players need to buy the game?**\nNo. Thanks to the included Friend's Pass, only one player needs to own the game for two people to play together.\n\n**Is there combat in WheelMates?**\nNo, there is no combat in the game. The core gameplay revolves around driving, solving puzzles, and exploring the environment.\n\n**What platforms is the game available on?**\nWheelMates is currently available on Steam.\n\n## Sources\n* [WheelMates Steam Store Page](https://steamcommunity.com/app/3905450)\n* [WheelMates: Official Gameplay Overview](https://www.youtube.com/watch?v=L6tJeeb9BWg)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4703,
+    "completion_tokens": 706,
+    "total_tokens": 5409,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 4703,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 706,
+        "totalTokenCount": 5409,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4703,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

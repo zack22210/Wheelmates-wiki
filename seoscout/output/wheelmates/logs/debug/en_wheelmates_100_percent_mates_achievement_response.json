@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030258489835040318268d9d6umMijiGo",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404335,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Turbo Dismount 100% Achievement Guide\",\n  description: \"Learn how to unlock every achievement in Turbo Dismount with this comprehensive guide covering vehicle requirements, level strategies, and tips.\",\n  category: \"achievements\",\n  date: \"2026-09-03\",\n}\n\nAchieving 100% completion in *Turbo Dismount* requires a mix of specific stunt execution, level mastery, and long-term grinding. While some achievements are earned through natural progression, others require precise vehicle selection and map configuration. This guide outlines the most efficient methods to unlock every achievement, including tips for the most challenging tasks.\n\n## Getting Started and Basic Achievements\n\nSeveral achievements can be earned quickly from the main menu or during your first few sessions.\n\n*   **Customization:** Navigate to \"Customizations\" from the main menu and select \"Select Vehicle Logo.\" Uploading any image from your computer will grant the achievement.\n*   **Let's See That Again!:** After any dismount, view the replay and drag the speed multiplier in the bottom-left corner all the way to the left to trigger slow motion.\n*   **Speed is Key:** Launch three consecutive dismounts at maximum velocity. Focus on timing your dismount button press just as the power meter begins to fill.\n*   **Just a Flesh Wound:** You will likely earn this naturally, but if you need to force it, perform low-speed dismounts until you lose exactly one limb.\n\n## Level-Specific Challenges\n\nMany achievements require playing specific levels with particular setups to meet the criteria.\n\n*   **Border Incident:** On \"Run DMZ,\" select the \"Sasquatch\" vehicle and set your steering to go right, then left. You must detonate ten mines in a single run.\n*   **To Space!:** In \"Space Program,\" use the \"Squealer\" vehicle. Place turbo pads on the final two obstacle spots and dismount at less than half speed to hit the ramp and reach 1000ft.\n*   **Scaramanga:** Set steering to the left, place a turbo pad in the first obstacle spot, and use the \"Sasquatch\" vehicle. You must land on the side opposite your spawn point after a successful barrel roll.\n*   **Look at Him Go!:** On \"Skid Marks,\" place turbo pads on every obstacle spot and launch the \"Squealer\" vehicle at high speed to beat the record time.\n*   **88mph!:** Also on \"Skid Marks,\" use the \"Komrade\" vehicle with a \"Road Bump\" in the final obstacle spot to hit exactly 88mph at the finish line.\n*   **Ping Pong:** In \"T-Junction,\" use the \"Street Slicer\" and steer into traffic to get hit by five different NPC vehicles.\n*   **The Dude Abides:** On \"The Original Classic,\" place \"Bowling Pins\" in every obstacle spot. Use the \"Sasquatch\" at high speed to knock down ten pins.\n\n## Completing the Collection\n\nFor players aiming for 100% completion, certain achievements require significant repetition or specific workshop levels.\n\n*   **Connoisseur:** You must try every level, vehicle, and character. Items you have not yet used will be marked with an exclamation point.\n*   **Adventurous Mind:** Simply play any Steam Workshop level.\n*   **Turbo Lover:** To drive through 1000 turbo pads, use a workshop level that allows for high-density placement of speed pads.\n*   **Timmy's Nightmare & In It to Win It:** Use a dedicated workshop level to complete 100 dismounts with the \"Pink Lightning\" vehicle, which will simultaneously count toward your \"Nail It\" total.\n*   **On a Mission from God:** This is one of the most time-consuming achievements. You must completely destroy every destructible vehicle in the game and perform a dismount with every non-destructible vehicle (Pink Lightning, Red Hot Engine, Mall Racer, Street Slider, Boss Throne, Jugger, and Whiplash). Ensure vehicles are reduced to their chassis and seats.\n\n## Frequently Asked Questions\n\n**Do I need to complete every dismount for the \"On a Mission from God\" achievement?**\nWhile not explicitly confirmed, it is highly recommended to complete each dismount to ensure the game registers the destruction of the vehicle correctly.\n\n**What is the fastest way to get the \"French Revolution\" achievement?**\nThis requires 1000 decapitations. Using a workshop level with high-speed pads and the \"Squealer\" vehicle to hit trees or obstacles is the most efficient method. You can reset the dismount as soon as the vehicle explodes.\n\n**How can I track my progress for vehicle destruction?**\nThe game does not provide an in-game tracker for total destruction. While some players use advanced methods like editing registry files, it is generally recommended to keep a manual list of vehicles you have successfully demolished.\n\n## Sources\n\n*   [100% Achievement Guide - Turbo Dismount (Steam Community)](https://steamcommunity.com/sharedfiles/filedetails/?id=2831330800)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6816,
+    "completion_tokens": 1114,
+    "total_tokens": 7930,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 6816,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1114,
+        "totalTokenCount": 7930,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6816,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

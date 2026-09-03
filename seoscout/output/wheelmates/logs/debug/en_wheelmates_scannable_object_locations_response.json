@@ -1,0 +1,21 @@
+{
+  "id": "482cbd9c-5518-4499-a893-720473d7bb23",
+  "object": "chat.completion",
+  "created": 1788404342,
+  "model": "gemini-2.5-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Scannable Object Locations Guide\",\n  description: \"Learn about collecting scannable objects in WheelMates. Find out if there are specific locations for these items in Professor Bloom’s house.\",\n  category: \"collectibles\",\n  date: \"2026-09-03\",\n}\n\n## Understanding Collectibles in WheelMates\n\nPlayers jumping into the cooperative world of *WheelMates* often look to complete their collection of in-game items. Currently, the primary focus of the gameplay experience involves navigating Professor Bloom’s house, solving environmental puzzles, and utilizing the Friend’s Pass to explore with a partner.\n\nWhile the game features various interactive elements, riddles, and hidden paths, there is no official confirmation regarding a specific category of \"scannable objects\" as a dedicated collectible system. Players frequently encounter complex puzzles, such as the rebus found in the \"Through the Wasteland\" level, but these are tied to progression rather than a standard collectible scan feature.\n\n## Gameplay and Exploration\n\n*WheelMates* emphasizes a co-op adventure where players control radio-controlled cars to traverse different areas of the Professor's home, including the Backyard and the Shed. Progression is achieved by working together to overcome physics-based obstacles and mechanical challenges.\n\nIf you are exploring the game and looking for hidden secrets, keep an eye out for environmental details that may hint at the story of what happened inside the laboratory. The developers at The Firevolt Team have focused on creating an immersive experience where environmental awareness is key to solving puzzles.\n\n## Are There Scannable Items?\n\nAt this stage in the game's release cycle, there are no official guides or documentation provided by the developers regarding \"scannable objects.\" Most interactions in the game are centered on vehicle movement, solving logic puzzles, and finding alternate routes through levels.\n\nIf you find an object that appears to be interactive, ensure that you are playing the latest version of the game. The developers have released hotfixes to address progression blockers and collision issues, which may affect how you interact with certain parts of the environment. Always check the bottom left corner of your main menu to ensure you and your partner are running identical game versions.\n\n## FAQ\n\n### Does WheelMates have a scannable item collection?\nThere is no currently verified mechanic for \"scannable objects\" within the game. Gameplay is primarily focused on co-op puzzle-solving and navigation.\n\n### How do I find hidden secrets in the game?\nExploration is rewarded by finding hidden paths and solving environmental puzzles. If you are stuck on a specific segment, such as a rebus or a complex room, pay close attention to your surroundings and work with your partner to manipulate the environment.\n\n### Where can I report potential bugs or issues?\nIf you believe you have encountered a bug regarding item interaction or progression, you can report it to the developers by providing a detailed, step-by-step description of the incident, your hardware setup, and your current game version via the official community channels.\n\n## Sources\n\n[WheelMates - Steams gemenskap](https://steamcommunity.com/app/3905450/?l=swedish)\n\n[WheelMates – Club 250](https://club.steam250.com/app/3905450)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4899,
+    "completion_tokens": 708,
+    "total_tokens": 5607
+  }
+}

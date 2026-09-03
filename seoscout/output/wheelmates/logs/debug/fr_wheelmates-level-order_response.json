@@ -1,0 +1,21 @@
+{
+  "id": "5a7e535a-1563-42df-a65a-d30160ff00f3",
+  "object": "chat.completion",
+  "created": 1788405476,
+  "model": "gemini-2.5-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guide de progression et des niveaux de WheelMates\",\n  description: \"Suivez les zones de campagne et les étapes technologiques vérifiées de WheelMates, de la cuisine au jardin en passant par le garage et le Neuro-Vide.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\n## Ordre de la campagne WheelMates\n\nWheelMates propose une campagne à travers la maison et le laboratoire surdimensionnés du professeur Everett Bloom. La séquence des succès Steam confirme six zones à terminer et cinq étapes technologiques majeures. La progression pratique est la suivante :\n\n1. Capacité **Grappin**\n2. **Cuisine**\n3. **Couloir**\n4. **Saisie magnétique** (capacité)\n5. **Garage**\n6. **Roues magnétiques** (capacité)\n7. **Neuro-Vide : Fragments**\n8. **Déphaseur** (capacité)\n9. **Pistolet à peinture** (capacité)\n10. **Abri de jardin**\n11. **Jardin**\n\nSteam présente ces étapes sous forme de succès plutôt que via un écran de sélection de chapitres formel, mais leur progression et leur schéma de déverrouillage global constituent une feuille de route utile pour la campagne. Si votre version actuelle du jeu indique un point de contrôle différemment, fiez-vous à l'étiquette affichée dans le jeu.\n\n## Ce qui change entre les zones\n\nLa campagne alterne entre l'exploration de grands environnements domestiques et l'obtention de nouveaux outils coopératifs. Le Grappin, la Saisie magnétique, les Roues magnétiques, le Déphaseur et le Pistolet à peinture ne sont pas des noms facultatifs inventés pour ce guide ; chacun correspond à un succès Steam officiel lors de l'acquisition de la capacité.\n\nAttendez-vous à ce que les parcours ultérieurs s'appuient sur les compétences acquises précédemment. WheelMates est conçu spécifiquement pour deux joueurs ; la progression dépend donc généralement de la communication et d'actions complémentaires plutôt que de la capacité d'une seule voiture à atteindre la sortie. Explorez les chemins secondaires lorsque les deux voitures sont ensemble et prêtez attention au tutoriel affiché lors du déverrouillage d'un nouveau gadget.\n\n## Si le niveau suivant ne s'ouvre pas\n\nVérifiez d'abord que les deux joueurs ont terminé l'objectif en cours et atteint le point de contrôle ensemble. Les binômes en ligne doivent comparer leurs numéros de version et s'assurer que le jeu complet ainsi que le client « Friend's Pass » sont à jour. Firevolt a publié des correctifs pour résoudre les problèmes de progression, notamment ceux signalés au niveau de l'Abri de jardin et du Jardin.\n\nNe vous basez pas sur une ancienne soluce de démo pour affirmer que la version finale est défectueuse. Les parcours et les noms dans la démo peuvent différer du jeu complet. Redémarrez le point de contrôle actuel avant de rejouer une zone entière, et utilisez le lien officiel de la communauté Steam ou de Discord si un blocage répétable persiste.\n\n## FAQ\n\n### Combien de niveaux nommés sont confirmés dans WheelMates ?\n\nSteam propose des succès de complétion pour la Cuisine, le Couloir, le Garage, le Neuro-Vide : Fragments, l'Abri de jardin et le Jardin.\n\n### Le Neuro-Vide est-il un niveau ?\n\nOui. La liste officielle des succès nomme **Neuro-Vide : Fragments** et récompense le joueur pour sa complétion.\n\n### Les gadgets font-ils partie de la progression ?\n\nOui. Cinq succès liés aux gadgets apparaissent entre les jalons des niveaux et marquent les déblocages de capacités majeures.\n\n## Sources\n\n- [Succès mondiaux de WheelMates sur Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [WheelMates sur Steam](https://store.steampowered.com/app/3905450/WheelMates/)\n- [Site officiel de WheelMates](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 926,
+    "completion_tokens": 916,
+    "total_tokens": 1842
+  }
+}

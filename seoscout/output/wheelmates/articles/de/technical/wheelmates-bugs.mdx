@@ -1,0 +1,54 @@
+export const metadata = {
+  title: "WheelMates: Bekannte Fehler und technische Hilfe",
+  description: "Finde verifizierte Informationen zu WheelMates-Problemen, wie Abstürze, Koop-Fehler, Bugs und Lösungen für ein reibungsloses Spielerlebnis.",
+  category: "technical",
+  date: "2026-09-03",
+}
+
+## Technische Probleme in WheelMates verstehen
+
+WheelMates befindet sich derzeit in einer aktiven Entwicklungsphase, und Spieler haben während des Demo-Playtests einige technische Hürden identifiziert. Während viele dieser Probleme bei Titeln im Early-Access oder Playtest üblich sind, hat das Entwicklerteam bereits begonnen, spezifische Grafik- und Gameplay-Fehler zu beheben. Dieser Leitfaden fasst die am häufigsten gemeldeten technischen Erkenntnisse zusammen, um dir bei der Fehlerbehebung zu helfen.
+
+## Gemeldete Gameplay- und Steuerungsfehler
+
+Berichte aus der Community haben einige wiederkehrende Probleme hervorgehoben, die die Navigation und Eingabe betreffen. Wenn du auf diese stößt, beachte, dass es für einige vorübergehende Lösungen gibt:
+
+*   **Eingabe im Hauptmenü:** Mehrere Spieler haben berichtet, dass Controller im Hauptmenü nicht funktionieren. Die Steuerung funktioniert jedoch normalerweise wie vorgesehen, sobald das Spiel beginnt.
+*   **Kamera-Sperre:** Wenn ein Spieler während der Zwischensequenz beim Ziehen des Doppelhebels stirbt, kann die Kamera unter dem Fahrzeug stecken bleiben. Dies kann durch einen Respawn des Charakters behoben werden.
+*   **Hebelaktivierung:** Einige Spieler haben angemerkt, dass die Interaktion für den letzten Hebel eine extrem präzise Positionierung erfordert, um die "LB"-Aufforderung auszulösen. Wenn du Schwierigkeiten hast, den Hebel zu greifen, passe den Winkel und die Entfernung deines Charakters leicht an.
+*   **Haken-Mechanik:** Eine bekannte Eigenheit erlaubt es einem Spieler, nach der Benutzung der "Zurück"-Funktion eingehakt zu bleiben, wenn die Hakentaste nicht gleichzeitig losgelassen wird. Stelle sicher, dass du die Eingabe loslässt, um ein unbeabsichtigtes Feststecken zu vermeiden.
+*   **Bewegungs-Exploits:** Spieler haben entdeckt, dass das Rückwärtsfahren Geschwindigkeiten von bis zu 70 in Zonen mit einem 50er-Limit ermöglichen kann. Zudem gibt es seltene Berichte von Spielern, die durch bestimmte Lüftungsschlitze clippen, was auf potenzielle Probleme mit Kollisionsgrenzen hindeutet.
+
+## Netzwerk- und Multiplayer-Konnektivität
+
+Das Online-Spielen von WheelMates im Koop-Modus hat einige Einschränkungen hinsichtlich der Lobby-Stabilität und Konnektivität aufgezeigt:
+
+*   **Steam-Einladungsprobleme:** Einige Benutzer haben von Schwierigkeiten berichtet, Einladungen direkt über die Steam-Oberfläche zu versenden. Wenn eine Einladung fehlschlägt, war es für Spieler erfolgreich, ein neues Netplay-Spiel aus der Lobby zu hosten und den zweiten Spieler der neuen Sitzung beitreten zu lassen.
+*   **Einschränkungen bei der Wiederverbindung:** Wenn ein Client-Spieler die Verbindung verliert oder zum Menü zurückkehrt, kann es sein, dass er dem aktiven Spiel des Hosts nicht mehr beitreten kann. In diesem Szenario bleibt der Host oft allein in der Sitzung, was einen Neustart der Netplay-Lobby erforderlich macht.
+
+## Grafik- und Leistungsbehebungen
+
+Frühe Tests identifizierten einen spezifischen Grafikfehler, der die Rauchdarstellung betraf. Benutzer mit AMD-GPUs (insbesondere solche mit Treiber 25.12.1) berichteten, dass Rauch aus Autolüftungen und anderen Quellen massiv schwarz und undurchsichtig erschien.
+
+Das Entwicklerteam hat bestätigt, dass ein Hotfix bereitgestellt wurde, um dieses Problem zu beheben. Wenn bei dir immer noch schwarzer, undurchsichtiger Rauch auftritt, stelle sicher, dass dein Spiel-Client auf die neueste Version aktualisiert ist. Falls das Problem weiterhin besteht, überprüfe, ob deine GPU-Treiber auf dem neuesten Stand sind, da die Entwickler dies speziell für AMD-Hardware adressiert haben.
+
+## Fortschrittsblockierende Probleme
+
+Ein signifikanter Fehler, der im Garagenbereich gemeldet wurde, betrifft die Pumpenaktivierungssequenz. Einige Spieler sind auf einen Zustand gestoßen, in dem alle drei Pumpen aktiviert sind und der Hebel gezogen wurde, der Lüftungsschlitz jedoch geschlossen bleibt und das Spiel weiterhin die Aktivierung der dritten Pumpe fordert.
+
+Leider setzt ein Neustart des Spiels diesen spezifischen Ereignisauslöser nicht immer zurück. Wenn dies bei dir auftritt, versuche, deine Spieldateien über den Steam-Client zu überprüfen oder nach ausstehenden Patches zu suchen, da diese logikbasierten Fortschrittsfehler häufige Ziele für vorrangige Hotfixes sind.
+
+## Häufig gestellte Fragen
+
+**Gibt es eine Lösung für das Problem mit dem schwarzen Rauch auf AMD-Karten?**
+Ja, die Entwickler haben einen Hotfix veröffentlicht, der speziell das Problem der undurchsichtigen Rauchdarstellung auf AMD-Hardware behebt. Stelle sicher, dass dein Spiel auf die neueste Version aktualisiert ist.
+
+**Was soll ich tun, wenn mein Controller in den Menüs nicht funktioniert?**
+Dies ist ein bekannter Fehler, bei dem die Controller-Eingabe im Hauptmenü fehlschlagen kann, im Spiel aber einwandfrei funktioniert. Versuche, deine Maus und Tastatur zur Navigation im Menü zu verwenden, bis du dich in der aktiven Sitzung befindest.
+
+**Wie behebe ich den Kamerafehler während des Hebelziehens?**
+Wenn deine Kamera nach einer Zwischensequenz unter dem Fahrzeug stecken bleibt, setzt ein Respawn die Kamera normalerweise wieder in die richtige Position zurück.
+
+## Quellen
+
+* [Bugs Found in Demo :: WheelMates Dyskusje ogólne](https://steamcommunity.com/app/3905450/discussions/0/780947379776168974/?l=polish)

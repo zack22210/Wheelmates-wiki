@@ -1,5 +1,14 @@
 {
-  "official_domains": [],
+  "official_domains": [
+    "wheelmatesgame.com",
+    "steampowered.com",
+    "steamcommunity.com",
+    "youtube.com",
+    "discord.com",
+    "x.com",
+    "tiktok.com",
+    "instagram.com"
+  ],
   "trusted_domains": [
     "steampowered.com",
     "epicgames.com",

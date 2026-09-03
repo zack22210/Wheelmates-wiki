@@ -10,7 +10,16 @@ import en from '@/locales/en.json';
 export const CONTENT_GROUP_CONFIG: Record<
   ContentType,
   {order: number; titles: Record<Locale, string>}
-> = {};
+> = {
+  guide: {order: 0, titles: {en: 'Guides', de: 'Ratgeber', fr: 'Guides', es: 'Guías'}},
+  multiplayer: {order: 1, titles: {en: 'Multiplayer', de: 'Mehrspieler', fr: 'Multijoueur', es: 'Multijugador'}},
+  collectibles: {order: 2, titles: {en: 'Collectibles', de: 'Sammelobjekte', fr: 'Objets à collectionner', es: 'Coleccionables'}},
+  gadgets: {order: 3, titles: {en: 'Gadgets', de: 'Gadgets', fr: 'Gadgets', es: 'Gadgets'}},
+  achievements: {order: 4, titles: {en: 'Achievements', de: 'Erfolge', fr: 'Succès', es: 'Logros'}},
+  controls: {order: 5, titles: {en: 'Controls', de: 'Steuerung', fr: 'Commandes', es: 'Controles'}},
+  technical: {order: 6, titles: {en: 'Technical Help', de: 'Technik-Hilfe', fr: 'Aide technique', es: 'Ayuda técnica'}},
+  information: {order: 7, titles: {en: 'Game Information', de: 'Spielinfos', fr: 'Infos du jeu', es: 'Información del juego'}}
+};
 
 type ContentTypeMessages = Record<string, {overviewTitle: string; overviewDescription: string}>;
 
@@ -138,10 +147,15 @@ async function walk(directory: string): Promise<string[]> {
 export function extractMetadata(source: string): ContentMetadata {
   const block = source.match(/export\s+const\s+metadata\s*=\s*\{([\s\S]*?)\n\}/)?.[1] ?? '';
   const values = Object.fromEntries(
-    [...block.matchAll(/([A-Za-z][A-Za-z0-9]*)\s*:\s*["']([^"']*)["']/g)].map((match) => [
-      match[1],
-      match[2]
-    ])
+    [...block.matchAll(/([A-Za-z][A-Za-z0-9]*)\s*:\s*(["'])((?:\\.|(?!\2).)*)\2/g)].map(
+      (match) => [
+        match[1],
+        match[3]
+          .replace(new RegExp(`\\\\${match[2]}`, 'g'), match[2])
+          .replace(/\\\\n/g, '\n')
+          .replace(/\\\\\\\\/g, '\\')
+      ]
+    )
   );
 
   return {

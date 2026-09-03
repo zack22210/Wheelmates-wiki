@@ -2,10 +2,14 @@ param(
   [Parameter(Position = 0)]
   [ValidateSet('setup', 'search', 'collect', 'generate', 'translate', 'publish')]
   [string]$Action = 'publish',
-  [string]$SharedPath = $(if ($env:SEOSCOUT_SHARED_PATH) { $env:SEOSCOUT_SHARED_PATH } else { 'D:\Web出海\tools\seoscout' })
+  [string]$SharedPath = $(if ($env:SEOSCOUT_SHARED_PATH) { $env:SEOSCOUT_SHARED_PATH } else { [System.IO.Path]::GetFullPath((Join-Path (Get-Location).Path '..\tools\seoscout')) })
 )
 
 $ErrorActionPreference = 'Stop'
+$env:PYTHONUTF8 = '1'
+$env:PYTHONIOENCODING = 'utf-8'
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+$OutputEncoding = [Console]::OutputEncoding
 $ProjectRoot = Split-Path -Parent $PSScriptRoot
 $SeoDir = Join-Path $ProjectRoot 'seoscout'
 $SeoScoutExe = Join-Path $SharedPath '.venv\Scripts\seoscout.exe'

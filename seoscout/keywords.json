@@ -1,10 +1,85 @@
 {
-  "topic_name": "",
-  "languages": [],
+  "topic_name": "wheelmates",
+  "languages": [
+    "de",
+    "fr",
+    "es"
+  ],
   "categories": [
     {
       "category": "guide",
-      "keywords": []
+      "keywords": [
+        "wheelmates walkthrough",
+        "wheelmates garage walkthrough",
+        "wheelmates level order",
+        "wheelmates demo guide"
+      ]
+    },
+    {
+      "category": "achievements",
+      "keywords": [
+        "wheelmates achievements",
+        "wheelmates 100 percent mates achievement"
+      ]
+    },
+    {
+      "category": "multiplayer",
+      "keywords": [
+        "wheelmates friends pass",
+        "wheelmates co op",
+        "wheelmates local co op",
+        "wheelmates online co op"
+      ]
+    },
+    {
+      "category": "controls",
+      "keywords": [
+        "wheelmates controls"
+      ]
+    },
+    {
+      "category": "collectibles",
+      "keywords": [
+        "wheelmates collectibles guide"
+      ]
+    },
+    {
+      "category": "gadgets",
+      "keywords": [
+        "wheelmates gadgets",
+        "wheelmates grapple",
+        "wheelmates magnetic grabber",
+        "wheelmates magnet wheels",
+        "wheelmates phase shifter",
+        "wheelmates paintgun"
+      ]
+    },
+    {
+      "category": "technical",
+      "keywords": [
+        "wheelmates fatal error",
+        "wheelmates steam deck",
+        "wheelmates settings",
+        "wheelmates pc system requirements",
+        "wheelmates bugs"
+      ]
+    },
+    {
+      "category": "information",
+      "keywords": [
+        "wheelmates price",
+        "wheelmates release date",
+        "wheelmates platforms",
+        "wheelmates ps5",
+        "wheelmates xbox",
+        "wheelmates steam",
+        "wheelmates trailer",
+        "wheelmates gameplay",
+        "wheelmates reviews",
+        "wheelmates game length",
+        "wheelmates story",
+        "wheelmates neuro void"
+      ]
     }
   ]
 }

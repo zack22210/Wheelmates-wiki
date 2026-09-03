@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030326191221380088268d9d6Hxil5eLK",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405985,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Koop-Guide: Friend Pass und Spielmechaniken\",\n  description: \"Erfahren Sie, wie der Koop-Modus von WheelMates funktioniert, inklusive Friend Pass, lokalem Split-Screen, Online-Spiel und Rätseln mit RC-Autos.\",\n  category: \"multiplayer\",\n  date: \"2026-09-03\",\n}\n\nWheelMates ist ein reiner kooperativer 3D-Puzzle-Plattformer, der zwei Spieler erfordert, um voranzukommen. In diesem RC-Auto-Abenteuer steuern die Spieler Spielzeugfahrzeuge durch ein großes, unordentliches Haus eines Wissenschaftlers, lösen Umgebungsrätsel und meistern knifflige Fortbewegungsmechaniken. Da das Spiel speziell für zwei Personen entwickelt wurde, kann es nicht alleine gespielt werden. Um dies zu erleichtern, bieten die Entwickler mehrere Möglichkeiten zur Verbindung an, darunter ein Friend-Pass-System, mit dem zwei Spieler die gesamte Kampagne erleben können, auch wenn nur eine Person das Spiel besitzt.\n\n## So funktioniert der Koop-Modus in WheelMates\n\nWheelMates wurde von Grund auf als Zwei-Spieler-Erfahrung konzipiert. Das Spiel unterstützt sowohl lokales Split-Screen-Spiel als auch Online-Multiplayer. Für Online-Spieler nutzt das Spiel ein „Friend Pass“-Modell, ähnlich wie bei Titeln wie *A Way Out* oder *It Takes Two*. Das bedeutet: Wenn Sie die Vollversion von WheelMates besitzen, können Sie einen Freund einladen, eine kostenlose Testversion des Spiels herunterzuladen. Sobald dieser Ihre Einladung erhält, kann er Ihrer Sitzung beitreten und die gesamte Geschichte ohne zusätzliche Kosten mit Ihnen durchspielen.\n\nDie Handlung folgt zwei Spielern, die entweder in RC-Autos verwandelt wurden oder diese telepathisch über einen speziellen Helm steuern. Ein körperloser Wissenschaftler, der in der elektrischen Verkabelung des Hauses gefangen ist, erzählt die Reise und gibt Ziele vor. Zusammenarbeit ist zwingend erforderlich, da fast jeder Raum „Straßensperren“ enthält, bei denen beide Autos gleichzeitig mit Objekten interagieren müssen, um weiterzukommen.\n\n## Kooperatives Puzzle-Design\n\nDer Kern des Gameplays von WheelMates dreht sich um Umgebungsrätsel, die auf dem Prinzip „Eine Hand wäscht die andere“ basieren. Während einige Rätsel einfach sind, erfordern andere koordinierte Bewegungen und präzises Timing.\n\nHäufige kooperative Aufgaben sind:\n*   **Gleichzeitige Eingaben:** Viele Türen und Tore sind durch zwei Hebel oder Knöpfe gesichert, die beide Spieler exakt zur gleichen Zeit betätigen müssen.\n*   **Plattform-Manipulation:** Ein Spieler muss möglicherweise auf einem Scherenhubtisch oder einer vertikalen Plattform stehen, während der andere Spieler zu einem Bedienfeld fährt, um diese anzuheben oder abzusenken.\n*   **Hindernisse beseitigen:** In Levels wie der Küche oder dem Flur muss ein Spieler möglicherweise einen Knopf drücken, um gefährlichen Dampf abzuschalten oder ein Objekt zu bewegen, damit der zweite Spieler einen neuen Bereich erreichen und sich revanchieren kann.\n*   **Navigationshilfe:** Bestimmte Abschnitte erfordern, dass ein Spieler den anderen von einem höheren Aussichtspunkt aus durch ein Labyrinth führt oder Werkzeuge benutzt, um einen Weg für den Partner zu schaffen.\n\n## Spezielle Werkzeuge und Fähigkeiten\n\nWährend Sie durch das Haus des Wissenschaftlers voranschreiten, schalten beide Spieler eine Reihe von Werkzeugen frei, die ihre Fortbewegungs- und Rätsellösungsfähigkeiten erweitern. Beide RC-Autos erhalten dieselben Upgrades, wodurch sichergestellt wird, dass kein Spieler auf eine bestimmte „Klasse“ oder Rolle beschränkt ist.\n\n### Greifhaken\nDer Greifhaken ist das erste wichtige Werkzeug. Er ermöglicht es den Spielern, sich an Griffen festzuhaken, schwere Hebel zu ziehen oder Schubladen zu öffnen. Er ist auch für die Fortbewegung unerlässlich, da er es den RC-Autos ermöglicht, über große Lücken zu schwingen oder hochgelegene Plattformen zu erreichen, die sonst unzugänglich wären.\n\n### Magnete und Magnetreifen\nDie Magnetfähigkeit funktioniert ähnlich wie Telekinese und ermöglicht es den Autos, Objekte aufzuheben und zu bewegen, wie zum Beispiel Metallkappen oder sogar nicht-magnetische Gegenstände wie Orangen. Dies wird häufig verwendet, um Rohre zu verstopfen oder Puzzleteile an ihren Platz zu schieben. Später schalten die Spieler Magnetreifen frei, mit denen die RC-Autos unabhängig von der Ausrichtung auf Metalloberflächen fahren können. Dies ermöglicht es den Spielern, Wände hoch und über Decken zu fahren, um versteckte Neuronenkerne oder Autoteile zu erreichen.\n\n### Farbpistole\nDie Farbpistole ist ein Werkzeug für das späte Spiel, das hauptsächlich zur Interaktion mit entfernten Zielen verwendet wird. Spieler können auf bestimmte Knöpfe schießen, um Mechanismen auszulösen oder zeitgesteuerte Herausforderungen zu meistern, bei denen mehrere Ziele in schneller Folge getroffen werden müssen.\n\n## Erkundung und Sammelobjekte\n\nWheelMates bietet eine Vielzahl von offenen Level-Zonen, darunter die Küche, die Garage, Lüftungsschächte und ein Swimmingpool. Während das Spiel einem linearen Fortschritt von Raum zu Raum folgt, ist jeder Bereich als Spielplatz für RC-Autos mit Rampen, Loopings und versteckten Ecken gestaltet.\n\nSpieler können nach verschiedenen Arten von Sammelobjekten suchen:\n*   **Neuronenkerne:** Gelbe elektrische Blasen, die in der Umgebung verstreut sind. Diese dienen oft als Maßstab für Komplettionisten.\n*   **Autoteile:** Versteckte Truhen oder Belohnungen für schwierige Rätsel enthalten neue Räder und Lackierungen. Spieler können das Aussehen ihres RC-Autos anpassen, wobei diese Änderungen rein kosmetischer Natur sind.\n*   **Lore-Fragmente:** Das Scannen bestimmter Objekte im Haus liefert zusätzlichen Kontext zur Geschichte des Wissenschaftlers und dazu, wie die Spieler in ihre aktuelle Situation geraten sind.\n\n## Tipps für die Steuerung der RC-Autos\n\nDer einzigartigste Aspekt von WheelMates ist zugleich die größte Herausforderung: die Physik der RC-Autos. Im Gegensatz zu Standard-Plattform-Charakteren haben die Fahrzeuge einen Schwung und einen Wendekreis, die präzise Bewegungen in engen Räumen wie Lüftungsschächten erschweren können.\n\nUm die Steuerung effektiv zu handhaben, sollten Spieler die Barrierefreiheitsfunktion „Zurücksetzen“ (Relocate) nutzen. Wenn Sie von einer hohen Plattform fallen, erscheint oft eine Aufforderung, mit der Sie sich zu Ihrer vorherigen stabilen Position teleportieren können. Dies spart viel Zeit, da sich die Autos „eisig“ anfühlen oder rutschen können, wenn man versucht, schnell zu bremsen.\n\nWenn ein Fahrzeug zwischen Objekten eingeklemmt oder an einem geometrischen Teil hängen bleibt, können Spieler zudem ein manuelles Zurücksetzen auslösen. Dies führt dazu, dass das Auto explodiert und am nächsten Kontrollpunkt wieder erscheint. Die Beherrschung des Gleichgewichts zwischen Hochgeschwindigkeitssprüngen und langsamen, kontrollierten Gasstößen für das Plattform-Gameplay ist der Schlüssel, um die 4- bis 7-stündige Kampagne ohne Frustration zu beenden.\n\n## FAQ\n\n### Hat WheelMates einen Einzelspielermodus?\nNein, WheelMates ist ausschließlich für zwei Spieler konzipiert. Sie müssen einen Partner über lokalen Split-Screen oder Online-Koop haben, um das Spiel zu spielen.\n\n### Wie verwende ich den WheelMates Friend Pass?\nUm den Friend Pass zu nutzen, muss der Besitzer des Spiels eine Einladung über das Online-Menü des Spiels an einen Freund senden. Der Freund muss die kostenlose Version von WheelMates auf seiner jeweiligen Plattform herunterladen, um der Sitzung beizutreten.\n\n### Was passiert, wenn ich von einem Vorsprung falle?\nWheelMates ist relativ nachsichtig. Sie erscheinen normalerweise in der Nähe der Stelle, an der Sie gefallen sind. Es gibt auch eine Teleportationsfunktion, mit der Sie zu einem höheren Vorsprung zurückkehren können, wenn das Spiel einen signifikanten Sturz erkennt.\n\n### Kann ich mein RC-Auto im Koop anpassen?\nJa, Sie können Autoteile wie Räder und Lackfarben finden, die in den Levels versteckt sind. Beide Spieler können ihr Aussehen unabhängig voneinander anpassen, wobei die Teile jedoch zuerst entdeckt werden müssen.\n\n## Quellen\n\n*   Offizielle WheelMates-Website: https://wheelmatesgame.com/\n*   Co-Op Bros Review: https://www.youtube.com/watch?v=IX8uiLgeg4M\n*   WheelMates Gameplay Review: https://www.youtube.com/watch?v=PDU4TpeR2vk"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1750,
+    "completion_tokens": 1973,
+    "total_tokens": 3723,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1750,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1973,
+        "totalTokenCount": 3723,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1750,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

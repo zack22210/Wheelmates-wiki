@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030316365384031588268d9d6yZaCH6Du",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405422,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Enterhaken-Guide: Mechaniken und Co-Op-Tipps\",\n  description: \"Nutze den Enterhaken in WheelMates, um das Haus des Wissenschaftlers zu erkunden, Rätsel zu lösen und Co-Op-Bewegungen mit deinem RC-Auto zu meistern.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\nIn WheelMates ist der Enterhaken ein zentrales experimentelles Gadget, das es den Spielern ermöglicht, die vertikalen und komplexen Umgebungen im Haus eines exzentrischen Wissenschaftlers zu navigieren. Als eines von mehreren Power-Ups für die RC-Autos erlaubt der Greifer den Spielern, sich an entfernten Punkten festzuhaken, über Abgründe zu schwingen und Bereiche zu erreichen, die durch normales Fahren oder Springen nicht zugänglich sind. Die Beherrschung dieses Werkzeugs ist entscheidend, um die mechanischen Rätsel des Spiels zu lösen und im Metroidvania-inspirierten Layout des Herrenhauses voranzukommen.\n\n## Wie der Enterhaken funktioniert\n\nDer Enterhaken fungiert als spezieller Aufsatz für dein RC-Auto, der dazu dient, die Lücke zwischen Plattformen zu schließen. Laut dem Entwickler FireVolt ermöglicht das Tool den Spielern, „sich an weit entfernten Punkten festzuhaken“ und bietet so eine Verbindung, die sowohl für die Fortbewegung als auch für das Lösen von Rätseln genutzt werden kann.\n\nWährend der Fahrt durch das Haus stoßen die Spieler auf spezifische Ankerpunkte oder Griffe in der Umgebung. Durch Zielen und Einsetzen des Greifers sichert sich das Auto an diesen Punkten. Diese Mechanik wird oft in Verbindung mit der Physik-Engine des Spiels genutzt, sodass Autos an Objekten hängen oder sich zu einem Ziel ziehen können. In einigen Fällen müssen Spieler an einem Hebel oder Griff hängen, um einen Mechanismus auszulösen, während ihr Partner eine separate Aktion ausführt.\n\n## Co-Op-Synchronisation und Fortbewegung\n\nWheelMates ist vollständig um das Konzept aufgebaut, dass zwei Spieler als „zwei Teile eines Puzzles“ agieren. Der Enterhaken wird selten isoliert eingesetzt; stattdessen erfordert er oft, dass ein Spieler eine Basis bildet oder für Ablenkung sorgt, während der andere seinen Greifer nutzt, um eine neue Höhe zu erreichen.\n\nBeispielsweise können Situationen auftreten, in denen ein RC-Auto auf einer Liftplattform oder einem beweglichen Wagen stehen muss, um dem zweiten Auto genügend Höhe zu geben, damit es einen Greifpunkt erreicht. Sobald sich das zweite Auto an einem höheren Griff festgehakt hat, kann es möglicherweise eine Leiter herunterlassen, einen Lüftungsschacht öffnen oder einen Knopf drücken, um den Partner auf die gleiche Ebene zu bringen. Diese „Verflechtung zweier Köpfe zu einem“ ist der primäre Weg, wie Spieler die Sicherheitssysteme des Hauses überwinden.\n\n## Metroidvania-Fortschritt und Backtracking\n\nDas Herrenhaus in WheelMates ist mit einer Metroidvania-Struktur gestaltet, was bedeutet, dass viele Wege anfangs durch Hindernisse blockiert sind, die spezielle Gadgets erfordern. Der Enterhaken ist eines der Schlüsselwerkzeuge, die diesen Fortschritt erleichtern.\n\nBeim Erkunden von Räumen wie dem Flur oder dem Geheimlabor werden den Spielern entfernte Plattformen oder hochgelegene Sammlerstücke wie Neuro-Orbs und SD-Karten auffallen, die außer Reichweite liegen. Sobald der Enterhaken freigeschaltet oder gemeistert wurde, werden die Spieler ermutigt, zuvor besuchte Räume erneut zu durchsuchen (Backtracking). Die Fähigkeit, sich an weit entfernten Punkten festzuhaken, enthüllt verborgene Pfade und ehemals unlösbare Rätsel, wodurch sich nach und nach das volle Ausmaß des Hauses des Wissenschaftlers erschließt.\n\n## Kombination des Enterhakens mit anderen Gadgets\n\nDer Enterhaken ist Teil einer Reihe experimenteller Ausrüstungsgegenstände, die die Spieler verwalten müssen. Um das Haus vollständig zu navigieren, müssen die Spieler den Greifer oft mit anderen Bewegungsfähigkeiten kombinieren:\n\n*   **Sprung-Booster:** Werden verwendet, um anfängliche Höhe zu gewinnen, bevor der Greifer in der Luft eingesetzt wird, um noch höhere Anker zu erreichen.\n*   **Magneträder:** Ermöglichen es den Autos, an Metalloberflächen zu haften. Ein Spieler könnte sich an einen Metallbalken haken und dann zu Magneträdern wechseln, um an der Unterseite einer Struktur entlangzufahren.\n*   **Magnete:** Werden verwendet, um weit entfernte Metallobjekte zu manipulieren, was manchmal neue Greifpunkte schafft oder den Weg für ein schwingendes Auto frei macht.\n\n## Enterhaken FAQ\n\n### Wie bekomme ich den Enterhaken in WheelMates?\nDer Enterhaken ist Teil der experimentellen Ausrüstung, die den RC-Autos im Laufe der Geschichte zur Verfügung gestellt wird. Er wird als notwendiges Werkzeug eingeführt, um mechanische Rätsel in den verschiedenen Räumen des Hauses, wie dem Flur und dem Labor, zu lösen.\n\n### Können beide Spieler den Enterhaken benutzen?\nJa, WheelMates ist ein kooperatives Erlebnis, bei dem beide Spieler RC-Autos steuern, die mit denselben experimentellen Gadgets ausgestattet sind. Die Koordination zwischen den Enterhaken beider Spieler ist oft erforderlich, um große Objekte zu bewegen oder synchronisierte Knöpfe zu erreichen.\n\n### Auf welchen Plattformen ist WheelMates verfügbar?\nWheelMates soll im Jahr 2026 erscheinen. Entwickler FireVolt hat bestätigt, dass das Spiel auf Steam für PC, PlayStation 5 und Xbox Series X|S verfügbar sein wird.\n\n## Quellen\n\n*   [Offizielle WheelMates-Website](https://wheelmatesgame.com/)\n*   [WheelMates - Offizieller Release-Trailer](https://www.youtube.com/watch?v=OagIhMNeRDo)\n*   [WheelMates, Co-Op-Abenteuer mit RC-Autos, enthüllt](https://www.xpnnetwork.com/post/wheelmates-co-op-adventure-with-rc-cars-revealed-coming-to-pc-and-console)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 3292,
+    "total_tokens": 4610,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1318,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1393,
+        "totalTokenCount": 4610,
+        "thoughtsTokenCount": 1899,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1318
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1393
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1318,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1393,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1899
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

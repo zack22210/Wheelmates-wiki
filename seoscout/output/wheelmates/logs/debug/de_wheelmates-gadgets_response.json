@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030316371633472948268d9d6F8Yc3M7b",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405401,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates-Gadgets: Alle fünf verifizierten Fähigkeiten\",\n  description: \"Lerne die fünf verifizierten WheelMates-Gadget-Fähigkeiten kennen: Grapple, Magnetic Grabber, Magnet Wheels, Phase Shifter und Paintgun, und verfolge jeden Freischaltvorgang.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\n## Alle verifizierten WheelMates-Gadgets\n\nWheelMates bietet auf Steam fünf benannte Fähigkeits-Erfolge: **Grapple**, **Magnetic Grabber**, **Magnet Wheels**, **Phase Shifter** und **Paintgun**. Jeder Erfolg wird freigeschaltet, sobald die entsprechende Fähigkeit erworben wurde, was bestätigt, dass Gadgets Meilensteine im Kampagnenverlauf und keine feste Startausrüstung sind.\n\n| Fähigkeit | Verifizierte Rolle im Fortschritt |\n|---|---|\n| Grapple | Frühe Fähigkeit mit eigenem Steam-Erfolg |\n| Magnetic Grabber | Auto-Upgrade für kooperative Interaktionen mit der Umgebung |\n| Magnet Wheels | Fortbewegungs-Upgrade für magnetische Routen |\n| Phase Shifter | Spätere Kampagnenfähigkeit mit eigenem Erfolg |\n| Paintgun | Späteres Auto-Upgrade zur Erweiterung von Rätselinteraktionen |\n\nOffiziellen Beschreibungen zufolge eröffnen neue Fähigkeiten zusätzliche Wege, um bekannte Räume und versteckte Bereiche zu erkunden. Genaue Ziele und Tasteneingaben lernt man am besten im aktuellen In-Game-Tutorial, da der öffentliche Store-Text nicht jede Interaktion dokumentiert.\n\n## So lernst du eine neue Fähigkeit\n\nWenn ein Gadget eingeführt wird, halte inne, bevor du den Tutorial-Bereich verlässt. Beide Spieler sollten die Eingabeaufforderung, Reichweite, gültige Ziele und das Zurücksetzungsverhalten testen. Viele WheelMates-Rätsel hängen davon ab, dass ein Auto eine Gelegenheit für das andere schafft; daher ist es nützlicher zu bestätigen, was jeder Spieler sieht, als ein Gadget als Solo-Abkürzung zu betrachten.\n\nGehe nicht davon aus, dass jedes metallische, farbige oder weit entfernte Objekt interaktiv ist. WheelMates verwendet visuelle Hinweise, um Rätselelemente zu unterscheiden. Wenn ein erwartetes Ziel nicht reagiert, überprüfe den Winkel und die Entfernung, vergewissere dich, dass beide Clients aktualisiert sind, und lade den Kontrollpunkt neu, bevor du einen Fehler meldest.\n\n## Checkliste für Gadgets\n\nSteam listet einen separaten Erfolg für den Erhalt jeder benannten Fähigkeit auf. Ein vollständiger Gadget-Durchlauf sollte daher alle fünf Einträge als freigeschaltet anzeigen. Diese Erfolge sind getrennt von den Sammelzielen für Neuro-Cores, Neuro-Memory Cards, Custom-Teile und scannbare Objekte.\n\nDas Zurückkehren zu früheren Orten kann nach einem späteren Upgrade optionale Routen enthüllen, aber die verfügbaren offiziellen Quellen veröffentlichen keine universelle Karte für das Backtracking von Raum zu Raum. Nutze die aktuelle Kontrollpunktstruktur des Spiels und die sichtbaren Fähigkeitshinweise.\n\n## FAQ\n\n### Wie viele WheelMates-Gadgets sind bestätigt?\n\nFünf benannte Fähigkeiten haben Erwerbs-Erfolge auf Steam.\n\n### Startet man mit allen Fähigkeiten?\n\nNein. Die Steam-Beschreibungen besagen, dass man jede Fähigkeit erst erwerben muss, und die Abfolge der Erfolge platziert sie über den gesamten Kampagnenverlauf hinweg.\n\n### Sind Gadgets Sammelobjekte?\n\nSie werden als Fähigkeits-Freischaltungen erfasst. Steam listet die vier Sammelobjekt-Sets separat auf.\n\n## Quellen\n\n- [WheelMates globale Erfolge auf Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [Offizielle WheelMates-Website](https://wheelmatesgame.com/)\n- [WheelMates Gameplay Overview Trailer](https://www.youtube.com/watch?v=wR6raQZibbs)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 917,
+    "completion_tokens": 918,
+    "total_tokens": 1835,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 917,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 918,
+        "totalTokenCount": 1835,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 917,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

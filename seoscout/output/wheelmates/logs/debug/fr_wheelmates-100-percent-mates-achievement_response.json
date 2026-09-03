@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030315520576571078268d9d6M4zgeP97",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405372,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Liste des succès WheelMates : 100 % Mates\",\n  description: \"Suivez notre guide WheelMates 100 % Mates pour valider les niveaux, les gadgets, les collectibles, les Neuro-nodes et les mini-jeux de la campagne.\",\n  category: \"achievements\",\n  date: \"2026-09-03\",\n}\n\n## Comment débloquer 100 % Mates\n\nLa description officielle sur Steam pour **100 % Mates** est : terminez WheelMates à 100 % et trouvez tous les objets de collection. Il s'agit d'un succès de complétion global, et non d'une récompense pour avoir simplement terminé la dernière zone de la campagne. Steam répertorie des succès distincts pour les niveaux, les capacités, quatre ensembles de collectibles, les Neuro-nodes, les mini-jeux et les actions facultatives, qui constituent ensemble la liste de vérification la plus fiable.\n\n## Liste de la campagne\n\nComplétez chaque succès de niveau nommé :\n\n- Cuisine\n- Couloir\n- Garage\n- Neuro-Void : Fragments\n- Remise\n- Jardin\n\nObtenez chaque succès de gadget nommé :\n\n- Grappin\n- Pince magnétique\n- Roues magnétiques\n- Décaleur de phase\n- Pistolet à peinture\n\nCes étapes clés prouvent que les deux joueurs ont progressé dans la campagne et acquis les principaux outils de coopération. Si un succès de progression ne se débloque pas, vérifiez que Steam est en ligne, rechargez le dernier point de passage et assurez-vous que le client du jeu complet et le client Friend's Pass utilisent la même version.\n\n## Liste des collectibles et activités\n\nSteam identifie les objectifs de complétion suivants :\n\n- **Chargez à pleine capacité !** — collectez tous les Neuro-cœurs.\n- **Porté par l'histoire** — collectez toutes les cartes mémoire Neuro.\n- **Réglage ultra-précis** — collectez toutes les pièces personnalisées.\n- **Chercher et scanner** — trouvez tous les objets scannables.\n- **Qu'est-ce qu'Everett a à dire à ce sujet ?** — écoutez tous les Neuro-nodes.\n- **Amoureux des mini-jeux** — jouez à tous les mini-jeux.\n\nSuivez chaque catégorie séparément. Une carte mémoire Neuro et un objet scannable ne sont pas interchangeables, et terminer un ensemble ne valide pas les autres. La page publique des succès Steam confirme ces catégories mais ne fournit pas de liste de localisation précise par pièce ; cette liste évite donc volontairement les coordonnées d'objets non vérifiées.\n\n## N'oubliez pas les succès optionnels\n\nAvant d'espérer obtenir 100 % Mates, passez en revue les entrées restantes sur Steam. **Chercher et détruire** nécessite de briser 50 objets. Steam affiche également **Brancher sur une prise** sans description publique et **Là où ils doivent être** avec l'indice « Mais où est l'eau ? ». Comme ces deux entrées sont intentionnellement cryptiques, fiez-vous à l'environnement du jeu et aux notifications de succès plutôt que de considérer une solution non vérifiée comme un fait.\n\nLes pourcentages de complétion sur Steam sont des statistiques en direct et ne modifient pas les exigences. Les descriptions permanentes des succès sont la source de référence.\n\n## FAQ\n\n### Est-ce que terminer l'histoire débloque 100 % Mates ?\n\nPas à lui seul. La description officielle exige également tous les objets de collection.\n\n### Quels groupes de collectibles sont confirmés ?\n\nLes Neuro-cœurs, les cartes mémoire Neuro, les pièces personnalisées et les objets scannables possèdent chacun leur propre succès Steam.\n\n### Les Neuro-nodes et les mini-jeux sont-ils importants ?\n\nIls possèdent des succès distincts pour l'ensemble des objets ou des activités et doivent être inclus dans un parcours de complétion totale.\n\n## Sources\n\n- [WheelMates global achievements on Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [WheelMates on Steam](https://store.steampowered.com/app/3905450/WheelMates/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1014,
+    "completion_tokens": 3411,
+    "total_tokens": 4425,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1014,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 944,
+        "totalTokenCount": 4425,
+        "thoughtsTokenCount": 2467,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1014
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 944
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1014,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 944,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 2467
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

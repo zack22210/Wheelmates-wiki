@@ -1,42 +1,78 @@
 {
+  "site": {
+    "gameName": "WheelMates",
+    "name": "WheelMates Wiki",
+    "shortName": "WheelMates Wiki",
+    "tagline": "Two cars. One mystery.",
+    "description": "An independent, source-checked WheelMates guide covering co-op play, Friend’s Pass, system requirements, updates, and player questions."
+  },
+  "seo": {
+    "homeTitle": "WheelMates Wiki: Co-op Guide, Friend’s Pass & Updates",
+    "homeDescription": "Explore WheelMates guides, co-op details, Friend’s Pass information, system requirements, release updates, and source-checked help for both players.",
+    "keywords": "WheelMates wiki, WheelMates guide, Friend’s Pass, co-op, system requirements"
+  },
   "sections": {
     "hero": {
       "enabled": true,
-      "label": "",
-      "title": "",
-      "description": "",
-      "actions": []
+      "label": "Independent player guide",
+      "title": "WheelMates: Small wheels. Big teamwork.",
+      "description": "WheelMates sends two tiny RC cars through Professor Bloom’s oversized home laboratory. Start with the official game, then return for source-checked co-op guides.",
+      "image": "/images/wheelmates/hero.webp",
+      "actions": [
+        {"label": "Play on Steam", "url": "https://store.steampowered.com/app/3905450/WheelMates/"},
+        {"label": "Watch gameplay", "url": "https://www.youtube.com/watch?v=wR6raQZibbs"}
+      ]
     },
     "status": {
-      "enabled": false,
-      "items": []
+      "enabled": true,
+      "items": [
+        {"label": "Released", "value": "Sep 1, 2026"},
+        {"label": "Platform", "value": "Windows PC"},
+        {"label": "Players", "value": "2-player co-op"},
+        {"label": "Friend’s Pass", "value": "Friend joins free"}
+      ]
     },
     "facts": {
-      "enabled": false,
-      "label": "",
-      "items": []
+      "enabled": true,
+      "label": "At a glance",
+      "items": [
+        {"label": "Developer & publisher", "value": "Firevolt"},
+        {"label": "Co-op modes", "value": "Online + split-screen"},
+        {"label": "Steam achievements", "value": "21"},
+        {"label": "Storage required", "value": "15 GB"}
+      ]
     },
     "story": {
-      "enabled": false,
-      "label": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "articleTarget": null
+      "enabled": true,
+      "label": "Inside the house",
+      "title": "Drive, improvise, investigate",
+      "description": "A missing professor leaves behind a maze-like home laboratory. Communication and timing carry both cars through oversized obstacles, while rope swings, magnetic wheels, magnet grabs, and other upgrades open new routes.",
+      "image": "/images/wheelmates/story.jpg",
+      "action": {"label": "Watch the gameplay overview", "url": "https://www.youtube.com/watch?v=wR6raQZibbs"}
     },
     "release": {
-      "enabled": false,
-      "label": "",
-      "title": "",
-      "description": "",
-      "articleTargets": []
+      "enabled": true,
+      "label": "Out now · September 1, 2026",
+      "title": "Bring player two",
+      "description": "WheelMates is available on Steam for Windows PC. Online and shared or split-screen co-op are supported, and Friend’s Pass lets a friend join without buying a second copy.",
+      "actions": [
+        {"label": "Open the Steam page", "url": "https://store.steampowered.com/app/3905450/WheelMates/"},
+        {"label": "Watch the launch trailer", "url": "https://www.youtube.com/watch?v=C_-nWZj-hK0"}
+      ]
     },
     "index": {
       "enabled": true,
-      "label": "Content library",
-      "title": "",
-      "description": ""
+      "label": "Source-checked library",
+      "title": "Guides are being mapped",
+      "description": "The site foundation is ready. Focused guides will appear here after the keyword list is reviewed against official, accessible sources."
     }
   },
-  "references": []
+  "references": [
+    "https://wheelmatesgame.com/",
+    "https://store.steampowered.com/app/3905450/WheelMates/",
+    "https://www.youtube.com/@WheelMatesGame",
+    "https://www.youtube.com/watch?v=wR6raQZibbs",
+    "https://www.youtube.com/watch?v=C_-nWZj-hK0"
+  ],
+  "lastVerified": "2026-09-03"
 }

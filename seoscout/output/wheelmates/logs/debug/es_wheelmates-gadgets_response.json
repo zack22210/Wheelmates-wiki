@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030316364952779828268d9d63MwWXXLg",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405401,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Gadgets de WheelMates: Las cinco habilidades verificadas\",\n  description: \"Conoce las cinco habilidades de gadgets verificadas en WheelMates (Grapple, Magnetic Grabber, Magnet Wheels, Phase Shifter y Paintgun) y sigue su desbloqueo.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\n## Todos los gadgets verificados de WheelMates\n\nWheelMates cuenta con cinco logros de habilidades en Steam: **Grapple** (Gancho), **Magnetic Grabber** (Agarre magnético), **Magnet Wheels** (Ruedas magnéticas), **Phase Shifter** (Desfasador) y **Paintgun** (Pistola de pintura). Cada logro se desbloquea al obtener la habilidad correspondiente, lo que confirma que los gadgets son hitos de progresión en la campaña y no un equipamiento inicial fijo.\n\n| Habilidad | Rol verificado en la progresión |\n|---|---|\n| Grapple | Habilidad temprana con su propio logro en Steam |\n| Magnetic Grabber | Mejora del coche para la interacción cooperativa con el entorno |\n| Magnet Wheels | Mejora de desplazamiento asociada a rutas magnéticas |\n| Phase Shifter | Habilidad avanzada de la campaña con un logro dedicado |\n| Paintgun | Mejora avanzada del coche para ampliar las interacciones en puzles |\n\nLas descripciones oficiales indican que las nuevas habilidades abren formas adicionales de explorar salas conocidas y áreas ocultas. Los objetivos exactos y las indicaciones de los botones se aprenden mejor a través del tutorial del juego, ya que el texto de la tienda pública no documenta cada interacción.\n\n## Cómo aprender una nueva habilidad\n\nCuando se introduzca un gadget, detente antes de salir del área del tutorial. Ambos jugadores deben probar la indicación, el alcance, los objetivos válidos y el comportamiento de reinicio. Muchos puzles de WheelMates dependen de que un coche cree una oportunidad para el otro, por lo que confirmar lo que ve cada jugador es más útil que tratar un gadget como un atajo individual.\n\nNo asumas que todos los objetos metálicos, de colores o distantes son interactivos. WheelMates utiliza señales visuales para distinguir los elementos de los puzles. Si un objetivo esperado no reacciona, verifica el ángulo y la distancia, confirma que ambos clientes estén actualizados y recarga el punto de control antes de informar de un error.\n\n## Lista de verificación de gadgets\n\nSteam incluye un logro independiente por obtener cada habilidad con nombre. Por lo tanto, una partida completa de gadgets debería mostrar las cinco entradas desbloqueadas. Estos logros son independientes de los objetivos de colección de Neuro-Cores, tarjetas de memoria neuronal, piezas personalizadas y objetos escaneables.\n\nVolver atrás puede revelar rutas opcionales tras obtener una mejora posterior, pero las fuentes oficiales disponibles no publican un mapa universal de retroceso sala por sala. Utiliza la estructura de puntos de control actual del juego y las indicaciones de habilidades visibles.\n\n## Preguntas frecuentes\n\n### ¿Cuántos gadgets de WheelMates están confirmados?\n\nHay cinco habilidades con nombre que cuentan con logros de obtención en Steam.\n\n### ¿Empiezas con todas las habilidades?\n\nNo. Sus descripciones en Steam indican que cada habilidad debe obtenerse, y la secuencia de logros las sitúa a lo largo de la progresión de la campaña.\n\n### ¿Los gadgets son objetos coleccionables?\n\nSe registran como desbloqueos de habilidades. Steam enumera los cuatro conjuntos de coleccionables por separado.\n\n## Fuentes\n\n- [Logros globales de WheelMates en Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [Sitio oficial de WheelMates](https://wheelmatesgame.com/)\n- [Tráiler de resumen de juego de WheelMates](https://www.youtube.com/watch?v=wR6raQZibbs)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 917,
+    "completion_tokens": 852,
+    "total_tokens": 1769,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 917,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 852,
+        "totalTokenCount": 1769,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 917,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

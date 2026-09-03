@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030259284348889238268d9d6mAgWxGZS",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404375,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Settings and Technical Setup Guide\",\n  description: \"Learn how to configure your WheelMates experience, including sensitivity adjustments, online hosting, and using the Friends Pass for co-op play.\",\n  category: \"technical\",\n  date: \"2026-09-03\",\n}\n\n## Configuring Your Game Experience\n\nWheelMates is a 3D puzzle platformer that tasks players with controlling remote-control (RC) cars in a large, cluttered home environment. Because the game relies on precise movement and platforming mechanics, finding the right settings is essential for a comfortable experience.\n\nIf you find the movement of the RC cars difficult to manage, the primary setting to adjust is your control sensitivity. While players have reported that the RC car mechanics can feel \"slippery\" or overly sensitive—often described as driving on ice—adjusting the sensitivity in the options menu is the first step toward gaining better control. If you struggle with the speed of the vehicles, try to maintain a light touch on your controller triggers, as this can help prevent the loss of control that often occurs during high-speed maneuvers in tight spaces like air vents.\n\n## Setting Up Online Co-op with Friends Pass\n\nWheelMates is designed specifically for cooperative play and cannot be played as a solo experience. To play online with a friend, the game utilizes a \"Friends Pass\" system, which allows one person to own the full game while the other plays for free.\n\nFollow these steps to host and join an online session:\n\n1. **Download the Friends Pass:** The player who does not own the game must download the \"Friends Pass\" version, which is typically available on the game’s main store page.\n2. **Host the Game:** The player who owns the full version must launch the game, select \"Play,\" and then choose \"Play Online\" to host a room.\n3. **Generate a Room Code:** Once the lobby is hosted, a unique join code will appear in the bottom right corner of the screen.\n4. **Join the Session:** The player using the Friends Pass should open their copy of the game, select \"Play,\" and choose the \"Friends Pass\" option. Enter the room code exactly as it appears—note that the code is case-sensitive—and click \"Join.\"\n\n## Troubleshooting and Gameplay Tips\n\nIf you encounter issues during gameplay, such as getting stuck on geometry or struggling with platforming, there are a few built-in mechanics to assist you.\n\n*   **Resetting Your Vehicle:** If your car becomes wedged in the environment, you can choose to reset it. This will cause the car to explode and respawn, which is often the quickest way to recover from being stuck.\n*   **Teleportation:** In many areas, if you fall from a high ledge, the game provides an option to teleport back up to the platform. However, be aware that this feature may not trigger for short falls.\n*   **Cooperation Requirements:** Many puzzles require both players to act in tandem, such as pressing buttons simultaneously or using the magnet and grappling hook abilities to clear paths for one another. If you are stuck, communicate with your partner to ensure you are both positioned correctly to trigger the necessary environmental interactions.\n\n## Frequently Asked Questions\n\n**Can I play WheelMates by myself?**\nNo, WheelMates is a strictly cooperative game that requires two players. You can play via local split-screen or online using the Friends Pass.\n\n**Is the Friends Pass code case-sensitive?**\nYes, when entering the room code provided by the host, you must ensure that you input the characters exactly as shown, as the code is case-sensitive.\n\n**What should I do if the controls feel too difficult?**\nTry adjusting your sensitivity settings in the game menu. Additionally, many players find that feathering the throttle (pulling the trigger only partially) helps maintain better control over the RC cars, especially in cramped areas.\n\n## Sources\n\n[Wheelmates Friends Pass Explained: How to Play With a Friend for Free](https://www.youtube.com/watch?v=dqnlGPrB1po)\n\n[Wheelmates Review: A Fantastic Co-Op Game With One MAJOR Flaw](https://www.youtube.com/watch?v=PDU4TpeR2vk)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6163,
+    "completion_tokens": 912,
+    "total_tokens": 7075,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 6163,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 912,
+        "totalTokenCount": 7075,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6163,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

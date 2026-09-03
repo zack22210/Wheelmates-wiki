@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030322514532585028268d9d6ujU7dzAn",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405791,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guía de WheelMates: Cooperativo y Mecánicas\",\n  description: \"Aprende sobre WheelMates: mecánicas cooperativas, el sistema Friend's Pass y cómo explorar la casa del Profesor Bloom con coches a control remoto.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\nWheelMates es un juego de aventura cooperativo para 2 jugadores que desafía a los participantes a recorrer una casa desordenada controlando coches a control remoto. Los jugadores asumen el papel de dos vehículos, explorando áreas que van desde la cocina y los conductos de ventilación hasta el patio y el cobertizo, mientras resuelven acertijos ambientales y descubren el misterio del laboratorio del Profesor Bloom.\n\nEl juego está diseñado exclusivamente para el juego cooperativo y requiere dos participantes para progresar. Ya sea jugando de forma local mediante pantalla dividida o en línea, la jugabilidad se centra en la comunicación y el movimiento sincronizado para superar los obstáculos.\n\n## Mecánicas principales de juego\n\nLa jugabilidad gira en torno a las plataformas 3D y la resolución de acertijos. Los jugadores controlan coches RC que poseen un conjunto específico de herramientas y habilidades, las cuales se desbloquean a medida que avanzan por los niveles. Estas habilidades son esenciales para interactuar con el entorno y abrir camino al compañero.\n\nLas habilidades clave incluyen:\n*   **Gancho de agarre:** Se utiliza para tirar de palancas, abrir cajones y balancearse sobre huecos.\n*   **Imán:** Permite a los jugadores manipular objetos no magnéticos o interactuar con elementos específicos para resolver acertijos.\n*   **Neumático magnético:** Permite que el coche recorra caminos metálicos en paredes o techos.\n*   **Pistola de pintura:** Se usa para golpear objetivos lejanos o activar interruptores.\n\nEl éxito a menudo depende de que los jugadores trabajen en conjunto. Por ejemplo, un jugador puede necesitar mantener presionado un botón mientras el otro atraviesa una plataforma, o ambos pueden necesitar coordinar sus movimientos para operar un elevador de tijera.\n\n## El sistema Friend’s Pass\n\nUna característica distintiva de la experiencia WheelMates es el \"Friend’s Pass\". Este sistema permite que dos personas jueguen en línea incluso si solo una de ellas ha comprado la versión completa.\n\nPara usar el Friend's Pass, sigue estos pasos:\n1.  El propietario del juego inicia WheelMates.\n2.  El segundo jugador descarga e inicia la versión gratuita \"Friend’s Pass\" del juego.\n3.  El propietario genera un código de invitación dentro del menú del Lobby seleccionando **JUGAR → JUGAR EN LÍNEA → ANFITRIÓN**.\n4.  El segundo jugador introduce este código en la opción de menú **FRIEND'S PASS** para unirse a la sesión.\n\n## Exploración y coleccionables\n\nEl mundo de WheelMates está lleno de diversos objetos por descubrir. A lo largo de los niveles, los jugadores pueden encontrar burbujas eléctricas amarillas y coleccionables coloridos poco comunes ocultos en áreas de difícil acceso. Además, los jugadores pueden escanear varios objetos del entorno para aprender más sobre la historia.\n\nAunque el juego ofrece un enfoque abierto para los objetivos dentro de cada nivel, las mecánicas de conducción son el eje central de la experiencia. Los jugadores deben estar preparados para el manejo único de un coche RC, que requiere precisión al navegar por espacios estrechos como conductos de aire o al realizar saltos sobre huecos. Si un jugador se queda atascado o cae desde una cornisa, el juego ofrece una función de reinicio para devolver el vehículo a una posición segura.\n\n## Consejos para el éxito\n\n*   **La comunicación es clave:** Dado que muchos acertijos requieren presionar botones simultáneamente o realizar movimientos coordinados, mantener el contacto con tu compañero es vital.\n*   **Controla tu velocidad:** En entornos estrechos, como los conductos de aire, evita ir a la velocidad máxima para mantener un mejor control sobre tu vehículo.\n*   **Usa la función de reinicio:** Si tu coche se queda atascado o cae en un área donde no puedes avanzar, usa la función de reinicio para reaparecer en un punto de control cercano.\n*   **Busca actualizaciones:** El equipo de desarrollo lanza frecuentemente correcciones para solucionar problemas de colisión y mejorar el comportamiento del vehículo en pendientes pronunciadas. Asegúrate de que ambos jugadores tengan la misma versión del juego, la cual se muestra en la esquina inferior izquierda del menú principal.\n\n## Preguntas frecuentes\n\n**¿Es necesario que ambos jugadores compren el juego para jugar en línea?**\nNo. Gracias al Friend’s Pass, solo un jugador necesita tener el juego para que ambos puedan jugar juntos en línea.\n\n**¿Puedo jugar WheelMates solo?**\nNo, WheelMates está diseñado estrictamente como un juego cooperativo para 2 jugadores y requiere un compañero para jugar.\n\n**¿Qué debo hacer si me quedo atascado en un nivel?**\nSi encuentras un error de progresión, asegúrate de que tu juego esté actualizado a la última versión. Si estás físicamente atascado en el entorno, usa la función de reinicio del juego para reaparecer.\n\n## Fuentes\n\n* [WheelMates Steam Community Hub](https://steamcommunity.com/app/3905450)\n* [WheelMates Official Game Site](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 2744,
+    "total_tokens": 4005,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1261,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1182,
+        "totalTokenCount": 4005,
+        "thoughtsTokenCount": 1562,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1261
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1182
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1261,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1182,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1562
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

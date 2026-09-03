@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030259286632692368268d9d6HOBR1cjq",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404392,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Official Trailers and Video Overviews\",\n  description: \"Explore the official WheelMates trailers, including the Announcement and Demo Launch videos. Learn about the neuro helmets and the game's unique lore.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\nThe official trailers for WheelMates provide the first look at the game's high-energy atmosphere and its mysterious underlying narrative. To date, the developers have released two primary videos: the Official Announcement Trailer and the Official Demo Launch Trailer. These videos introduce players to the core aesthetic of the game and hint at a plot involving consciousness, neuro helmets, and a character in distress.\n\n## Official Announcement Trailer\n\nThe WheelMates Official Announcement Trailer served as the public's first introduction to the project. This video is characterized by its high-energy music and enthusiastic vocalizations. The audio primarily consists of upbeat tracks punctuated by exclamations of \"Woohoo!\" from the characters or participants. \n\nThis trailer focuses on establishing the tone of the game, emphasizing excitement and fast-paced action. While it does not contain heavy dialogue, it sets the stage for the vibrant world players inhabit.\n\n## Official Demo Launch Trailer\n\nThe Official Demo Launch Trailer offers a more detailed look at the game's lore and specific mechanics. Unlike the announcement trailer, this video features a direct address from an unidentified character who appears to be communicating with the player from within the game’s systems.\n\nThe dialogue in this trailer suggests a high-stakes narrative. The speaker informs the player that their \"integrity is crashing\" and describes a \"vexing little failure\" that has resulted in their consciousness being trapped. According to the transcript, the character claims to be \"trapped inside the house bread,\" though the specific meaning of this term within the game world remains to be fully explained.\n\n## Key Narrative Elements and Lore\n\nThe trailers introduce several specific concepts that are central to the WheelMates experience. These elements provide context for the player's actions during the demo and the full game.\n\n### Neuro Helmets\nThe Demo Launch Trailer explicitly mentions \"neuro helmets.\" The narrator acknowledges that these devices \"don't look super safe\" but insists that the player must put them on immediately. These helmets appear to be the primary interface through which players interact with the game world or connect with the trapped consciousness of the narrator.\n\n### The Narrator's Mission\nThe character speaking in the Demo Launch Trailer expresses a sense of urgency. After instructing the player to put on the neuro helmets, the narrator gives a specific and unusual command: \"We have to lose. Go.\" This suggests that the objectives in WheelMates may involve unconventional goals or that losing is a tactical necessity to save the narrator's crashing integrity.\n\n## Where to Watch\n\nAll official WheelMates video content is hosted on the game's official channels. Fans can stay updated by visiting the official website at wheelmatesgame.com or by following the official YouTube links provided in the source section below. These videos are the primary source for verified gameplay footage and narrative teasers.\n\n## FAQ\n\n### What is the purpose of the neuro helmets in WheelMates?\nAccording to the Official Demo Launch Trailer, neuro helmets are devices that players must wear to interact with the game's world. The narrator notes they may not look safe, but they are necessary for the mission.\n\n### Who is the voice speaking in the WheelMates demo trailer?\nThe trailer features a character who claims their consciousness is trapped and their integrity is crashing. They provide instructions to the player, though their specific identity has not been officially named in the video content.\n\n### What is the main goal mentioned in the trailers?\nWhile the announcement trailer focuses on excitement, the Demo Launch Trailer gives a specific instruction to the player: \"We have to lose.\" This implies that the game's narrative may involve subverting traditional win conditions.\n\n## Sources\n\n*   [WheelMates - Official Demo Launch Trailer](https://www.youtube.com/watch?v=ntiYLcSDHN4)\n*   [WheelMates - Official Announcement Trailer](https://www.youtube.com/watch?v=nKAsdKNX3vE)\n*   [WheelMates Official Website](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1404,
+    "completion_tokens": 2318,
+    "total_tokens": 3722,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1404,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 907,
+        "totalTokenCount": 3722,
+        "thoughtsTokenCount": 1411,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1404
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 907
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1404,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 907,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1411
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

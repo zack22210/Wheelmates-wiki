@@ -1,5 +1,5 @@
 param(
-  [string]$SharedPath = $(if ($env:SEOSCOUT_SHARED_PATH) { $env:SEOSCOUT_SHARED_PATH } else { 'D:\Web出海\tools\seoscout' }),
+  [string]$SharedPath = $(if ($env:SEOSCOUT_SHARED_PATH) { $env:SEOSCOUT_SHARED_PATH } else { [System.IO.Path]::GetFullPath((Join-Path (Get-Location).Path '..\tools\seoscout')) }),
   [switch]$Clean
 )
 
@@ -34,6 +34,7 @@ if ($Files.Count -eq 0) {
 }
 
 New-Item -ItemType Directory -Force -Path (Join-Path $Destination 'en') | Out-Null
+$ResolvedSource = [System.IO.Path]::GetFullPath($Source).TrimEnd('\')
 if ($Clean) {
   $resolvedDestination = (Resolve-Path -LiteralPath $Destination).Path
   $resolvedProject = (Resolve-Path -LiteralPath $ProjectRoot).Path
@@ -45,7 +46,10 @@ if ($Clean) {
 
 $Copied = 0
 foreach ($File in $Files) {
-  $Relative = [System.IO.Path]::GetRelativePath($Source, $File.FullName)
+  if (-not $File.FullName.StartsWith($ResolvedSource, [System.StringComparison]::OrdinalIgnoreCase)) {
+    throw "Refusing to sync a file outside the SEOScout article directory: $($File.FullName)"
+  }
+  $Relative = $File.FullName.Substring($ResolvedSource.Length).TrimStart('\', '/')
   $Target = Join-Path $Destination $Relative
   New-Item -ItemType Directory -Force -Path (Split-Path -Parent $Target) | Out-Null
   Copy-Item -LiteralPath $File.FullName -Destination $Target -Force

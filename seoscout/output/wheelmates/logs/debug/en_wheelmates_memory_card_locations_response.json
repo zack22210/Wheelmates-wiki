@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030258494779566278268d9d63aMI0dPH",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404335,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Memory Card Locations Guide\",\n  description: \"Looking for memory cards in WheelMates? Learn about the current state of collectibles and exploration in Professor Bloom's laboratory.\",\n  category: \"collectibles\",\n  date: \"2026-09-03\",\n}\n\n## Understanding Collectibles in WheelMates\n\nPlayers diving into the co-op RC car adventure *WheelMates* often look for hidden items while exploring Professor Bloom’s home laboratory. While the game features a variety of puzzles, hidden paths, and environmental challenges, there is currently no official confirmation regarding specific \"memory card\" collectibles within the game's current build.\n\nThe game focuses primarily on 2-player co-op mechanics, where you and a partner navigate through rooms like the Backyard and the Shed. While exploration is a core component of the experience, progression is tied to solving environmental puzzles and overcoming terrain challenges rather than gathering traditional collectible sets.\n\n## Exploring Professor Bloom’s Laboratory\n\nThe core gameplay of *WheelMates* revolves around tight-knit cooperation. As you traverse the laboratory, you will encounter various obstacles that require communication and synchronized driving. If you are searching for hidden items, keep in mind that the game’s design emphasizes:\n\n*   **Hidden Paths:** Some areas of the laboratory are tucked away behind obstacles that require both players to interact with the environment.\n*   **Environmental Puzzles:** Many segments, such as the \"Through the Wasteland\" level, feature complex puzzles that test your logic and driving skills.\n*   **Vehicle Physics:** Mastering the erratic, 90s-style RC car handling is often the key to reaching high or difficult-to-access areas that might seem to hold secrets.\n\n## Progression and Game Tips\n\nIf you are stuck in a specific area or feel you have missed an important item, ensure that your game is fully updated. The developers, The Firevolt Team, have released several hotfixes to address progression issues, particularly in the Backyard and Shed levels. \n\nIf you believe you have encountered a bug or a missing interaction point, the developers encourage players to report these issues through official channels. Providing detailed, step-by-step descriptions of where you are stuck helps the team reproduce and fix potential progression blockers.\n\n## Playing with Friends\n\nBecause *WheelMates* is built for two players, the best way to uncover every secret in the laboratory is by utilizing the Friend’s Pass. This feature allows one player to own the game while the other joins for free. \n\nTo ensure you and your partner are on the same page during your search for hidden content:\n1. Ensure both players have the same version number installed (visible in the lower-left corner of the main menu).\n2. Use the invite code system found in the \"Play Online\" lobby to sync your sessions.\n3. Communicate clearly when attempting complex maneuvers or solving puzzles, as many areas are designed to be inaccessible without a partner's assistance.\n\n## Frequently Asked Questions\n\n### Are there collectible memory cards in WheelMates?\nThere is currently no verified information regarding \"memory card\" collectibles in the game. The gameplay focuses on co-op puzzle-solving and navigating the environment.\n\n### How do I report a missing item or progression bug?\nIf you suspect you are missing an item due to a bug, you should report it to The Firevolt Team by providing a detailed description of the issue and your current game version, which can be found in the main menu.\n\n### Does the Friend’s Pass affect game content?\nNo. The Friend’s Pass provides the full co-op experience. Both players have access to the same levels, puzzles, and hidden paths, regardless of who owns the base game.\n\n## Sources\n\n[https://steamcommunity.com/app/3905450](https://steamcommunity.com/app/3905450)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3471,
+    "completion_tokens": 825,
+    "total_tokens": 4296,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 3471,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 825,
+        "totalTokenCount": 4296,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3471,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

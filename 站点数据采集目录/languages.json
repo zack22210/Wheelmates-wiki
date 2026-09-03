@@ -4,7 +4,30 @@
     {
       "code": "en",
       "name": "English",
-      "localized_topic": ""
+      "localized_topic": "WheelMates",
+      "reason": "Required default locale and the only supported language with full audio on Steam."
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "localized_topic": "WheelMates",
+      "reason": "Official Steam interface and subtitles; strong PC-game audience."
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "localized_topic": "WheelMates",
+      "reason": "Official Steam interface and subtitles; serves French-language players."
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "localized_topic": "WheelMates",
+      "reason": "Official Spanish interface and subtitles; broad Spanish-language coverage."
     }
-  ]
+  ],
+  "excluded": [
+    {"code": "zh", "reason": "Chinese locales are excluded by project policy."}
+  ],
+  "lastVerified": "2026-09-03"
 }

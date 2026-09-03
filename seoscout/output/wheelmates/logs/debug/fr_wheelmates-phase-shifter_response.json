@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030317052527683258268d9d6Mm18CNfd",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405465,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guide du déphasage et des gadgets dans WheelMates\",\n  description: \"Apprenez à naviguer dans le Neurovoid, utilisez le Synchroniseur et maîtrisez les gadgets comme le grappin et les pneus magnétiques dans WheelMates.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\nDans *WheelMates*, naviguer entre le monde physique d'une maison encombrée et le royaume quantique surréaliste connu sous le nom de Neurovoid est au cœur du gameplay coopératif. Bien que les joueurs n'équipent pas un seul objet d'inventaire explicitement nommé « déphaseur », le processus de changement de phase — la transition entre les dimensions et la manipulation des propriétés physiques — est piloté par le **Synchroniseur** et une suite spécialisée de gadgets de haute technologie pour véhicules. Pour vous aider, vous et votre partenaire de coopération, à maîtriser ces transitions dimensionnelles, ce guide explique le fonctionnement des mécaniques de déphasage du jeu, comment survivre dans le Neurovoid et comment utiliser les gadgets de votre voiture RC pour résoudre des énigmes environnementales complexes.\n\n## Le Synchroniseur et le passage dans le Neurovoid\n\nLa méthode principale pour changer de phase dans *WheelMates* consiste à atteindre une synchronisation avec Oliver, le scientifique dont l'esprit est piégé à l'intérieur du câblage électrique de la maison. Les joueurs portent des « neuro-casques » pour contrôler par télépathie leurs voitures télécommandées et synchroniser leurs signaux avec le système d'Oliver.\n\nPour initier un déphasage, les joueurs doivent localiser et activer le **Synchroniseur**. Cet appareil aligne et stabilise les neuro-casques des joueurs, déclenchant le « warp time ». Ce processus brise la frontière de la cinquième dimension, transportant les joueurs directement dans le **Neurovoid** (également appelé le neuroïde).\n\nLe Neurovoid est une dimension psychédélique défiant la gravité, remplie de masse quantique, de plaques flottantes, de canards en plastique et de tasses à thé sur le thème du chargement. Dans cette phase, les joueurs doivent travailler ensemble pour stabiliser le vide à l'aide de calculs d'ingénierie et coordonner leurs mouvements pour éviter de tomber dans l'abîme infini.\n\n## Gadgets essentiels pour naviguer dans les phases décalées\n\nUne fois que vous avez basculé dans différentes phases ou dimensions, vos commandes de conduite standard ne suffiront pas à résoudre les énigmes. Les deux joueurs ont accès au même ensemble de gadgets avancés. Ces outils sont essentiels pour manipuler l'environnement et ouvrir des voies à l'autre joueur.\n\n### Le Grappin\n\nLe Grappin est la première amélioration majeure que les joueurs reçoivent. Il permet à votre voiture RC de s'accrocher aux poignées, leviers et tiroirs pour les ouvrir. Vous pouvez également vous agripper à des crochets suspendus désignés ou à des objets aléatoires pour vous balancer au-dessus de larges fossés, de flaques d'acide ou de plateformes flottantes dans le Neurovoid.\n\nLors des balancements dans le Neurovoid, le timing est critique. Commencez votre élan plus tôt en reculant, puis avancez et relâchez le frein au sommet de votre élan pour franchir les obstacles à double balancement.\n\n### L'Aimant\n\nLe gadget Aimant agit comme une forme de télékinésie, donnant à votre voiture RC une paire de mains virtuelles. Avec l'Aimant, vous pouvez interagir avec des objets métalliques et mettre en place des fusibles lourds. Vous pouvez également ramasser et transporter des objets non magnétiques, comme des oranges, pour résoudre des énigmes physiques ou placer des capuchons sur des tuyaux et suivre leur chemin derrière des barrières en verre.\n\n### Pneus magnétiques\n\nLa capacité Pneus magnétiques permet à votre véhicule d'ignorer la gravité standard. Tant qu'un chemin métallique ou magnétique est tracé, vous pouvez rouler directement sur les murs verticaux et voyager complètement à l'envers le long des plafonds et à l'intérieur des tubes métalliques. Cela vous permet de passer sans transition entre différentes orientations sans tomber.\n\n### Le Pistolet à peinture\n\nLe Pistolet à peinture (ou pistolet de paintball) offre une option à distance pour la résolution d'énigmes. Les joueurs peuvent l'utiliser pour tirer sur des cibles éloignées afin de déclencher des interrupteurs, d'appuyer sur des boutons hors de portée du pare-chocs de la voiture, ou de relever des défis de tir rapides et limités dans le temps pour déverrouer des portes.\n\n## Stratégies de survie et d'énigmes dans le Neurovoid\n\nNaviguer dans les phases décalées du Neurovoid nécessite une coordination étroite et une solide compréhension de la physique du jeu. Utilisez ces stratégies pour surmonter les défis les plus difficiles de cette dimension :\n\n* **Coordonnez-vous sur les énigmes de Jenga et de labyrinthe :** Certaines zones exigent qu'un joueur guide l'autre depuis le haut. Par exemple, dans le labyrinthe en carton, un joueur peut devoir rester sur un bouton pour ouvrir des bouches d'aération ou dégager des chemins pendant que l'autre parcourt le sol du labyrinthe.\n* **Maîtrisez la fonction de réinitialisation :** Les commandes de la voiture RC peuvent sembler glissantes, ressemblant à une conduite sur glace. Si votre véhicule reste coincé sur une bosse, se coince dans un conduit étroit ou est piégé dans une boucle de chute, ouvrez le menu et sélectionnez « Je suis coincé » ou déclenchez une autodestruction manuelle. Votre voiture explosera et réapparaîtra en toute sécurité à proximité.\n* **Utilisez le retour rapide (touche R) :** Si vous tombez d'une grande hauteur dans le Neurovoid, appuyez rapidement sur la touche **R** pour vous téléporter sur le dernier rebord stable. Notez que cette option n'apparaît qu'après une chute d'une distance significative ; les glissades mineures nécessiteront toujours de remonter manuellement.\n* **Suivez les fils pour les énigmes de boutons :** De nombreuses énigmes à plusieurs boutons dans le Neurovoid comportent des fils colorés courant sur le sol. Suivez les fils des boutons numérotés jusqu'à leurs terminaux correspondants pour déterminer l'ordre d'activation correct.\n\n## Foire aux questions\n\n### Comment entrer dans le Neurovoid dans WheelMates ?\nLes joueurs entrent dans le Neurovoid en utilisant le Synchroniseur pour aligner et stabiliser leurs neuro-casques. Cela déclenche le « warp time », faisant passer les voitures RC des joueurs de la maison physique au royaume quantique de la cinquième dimension.\n\n### Quels gadgets utilisez-vous pour résoudre les énigmes dans WheelMates ?\nLes joueurs utilisent quatre gadgets principaux : le Grappin (pour se balancer et tirer des leviers), l'Aimant (pour déplacer des objets par télékinésie), les Pneus magnétiques (pour rouler sur les murs et les plafonds) et le Pistolet à peinture (pour tirer sur des cibles et des boutons).\n\n### Que faire si votre voiture RC reste coincée ou tombe ?\nSi votre voiture reste coincée dans l'environnement, vous pouvez utiliser l'option d'autodestruction (« Je suis coincé » dans le menu) pour faire exploser et réinitialiser votre véhicule. Si vous tombez d'une grande hauteur, appuyez sur la touche R pour revenir rapidement au rebord le plus proche.\n\n## Sources\n\n* [Wheelmates Review: A Fantastic Co-Op Game With One MAJOR Flaw](https://www.youtube.com/watch?v=PDU4TpeR2vk)\n* [EXCLUSIVE LOOK | WheelMates | FULL GAME | ONLINE CO-OP with Val](https://www.youtube.com/watch?v=l7wUY0GMkyM)\n* [WheelMates Official Website](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1622,
+    "completion_tokens": 3002,
+    "total_tokens": 4624,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1622,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1766,
+        "totalTokenCount": 4624,
+        "thoughtsTokenCount": 1236,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1622
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1766
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1622,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1766,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1236
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

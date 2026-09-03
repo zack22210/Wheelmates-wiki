@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030322420271579338268d9d6gQBjPz6u",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405767,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guide WheelMates : Astuces coop et gameplay\",\n  description: \"Maîtrisez la coopération dans WheelMates. Apprenez à utiliser le Friend's Pass, à résoudre des énigmes et à explorer le laboratoire du professeur Bloom.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\n## Bien débuter dans WheelMates\n\nWheelMates est une aventure de conduite en coopération pour deux joueurs qui vous place, vous et votre partenaire, aux commandes de petites voitures télécommandées. Situé dans la mystérieuse demeure du scientifique disparu, le professeur Everett Bloom, le jeu se concentre sur l'exploration, la résolution d'énigmes et la découverte de l'histoire derrière la disparition du professeur.\n\nLe jeu étant conçu spécifiquement pour deux joueurs, la coordination est essentielle. Que vous jouiez en ligne ou en écran scindé sur votre canapé, vous devrez collaborer pour naviguer dans des pièces surdimensionnées et surmonter les défis de la maison. Il n'y a pas de combat dans le jeu ; le principal défi réside dans l'environnement lui-même, qui se révèle progressivement être un étrange laboratoire.\n\n## Utiliser le Friend's Pass\n\nL'une des fonctionnalités les plus accessibles de WheelMates est le Friend's Pass. Ce système vous permet de jouer à l'intégralité du jeu avec un ami, même si un seul d'entre vous possède une copie.\n\nPour inviter un ami via le Friend's Pass, suivez ces étapes :\n\n1. Le propriétaire doit lancer la version complète de WheelMates.\n2. L'ami doit télécharger et lancer la version « Friend's Pass » de WheelMates depuis la boutique.\n3. Le propriétaire accède au salon en sélectionnant **JOUER → JOUER EN LIGNE → HÉBERGER**.\n4. Le propriétaire copie le CODE D'INVITATION généré et le partage avec son partenaire.\n5. L'ami sélectionne **JOUER → FRIEND'S PASS → ENTRER LE CODE** et saisit le code fourni pour rejoindre la partie.\n\nAssurez-vous que les deux joueurs ont la même version du jeu installée en vérifiant le numéro de version dans le coin inférieur gauche du menu principal avant de commencer votre session.\n\n## Maîtriser les capacités des voitures RC\n\nAu fur et à mesure que vous progressez dans la maison, vous débloquerez des capacités spécialisées permettant à votre voiture RC d'atteindre de nouvelles zones. Ces capacités sont essentielles pour résoudre des énigmes et accéder à des chemins cachés.\n\n*   **Roues magnétiques :** Utilisez-les pour conduire sur les murs et les plafonds, ce qui vous permet de traverser le laboratoire sous des angles uniques.\n*   **La corde :** Indispensable pour franchir les écarts entre les plateformes.\n*   **Grappin magnétique :** Un outil polyvalent que vous pouvez utiliser de manière créative pour interagir avec les objets de l'environnement.\n\nN'oubliez pas de revisiter les pièces déjà explorées une fois que vous aurez débloqué de nouvelles capacités. De nombreuses zones contiennent des passages secrets ou des indices accessibles uniquement avec le bon équipement.\n\n## Exploration de la narration et mini-jeux\n\nAu-delà des énigmes principales, WheelMates propose une narration profonde et optionnelle. En explorant, vous collecterez des fragments d'histoire automatiquement stockés dans votre journal narratif. Ce journal vous aide à reconstituer l'histoire de la maison du professeur Bloom et les événements ayant mené à sa disparition.\n\nLorsque vous ne résolvez pas d'énigmes, vous pouvez participer à divers mini-jeux disséminés dans la maison. Ils sont parfaits pour tester vos talents de conducteur et régler des rivalités amicales avec votre partenaire. Ces mini-jeux sont un excellent moyen de faire une pause dans la progression principale tout en profitant des mécaniques de conduite basées sur la physique.\n\n## Dépannage et performances\n\nSi vous rencontrez des problèmes en jouant, l'équipe de développement recommande quelques étapes standard pour garantir une expérience fluide. Assurez-vous toujours que votre jeu est mis à jour vers la dernière version, car des correctifs sont fréquemment publiés pour résoudre les blocages de progression, comme ceux rencontrés dans les niveaux du Jardin ou de l'Abri de jardin.\n\nSi vous rencontrez un bug, fournissez autant de détails que possible aux développeurs, y compris les étapes spécifiques que vous avez suivies et votre version actuelle du jeu. Les solutions courantes pour les problèmes de connectivité ou de progression incluent le redémarrage de votre client Steam ou la vérification de l'intégrité des fichiers du jeu.\n\n## Foire aux questions\n\n### Dois-je acheter deux copies de WheelMates pour jouer avec un ami ?\nNon. Grâce au Friend's Pass, un seul joueur doit posséder le jeu. Le second joueur peut rejoindre gratuitement en utilisant la version Friend's Pass.\n\n### Y a-t-il des combats dans WheelMates ?\nNon, il n'y a pas de combat dans le jeu. Le gameplay se concentre entièrement sur la conduite, l'exploration et la résolution d'énigmes environnementales.\n\n### Puis-je jouer à WheelMates seul ?\nWheelMates est conçu spécifiquement comme une expérience coopérative à deux joueurs. Vous aurez besoin d'un partenaire pour résoudre les énigmes et progresser à travers les défis du jeu.\n\n### Comment signaler des bugs ?\nSi vous rencontrez un bug, vous devez le signaler aux développeurs avec une description détaillée du problème et votre version du jeu, qui se trouve dans le coin inférieur gauche du menu principal.\n\n## Sources\n\n* [Page Steam de WheelMates](https://steamcommunity.com/app/3905450)\n* [Bande-annonce de présentation du gameplay de WheelMates](https://www.youtube.com/watch?v=wR6raQZibbs)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 1305,
+    "total_tokens": 2625,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1320,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1305,
+        "totalTokenCount": 2625,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1320,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

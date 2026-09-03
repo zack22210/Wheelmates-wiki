@@ -1,0 +1,242 @@
+{
+  "site": {
+    "gameName": "WheelMates",
+    "name": "WheelMates Wiki",
+    "shortName": "WheelMates Wiki",
+    "tagline": "Zwei Autos. Ein Rätsel.",
+    "description": "Ein unabhängiger, quellengeprüfter WheelMates-Guide zu Koop, Friend’s Pass, Systemanforderungen, Updates und Spielerfragen."
+  },
+  "seo": {
+    "defaultDescription": "Entdecke WheelMates-Guides, Koop-Details, Informationen zum Friend’s Pass, Systemanforderungen, Updates und quellengeprüfte Hilfe für beide Spieler.",
+    "homeTitle": "WheelMates Wiki: Koop-Guide, Friend’s Pass & Updates",
+    "homeDescription": "Entdecke WheelMates-Guides, Koop-Details, Informationen zum Friend’s Pass, Systemanforderungen, Updates und quellengeprüfte Hilfe für beide Spieler.",
+    "keywords": "WheelMates Wiki, WheelMates Guide, Friend’s Pass, Koop, Systemanforderungen"
+  },
+  "media": {
+    "heroImage": "/images/wheelmates/hero.webp",
+    "logoImage": "/images/wheelmates/logo.png",
+    "articleImage": "/images/wheelmates/article-cover.jpg",
+    "heroAlt": "Zwei WheelMates-RC-Autos vor einem Laborrätsel in Professor Blooms Haus",
+    "artworkAlt": "Zwei WheelMates-RC-Autos fahren über ein Experiment auf einer Werkbank"
+  },
+  "links": {
+    "officialSite": "https://wheelmatesgame.com/",
+    "steam": "https://store.steampowered.com/app/3905450/WheelMates/",
+    "discord": "https://discord.com/invite/wheelmates",
+    "youtube": "https://www.youtube.com/@WheelMatesGame",
+    "launchTrailer": "https://www.youtube.com/watch?v=C_-nWZj-hK0",
+    "gameplayTrailer": "https://www.youtube.com/watch?v=wR6raQZibbs",
+    "x": "https://x.com/wheelmatesgame",
+    "tiktok": "https://www.tiktok.com/@wheelmatesgame",
+    "instagram": "https://www.instagram.com/wheelmates_game"
+  },
+  "accessibility": {
+    "primaryNavigation": "Hauptnavigation",
+    "guideNavigation": "Guide-Navigation",
+    "mobileNavigation": "Mobile Navigation",
+    "footerNavigation": "Fußzeilennavigation",
+    "releaseStatus": "Veröffentlichungsstatus von WheelMates",
+    "breadcrumb": "Brotkrümelnavigation"
+  },
+  "nav": {
+    "guide": "Ratgeber",
+    "multiplayer": "Mehrspieler",
+    "collectibles": "Sammelobjekte",
+    "gadgets": "Gadgets",
+    "achievements": "Erfolge",
+    "controls": "Steuerung",
+    "technical": "Technik-Hilfe",
+    "information": "Spielinfos"
+  },
+  "navigationUi": {
+    "language": "Deutsch",
+    "localeCode": "DE",
+    "selectLanguage": "Sprache auswählen",
+    "menu": "Navigation öffnen",
+    "close": "Navigation schließen"
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  },
+  "contentTypes": {
+    "guide": {"overviewTitle": "Ratgeber", "overviewDescription": "Komplettlösungen, Kampagnenreihenfolge, Demo-Hilfe und Level-Tipps für beide Fahrer."},
+    "multiplayer": {"overviewTitle": "Mehrspieler", "overviewDescription": "Friend's Pass, Online-Koop, lokaler Splitscreen und praktische Einrichtung für zwei Spieler."},
+    "collectibles": {"overviewTitle": "Sammelobjekte", "overviewDescription": "Geprüfte Checkliste für Neuro-Cores, Memory Cards, Custom parts, Scans und Aktivitäten."},
+    "gadgets": {"overviewTitle": "Gadgets", "overviewDescription": "Quellengeprüfte Guides zu Grapple, Magnetic Grabber, Magnet Wheels, Phase Shifter und Paintgun."},
+    "achievements": {"overviewTitle": "Erfolge", "overviewDescription": "Die vollständige Steam-Erfolgsliste und eine verlässliche Checkliste für 100% Mates."},
+    "controls": {"overviewTitle": "Steuerung", "overviewDescription": "Controller-, Tastatur- und RC-Auto-Tipps für präzise Bewegungen im Koop."},
+    "technical": {"overviewTitle": "Technik-Hilfe", "overviewDescription": "Systemanforderungen, Einstellungen, DLSS, Steam Deck, bekannte Fehler und sichere Lösungen."},
+    "information": {"overviewTitle": "Spielinfos", "overviewDescription": "Preis, Datum, Plattformen, Trailer, Reviews, Spielzeit, Gameplay und Geschichte."}
+  },
+  "home": {
+    "hero": {
+      "enabled": true,
+      "label": "Unabhängiger Spieler-Guide",
+      "title": "WheelMates: Kleine Räder. Großes Teamwork.",
+      "description": "WheelMates schickt zwei winzige RC-Autos durch Professor Blooms riesiges Heimlabor. Starte mit dem offiziellen Spiel und kehre für quellengeprüfte Koop-Guides zurück.",
+      "image": {
+        "src": "/images/wheelmates/hero.webp",
+        "alt": "Zwei WheelMates-RC-Autos vor einem Laborrätsel in Professor Blooms Haus"
+      },
+      "actions": [
+        {"label": "Auf Steam spielen", "kind": "external", "linkKey": "steam", "variant": "primary", "icon": "external"},
+        {"label": "Gameplay ansehen", "kind": "external", "linkKey": "gameplayTrailer", "variant": "outline", "icon": "external"}
+      ]
+    },
+    "status": {
+      "enabled": true,
+      "ariaLabel": "Geprüfte WheelMates-Fakten",
+      "items": [
+        {"icon": "calendar", "label": "Veröffentlicht", "value": "1. Sep. 2026"},
+        {"icon": "monitor", "label": "Plattform", "value": "Windows-PC"},
+        {"icon": "clock", "label": "Spieler", "value": "2-Spieler-Koop"},
+        {"icon": "price", "label": "Pass für Freunde", "value": "Freund spielt gratis"}
+      ]
+    },
+    "facts": {
+      "enabled": true,
+      "label": "Auf einen Blick",
+      "items": [
+        {"label": "Entwickler & Publisher", "value": "Firevolt"},
+        {"label": "Koop-Modi", "value": "Online + Splitscreen"},
+        {"label": "Steam-Erfolge", "value": "21"},
+        {"label": "Speicherbedarf", "value": "15 GB"}
+      ]
+    },
+    "story": {
+      "enabled": true,
+      "label": "Im Haus",
+      "title": "Fahren, improvisieren, ermitteln",
+      "description": "Ein verschwundener Professor hinterlässt ein labyrinthartiges Heimlabor. Kommunikation und Timing bringen beide Autos durch riesige Hindernisse; Seilschwünge, Magneträder, Magnetgreifer und weitere Upgrades öffnen neue Wege.",
+      "image": {
+        "src": "/images/wheelmates/story.jpg",
+        "alt": "Zwei WheelMates-RC-Autos mit verbesserten Rädern in einer großen Versuchskammer"
+      },
+      "action": {"label": "Story-Guide lesen", "kind": "article", "article": {"contentType": "information", "slug": "wheelmates-story"}}
+    },
+    "release": {
+      "enabled": true,
+      "label": "Jetzt erhältlich · 1. September 2026",
+      "title": "Hol Spieler zwei dazu",
+      "description": "WheelMates ist auf Steam für Windows-PC erhältlich. Online- und lokaler Splitscreen-Koop werden unterstützt; mit dem Friend’s Pass kann ein Freund ohne zweiten Kauf mitspielen.",
+      "actions": [
+        {"label": "Veröffentlichungsdetails", "kind": "article", "article": {"contentType": "information", "slug": "wheelmates-release-date"}},
+        {"label": "Launch-Trailer ansehen", "kind": "external", "linkKey": "launchTrailer", "icon": "external"}
+      ]
+    },
+    "index": {
+      "enabled": true,
+      "label": "Quellengeprüfte Bibliothek",
+      "title": "Wähle deine nächste Route",
+      "description": "Durchsuche 35 quellengeprüfte WheelMates-Artikel zu Koop, Fortschritt, Gadgets, Erfolgen, Technik und Spielinformationen.",
+      "count": "{count, plural, one {# Artikel} other {# Artikel}}",
+      "open": "Guide öffnen"
+    }
+  },
+  "list": {
+    "breadcrumb": "Wiki-Index",
+    "label": "Bibliothek durchsuchen",
+    "title": "WheelMates-Guide-Index",
+    "description": "Durchsuche alle Kategorien und 35 quellengeprüfte WheelMates-Guides zu Fortschritt, Koop, Sammelobjekten, Gadgets und Technik.",
+    "available": "Quellengeprüft",
+    "emptyTitle": "Keine Guides in dieser Kategorie",
+    "emptyDescription": "Für diese Kategorie gibt es noch keinen geprüften Artikel. Im Index findest du die veröffentlichte WheelMates-Bibliothek."
+  },
+  "article": {
+    "home": "Startseite",
+    "index": "Wiki-Index",
+    "updated": "Aktualisiert",
+    "verified": "Quellengeprüft",
+    "gameFacts": "WheelMates-Fakten",
+    "article": "Guide",
+    "lastVerified": "Zuletzt geprüft",
+    "appliesTo": "Gilt für",
+    "appliesValue": "WheelMates auf Windows-PC",
+    "onThisPage": "Auf dieser Seite",
+    "advertisement": "Werbung",
+    "references": "Quellen",
+    "related": "Ähnliche Guides",
+    "referenceItems": [
+      {"label": "Offizielle WheelMates-Website", "url": "https://wheelmatesgame.com/"},
+      {"label": "WheelMates auf Steam", "url": "https://store.steampowered.com/app/3905450/WheelMates/"}
+    ]
+  },
+  "theme": {
+    "dark": "Zur Nachtwerkstatt wechseln",
+    "light": "Zur Tageswerkstatt wechseln"
+  },
+  "privacyChoices": {
+    "title": "Datenschutzauswahl",
+    "description": "Optionale Analyse bleibt aus, bis du zustimmst. Werbespeicherung bleibt deaktiviert.",
+    "essential": "Nur erforderlich",
+    "allow": "Analyse erlauben"
+  },
+  "footer": {
+    "navigationLabel": "Fußzeilennavigation",
+    "notice": "Unabhängiger WheelMates-Fan-Guide. Nicht mit Firevolt oder Valve verbunden oder von ihnen unterstützt.",
+    "links": [
+      {"label": "Offizielle Website", "kind": "external", "linkKey": "officialSite"},
+      {"label": "Steam", "kind": "external", "linkKey": "steam"},
+      {"label": "Discord", "kind": "external", "linkKey": "discord"},
+      {"label": "YouTube", "kind": "external", "linkKey": "youtube"},
+      {"label": "Datenschutz", "kind": "internal", "href": "/privacy-policy"},
+      {"label": "Nutzungsbedingungen", "kind": "internal", "href": "/terms-of-service"},
+      {"label": "Urheberrecht", "kind": "internal", "href": "/copyright"},
+      {"label": "Über uns", "kind": "internal", "href": "/about"}
+    ]
+  },
+  "legal": {
+    "about": {
+      "title": "Über WheelMates Wiki",
+      "metaTitle": "Über uns — WheelMates Wiki",
+      "metaDescription": "Erfahre, wie WheelMates Wiki Quellen prüft, bestätigte Fakten von Unbekanntem trennt und unabhängige Spieler-Guides veröffentlicht.",
+      "intro": "WheelMates Wiki ist eine unabhängige Fan-Ressource für Spieler von Firevolts Zwei-Spieler-RC-Abenteuer.",
+      "sections": [
+        {"title": "Zweck", "body": "Wir ordnen quellengeprüfte Informationen zu Koop, Friend’s Pass, Systemanforderungen, Updates und konkreten Spielerfragen."},
+        {"title": "Redaktioneller Ansatz", "body": "Offizielle Spiel-, Entwickler-, Plattform- und Community-Quellen haben Vorrang. Veränderliche Angaben erhalten ein Prüfdatum; Walkthroughs, Belohnungen, Preise oder Mechaniken werden nicht erfunden."},
+        {"title": "Unabhängigkeit", "body": "Diese Website ist nicht mit Firevolt, Valve oder Steam verbunden und wird von ihnen nicht unterstützt. Namen, Grafiken und Marken von WheelMates gehören ihren jeweiligen Eigentümern."}
+      ]
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "metaTitle": "Datenschutzerklärung — WheelMates Wiki",
+      "metaDescription": "Lies, wie WheelMates Wiki erforderliche Speicherung, optionale Analyse, Werbeeinwilligung, Protokolle und Datenschutzoptionen handhabt.",
+      "intro": "WheelMates Wiki funktioniert mit erforderlicher Speicherung; optionale Analyse bleibt aus, bis du zustimmst.",
+      "sections": [
+        {"title": "Verarbeitete Informationen", "body": "Die Website kann grundlegende Serverprotokolle und zusammengefasste technische Daten für Sicherheit, Zuverlässigkeit und Missbrauchsschutz erhalten. Wir fragen nicht nach einem WheelMates- oder Steam-Konto."},
+        {"title": "Analyse, Werbung und Cookies", "body": "Optionale Analysespeicherung bleibt bis zur Einwilligung deaktiviert. Werbespeicherung ist in der aktuellen Konfiguration nicht aktiv; vor einer Änderung wird diese Erklärung aktualisiert."},
+        {"title": "Deine Auswahl und Änderungen", "body": "Im Datenschutzbanner kannst du nur erforderliche Nutzung wählen. Diese Erklärung wird angepasst, wenn sich Dienste oder Datenpraxis wesentlich ändern."}
+      ]
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "metaTitle": "Nutzungsbedingungen — WheelMates Wiki",
+      "metaDescription": "Lies die Bedingungen für WheelMates Wiki, einen unabhängigen Informations- und Fan-Guide mit quellengeprüften Spielangaben.",
+      "intro": "Mit der Nutzung von WheelMates Wiki akzeptierst du, dass die Inhalte unabhängige Informationen und kein offizieller Dienst von Firevolt oder Steam sind.",
+      "sections": [
+        {"title": "Informationszweck", "body": "Spielfunktionen, Preise, Verfügbarkeit, Anforderungen und Live-Werte können sich ändern. Prüfe Käufe, Downloads und Kontoaktionen über die offiziellen WheelMates- oder Steam-Seiten."},
+        {"title": "Keine Verbindung oder Gewährleistung", "body": "WheelMates Wiki ist nicht mit Firevolt, Valve oder Steam verbunden und wird von ihnen nicht unterstützt. Es gibt keine Garantie, dass jedes Detail dauerhaft aktuell oder fehlerfrei ist."},
+        {"title": "Zulässige Nutzung", "body": "Missbrauche die Website nicht, versuche keinen unbefugten Zugriff, störe den Betrieb nicht und veröffentliche keine wesentlichen Teile der redaktionellen Inhalte als eigene Guide-Website."}
+      ]
+    },
+    "copyright": {
+      "title": "Urheberrecht & Namensnennung",
+      "metaTitle": "Urheberrecht & Namensnennung — WheelMates Wiki",
+      "metaDescription": "Lies die Hinweise zu Namensnennung, unabhängiger Mediennutzung, redaktionellem Eigentum und Rechteinhabern bei WheelMates Wiki.",
+      "intro": "Namen, Logos, Screenshots, Videos und Marken von WheelMates gehören Firevolt oder den jeweiligen Rechteinhabern.",
+      "sections": [
+        {"title": "Spielmedien", "body": "Offizielle WheelMates-Medien werden zur Identifikation und Besprechung des Spiels in einem unabhängigen redaktionellen Kontext verwendet. Eigentum daran wird nicht beansprucht."},
+        {"title": "Website-Inhalte", "body": "Eigene Zusammenfassungen, Guides und die Website-Gestaltung unterliegen ihren jeweiligen Rechten und dürfen nicht ohne Erlaubnis in großem Umfang neu veröffentlicht werden."},
+        {"title": "Rechteanliegen", "body": "Rechteinhaber können Korrekturen der Namensnennung oder eine Medienprüfung anfordern. Vor dem öffentlichen Start muss ein Kontaktkanal des Website-Betreibers ergänzt werden."}
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Dieser WheelMates-Guide wurde nicht veröffentlicht oder die Adresse hat sich geändert.",
+    "action": "Zur Startseite"
+  }
+}

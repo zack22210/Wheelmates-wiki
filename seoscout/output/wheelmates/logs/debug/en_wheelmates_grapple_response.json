@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030258562268820278268d9d6bcu3QR9u",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404355,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Grappling Hook Guide: Mechanics and Co-Op Tips\",\n  description: \"Learn how to use the grappling hook in WheelMates to navigate the scientist's house, solve puzzles, and master co-op movement with your RC car.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\nIn WheelMates, the grappling hook is a core experimental gadget that allows players to navigate the vertical and complex environments of an eccentric scientist's home. As one of several power-ups equipped to the RC cars, the grapple enables players to latch onto distant points, swing across gaps, and access areas that are otherwise unreachable by standard driving or jumping. Mastering this tool is essential for solving the game’s mechanical puzzles and progressing through the Metroidvania-inspired layout of the mansion.\n\n## How the Grappling Hook Works\n\nThe grappling hook functions as a specialized attachment for your RC car, designed to bridge the gap between platforms. According to developer FireVolt, the tool allows players to \"latch onto far away points,\" providing a tether that can be used for both traversal and puzzle-solving. \n\nWhile driving through the house, players will encounter specific environmental anchors or handles. By aiming and deploying the grapple, the car secures itself to these points. This mechanic is often used in conjunction with the game’s physics engine, allowing cars to hang from objects or pull themselves toward a target. In some instances, players may need to hang from a lever or handle to trigger a mechanism while their partner performs a separate action.\n\n## Co-Op Synchronization and Traversal\n\nWheelMates is built entirely around the concept of two players acting as \"two pieces of one puzzle.\" The grappling hook is rarely used in isolation; instead, it often requires one player to provide a base or a distraction while the other uses their grapple to reach a new height.\n\nFor example, players may encounter situations where one RC car must stand on a lift platform or a movable cart to give the second car enough height to reach a grappling point. Once the second car has latched onto a higher handle, they might be able to drop down a ladder, open a vent, or press a button to bring their partner up to the same level. This \"weaving of two minds into one\" is the primary way players overcome the house's security systems.\n\n## Metroidvania Progression and Backtracking\n\nThe mansion in WheelMates is designed with a Metroidvania structure, meaning many paths are initially blocked by obstacles that require specific gadgets to overcome. The grappling hook is one of the key tools that facilitates this progression.\n\nAs players explore rooms like the hallway or the secret lab, they will notice distant platforms or high-up collectibles, such as neuro orbs and SD cards, that are out of reach. Once the grappling hook is unlocked or mastered, players are encouraged to backtrack through previously visited rooms. The ability to latch onto far-off points reveals hidden paths and formerly unsolvable puzzles, gradually opening up the full scale of the scientist's home.\n\n## Combining the Grapple with Other Gadgets\n\nThe grappling hook is part of a suite of experimental equipment that players must manage. To fully navigate the house, players must often combine the grapple with other movement abilities:\n\n*   **Jump Boosters:** Used to gain initial height before deploying the grapple mid-air to reach even higher anchors.\n*   **Magnet Wheels:** Allow cars to adhere to metal surfaces. A player might grapple onto a metal beam and then switch to magnet wheels to drive along the underside of a structure.\n*   **Magnets:** Used to manipulate faraway metal objects, which can sometimes create new grappling points or clear a path for a swinging car.\n\n## Grappling Hook FAQ\n\n### How do I get the grappling hook in WheelMates?\nThe grappling hook is part of the experimental equipment provided to the RC cars as they progress through the story. It is introduced as a necessary tool to solve mechanical puzzles within the house's various rooms, such as the hallway and the laboratory.\n\n### Can both players use the grappling hook?\nYes, WheelMates is a cooperative experience where both players control RC cars equipped with the same suite of experimental gadgets. Coordination between both players' grappling hooks is often required to move large objects or reach synchronized buttons.\n\n### What platforms is WheelMates available on?\nWheelMates is scheduled for release in 2026. Developer FireVolt has confirmed the game will be available on Steam for PC, PlayStation 5, and Xbox Series X|S.\n\n## Sources\n\n*   [WheelMates Official Site](https://wheelmatesgame.com/)\n*   [WheelMates - Official Release Trailer](https://www.youtube.com/watch?v=OagIhMNeRDo)\n*   [WheelMates, Co-Op Adventure with RC Cars, Revealed](https://www.xpnnetwork.com/post/wheelmates-co-op-adventure-with-rc-cars-revealed-coming-to-pc-and-console)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11581,
+    "completion_tokens": 1846,
+    "total_tokens": 13427,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 11581,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1068,
+        "totalTokenCount": 13427,
+        "thoughtsTokenCount": 778,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11581
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1068
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11581,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1068,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 778
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030317509662333128268d9d63GjM8TOu",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405478,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guide WheelMates : Laboratoire et Garage\",\n  description: \"Maîtrisez les énigmes du labo du Professeur Bloom avec notre guide WheelMates. Apprenez à utiliser les neuro-noyaux, les aimants et le Friend's Pass.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\nNaviguer dans les environnements du laboratoire et du garage dans WheelMates nécessite une coordination précise entre deux joueurs. Ce guide couvre les étapes essentielles pour résoudre les premières énigmes du laboratoire, gérer les commandes des voitures télécommandées et utiliser les mécaniques coopératives comme le Friend's Pass. En collectant des neuro-noyaux et en activant des nœuds énergétiques, les joueurs peuvent aider le Professeur Bloom à restaurer sa conscience et à débloquer de nouvelles zones de la grille de la maison.\n\n## Bien démarrer dans WheelMates\n\nWheelMates est conçu comme une expérience coopérative à deux joueurs où les participants contrôlent des voitures télécommandées à travers une série d'énigmes basées sur la physique. Avant de commencer votre exploration des zones du laboratoire et du garage, assurez-vous que les deux joueurs sont connectés.\n\nLe jeu propose un système de \"Friend's Pass\", permettant à un propriétaire du jeu d'inviter un second joueur gratuitement. Pour l'utiliser, le propriétaire doit héberger une partie en ligne et partager un code d'invitation trouvé dans le salon. Le second joueur saisit ensuite ce code dans la version \"Friend's Pass\" du jeu pour rejoindre la session.\n\n### Commandes de base et mécaniques\nLes voitures télécommandées dans WheelMates sont connues pour leur maniabilité \"funky\" et parfois erratique, rappelant les jouets radiocommandés des années 90. Maîtriser ces commandes est la première étape de tout guide :\n\n*   **Conduite :** Accélération et direction standard.\n*   **Frein à main :** Utilisé pour s'arrêter, bien qu'il n'aide pas significativement à déraper ou à effectuer des virages serrés.\n*   **Saut :** Essentiel pour les phases de plateforme et pour atteindre les neuro-noyaux en hauteur.\n*   **Scanner :** Un module de récolte de données qui améliore la synchronisation avec la grille de la maison.\n*   **Touche Retour :** Une fonction vitale qui réinitialise votre véhicule si vous restez coincé ou si vous tombez d'une corniche.\n\n## Guide du laboratoire et de la cuisine\n\nL'aventure commence dans le laboratoire domestique du Professeur Bloom. La conscience du Professeur est piégée dans la grille de la maison, et les joueurs doivent utiliser des neuro-casques pour se synchroniser avec son système. L'objectif principal dans cette zone est de collecter des neuro-noyaux, des sphères lumineuses dispersées dans l'environnement.\n\n### Synchronisation initiale\nConduisez vers les zones surlignées pour initier la synchronisation. Vous devrez collecter suffisamment de neuro-noyaux pour contourner les protocoles de sécurité. Pendant qu'un joueur explore le sol, l'autre doit chercher des rampes menant aux étagères supérieures. Utilisez fréquemment le scanner pour maximiser le flux de données, nécessaire pour débloquer le chemin vers le sous-sol et l'arrière-cour.\n\n### Naviguer dans la cuisine\nLa cuisine constitue un défi de plateforme vertical. Les joueurs peuvent ouvrir les tiroirs pour créer des escaliers de fortune.\n1.  **Escalade de tiroirs :** Percutez les poignées des tiroirs inférieurs pour les ouvrir.\n2.  **Le réfrigérateur :** Utilisez les tiroirs ouverts pour atteindre le sommet du réfrigérateur.\n3.  **Balancier :** Certaines zones nécessitent la compétence \"Balancier\". Cherchez des ports spécifiques (souvent assignés au bouton LB sur les manettes) pour traverser les gouffres. Si la corde n'apparaît pas pour le second joueur, assurez-vous que les deux joueurs utilisent la même version du jeu, car il s'agissait d'un problème connu résolu par des correctifs récents.\n\n## Le condensateur et les nœuds énergétiques\n\nPour progresser au-delà du laboratoire, les joueurs doivent localiser et activer un condensateur local. Il agit comme un nœud énergétique critique nécessitant un seuil spécifique de neuro-noyaux pour fonctionner.\n\n### Charger l'accumulateur\nUne fois que vous atteignez le gouffre contenant le condensateur, les deux joueurs doivent travailler ensemble pour \"enterrer\" leurs neuro-noyaux collectés dans l'accumulateur. Cela implique souvent qu'un joueur maintienne un interrupteur ou une plateforme en place pendant que l'autre saute pour atteindre la fente de dépôt des noyaux. Une fois le seuil critique atteint, une décharge puissante détruira les obstacles bloquant le couloir vers le sous-sol.\n\n### Gérer les dangers conducteurs\nPendant ce segment, faites attention au \"Sous-produit vert BH19\". Cette substance est hautement conductrice et mettra instantanément votre voiture télécommandée hors service au contact, provoquant son explosion. Si vous êtes détruit, votre partenaire peut vous réanimer, ou vous pouvez utiliser la fonction de retour pour réapparaître au dernier point de contrôle.\n\n## L'abri de jardin et les antennes de l'arrière-cour\n\nÀ mesure que vous vous dirigez vers le garage et l'abri de jardin, les énigmes se tournent vers l'induction magnétique et la gestion des batteries. Le Professeur introduit le \"Réplicateur Quantique\", un appareil qui fournit une réserve infinie de batteries.\n\n### Énigmes à induction magnétique\nLe plafond de l'abri de jardin comporte de gros aimants. Ils sont utilisés pour déplacer des cylindres lourds qui bloquent votre chemin.\n*   **Synchronisation :** Les deux joueurs doivent souvent activer des panneaux de contrôle simultanément pour déplacer les aimants le long d'un rail.\n*   **Placement des cylindres :** Déplacez les cylindres dans les emplacements désignés pour compléter le circuit. Si un cylindre tombe, il réapparaîtra via le réplicateur.\n\n### Distributeurs de batteries\nDans l'abri de jardin et l'arrière-cour, vous rencontrerez des distributeurs de batteries. Ces batteries sont nécessaires pour ouvrir les portes électroniques et activer les pompes à carburant.\n1.  **Récupération :** Prenez une batterie au distributeur.\n2.  **Transport :** Apportez la batterie à la prise près de la porte verrouillée. Notez que porter une batterie rend votre voiture plus lourde et plus difficile à manœuvrer, surtout lors des sauts.\n3.  **Activation :** Insérez la batterie dans la prise pour alimenter le réseau local.\n\n## Conseils pour surmonter les obstacles courants\n\nLa physique dans WheelMates peut être exigeante. Si vous trouvez la direction trop rigide, essayez d'aligner vos sauts depuis une plus grande distance plutôt que d'effectuer des micro-ajustements près du bord.\n\nSi vous rencontrez des problèmes de progression dans les zones de l'arrière-cour ou de l'abri de jardin, vérifiez le coin inférieur gauche du menu principal pour vous assurer que vous utilisez la dernière version. Les développeurs ont récemment publié des correctifs pour résoudre les problèmes de collision des NeuroVoids et les blocages de progression dans ces zones spécifiques.\n\n## FAQ\n\n### Comment jouer à WheelMates avec un ami gratuitement ?\nVous pouvez utiliser le Friend's Pass. Le propriétaire du jeu héberge une session et génère un code d'invitation. L'ami télécharge la version \"Friend's Pass\" de WheelMates et saisit ce code pour rejoindre la partie sans frais supplémentaires.\n\n### Que faire si ma voiture télécommandée reste coincée dans l'environnement ?\nUtilisez la touche ou le bouton \"Retour\". Cette fonction est conçue pour réinitialiser votre véhicule sur la plateforme sécurisée la plus proche, ce qui est essentiel pour surmonter les hitboxes difficiles et les pentes raides du jeu.\n\n### Comment ouvrir la porte du sous-sol dans le laboratoire ?\nVous devez collecter un nombre suffisant de neuro-noyaux et les livrer à l'accumulateur du condensateur. Une fois le seuil d'énergie atteint, le système exécutera une décharge qui débloquera le chemin vers le sous-sol et les zones suivantes du garage/abri de jardin.\n\n## Sources\n\n*   Page Steam officielle de WheelMates : https://steamcommunity.com/app/3905450\n*   Site officiel de WheelMates : https://wheelmatesgame.com/\n*   Bande-annonce de lancement de la démo officielle de WheelMates : https://www.youtube.com/watch?v=ntiYLcSDHN4\n*   Guide de gameplay de la démo de WheelMates : https://www.youtube.com/watch?v=7rYbO332jI0"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1770,
+    "completion_tokens": 1991,
+    "total_tokens": 3761,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1770,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1991,
+        "totalTokenCount": 3761,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1770,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

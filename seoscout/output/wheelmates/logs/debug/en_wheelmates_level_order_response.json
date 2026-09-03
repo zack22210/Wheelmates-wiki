@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030258494752039398268d9d63oqVpcoV",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404335,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Level Progression and Game Guide\",\n  description: \"Learn about the progression in WheelMates, including how to navigate the game's co-op adventure and access the Backyard and Shed levels with a friend.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\n## Understanding Progression in WheelMates\n\nWheelMates is a 2-player co-op driving adventure that tasks players with navigating RC cars through Professor Bloom’s home laboratory. While the game features a linear progression through various environments, players may encounter specific areas that serve as key milestones in their journey.\n\nAccording to official developer updates from The Firevolt Team, the game includes distinct zones such as the Backyard and the Shed. Progression through these areas is central to the experience. If you find yourself unable to advance, ensure your game is updated to the latest version, as the developers have released hotfixes specifically addressing progression blockers in these locations.\n\n## Navigating the Laboratory\n\nThe core gameplay involves solving puzzles, uncovering hidden paths, and exploring the secrets hidden within the professor's home. Because the game relies on 2-player synchronization, communication with your partner is essential. \n\nSome players have reported difficulty with specific environmental puzzles, such as the \"Through the Wasteland\" segment. If you encounter a puzzle that seems difficult to solve, verify that both players are running the exact same version of the game. Mismatched versions can lead to synchronization errors, such as missing assets or broken quest triggers.\n\n## Playing with a Friend via Friend’s Pass\n\nOne of the most notable features of WheelMates is the Friend’s Pass system. This allows one player to own the game while their partner joins for free. To ensure a smooth experience throughout the level order, follow these steps to connect:\n\n1. The owner launches the game and selects **PLAY** → **PLAY ONLINE** → **HOST**.\n2. The owner copies the generated INVITE CODE.\n3. The friend launches the WheelMates Friend’s Pass version.\n4. The friend selects **PLAY** → **FRIEND'S PASS** → **ENTER THE CODE** and inputs the owner's code.\n\nOnce connected, you can progress through the levels together. If a partner is missing an object, such as a rope swing, it is often a sign of a synchronization issue that can be resolved by restarting the session or ensuring both players have the latest hotfix installed.\n\n## Troubleshooting Progression Issues\n\nIf you feel stuck or believe the level order is not advancing correctly, consider the following troubleshooting steps provided by the developers:\n\n* **Check Version Numbers:** Always verify the version number in the bottom left corner of the main menu. If you and your partner do not match, you will likely experience bugs.\n* **Restart Steam:** If you encounter login issues or progression stalls, restarting the Steam client often forces the application to download the latest hotfix.\n* **Report Bugs:** If you are certain a specific level is broken, provide the developers with a step-by-step description of the issue and your hardware setup (keyboard/mouse or controller) to help them reproduce the error.\n\n## Frequently Asked Questions\n\n### Do I need to buy two copies of WheelMates to play together?\nNo. WheelMates features a Friend’s Pass system, meaning only one player needs to own the game for a second person to join for free.\n\n### What should I do if I get stuck in the Backyard or Shed?\nThe developers have released hotfixes specifically for progression issues in these areas. Ensure your game is fully updated via Steam. If the issue persists, check the official Discord or Steam discussions for further assistance.\n\n### How do I report a bug in a specific level?\nDescribe the bug in detail, explaining exactly what happened step-by-step. Include your game version (found in the main menu) and your input method (gamepad or keyboard) when posting in the official Steam community discussions.\n\n## Sources\n\n[WheelMates Steam Community Hub](https://steamcommunity.com/app/3905450)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3627,
+    "completion_tokens": 867,
+    "total_tokens": 4494,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 3627,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 867,
+        "totalTokenCount": 4494,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3627,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

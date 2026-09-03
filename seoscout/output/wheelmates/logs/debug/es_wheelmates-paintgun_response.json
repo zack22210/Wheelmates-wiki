@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030317054272937808268d9d6YbKg0c2H",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405430,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Pistola de pintura en WheelMates: Guía de habilidad\",\n  description: \"Descubre qué está confirmado sobre la habilidad Pistola de pintura de WheelMates, su logro, papel en la campaña y cómo evitar falsas guías de desbloqueo.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\n## ¿Qué es la Pistola de pintura en WheelMates?\n\nLa **Pistola de pintura** (Paintgun) es una de las habilidades específicas para los vehículos en WheelMates. Steam cuenta con un logro llamado simplemente **Paintgun**, que se otorga cuando un jugador obtiene esta habilidad. Los materiales de lanzamiento de Firevolt también agrupan la pistola de pintura con las mejoras de vehículo que añaden nuevas formas para que ambos jugadores resuelvan rompecabezas.\n\nLas fuentes verificadas no publican una sala, punto de control o secuencia de botones precisa para obtenerla. Por esta razón, esta guía no proporciona una ubicación de desbloqueo inventada. La habilidad debe tratarse como un hito de la campaña, al igual que el Gancho, el Agarrador magnético, las Ruedas magnéticas y el Cambiador de fase.\n\n## Cómo encaja la habilidad en la progresión\n\nWheelMates está diseñado en torno a la cooperación entre dos jugadores. Sus mejoras no son recompensas de combate aisladas; amplían la forma en que la pareja puede interactuar con habitaciones de gran tamaño, mecanismos ambientales y rutas ocultas. Cuando la Pistola de pintura esté disponible, observa el aviso del tutorial y prueba la habilidad en objetivos ambientales claramente marcados antes de asumir que todos los objetos de colores pueden ser alterados.\n\nSi un jugador no puede usar una habilidad recién obtenida, comparen el número de versión que se muestra en ambas pantallas y recarguen el punto de control actual. Una sesión cooperativa puede volverse confusa cuando el anfitrión y el cliente que se une mediante el Friend's Pass no tienen la misma versión del juego.\n\n## Lista de verificación para el logro Pistola de pintura\n\n1. Continúen la campaña juntos en lugar de buscar una ubicación secreta no confirmada.\n2. Lean el tutorial completo en pantalla cuando se presente la Pistola de pintura.\n3. Confirmen que el logro de Steam **Paintgun** se desbloquea en la cuenta del juego completo.\n4. Practiquen la nueva interacción en el área de introducción antes de seguir adelante.\n5. Revisiten caminos opcionales anteriores solo cuando el juego lo permita y la habilidad sea claramente aplicable.\n\nEl logro oficial confirma la obtención de la habilidad, no una cantidad específica de objetivos pintados. No confundan la adquisición de la Pistola de pintura con los logros de coleccionables como Neuro-núcleos, Tarjetas de memoria, Piezas personalizadas u objetos escaneables.\n\n## Preguntas frecuentes\n\n### ¿Es la Pistola de pintura una habilidad oficial de WheelMates?\n\nSí. Tiene un logro de Steam con nombre propio, y la descripción de lanzamiento de Firevolt identifica la pistola de pintura como una de las mejoras para el vehículo.\n\n### ¿Dónde se desbloquea la Pistola de pintura?\n\nLas páginas oficiales disponibles no proporcionan un punto de control exacto. Avanza en la campaña y sigue el tutorial del juego en lugar de utilizar afirmaciones sobre ubicaciones no verificadas.\n\n### ¿Es necesaria la Pistola de pintura para completar el 100%?\n\nObtenerla tiene su propio logro. La descripción oficial del 100% requiere por separado completar el juego al máximo y conseguir todos los coleccionables.\n\n## Fuentes\n\n- [Logros globales de WheelMates en Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [Sitio oficial de WheelMates](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 903,
+    "completion_tokens": 836,
+    "total_tokens": 1739,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 903,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 836,
+        "totalTokenCount": 1739,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 903,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030259294685064948268d9d65Rk9qvop",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404376,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Steam Guide: Co-op, Friend's Pass, and Gameplay\",\n  description: \"Learn how to play WheelMates on Steam with a friend for free using the Friend's Pass, plus details on gameplay, mechanics, and recent updates.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\nWheelMates is an engaging two-player co-op driving adventure available on Steam that tasks players with navigating the oversized, mysterious home of a missing scientist, Professor Everett Bloom. As tiny RC cars, players must work together to solve puzzles, explore hidden paths, and uncover the secrets behind the professor's disappearance. The game emphasizes exploration and cooperative problem-solving, featuring a unique Friend's Pass system that allows two players to enjoy the full experience while only one person needs to own the game.\n\n## Gameplay and Mechanics\nIn WheelMates, players control small, customizable RC cars through various rooms of a house that slowly reveals itself to be a strange laboratory. The game focuses on non-violent exploration and puzzle-solving. As you progress, your cars unlock new abilities that allow you to reach previously inaccessible areas, encouraging players to revisit earlier rooms to uncover hidden clues and paths.\n\nKey movement and interaction mechanics include:\n*   **Magnetic Wheels:** Used to traverse walls and ceilings.\n*   **Rope:** Essential for crossing gaps and navigating vertical spaces.\n*   **Magnetic Grabber:** A versatile tool that players must learn to utilize creatively to solve environmental puzzles.\n\nBetween these exploration segments, the game includes mini-games that test your driving skills and allow you to compete with your partner. A narrative journal tracks story fragments you collect, helping you piece together the history of the house and the events surrounding Professor Bloom.\n\n## Playing with the Friend's Pass\nOne of the most notable features of WheelMates on Steam is the Friend's Pass, which enables cooperative play without requiring both players to purchase the game. The game supports both online co-op and local split-screen play.\n\nTo play online using the Friend's Pass, follow these steps:\n1.  **Download:** The owner of the game downloads and launches the full version of WheelMates. The friend downloads and launches the \"WheelMates Friend's Pass\" version.\n2.  **Host:** The owner selects **PLAY** → **PLAY ONLINE** → **HOST** from the main menu to generate an invite code.\n3.  **Invite:** The owner shares this code with their partner.\n4.  **Join:** The friend selects **PLAY** → **FRIEND'S PASS** → **ENTER THE CODE** and inputs the code provided by the owner.\n5.  **Start:** Once the partner has joined the lobby, you can begin your adventure together.\n\n## Staying Updated\nThe development team at Firevolt frequently releases updates to improve the player experience. It is important to ensure that both the owner and the partner have the same version of the game installed to avoid connectivity issues. You can verify the current version number in the lower-left corner of the main menu.\n\nIf you encounter technical issues, such as progression blockers in specific levels like the Backyard or the Shed, or if you experience controller input problems, ensure your game is updated to the latest version via Steam. Players are encouraged to report bugs with detailed, step-by-step descriptions and the current game version to help the developers implement fixes quickly.\n\n## Frequently Asked Questions\n\n**Does my friend need to buy WheelMates to play with me?**\nNo. With the included Friend's Pass, only one player needs to own the game. Your partner can download the Friend's Pass version for free and join your session.\n\n**Is there combat in WheelMates?**\nNo, there is no combat in the game. The primary challenges are the environment, navigation, and puzzles within the house.\n\n**What should I do if I encounter a bug?**\nThe developers recommend describing the bug in detail, including the steps to reproduce it and your current game version (found in the main menu). You can report these issues in the Steam community discussions or the official Discord server.\n\n## Sources\n* [WheelMates on Steam](https://steamcommunity.com/app/3905450)\n* [WheelMates Gameplay Overview Trailer](https://www.youtube.com/watch?v=wR6raQZibbs)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4481,
+    "completion_tokens": 945,
+    "total_tokens": 5426,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 4481,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 945,
+        "totalTokenCount": 5426,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4481,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

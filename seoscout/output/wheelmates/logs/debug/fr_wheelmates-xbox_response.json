@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030326191472986468268d9d6azYNRP1X",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405983,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Date de sortie Xbox de WheelMates et statut Series X|S\",\n  description: \"WheelMates est annoncé sur Xbox Series X|S, mais sa date précise, sa page Microsoft Store, son prix et le cross-play restent à confirmer officiellement.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## WheelMates est-il disponible sur Xbox ?\n\nWheelMates a été annoncé pour **Xbox Series X|S**, mais une date de sortie Xbox précise ainsi qu'une page officielle sur le Microsoft Store n'avaient pas été confirmées au 3 septembre 2026. Firevolt a publié la version Windows PC via Steam le 1er septembre.\n\nL'annonce initiale mentionnait une fenêtre de sortie sur consoles en 2026. Cela confirme la plateforme Xbox de génération actuelle visée, mais ne précise ni le jour exact ni une éventuelle version Xbox One. Les pages de comparaison et les entrées dans les bases de données ne remplacent pas une fiche officielle sur le Microsoft Store.\n\n## Ce qui est connu et inconnu\n\nLe concept de WheelMates est une aventure en voitures télécommandées pour deux joueurs, articulée autour d'énigmes en coopération. La version PC publiée prend en charge la coopération en ligne, l'écran scindé local et le Friend's Pass. Pour la version Xbox, les détails suivants nécessitent encore une confirmation officielle :\n\n- Date de sortie exacte sur Series X|S\n- Prix sur Xbox et disponibilité régionale\n- Mise en œuvre du Friend's Pass\n- Cross-play en ligne avec Steam ou PlayStation\n- Prise en charge de Xbox Play Anywhere ou du Microsoft Store sur PC\n- Prise en charge de la Xbox One\n- Modes de performance sur console et taille du téléchargement\n\nNe supposez pas que posséder WheelMates sur Steam vous donne droit à une licence Xbox. Aucun droit d'utilisation inter-magasins n'a été vérifié.\n\n## Comment suivre la sortie Xbox\n\nConsultez les canaux officiels de WheelMates de Firevolt et effectuez des recherches directement sur le Microsoft Store. Un lancement confirmé sur console devrait inclure une page produit et une liste des fonctionnalités prises en charge. Évitez les clés Xbox non officielles tant qu'un produit officiel correspondant n'a pas pu être vérifié.\n\n## FAQ\n\n### Quelle est la date de sortie de WheelMates sur Xbox ?\n\nAucune date exacte sur Series X|S n'a été confirmée au 3 septembre 2026. La fenêtre annoncée était 2026.\n\n### WheelMates sortira-t-il sur Xbox One ?\n\nL'annonce citée mentionne les plateformes Xbox Series, et non la Xbox One.\n\n### WheelMates prend-il en charge le cross-play entre Xbox et Steam ?\n\nLe cross-play n'a pas été vérifié. Le mode en ligne actuel sur Steam et le Friend's Pass ne garantissent pas un futur cross-play sur console.\n\n## Sources\n\n- [Site officiel de WheelMates](https://wheelmatesgame.com/)\n- [Couverture de l'annonce des plateformes pour WheelMates](https://www.gematsu.com/2026/01/co-op-rc-adventure-game-wheelmates-announced-for-ps5-xbox-series-and-pc)\n- [WheelMates sur Steam](https://store.steampowered.com/app/3905450/WheelMates/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 870,
+    "completion_tokens": 776,
+    "total_tokens": 1646,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 870,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 776,
+        "totalTokenCount": 1646,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 870,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

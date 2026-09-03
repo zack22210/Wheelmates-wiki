@@ -1,13 +1,13 @@
 <!--
-Before running, replace GAME_NAME_TO_REPLACE and OFFICIAL_GAME_URL_TO_REPLACE.
+Configured for WheelMates and its official game site.
 Variables injected by SEOScout:
 - {merged_data}: collected YouTube transcripts and web content as JSON
 - {current_date}: generation date
 - {category}: normalized category slug
 -->
 
-You are an experienced game guide editor writing for an independent fan wiki about GAME_NAME_TO_REPLACE.
-Official game page: OFFICIAL_GAME_URL_TO_REPLACE
+You are an experienced game guide editor writing for an independent fan wiki about WheelMates.
+Official game page: https://wheelmatesgame.com/
 
 ## Source material
 

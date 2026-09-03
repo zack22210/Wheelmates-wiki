@@ -27,7 +27,13 @@ type HeroAction = {
   variant: 'primary' | 'outline';
   icon?: 'down' | 'external';
 };
-type ArticleAction = {label: string; article: ArticleTarget; icon?: 'external'};
+type ArticleAction = {
+  label: string;
+  kind: 'article' | 'external';
+  article?: ArticleTarget;
+  linkKey?: string;
+  icon?: 'external';
+};
 type HomePageConfig = {
   hero: {
     enabled: boolean;
@@ -93,6 +99,16 @@ function resolveArticleHref(target: ArticleTarget, groups: HomeContentGroup[]): 
   return `/${target.contentType}/${target.slug}`;
 }
 
+function resolveHomeAction(action: ArticleAction, groups: HomeContentGroup[], links: Record<string, string>) {
+  if (action.kind === 'external' && action.linkKey) {
+    return {href: links[action.linkKey], external: true};
+  }
+  if (action.kind === 'article' && action.article) {
+    return {href: resolveArticleHref(action.article, groups), external: false};
+  }
+  return {href: undefined, external: false};
+}
+
 export function HomePageClient({groups}: {groups: HomeContentGroup[]}) {
   const heroRef = useRef<HTMLElement>(null);
   const animationFrameRef = useRef<number | null>(null);
@@ -136,7 +152,6 @@ export function HomePageClient({groups}: {groups: HomeContentGroup[]}) {
           <Image src={config.hero.image.src} alt={config.hero.image.alt} fill priority sizes="100vw" className="hero-image" />
           <div className="hero-shade" />
           <div className="shell hero-copy">
-            <p className="hero-label">{config.hero.label}</p>
             <h1>{config.hero.title}</h1>
             <p>{config.hero.description}</p>
             <div className="hero-actions">
@@ -185,12 +200,16 @@ export function HomePageClient({groups}: {groups: HomeContentGroup[]}) {
             <Image src={config.story.image.src} alt={config.story.image.alt} fill sizes="(max-width: 900px) 100vw, 50vw" className="feature-image" />
           </div>
           <div className="feature-copy">
-            <span>{config.story.label}</span>
             <h2>{config.story.title}</h2>
             <p>{config.story.description}</p>
-            {resolveArticleHref(config.story.action.article, groups) ? (
-              <Link href={resolveArticleHref(config.story.action.article, groups)!}>{config.story.action.label} <ArrowUpRight aria-hidden="true" /></Link>
-            ) : <span className="unlinked-action">{config.story.action.label}</span>}
+            {(() => {
+              const {href, external} = resolveHomeAction(config.story.action, groups, links);
+              if (!href) return <span className="unlinked-action">{config.story.action.label}</span>;
+              const content = <>{config.story.action.label} <ArrowUpRight aria-hidden="true" /></>;
+              return external
+                ? <a href={href} target="_blank" rel="noreferrer">{content}</a>
+                : <Link href={href}>{content}</Link>;
+            })()}
           </div>
         </section>
       ) : null}
@@ -202,9 +221,12 @@ export function HomePageClient({groups}: {groups: HomeContentGroup[]}) {
             <div><h2>{config.release.title}</h2><p>{config.release.description}</p></div>
             <div className="release-actions">
               {config.release.actions.map((action) => {
-                const href = resolveArticleHref(action.article, groups);
+                const {href, external} = resolveHomeAction(action, groups, links);
                 const content = <>{action.label} {action.icon === 'external' ? <ArrowUpRight aria-hidden="true" /> : null}</>;
-                return href ? <Link href={href} key={action.label}>{content}</Link> : <span className="unlinked-action" key={action.label}>{content}</span>;
+                if (!href) return <span className="unlinked-action" key={action.label}>{content}</span>;
+                return external
+                  ? <a href={href} target="_blank" rel="noreferrer" key={action.label}>{content}</a>
+                  : <Link href={href} key={action.label}>{content}</Link>;
               })}
             </div>
           </div>
@@ -215,7 +237,7 @@ export function HomePageClient({groups}: {groups: HomeContentGroup[]}) {
           <section id={groupIndex === 0 ? 'coverage' : undefined} className="archive-section paper-surface" key={group.contentType}>
             <div className="shell">
               <div className="archive-heading">
-                <div><span>{config.index.label}</span><h2>{group.label}</h2></div>
+                <div><h2>{group.label}</h2></div>
                 <p>{group.overviewDescription}</p>
                 <strong><BookOpenText aria-hidden="true" /> {t('home.index.count', {count: group.articles.length})}</strong>
               </div>
@@ -237,7 +259,7 @@ export function HomePageClient({groups}: {groups: HomeContentGroup[]}) {
           <section id="coverage" className="archive-section paper-surface">
             <div className="shell">
               <div className="archive-heading">
-                <div><span>{config.index.label}</span><h2>{config.index.title}</h2></div>
+                <div><h2>{config.index.title}</h2></div>
                 <p>{config.index.description}</p>
                 <strong><BookOpenText aria-hidden="true" /> {t('home.index.count', {count: 0})}</strong>
               </div>

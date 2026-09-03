@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030325444247977028268d9d60FJzLE3T",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405948,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates-Trailer: Offizielle Videos in der Reihenfolge\",\n  description: \"Sehen Sie sich die verifizierten WheelMates-Trailer an: Ankündigung, Release-Datum, Gameplay und Launch, inklusive Leitfaden zu den Inhalten.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## Offizielle WheelMates-Trailer\n\nDie verifizierte Videoreihe von Firevolt zu WheelMates umfasst die ursprüngliche Ankündigung, die Bekanntgabe des Veröffentlichungsdatums, einen Gameplay-Überblick sowie den PC-Launch. Zusammen etablieren die Videos das Konzept der zwei ferngesteuerten Autos, das Heimlabor von Professor Everett Bloom, die kooperativen Gadgets und die Steam-Veröffentlichung am 1. September 2026.\n\n| Video | Was es etabliert |\n|---|---|\n| Ankündigungs-Trailer | Das kooperative Konzept mit zwei Autos und das Setting im überdimensionalen Haushalt |\n| Release-Datum-Trailer | Das PC-Veröffentlichungsdatum am 1. September 2026 |\n| Gameplay-Überblick-Trailer | Rätsel, Erkundung, Friend's Pass, Gadgets und kooperatives Spiel |\n| Launch-Trailer | Das veröffentlichte Steam-Abenteuer und sein zentrales Geheimnis |\n\n## Bester Trailer für Gameplay-Details\n\nBeginnen Sie mit dem **Gameplay-Überblick-Trailer**, wenn Sie verstehen möchten, wie sich WheelMates spielt. Er zeigt zwei winzige Fahrzeuge, die durch das Anwesen von Professor Bloom navigieren, und demonstriert, dass der Fortschritt von der Koordination abhängt. Die offizielle Steam-Erfolgsliste bestätigt später fünf benannte Fähigkeiten: Grapple (Greifhaken), Magnetic Grabber (Magnetgreifer), Magnet Wheels (Magneträder), Phase Shifter (Phasenverschieber) und Paintgun (Farbpistole).\n\nDas Ankündigungsvideo eignet sich besser, um die ursprüngliche Enthüllung und den Ton des Spiels zu erfassen. Die Trailer zum Veröffentlichungsdatum und zum Launch sind die klarste Wahl, um zu bestätigen, wann die PC-Version verfügbar wurde.\n\n## In den Trailern gezeigte Story-Details\n\nDie verifizierte Prämisse ist, dass Professor Everett Bloom verschwunden ist und die beiden Spieler sein Haus und sein Labor untersuchen. Ausrüstung mit Neuro-Thematik, Aufzeichnungen und das Level **Neuro-Void: Fragments** untermauern das Science-Fiction-Mysterium.\n\nAutomatische Untertitel in Trailern können wichtige Begriffe falsch wiedergeben. Dieser Leitfaden stützt sich daher auf die offizielle Prämisse und klar benannte Spielsysteme, anstatt unsichere Transkriptionsfragmente in die Lore einfließen zu lassen.\n\n## FAQ\n\n### Welchen WheelMates-Trailer sollte ich zuerst ansehen?\n\nSehen Sie sich den Gameplay-Überblick für die Spielmechanik an und anschließend den Launch-Trailer für die Präsentation der finalen Veröffentlichung.\n\n### Gibt es einen offiziellen WheelMates-Launch-Trailer?\n\nJa. Firevolt hat ein offizielles Launch-Video für die PC-Veröffentlichung im September 2026 veröffentlicht.\n\n### Bestätigen die Trailer einen Einzelspielermodus?\n\nNein. Die offizielle Präsentation beschreibt WheelMates durchgehend als kooperatives Abenteuer für zwei Spieler.\n\n## Quellen\n\n- [WheelMates Announcement Trailer](https://www.youtube.com/watch?v=QYv8gxvYgiM)\n- [WheelMates Release Date Trailer](https://www.youtube.com/watch?v=oZ_mBNSBDDQ)\n- [WheelMates Gameplay Overview Trailer](https://www.youtube.com/watch?v=wR6raQZibbs)\n- [WheelMates Launch Trailer](https://www.youtube.com/watch?v=C_-nWZj-hK0)\n- [WheelMates official site](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 921,
+    "completion_tokens": 899,
+    "total_tokens": 1820,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 921,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 899,
+        "totalTokenCount": 1820,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 921,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

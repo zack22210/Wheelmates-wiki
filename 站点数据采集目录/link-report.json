@@ -1,4 +1,234 @@
 {
-  "checked_at": "2026-09-01T12:21:46.705Z",
-  "results": []
+  "checked_at": "2026-09-03T01:57:16.820Z",
+  "results": [
+    {
+      "url": "https://discord.com/invite/wheelmates",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "src/locales/de.json",
+        "src/locales/en.json",
+        "src/locales/es.json",
+        "src/locales/fr.json"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1MtUlNvhLnD91hIyKiVDPJUeIrcX_oTPj?usp=drive_link",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md"
+      ]
+    },
+    {
+      "url": "https://shared.st.dl.eccdnx.com/store_item_assets/steam/apps/3905450/2bf75c00baa20fdf48362436754a9621a0549b03/page_bg_raw.jpg",
+      "final_url": "https://shared.st.dl.eccdnx.com/store_item_assets/steam/apps/3905450/2bf75c00baa20fdf48362436754a9621a0549b03/page_bg_raw.jpg",
+      "status": 200,
+      "ok": true,
+      "severity": "ok",
+      "files": [
+        "站点数据采集目录/基础信息.md"
+      ]
+    },
+    {
+      "url": "https://shared.st.dl.eccdnx.com/store_item_assets/steam/apps/3905450/9c0ec73aea243c21099e1033cc3ad2bc6f7da2a2/ss_9c0ec73aea243c21099e1033cc3ad2bc6f7da2a2.1920x1080.jpg",
+      "final_url": "https://shared.st.dl.eccdnx.com/store_item_assets/steam/apps/3905450/9c0ec73aea243c21099e1033cc3ad2bc6f7da2a2/ss_9c0ec73aea243c21099e1033cc3ad2bc6f7da2a2.1920x1080.jpg",
+      "status": 200,
+      "ok": true,
+      "severity": "ok",
+      "files": [
+        "站点数据采集目录/基础信息.md"
+      ]
+    },
+    {
+      "url": "https://shared.st.dl.eccdnx.com/store_item_assets/steam/apps/3905450/cd223ca755765f6d98aecdd41cfd70adff7ba4d9/ss_cd223ca755765f6d98aecdd41cfd70adff7ba4d9.1920x1080.jpg",
+      "final_url": "https://shared.st.dl.eccdnx.com/store_item_assets/steam/apps/3905450/cd223ca755765f6d98aecdd41cfd70adff7ba4d9/ss_cd223ca755765f6d98aecdd41cfd70adff7ba4d9.1920x1080.jpg",
+      "status": 200,
+      "ok": true,
+      "severity": "ok",
+      "files": [
+        "站点数据采集目录/基础信息.md"
+      ]
+    },
+    {
+      "url": "https://store.steampowered.com/app/3905450/WheelMates/",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "站点数据采集目录/首页探索模块.json",
+        "站点数据采集目录/首页探索模块.json",
+        "站点数据采集目录/首页探索模块.json",
+        "src/app/[locale]/page.tsx",
+        "src/locales/de.json",
+        "src/locales/de.json",
+        "src/locales/en.json",
+        "src/locales/en.json",
+        "src/locales/es.json",
+        "src/locales/es.json",
+        "src/locales/fr.json",
+        "src/locales/fr.json"
+      ]
+    },
+    {
+      "url": "https://store.steampowered.com/curator/45781942",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "站点数据采集目录/基础信息.md"
+      ]
+    },
+    {
+      "url": "https://wheelmatesgame.com/",
+      "final_url": "https://wheelmatesgame.com/",
+      "status": 200,
+      "ok": true,
+      "severity": "ok",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "站点数据采集目录/基础信息.md",
+        "站点数据采集目录/首页探索模块.json",
+        "src/app/[locale]/page.tsx",
+        "src/locales/de.json",
+        "src/locales/de.json",
+        "src/locales/en.json",
+        "src/locales/en.json",
+        "src/locales/es.json",
+        "src/locales/es.json",
+        "src/locales/fr.json",
+        "src/locales/fr.json"
+      ]
+    },
+    {
+      "url": "https://wheelmatesgame.com/wp-content/uploads/2026/01/ic8.png",
+      "final_url": "https://wheelmatesgame.com/wp-content/uploads/2026/01/ic8.png",
+      "status": 200,
+      "ok": true,
+      "severity": "ok",
+      "files": [
+        "站点数据采集目录/基础信息.md"
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/wheelmates_game",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "src/locales/de.json",
+        "src/locales/en.json",
+        "src/locales/es.json",
+        "src/locales/fr.json"
+      ]
+    },
+    {
+      "url": "https://www.tiktok.com/@wheelmatesgame",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "src/locales/de.json",
+        "src/locales/en.json",
+        "src/locales/es.json",
+        "src/locales/fr.json"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/@WheelMatesGame",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "站点数据采集目录/首页探索模块.json",
+        "src/app/[locale]/page.tsx",
+        "src/locales/de.json",
+        "src/locales/en.json",
+        "src/locales/es.json",
+        "src/locales/fr.json"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=C_-nWZj-hK0",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "站点数据采集目录/首页探索模块.json",
+        "站点数据采集目录/首页探索模块.json",
+        "src/locales/de.json",
+        "src/locales/en.json",
+        "src/locales/es.json",
+        "src/locales/fr.json"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oZ_mBNSBDDQ",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QYv8gxvYgiM",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wR6raQZibbs",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "站点数据采集目录/首页探索模块.json",
+        "站点数据采集目录/首页探索模块.json",
+        "站点数据采集目录/首页探索模块.json",
+        "src/locales/de.json",
+        "src/locales/en.json",
+        "src/locales/es.json",
+        "src/locales/fr.json"
+      ]
+    },
+    {
+      "url": "https://x.com/wheelmatesgame",
+      "status": null,
+      "ok": false,
+      "severity": "error",
+      "message": "fetch failed",
+      "files": [
+        "站点数据采集目录/基础信息.md",
+        "src/locales/de.json",
+        "src/locales/en.json",
+        "src/locales/es.json",
+        "src/locales/fr.json"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030258489903314118268d9d6K56X3R16",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404334,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Walkthrough: Co-op Tips and Gameplay Guide\",\n  description: \"Master the co-op driving mechanics in WheelMates. Learn how to use the Friend's Pass, solve environmental puzzles, and explore Professor Bloom's laboratory.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\n## Getting Started with WheelMates\n\nWheelMates is a two-player co-op driving adventure that puts you and a partner in the driver's seat of tiny RC cars. Set within the mysterious home of the missing scientist Professor Everett Bloom, the game focuses on exploration, puzzle-solving, and uncovering the story behind the professor's disappearance. \n\nBecause the game is built specifically for two players, coordination is key. Whether you are playing via online co-op or split-screen on the couch, you will need to work together to navigate oversized rooms and overcome the challenges of the house. There is no combat in the game; instead, the primary challenge is the environment itself, which gradually reveals itself to be a strange laboratory.\n\n## Utilizing the Friend's Pass\n\nOne of the most accessible features of WheelMates is the Friend's Pass. This system allows you to play the entire game with a friend even if only one of you owns a copy. \n\nTo invite a friend using the Friend's Pass, follow these steps:\n\n1. The owner must launch the full version of WheelMates.\n2. The friend must download and launch the WheelMates Friend's Pass version from the store.\n3. The owner navigates to the Lobby by selecting **PLAY → PLAY ONLINE → HOST**.\n4. The owner copies the generated INVITE CODE and shares it with their partner.\n5. The friend selects **PLAY → FRIEND'S PASS → ENTER THE CODE** and inputs the provided code to join the game.\n\nEnsure both players have the same version of the game installed by checking the version number in the lower-left corner of the main menu before starting your session.\n\n## Mastering RC Car Abilities\n\nAs you progress through the house, you will unlock specialized abilities that allow your RC car to reach new areas. These abilities are essential for solving puzzles and accessing hidden paths.\n\n*   **Magnetic Wheels:** Use these to drive on walls and ceilings, allowing you to traverse the laboratory from unique angles.\n*   **The Rope:** Essential for crossing gaps between platforms.\n*   **Magnetic Grabber:** A versatile tool that you can use creatively to interact with objects in the environment.\n\nBe sure to revisit previously explored rooms once you unlock new abilities. Many areas contain hidden paths or clues that are only accessible once you have the right equipment.\n\n## Exploring the Narrative and Mini-Games\n\nBeyond the main puzzles, WheelMates features a deep, optional narrative. As you explore, you will collect story fragments that are automatically stored in your narrative journal. This journal helps you piece together the history of Professor Bloom’s house and the events that led to his disappearance.\n\nWhen you aren't solving puzzles, you can participate in various mini-games scattered throughout the house. These are perfect for testing your driving skills and settling friendly rivalries with your co-op partner. These mini-games are a great way to take a break from the main progression while still engaging with the game's physics-based driving mechanics.\n\n## Troubleshooting and Performance\n\nIf you encounter issues while playing, the development team recommends a few standard steps to ensure a smooth experience. Always ensure your game is updated to the latest version, as hotfixes are frequently released to address progression blockers, such as issues in the Backyard or Shed levels.\n\nIf you encounter a bug, provide as much detail as possible to the developers, including the specific steps you took and your current game version. Common fixes for connectivity or progress issues include restarting your Steam client or verifying your game files.\n\n## Frequently Asked Questions\n\n### Do I need to buy two copies of WheelMates to play with a friend?\nNo. Thanks to the Friend's Pass, only one player needs to own the game. The second player can join for free using the Friend's Pass version.\n\n### Is there combat in WheelMates?\nNo, there is no combat in the game. The gameplay focuses entirely on driving, exploration, and solving environmental puzzles.\n\n### Can I play WheelMates alone?\nWheelMates is specifically designed as a two-player co-op experience. You will need a partner to solve the puzzles and progress through the game's challenges.\n\n### How do I report bugs?\nIf you encounter a bug, you should report it to the developers with a detailed description of the issue and your game version, which can be found in the bottom left corner of the main menu.\n\n## Sources\n\n* [WheelMates Steam Store Page](https://steamcommunity.com/app/3905450)\n* [WheelMates Gameplay Overview Trailer](https://www.youtube.com/watch?v=wR6raQZibbs)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4481,
+    "completion_tokens": 1069,
+    "total_tokens": 5550,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 4481,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1069,
+        "totalTokenCount": 5550,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4481,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

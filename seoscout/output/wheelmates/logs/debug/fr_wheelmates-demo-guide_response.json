@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030321512616340688268d9d6ZNRqtuYB",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405716,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guide de la démo WheelMates : Débuter en course RC coop\",\n  description: \"Découvrez comment lancer la démo de WheelMates avec un ami, maîtriser les commandes et réussir les puzzles de ce jeu de plateforme en voiture RC.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\n## Introduction à l'expérience WheelMates\n\n*WheelMates* est un jeu de plateforme et de réflexion coopératif pour 2 joueurs où vous prenez le volant de voitures télécommandées. Situé dans le laboratoire du professeur Bloom, le jeu demande aux joueurs d'explorer une maison, de résoudre des énigmes en coopération et de découvrir des secrets. Que vous jouiez à la démo ou à la version complète, le cœur du gameplay repose sur la synchronisation et le contrôle précis des véhicules pour franchir des obstacles complexes.\n\nLe jeu est conçu exclusivement pour deux joueurs. En raison de la forte dépendance au travail d'équipe, l'expérience est idéale avec un partenaire fiable. Si vous débutez, comprendre les mécaniques de mouvement de base et la manière d'interagir avec l'environnement est essentiel pour surmonter les segments les plus difficiles du jeu.\n\n## Pour bien commencer : Coop et Friend's Pass\n\nL'une des fonctionnalités les plus remarquables de *WheelMates* est le système « Friend's Pass ». Il permet aux joueurs d'inviter un ami à rejoindre leur session gratuitement, même si une seule personne possède le jeu complet.\n\nPour héberger ou rejoindre une session, suivez ces étapes :\n1. **Lancer le jeu :** L'hôte et l'invité doivent avoir le jeu (ou la version démo appropriée) installé.\n2. **Accéder au salon :** Naviguez vers **Play > Play Online > Host**.\n3. **Partager le code :** L'hôte doit copier le code d'invitation unique généré dans le salon et le partager avec son partenaire.\n4. **Rejoindre la session :** L'invité sélectionne **Play > Friend's Pass > Enter the Code** pour se connecter.\n\nAssurez-vous toujours que les deux joueurs utilisent la même version du jeu. Vous pouvez vérifier votre numéro de version dans le coin inférieur gauche du menu principal pour éviter les problèmes de connexion.\n\n## Comprendre les commandes du véhicule\n\nLa physique de *WheelMates* est conçue pour imiter la sensation erratique et amusante des voitures télécommandées des années 90. Cela peut entraîner une courbe d'apprentissage abrupte, car les véhicules sont très réactifs et peuvent être difficiles à gérer sur des pentes raides ou des plateformes étroites.\n\n*   **Dynamique de conduite :** La direction peut sembler assez rigide. Les joueurs signalent souvent que la voiture tourne trop brusquement si elle n'est pas manipulée avec soin.\n*   **La touche Retour (Return) :** Si vous tombez d'une corniche ou restez coincé, utilisez la fonction « Return ». C'est une mécanique essentielle qui fait gagner du temps et évite la frustration lors des sections de plateforme délicates.\n*   **Le frein à main :** Bien que le frein à main soit disponible, certains joueurs trouvent qu'il ne permet pas toujours d'effectuer le virage en dérapage attendu. S'adapter au poids et à la maniabilité spécifiques de votre voiture RC est une compétence clé à mesure que vous progressez dans le laboratoire.\n\n## Conseils pour résoudre les énigmes du laboratoire\n\nLes énigmes dans *WheelMates* nécessitent souvent la présence des deux joueurs ou l'exécution d'actions simultanées. Pendant que vous explorez la maison du professeur Bloom, gardez ces stratégies à l'esprit :\n\n*   **Mouvements synchronisés :** De nombreux obstacles exigent que les deux joueurs activent des interrupteurs en même temps ou coordonnent leurs mouvements. La communication est votre outil le plus précieux ; informez toujours votre partenaire lorsque vous êtes en position.\n*   **Interaction avec l'environnement :** Cherchez des objets que vous pouvez pousser, scanner ou avec lesquels vous pouvez interagir à l'aide de votre véhicule. Certaines énigmes nécessitent de déplacer des objets physiques pour créer des chemins, tandis que d'autres demandent d'activer des nœuds énergétiques spécifiques.\n*   **Gestion des cœurs d'énergie :** Dans les zones où vous devez gérer des batteries ou des cœurs d'énergie, n'oubliez pas que vous devrez peut-être transporter ces objets à travers la carte. Soyez prudent lorsque vous sautez avec ces objets, car les perdre peut vous obliger à recommencer un segment.\n*   **Scannez votre environnement :** Utilisez le scanner du jeu pour récolter des données. Non seulement cela aide à la progression, mais cela fournit également des informations utiles sur l'environnement qui facilitent la navigation sur les pistes les plus difficiles.\n\n## Dépannage des problèmes courants\n\nSi vous rencontrez des problèmes techniques en jouant, les développeurs recommandent plusieurs correctifs rapides :\n*   **Bugs de progression :** Si vous êtes bloqué dans l'arrière-cour (Backyard) ou le hangar (Shed), assurez-vous que votre jeu est à jour. Des correctifs récents ont résolu de nombreux problèmes de collision bloquant la progression.\n*   **Entrée de la manette :** Si vous rencontrez des entrées répétées ou erratiques de la croix directionnelle sur les manettes DualSense ou DualShock 4, assurez-vous que le firmware de votre manette et les fichiers de jeu sont entièrement à jour.\n*   **Performance :** Si des objets ou des mécaniques (comme les balançoires en corde) n'apparaissent pas, assurez-vous que les deux joueurs ont installé le dernier correctif.\n\n## Foire aux questions\n\n**Puis-je jouer à WheelMates seul ?**\nNon, *WheelMates* est conçu comme une expérience coopérative à 2 joueurs. Les énigmes sont conçues pour nécessiter deux voitures RC travaillant en tandem.\n\n**Les deux joueurs doivent-ils acheter le jeu ?**\nNon. Grâce au Friend's Pass, une seule personne doit posséder le jeu complet. Le deuxième joueur peut rejoindre la partie en utilisant la version gratuite.\n\n**Que dois-je faire si je suis coincé dans un niveau ?**\nUtilisez la mécanique « Return » pour réinitialiser la position de votre voiture. Si un bug bloquant survient, vérifiez vos fichiers de jeu sur Steam et assurez-vous que vous utilisez le dernier patch.\n\n## Sources\n* [Steam Community: WheelMates](https://steamcommunity.com/app/3905450)\n* [Official Game Website: WheelMates](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1432,
+    "completion_tokens": 1481,
+    "total_tokens": 2913,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1432,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1481,
+        "totalTokenCount": 2913,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1432,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

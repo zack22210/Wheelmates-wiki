@@ -24,6 +24,15 @@ function hostname(value) {
   catch { return ''; }
 }
 
+let configuredSiteHost = '';
+try {
+  const siteConfig = await readFile(path.join(root, 'src', 'config', 'site.ts'), 'utf8');
+  const configuredSiteUrl = siteConfig.match(/NEXT_PUBLIC_SITE_URL\s*\?\?\s*['"]([^'"]+)['"]/)?.[1];
+  configuredSiteHost = hostname(configuredSiteUrl ?? '');
+} catch {
+  configuredSiteHost = '';
+}
+
 const files = [
   path.join(requirementsDir, '基础信息.md'),
   path.join(requirementsDir, '首页探索模块.json'),
@@ -36,7 +45,7 @@ for (const file of files) {
   try { source = await readFile(file, 'utf8'); } catch { continue; }
   for (const match of source.matchAll(/https?:\/\/[^\s)\]>'"]+/g)) {
     const url = match[0].replace(/[.,;:]$/, '');
-    if (/localhost|127\.0\.0\.1|example\.com|_TO_REPLACE/i.test(url) || url === 'https://schema.org') continue;
+    if (/localhost|127\.0\.0\.1|example\.com|_TO_REPLACE/i.test(url) || url === 'https://schema.org' || hostname(url) === configuredSiteHost) continue;
     if (!references.has(url)) references.set(url, []);
     references.get(url).push(path.relative(root, file).replaceAll('\\', '/'));
   }

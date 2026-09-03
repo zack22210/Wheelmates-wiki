@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030323354319891968268d9d6zP5zlXdV",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405839,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates: Cómo navegar por el área Neuro-Void\",\n  description: \"¿Atascado en el área Neuro-Void de WheelMates? Infórmate sobre los reportes de jugadores sobre el teclado numérico y el requisito de la habilidad Imán.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## Comprensión del área Neuro-Void\n\nEl Neuro-Void es una ubicación específica dentro de WheelMates que recientemente se ha convertido en un tema de discusión para los jugadores que navegan por sus desafíos. Algunos usuarios han informado dificultades para avanzar tras una secuencia de teclado numérico ubicada en esta zona. Si no logras determinar el código de entrada correcto, no estás solo en la búsqueda de aclaraciones sobre si esto representa un obstáculo de mecánica de juego o un posible problema técnico.\n\n## Abordar posibles bloqueos de progreso\n\nLos informes de la comunidad de jugadores indican que algunos usuarios sienten que podrían haber encontrado un bloqueo de progreso (softlock) al intentar resolver el acertijo del teclado. Una de las principales preocupaciones planteadas por estos jugadores es la accesibilidad a la habilidad Imán (Magnet).\n\nActualmente no hay confirmación oficial sobre si la habilidad Imán es un prerrequisito obligatorio para el acertijo del teclado de Neuro-Void. Los jugadores se preguntan si la habilidad debería haberse obtenido antes en el progreso del juego. Si crees que has saltado un objeto o habilidad necesaria, se recomienda revisar tu inventario actual y la lista de habilidades para asegurar que se completaron todos los objetivos precedentes.\n\n## Identificación de bloqueos frente a acertijos\n\nAl encontrar un teclado o un área bloqueada en WheelMates, es importante distinguir entre un acertijo que requiere un objeto específico y un posible error de software. Debido a que la información sobre la solución prevista para el teclado de Neuro-Void aún no está totalmente documentada, verifica lo siguiente antes de asumir un bloqueo:\n\n*   **Revisa tu inventario:** Asegúrate de no haber pasado por alto caminos secundarios u objetos en las zonas inmediatamente anteriores al Neuro-Void.\n*   **Busca pistas:** Observa pistas en el entorno o registros digitales cerca del teclado que puedan sugerir la ubicación del código o el requisito de una herramienta específica.\n*   **Recursos oficiales:** Consulta siempre el [WheelMates Official Game Site](https://wheelmatesgame.com/) para ver las últimas actualizaciones, notas del parche o anuncios de la comunidad que puedan abordar problemas conocidos con el progreso del área.\n\n## Próximos pasos para los jugadores\n\nSi no puedes progresar y sospechas que el juego está fallando, asegúrate de que tu versión de WheelMates esté totalmente actualizada. Los desarrolladores suelen lanzar correcciones rápidas (hotfixes) para los bloqueos de progreso. Las discusiones de la comunidad pueden ser útiles para compartir experiencias, pero prioriza siempre la información proporcionada a través de los canales oficiales de los desarrolladores. Si has confirmado que se cumplieron todos los prerrequisitos y el acertijo sigue sin poder resolverse, informar del incidente a través de los canales oficiales es la forma más efectiva de ayudar al equipo de desarrollo a identificar y resolver posibles bloqueos.\n\n## Preguntas frecuentes\n\n**¿Se supone que el área Neuro-Void tiene un teclado numérico?**\nSí, los jugadores han informado haber interactuado con un teclado en esta área, que actualmente sirve como un punto de progreso que a algunos les resulta difícil de resolver.\n\n**¿Necesito la habilidad Imán para pasar el Neuro-Void?**\nActualmente no está confirmado si la habilidad Imán es estrictamente necesaria para esta sección. Los jugadores aún están determinando si la incapacidad de progresar se debe a una habilidad faltante o a un error de juego.\n\n**¿Qué debo hacer si creo que estoy en un bloqueo de progreso?**\nPrimero, vuelve sobre tus pasos para asegurarte de no haber saltado ninguna habilidad crítica. Si tienes la certeza de contar con todos los objetos necesarios, busca actualizaciones oficiales del juego e informa del problema a los desarrolladores.\n\n## Fuentes\n\n[Reporte de error: Posible bloqueo en el área Neuro-Void](https://steamcommunity.com/app/3905450/discussions/0/582807145029886029/?l=koreana)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 2853,
+    "total_tokens": 3877,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1024,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 930,
+        "totalTokenCount": 3877,
+        "thoughtsTokenCount": 1923,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1024
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 930
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1024,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 930,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1923
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

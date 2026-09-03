@@ -1,5 +1,5 @@
 param(
-  [string]$SharedPath = $(if ($env:SEOSCOUT_SHARED_PATH) { $env:SEOSCOUT_SHARED_PATH } else { 'D:\Web出海\tools\seoscout' }),
+  [string]$SharedPath = $(if ($env:SEOSCOUT_SHARED_PATH) { $env:SEOSCOUT_SHARED_PATH } else { [System.IO.Path]::GetFullPath((Join-Path (Get-Location).Path '..\tools\seoscout')) }),
   [switch]$SkipUpdate
 )
 

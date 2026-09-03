@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030324544628821538268d9d6gq9tkW3B",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405899,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guía de WheelMates en Steam: Cooperativo y Friend's Pass\",\n  description: \"Aprende a jugar WheelMates en Steam con un amigo gratis usando el Friend's Pass, además de detalles sobre la jugabilidad, mecánicas y actualizaciones.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\nWheelMates es una fascinante aventura de conducción cooperativa para dos jugadores disponible en Steam, que desafía a los usuarios a explorar la enorme y misteriosa casa de un científico desaparecido, el profesor Everett Bloom. Como pequeños coches a control remoto, los jugadores deben trabajar juntos para resolver acertijos, explorar caminos ocultos y descubrir los secretos tras la desaparición del profesor. El juego se centra en la exploración y la resolución cooperativa de problemas, e incluye un sistema único de \"Friend's Pass\" que permite a dos personas disfrutar de la experiencia completa aunque solo una de ellas posea el juego.\n\n## Jugabilidad y mecánicas\nEn WheelMates, los jugadores controlan pequeños coches RC personalizables a través de varias habitaciones de una casa que, poco a poco, se revela como un extraño laboratorio. El juego se centra en la exploración no violenta y la resolución de acertijos. A medida que avanzas, tus coches desbloquean nuevas habilidades que te permiten llegar a áreas previamente inaccesibles, lo que anima a los jugadores a volver a visitar habitaciones anteriores para descubrir pistas y caminos ocultos.\n\nLas mecánicas clave de movimiento e interacción incluyen:\n*   **Ruedas magnéticas:** Se utilizan para atravesar paredes y techos.\n*   **Cuerda:** Esencial para cruzar huecos y navegar por espacios verticales.\n*   **Gancho magnético:** Una herramienta versátil que los jugadores deben aprender a utilizar de forma creativa para resolver acertijos ambientales.\n\nEntre estos segmentos de exploración, el juego incluye minijuegos que ponen a prueba tus habilidades de conducción y te permiten competir con tu compañero. Un diario narrativo registra los fragmentos de historia que recolectas, ayudándote a reconstruir la historia de la casa y los eventos que rodean al profesor Bloom.\n\n## Jugar con el Friend's Pass\nUna de las características más destacadas de WheelMates en Steam es el Friend's Pass, que permite el juego cooperativo sin necesidad de que ambos jugadores compren el juego. El juego admite tanto el modo cooperativo en línea como el juego local en pantalla dividida.\n\nPara jugar en línea usando el Friend's Pass, sigue estos pasos:\n1.  **Descarga:** El propietario del juego descarga e inicia la versión completa de WheelMates. El amigo descarga e inicia la versión \"WheelMates Friend's Pass\".\n2.  **Anfitrión:** El propietario selecciona **PLAY** → **PLAY ONLINE** → **HOST** en el menú principal para generar un código de invitación.\n3.  **Invitar:** El propietario comparte este código con su compañero.\n4.  **Unirse:** El amigo selecciona **PLAY** → **FRIEND'S PASS** → **ENTER THE CODE** e ingresa el código proporcionado por el propietario.\n5.  **Comenzar:** Una vez que el compañero se haya unido a la sala, pueden comenzar su aventura juntos.\n\n## Mantente actualizado\nEl equipo de desarrollo de Firevolt lanza actualizaciones con frecuencia para mejorar la experiencia del jugador. Es importante asegurarse de que tanto el propietario como el compañero tengan instalada la misma versión del juego para evitar problemas de conectividad. Puedes verificar el número de versión actual en la esquina inferior izquierda del menú principal.\n\nSi encuentras problemas técnicos, como bloqueos de progreso en niveles específicos como el patio trasero o el cobertizo, o si experimentas problemas con la entrada del mando, asegúrate de que tu juego esté actualizado a la última versión a través de Steam. Se anima a los jugadores a informar de errores con descripciones detalladas paso a paso y la versión actual del juego para ayudar a los desarrolladores a implementar correcciones rápidamente.\n\n## Preguntas frecuentes\n\n**¿Necesita mi amigo comprar WheelMates para jugar conmigo?**\nNo. Con el Friend's Pass incluido, solo un jugador necesita poseer el juego. Tu compañero puede descargar la versión Friend's Pass de forma gratuita y unirse a tu sesión.\n\n**¿Hay combate en WheelMates?**\nNo, no hay combate en el juego. Los desafíos principales son el entorno, la navegación y los acertijos dentro de la casa.\n\n**¿Qué debo hacer si encuentro un error?**\nLos desarrolladores recomiendan describir el error en detalle, incluyendo los pasos para reproducirlo y tu versión actual del juego (que se encuentra en el menú principal). Puedes informar de estos problemas en las discusiones de la comunidad de Steam o en el servidor oficial de Discord.\n\n## Fuentes\n* [WheelMates en Steam](https://steamcommunity.com/app/3905450)\n* [Tráiler de resumen de jugabilidad de WheelMates](https://www.youtube.com/watch?v=wR6raQZibbs)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 1089,
+    "total_tokens": 2285,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1196,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1089,
+        "totalTokenCount": 2285,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1196,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

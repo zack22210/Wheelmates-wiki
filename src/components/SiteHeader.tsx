@@ -1,6 +1,7 @@
 'use client';
 
 import {useState} from 'react';
+import Image from 'next/image';
 import {BookOpenText, Menu, X} from 'lucide-react';
 import {useTranslations} from 'next-intl';
 import {Button} from '@/components/ui/button';
@@ -8,6 +9,7 @@ import {ThemeToggle} from '@/components/ThemeToggle';
 import {LanguageSwitcher} from '@/components/LanguageSwitcher';
 import {Link} from '@/i18n/navigation';
 import {routing} from '@/i18n/routing';
+import {SITE_LOGO_PATH} from '@/config/site';
 
 export type HeaderNavigationGroup = {
   contentType: string;
@@ -37,7 +39,7 @@ export function SiteHeader({groups}: {groups: HeaderNavigationGroup[]}) {
     <header className="site-header">
       <div className="header-main shell">
         <Link href="/" className="brand-lockup" aria-label={t('site.name')}>
-          <span className="brand-mark"><BookOpenText aria-hidden="true" /></span>
+          <span className="brand-mark"><Image src={SITE_LOGO_PATH} alt="" width={106} height={64} priority /></span>
           <span>
             <strong>{t('site.name')}</strong>
             <small>{t('site.tagline')}</small>

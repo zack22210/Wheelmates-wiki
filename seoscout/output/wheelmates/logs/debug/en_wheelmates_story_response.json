@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030259361111633638268d9d6OwPbyAgG",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404382,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"The Story of WheelMates: A Co-op Driving Mystery\",\n  description: \"Discover the mysterious story behind WheelMates. Learn about Professor Everett Bloom, the neuro helmets, and your mission in this co-op driving adventure.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\n## The Disappearance of Professor Everett Bloom\n\nThe narrative of *WheelMates* centers on the sudden and mysterious disappearance of Professor Everett Bloom, a mad scientist whose laboratory serves as the primary setting for the game. Players step into the roles of two individuals tasked with exploring Bloom’s home and laboratory to uncover what happened to him.\n\nThe environment is scaled to make the player's remote-controlled cars feel small, reminiscent of classic toy-based racing games. You will navigate across household objects like kitchen tables and desks, maneuvering around oversized cereal bowls, pens, and other everyday items that have become massive obstacles in the wake of the Professor's vanishing.\n\n## Trapped in the House Bread\n\nThe story takes a surreal turn through the game's audio cues and trailers. A mysterious voice—likely that of Professor Bloom or a digital consciousness—reveals that their integrity is failing and their consciousness has become trapped \"inside the house bread.\" \n\nThis cryptic message serves as the catalyst for the gameplay. Players are instructed to locate and utilize \"neuro helmets,\" which appear to be the key to navigating this strange, digitized, or miniaturized reality. The voice emphasizes that these helmets may not look safe, but they are essential for the players to move forward and survive the environment.\n\n## Weaving Two Minds Into One\n\n*WheelMates* is fundamentally built around the concept of cooperation. The game’s narrative themes stress that the players are \"two pieces of one puzzle.\" Success in the story requires more than just driving skill; it demands the synchronization of two minds. \n\nAs you progress through the laboratory and surrounding areas, you must work in tandem to solve puzzles and overcome environmental hazards. The \"rhythm\" of the game is described not merely as a mechanical requirement, but as a core element of the story’s focus on the bond between the two participants, whether they are friends, family, or rivals forced into cooperation.\n\n## Unlocking the Laboratory’s Secrets\n\nTo uncover the truth behind Professor Bloom's disappearance, players must master a variety of abilities. These tools are necessary to explore every nook and cranny of the house and are essential for solving the puzzles hidden within the Professor's experiments. Notable mechanics include:\n\n*   **Magnetic Wheels:** Allow players to drive vertically up walls and across ceilings.\n*   **Rope:** Used for swinging across gaps when a traditional ramp is unavailable.\n*   **Magnetic Grabber:** A tool used to interact with the environment, such as flicking switches or collecting items.\n\nBy utilizing these abilities, you move deeper into the mysteries of the laboratory, piecing together the events that led to the Professor's disappearance.\n\n## Frequently Asked Questions\n\n**Who is the main character in the WheelMates story?**\nThe story revolves around the disappearance of Professor Everett Bloom, a mad scientist whose laboratory is the setting for the game.\n\n**What is the goal of the players in WheelMates?**\nPlayers must explore the laboratory and surrounding areas, navigate obstacles, and solve puzzles to discover what happened to Professor Bloom.\n\n**Why do players need to wear neuro helmets?**\nAccording to the game's narrative, the neuro helmets are necessary to move forward and navigate the environment after a consciousness becomes trapped within the house.\n\n## Sources\n\n- [WheelMates - Official Demo Launch Trailer (YouTube)](https://www.youtube.com/watch?v=_wqW-BgIfI0)\n- [WheelMates – Official Release Date Trailer (2026) | Firevolt (YouTube)](https://www.youtube.com/watch?v=BlxUCDSP9Lk)\n- [An It Takes Two-inspired co-op driving game is coming (Polygon)](https://www.polygon.com/wheelmates-it-takes-two-inspired-release-date/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2105,
+    "completion_tokens": 880,
+    "total_tokens": 2985,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 2105,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 880,
+        "totalTokenCount": 2985,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2105,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

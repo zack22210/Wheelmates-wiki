@@ -1,0 +1,54 @@
+export const metadata = {
+  title: "WheelMates: Errores conocidos y solución de problemas",
+  description: "Encuentra información verificada sobre errores de WheelMates, bloqueos, problemas de cooperativo, actualizaciones y soluciones técnicas seguras.",
+  category: "technical",
+  date: "2026-09-03",
+}
+
+## Entender los problemas técnicos en WheelMates
+
+WheelMates se encuentra actualmente en fase de desarrollo activo y los jugadores han identificado varios obstáculos técnicos durante la prueba de la demo. Aunque muchos de estos problemas son comunes en títulos de acceso anticipado o pruebas, el equipo de desarrollo ya ha comenzado a solucionar errores gráficos y de jugabilidad específicos. Esta guía resume los hallazgos técnicos más reportados para ayudarte a solucionar problemas en tu experiencia.
+
+## Errores reportados en jugabilidad y controles
+
+Los informes de la comunidad han destacado algunos problemas recurrentes que afectan a la navegación y a la entrada de comandos. Si te encuentras con ellos, ten en cuenta que algunos tienen soluciones temporales:
+
+*   **Entrada en el menú principal:** Varios jugadores han informado que los mandos no funcionan en el menú principal. Sin embargo, los controles suelen funcionar como deberían una vez que comienza la partida.
+*   **Bloqueo de cámara:** Si un jugador muere durante la escena de la palanca doble, su cámara puede quedar atrapada debajo del vehículo. Esto se puede resolver reapareciendo al personaje.
+*   **Activación de palancas:** Algunos jugadores han notado que la interacción para la palanca final requiere una posición extremadamente precisa para activar el aviso de "LB". Si tienes dificultades para agarrar la palanca, ajusta ligeramente el ángulo y la distancia de tu personaje.
+*   **Mecánica del gancho:** Existe una peculiaridad conocida que permite a un jugador permanecer enganchado después de usar la función de "retorno" si el botón del gancho no se suelta simultáneamente. Asegúrate de soltar el botón para evitar una conexión no deseada.
+*   **Explotación de movimiento:** Los jugadores han descubierto que conducir en reversa puede permitir velocidades de hasta 70 en zonas con límite de 50. Además, hay informes poco frecuentes de jugadores que atraviesan ventilaciones específicas, lo que sugiere posibles problemas de límites de colisión.
+
+## Conectividad de red y multijugador
+
+Jugar a WheelMates en línea en modo cooperativo ha revelado algunas limitaciones respecto a la estabilidad y conectividad de la sala:
+
+*   **Problemas con invitaciones de Steam:** Algunos usuarios han reportado dificultades para enviar invitaciones directamente a través de la interfaz de Steam. Si una invitación falla, los jugadores han tenido éxito al crear una nueva partida multijugador desde la sala y haciendo que el segundo jugador se una a la nueva sesión.
+*   **Limitaciones de reconexión:** Si un jugador cliente se desconecta o regresa al menú, es posible que no pueda volver a unirse a la partida activa del anfitrión. En este escenario, el anfitrión a menudo permanece solo en la sesión, lo que requiere reiniciar la sala de juego en red.
+
+## Correcciones gráficas y de rendimiento
+
+Las pruebas iniciales identificaron un error gráfico específico que afectaba al renderizado del humo. Los usuarios con tarjetas gráficas AMD (específicamente aquellos que usan el controlador 25.12.1) informaron que el humo de las ventilaciones del coche y otras fuentes aparecía negro sólido y no transparente.
+
+El equipo de desarrollo ha confirmado que se ha implementado un parche para resolver este problema. Si todavía experimentas humo negro y opaco, asegúrate de que tu cliente de juego esté actualizado a la última versión. Si el problema persiste, verifica que los controladores de tu GPU estén actualizados, ya que los desarrolladores abordaron esto específicamente para el hardware AMD.
+
+## Problemas de bloqueo de progreso
+
+Un error importante reportado en el área del garaje involucra la secuencia de activación de la bomba. Algunos jugadores han encontrado un estado en el que las tres bombas están activadas y la palanca está accionada, pero la ventilación permanece cerrada y el juego sigue solicitando la activación de la tercera bomba.
+
+Desafortunadamente, reiniciar el juego no siempre restablece este activador de evento específico. Si te encuentras con esto, intenta verificar los archivos del juego a través del cliente de Steam o busca parches pendientes, ya que estos errores de lógica de progresión suelen ser objetivos prioritarios para los parches rápidos.
+
+## Preguntas frecuentes
+
+**¿Existe una solución para el problema del humo negro en tarjetas AMD?**
+Sí, los desarrolladores lanzaron un parche específicamente para abordar el problema de renderizado de humo no transparente reportado en hardware AMD. Asegúrate de que tu juego esté actualizado a la última versión.
+
+**¿Qué debo hacer si mi mando no funciona en los menús?**
+Este es un error conocido donde la entrada del mando puede fallar en el menú principal pero funcionar bien en el juego. Intenta usar el ratón y el teclado para navegar por el menú hasta que estés en la sesión activa.
+
+**¿Cómo arreglo el fallo de la cámara durante el uso de la palanca?**
+Si tu cámara se queda atascada debajo del vehículo después de una escena, realizar una reaparición suele restablecer la cámara a su posición correcta.
+
+## Fuentes
+
+* [Bugs Found in Demo :: WheelMates Dyskusje ogólne](https://steamcommunity.com/app/3905450/discussions/0/780947379776168974/?l=polish)

@@ -75,6 +75,77 @@ FETCH_NEW = """                # Fetch directly and extract the main text locall
 
                         cleaned_content = self.cleaner.clean(extracted)
 """
+LEGACY_FETCH_PATTERN = re.compile(
+    r"            # 2\. \u7f13\u5b58\u672a\u547d\u4e2d.*?"
+    r"            return \(item, \"\"\)\n",
+    re.DOTALL,
+)
+LEGACY_FETCH_NEW = """            # 2. Fetch directly and extract the main text locally.
+            for attempt in range(self.config.WEB_EXTRACT_RETRIES):
+                await rate_limiter.acquire()
+                try:
+                    headers = {
+                        "User-Agent": os.getenv(
+                            "WEB_EXTRACT_USER_AGENT",
+                            "Mozilla/5.0 (compatible; GameWikiResearch/1.0; +https://github.com/libin257/seoscout)",
+                        ),
+                        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,text/plain;q=0.8,*/*;q=0.5",
+                        "Accept-Language": "en-US,en;q=0.8",
+                    }
+                    proxy_url = self.config.get_proxy_url_for_stage("extract")
+                    timeout = aiohttp.ClientTimeout(
+                        total=int(os.getenv("WEB_EXTRACT_TIMEOUT", "45"))
+                    )
+                    async with aiohttp.ClientSession(timeout=timeout) as session:
+                        async with session.get(
+                            item.url,
+                            headers=headers,
+                            proxy=proxy_url,
+                            allow_redirects=True,
+                        ) as response:
+                            if response.status != 200:
+                                if attempt < self.config.WEB_EXTRACT_RETRIES - 1:
+                                    await asyncio.sleep(2 ** attempt)
+                                    continue
+                                return (item, "")
+
+                            content_type = response.headers.get("Content-Type", "").lower()
+                            if "text/" not in content_type and "html" not in content_type and "xml" not in content_type:
+                                return (item, "")
+
+                            html = await response.text(errors="replace")
+                            extracted = await asyncio.to_thread(
+                                trafilatura.extract,
+                                html,
+                                url=str(response.url),
+                                output_format="markdown",
+                                include_links=True,
+                                include_tables=True,
+                                favor_precision=True,
+                                deduplicate=True,
+                            )
+                            if not extracted or len(extracted.strip()) < 500:
+                                if attempt < self.config.WEB_EXTRACT_RETRIES - 1:
+                                    await asyncio.sleep(2 ** attempt)
+                                    continue
+                                return (item, "")
+
+                            cleaned_content = self.cleaner.clean(extracted)
+                            save_cache(url_hash, "web", {
+                                "title": item.title,
+                                "url": item.url,
+                                "domain": item.domain,
+                                "content": cleaned_content,
+                                "source_type": "web",
+                            }, title=item.title)
+                            return (item, cleaned_content)
+                except Exception:
+                    if attempt < self.config.WEB_EXTRACT_RETRIES - 1:
+                        await asyncio.sleep(2 ** attempt)
+                        continue
+
+            return (item, "")
+"""
 JINA_VALIDATION_OLD = """        if not cls.JINA_API_KEY:
             errors.append("JINA_API_KEY not set (optional, but recommended for higher rate limits)")
 
@@ -101,9 +172,16 @@ def main() -> None:
     text_before_brand_update = text
     text = text.replace("RobloxWikiResearch/1.0", "GameWikiResearch/1.0")
     if "Fetch directly and extract the main text locally" not in text:
-        text = replace_once(text, IMPORT_OLD, IMPORT_NEW, "import")
-        text = replace_once(text, LIMITS_OLD, LIMITS_NEW, "rate limiter")
-        text, count = FETCH_PATTERN.subn(lambda _: textwrap.indent(FETCH_NEW, "    "), text, count=1)
+        if IMPORT_OLD in text:
+            text = replace_once(text, IMPORT_OLD, IMPORT_NEW, "import")
+            text = replace_once(text, LIMITS_OLD, LIMITS_NEW, "rate limiter")
+            text, count = FETCH_PATTERN.subn(lambda _: textwrap.indent(FETCH_NEW, "    "), text, count=1)
+        elif "import requests\n" in text and "Jina Reader" in text:
+            text = replace_once(text, "import requests\n", "import requests\nimport trafilatura\n", "legacy import")
+            text = replace_once(text, LIMITS_OLD, LIMITS_NEW, "legacy rate limiter")
+            text, count = LEGACY_FETCH_PATTERN.subn(LEGACY_FETCH_NEW, text, count=1)
+        else:
+            raise RuntimeError("No supported Jina extraction layout was found; upstream changed and the patch must be reviewed.")
         if count != 1:
             raise RuntimeError("Expected one Jina fetch block; upstream changed and the patch must be reviewed.")
         web_file.write_text(text, encoding="utf-8")
@@ -129,6 +207,7 @@ def main() -> None:
 
     config_file = args.source / "seoscout" / "core" / "config.py"
     config_text = config_file.read_text(encoding="utf-8")
+    config_changed = False
     if "Web extraction is local (Trafilatura)" not in config_text:
         config_text = replace_once(
             config_text,
@@ -136,8 +215,25 @@ def main() -> None:
             JINA_VALIDATION_NEW,
             "Jina validation",
         )
+        config_changed = True
+    if "load_dotenv(Path.cwd() / \".env\")" not in config_text:
+        if "from pathlib import Path\n" not in config_text:
+            config_text = replace_once(
+                config_text,
+                "import os\n",
+                "import os\nfrom pathlib import Path\n",
+                "pathlib import",
+            )
+        config_text = replace_once(
+            config_text,
+            "        load_dotenv()\n",
+            "        load_dotenv(Path.cwd() / \".env\")\n",
+            "project dotenv path",
+        )
+        config_changed = True
+    if config_changed:
         config_file.write_text(config_text, encoding="utf-8")
-        print(f"Removed obsolete Jina key requirement: {config_file}")
+        print(f"Updated local extraction configuration: {config_file}")
 
 
 if __name__ == "__main__":

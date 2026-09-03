@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030259290274574158268d9d6FMr6ktDb",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404376,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Gameplay Guide: Co-Op Features and Mechanics\",\n  description: \"Learn about WheelMates gameplay, including co-op mechanics, the Friend's Pass system, and how to navigate Professor Bloom's house as an RC car.\",\n  category: \"information\",\n  date: \"2026-09-03\",\n}\n\nWheelMates is a 2-player cooperative adventure game that tasks players with navigating a large, cluttered home environment as remote-controlled cars. Players take on the role of two vehicles, exploring areas ranging from a kitchen and vents to a backyard and shed, all while solving environmental puzzles and uncovering the mystery behind Professor Bloom’s laboratory.\n\nThe game is designed exclusively for cooperative play, requiring two participants to progress. Whether playing locally via split-screen or online, the gameplay focuses on communication and synchronized movement to overcome obstacles.\n\n## Core Gameplay Mechanics\n\nThe gameplay revolves around 3D platforming and puzzle-solving. Players control RC cars that possess a specific set of tools and abilities, which are unlocked as they progress through the levels. These abilities are essential for interacting with the environment and clearing paths for one another.\n\nKey abilities include:\n*   **Grappling Hook:** Used to pull levers, open drawers, and swing across gaps.\n*   **Magnet:** Allows players to manipulate non-magnetic objects or interact with specific items to solve puzzles.\n*   **Magnet Tire:** Enables the car to traverse metal paths on walls or ceilings.\n*   **Paint Gun:** Used to hit distant targets or trigger switches.\n\nSuccess often depends on players working in tandem. For example, one player might need to hold a button while the other traverses a platform, or both players may need to coordinate their movements to operate a scissor lift.\n\n## The Friend’s Pass System\n\nA defining feature of the WheelMates experience is the \"Friend’s Pass.\" This system allows two people to play the game online even if only one person has purchased the full version.\n\nTo use the Friend's Pass, follow these steps:\n1.  The owner of the game launches WheelMates.\n2.  The second player downloads and launches the free \"Friend’s Pass\" version of the game.\n3.  The owner generates an invite code within the game’s Lobby menu by selecting **PLAY → PLAY ONLINE → HOST**.\n4.  The second player enters this code under the **FRIEND'S PASS** menu option to join the session.\n\n## Exploration and Collectibles\n\nThe world of WheelMates is filled with various items to discover. Throughout the levels, players can find yellow electrical bubbles and rare, colorful collectibles hidden in difficult-to-reach areas. Additionally, players can scan various objects within the environment to learn more about the story.\n\nWhile the game offers an open-ended approach to objectives within each level, the driving mechanics are central to the experience. Players should be prepared for the unique handling of an RC car, which requires precision when navigating tight spaces like air vents or performing jumps over gaps. If a player gets stuck or falls from a ledge, the game provides a reset function to return the vehicle to a safe position.\n\n## Tips for Success\n\n*   **Communication is Key:** Since many puzzles require simultaneous button presses or coordinated movement, staying in contact with your partner is vital.\n*   **Manage Your Speed:** In cramped environments, such as the air vents, avoid going at maximum speed to maintain better control over your vehicle.\n*   **Use the Reset Feature:** If your car becomes stuck or falls into an area where you cannot progress, use the reset function to respawn at a nearby checkpoint.\n*   **Check for Updates:** The development team frequently releases hotfixes to address collision issues and improve vehicle behavior on steep slopes. Ensure both players are running the same version of the game, which is displayed in the lower-left corner of the main menu.\n\n## Frequently Asked Questions\n\n**Do both players need to buy the game to play online?**\nNo. Thanks to the Friend’s Pass, only one player needs to own the game for both to play online together.\n\n**Can I play WheelMates by myself?**\nNo, WheelMates is designed strictly as a 2-player co-op game and requires a partner to play.\n\n**What should I do if I get stuck in a level?**\nIf you encounter a progression bug, ensure your game is updated to the latest version. If you are physically stuck in the environment, use the in-game reset feature to respawn.\n\n## Sources\n\n* [WheelMates Steam Community Hub](https://steamcommunity.com/app/3905450)\n* [WheelMates Official Game Site](https://wheelmatesgame.com/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7981,
+    "completion_tokens": 1011,
+    "total_tokens": 8992,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 7981,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1011,
+        "totalTokenCount": 8992,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7981,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

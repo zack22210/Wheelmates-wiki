@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030315520296914858268d9d6QeGbMvRQ",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405380,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Logros de WheelMates: Lista completa de Steam\",\n  description: \"Descubre los 21 logros de WheelMates en Steam, incluyendo niveles, gadgets, coleccionables, minijuegos y el 100% de finalización en PC.\",\n  category: \"achievements\",\n  date: \"2026-09-03\",\n}\n\n## Los 21 logros de WheelMates\n\nWheelMates cuenta con **21 logros de Steam**. La página oficial de la Comunidad de Steam los divide de forma natural en progreso de la campaña, desbloqueo de habilidades, objetivos de colección y desafíos opcionales. Los porcentajes de finalización global de Steam cambian con el tiempo, por lo que la siguiente lista se centra en los nombres y descripciones permanentes en lugar de las cifras de rareza en tiempo real.\n\n### Logros de campaña y habilidades\n\n| Logro | Requisito oficial |\n|---|---|\n| Grapple | Obtén la habilidad Grapple |\n| Kitchen | Completa el nivel Kitchen |\n| Hallway | Completa el nivel Hallway |\n| Magnetic Grabber | Obtén la habilidad Magnetic Grabber |\n| Garage | Completa el nivel Garage |\n| Magnet Wheels | Obtén la habilidad Magnet Wheels |\n| Neuro-Void: Fragments | Completa el nivel Neuro-Void: Fragments |\n| Phase Shifter | Obtén la habilidad Phase Shifter |\n| Paintgun | Obtén la habilidad Paintgun |\n| Shed | Completa el nivel Shed |\n| Backyard | Completa el nivel Backyard |\n\nEstos once logros proporcionan una lista de verificación útil para la campaña. Si uno no se desbloquea tras completar el requisito indicado, primero confirma que Steam esté en línea y que ambos jugadores en cooperativo estén usando la misma versión actual del juego.\n\n### Coleccionables y objetivos opcionales\n\n| Logro | Requisito oficial |\n|---|---|\n| What does Everett have to say about it? | Escucha todos los Neuro-nodes |\n| Mini-games lovers | Juega a todos los minijuegos |\n| Charge to full capacity! | Recoge todos los Neuro-Cores |\n| Story driven | Recoge todas las Neuro-Memory Cards |\n| Plug into an outlet | Descripción oculta en Steam |\n| Ultra-Fine-tuning | Recoge todas las Custom parts |\n| Seek & Scan | Encuentra todos los objetos escaneables |\n| 100% Mates | Completa el juego al 100% y encuentra todos los coleccionables |\n| Right where they're belongs to be | “¿Pero dónde está el agua?” |\n| Seek & Destroy | Rompe 50 objetos |\n\nLa lista oficial oculta o difumina deliberadamente parte de dos requisitos. Esta guía no inventa soluciones para esas entradas. Trátalos como objetivos de exploración y consulta la notificación de logros dentro del juego antes de asumir que un puzle tiene errores.\n\n## Un orden de finalización práctico\n\nTermina la campaña primero y recoge todo lo que encuentres de forma natural. Tras el área final, usa la selección de nivel o punto de control disponible en tu versión para volver a las actividades pendientes. Haz un seguimiento por separado de los Neuro-Cores, Neuro-Memory Cards, Custom parts, objetos escaneables, Neuro-nodes y minijuegos; cada uno tiene su propio logro.\n\nEl logro **100% Mates** es el objetivo global final. Dado que su descripción oficial requiere tanto la finalización completa como todos los coleccionables, completar solo los niveles de la historia no es suficiente.\n\n## FAQ\n\n### ¿Cuántos logros hay en WheelMates?\n\nSteam enumera 21 logros.\n\n### ¿Hay logros para cada gadget?\n\nSteam enumera logros para Grapple, Magnetic Grabber, Magnet Wheels, Phase Shifter y Paintgun.\n\n### ¿Desactiva el Friend's Pass los logros?\n\nLa página oficial de logros no documenta una restricción específica para el Friend's Pass. La propiedad de los logros y el comportamiento de desbloqueo deben verificarse en la cuenta que juegue la versión completa de Steam.\n\n## Fuentes\n\n- [Logros globales de WheelMates en Steam](https://steamcommunity.com/stats/3905450/achievements/)\n- [WheelMates en Steam](https://store.steampowered.com/app/3905450/WheelMates/)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 3429,
+    "total_tokens": 4510,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1081,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 969,
+        "totalTokenCount": 4510,
+        "thoughtsTokenCount": 2460,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1081
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 969
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1081,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 969,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 2460
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

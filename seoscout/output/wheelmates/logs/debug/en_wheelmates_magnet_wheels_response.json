@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030259286954221488268d9d66f28FmZr",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788404386,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"WheelMates Magnet Wheels Guide: Driving on Walls\",\n  description: \"Learn how magnet wheels work in WheelMates. Discover how to use this gadget to drive on walls and ceilings to uncover secrets in Professor Bloom's house.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\nIn the two-player co-op adventure WheelMates, magnet wheels are a specialized vehicle upgrade that fundamentally changes how players navigate the environment. This gadget allows the tiny RC cars to defy gravity by adhering to vertical surfaces and ceilings. By utilizing magnet wheels, players can reach previously inaccessible areas of Professor Everett Bloom’s house, which serves as the game's primary setting and laboratory.\n\n## How Magnet Wheels Work\n\nMagnet wheels function as one of the core traversal abilities players unlock as they progress through the narrative. Unlike standard wheels, which are limited to floors and shallow inclines, magnet wheels provide the traction necessary to drive directly up walls and across the undersides of furniture or structural beams.\n\nThis mechanic is essential for solving environmental puzzles that require a change in perspective. Because the game is built for co-op play, players often need to coordinate their movements, with one player potentially navigating a ceiling path to trigger a switch or drop an item for the partner remaining on the floor.\n\n## Progression and Exploration\n\nWheelMates encourages backtracking through its \"Metroidvania-style\" approach to gadgets. While you may encounter a room early in the game that seems simple, the acquisition of magnet wheels provides a reason to return. New abilities reveal hidden paths and clues that were physically impossible to reach during your first visit.\n\nThe house is filled with oversized rooms that act as strange laboratories. Magnet wheels allow you to explore the \"tiny corners\" of these rooms, such as high shelves or ventilation ducts. These areas often contain:\n*   Story fragments for the narrative journal.\n*   New car parts for customization.\n*   Hidden clues regarding the disappearance of Professor Bloom.\n*   Entrances to mini-games where you can test your driving skills.\n\n## Synergy with Other Gadgets\n\nWhile magnet wheels handle verticality, they are often used in conjunction with other unlockable tools to navigate the complex terrain of the laboratory. \n\n*   **The Rope:** Used to swing across wide gaps where even magnet wheels cannot find a surface.\n*   **Magnetic Grabber:** A versatile tool used to interact with objects. When combined with the ability to drive on walls, the grabber allows players to manipulate the environment from unique angles.\n\nRecent technical updates have also improved how vehicles behave on steep slopes. A hotfix released by the development team specifically addressed vehicle behavior to ensure smoother transitions when navigating the challenging geometry of the house.\n\n## Co-op Mechanics and Accessibility\n\nWheelMates is designed specifically for two players, offering both online co-op and local split-screen modes. To make the game more accessible, the developers included a \"Friend’s Pass.\" This feature allows one person who owns the full game to invite a partner to play the entire adventure for free.\n\nWhen using magnet wheels in co-op, communication is vital. The game features no combat, meaning the primary challenge is the environment itself. Players must work together to figure out which surfaces are metallic enough to support magnet wheels and how to use their elevated positions to assist their partner.\n\n## FAQ\n\n### How do I get magnet wheels in WheelMates?\nMagnet wheels are an unlockable ability obtained by progressing through the story. As you explore Professor Bloom's house and solve puzzles, you will eventually unlock this gadget to access new areas and hidden clues.\n\n### Can both players use magnet wheels?\nYes, WheelMates is a co-op experience where both players control RC cars. As abilities are unlocked, both players can utilize them to solve puzzles and explore the laboratory together.\n\n### Does WheelMates have combat?\nThere is no combat in WheelMates. The gameplay focuses entirely on driving, exploration, solving puzzles, and competing in non-violent mini-games to determine who is the better driver.\n\n## Sources\n\n*   [WheelMates Official Steam Community Page](https://steamcommunity.com/app/3905450)\n*   [WheelMates: Official Gameplay Overview + Trailer](https://www.youtube.com/watch?v=L6tJeeb9BWg)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4485,
+    "completion_tokens": 1644,
+    "total_tokens": 6129,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 4485,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 925,
+        "totalTokenCount": 6129,
+        "thoughtsTokenCount": 719,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4485
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 925
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4485,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 925,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 719
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

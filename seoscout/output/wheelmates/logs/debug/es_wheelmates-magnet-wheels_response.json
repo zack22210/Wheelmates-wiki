@@ -1,0 +1,63 @@
+{
+  "id": "chatcmpl-202609030317052540394268268d9d6zN3xWsPu",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405468,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guía de ruedas magnéticas en WheelMates: conducir por paredes\",\n  description: \"Aprende cómo funcionan las ruedas magnéticas en WheelMates. Conduce por paredes y techos para descubrir secretos en la casa del Profesor Bloom.\",\n  category: \"gadgets\",\n  date: \"2026-09-03\",\n}\n\nEn la aventura cooperativa para dos jugadores WheelMates, las ruedas magnéticas son una mejora especializada del vehículo que cambia fundamentalmente la forma en que los jugadores navegan por el entorno. Este gadget permite que los pequeños coches de radiocontrol desafíen la gravedad adhiriéndose a superficies verticales y techos. Al utilizar las ruedas magnéticas, los jugadores pueden llegar a áreas antes inaccesibles de la casa del Profesor Everett Bloom, que sirve como escenario principal y laboratorio del juego.\n\n## Cómo funcionan las ruedas magnéticas\n\nLas ruedas magnéticas funcionan como una de las habilidades de movimiento principales que los jugadores desbloquean a medida que avanzan en la narrativa. A diferencia de las ruedas estándar, que se limitan a suelos e inclinaciones leves, las ruedas magnéticas proporcionan la tracción necesaria para conducir directamente por las paredes y a través de la parte inferior de muebles o vigas estructurales.\n\nEsta mecánica es esencial para resolver acertijos ambientales que requieren un cambio de perspectiva. Debido a que el juego está diseñado para el juego cooperativo, los jugadores a menudo necesitan coordinar sus movimientos; por ejemplo, un jugador podría navegar por un camino en el techo para activar un interruptor o soltar un objeto para el compañero que permanece en el suelo.\n\n## Progresión y exploración\n\nWheelMates fomenta el \"backtracking\" mediante su enfoque de gadgets al estilo Metroidvania. Aunque puedes encontrarte con una habitación al principio del juego que parece sencilla, la adquisición de las ruedas magnéticas ofrece una razón para volver. Las nuevas habilidades revelan caminos ocultos y pistas que eran físicamente imposibles de alcanzar durante tu primera visita.\n\nLa casa está llena de habitaciones de gran tamaño que actúan como extraños laboratorios. Las ruedas magnéticas te permiten explorar los \"rincones diminutos\" de estas estancias, como estantes altos o conductos de ventilación. Estas áreas suelen contener:\n*   Fragmentos de historia para el diario narrativo.\n*   Nuevas piezas de coche para personalización.\n*   Pistas ocultas sobre la desaparición del Profesor Bloom.\n*   Entradas a minijuegos donde puedes poner a prueba tus habilidades de conducción.\n\n## Sinergia con otros gadgets\n\nAunque las ruedas magnéticas se encargan de la verticalidad, a menudo se utilizan junto con otras herramientas desbloqueables para navegar por el complejo terreno del laboratorio. \n\n*   **La cuerda:** Se usa para balancearse a través de grandes huecos donde incluso las ruedas magnéticas no encuentran superficie.\n*   **Garra magnética:** Una herramienta versátil utilizada para interactuar con objetos. Cuando se combina con la capacidad de conducir por las paredes, la garra permite a los jugadores manipular el entorno desde ángulos únicos.\n\nLas actualizaciones técnicas recientes también han mejorado el comportamiento de los vehículos en pendientes pronunciadas. Un parche (hotfix) lanzado por el equipo de desarrollo abordó específicamente el comportamiento de los vehículos para garantizar transiciones más fluidas al navegar por la desafiante geometría de la casa.\n\n## Mecánicas cooperativas y accesibilidad\n\nWheelMates está diseñado específicamente para dos jugadores, ofreciendo modos cooperativos tanto en línea como en pantalla dividida local. Para hacer el juego más accesible, los desarrolladores incluyeron un \"Friend’s Pass\". Esta función permite que una persona que posea el juego completo invite a un compañero a jugar toda la aventura de forma gratuita.\n\nAl usar las ruedas magnéticas en cooperativo, la comunicación es vital. El juego no presenta combates, lo que significa que el desafío principal es el propio entorno. Los jugadores deben trabajar juntos para descubrir qué superficies son lo suficientemente metálicas para soportar las ruedas magnéticas y cómo usar sus posiciones elevadas para ayudar a su compañero.\n\n## FAQ\n\n### ¿Cómo consigo las ruedas magnéticas en WheelMates?\nLas ruedas magnéticas son una habilidad desbloqueable que se obtiene al progresar en la historia. A medida que explores la casa del Profesor Bloom y resuelvas acertijos, eventualmente desbloquearás este gadget para acceder a nuevas áreas y pistas ocultas.\n\n### ¿Pueden ambos jugadores usar las ruedas magnéticas?\nSí, WheelMates es una experiencia cooperativa donde ambos jugadores controlan coches de radiocontrol. A medida que se desbloquean las habilidades, ambos jugadores pueden utilizarlas para resolver acertijos y explorar el laboratorio juntos.\n\n### ¿Tiene WheelMates algún sistema de combate?\nNo hay combate en WheelMates. La jugabilidad se centra por completo en la conducción, la exploración, la resolución de acertijos y la competición en minijuegos no violentos para determinar quién es el mejor conductor.\n\n## Fuentes\n\n*   [WheelMates Official Steam Community Page](https://steamcommunity.com/app/3905450)\n*   [WheelMates: Official Gameplay Overview + Trailer](https://www.youtube.com/watch?v=L6tJeeb9BWg)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 2935,
+    "total_tokens": 4110,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1175,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1117,
+        "totalTokenCount": 4110,
+        "thoughtsTokenCount": 1818,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1175
+          }
+        ],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1117
+          }
+        ]
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1175,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1117,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1818
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

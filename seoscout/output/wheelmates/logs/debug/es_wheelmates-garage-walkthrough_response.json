@@ -1,0 +1,53 @@
+{
+  "id": "chatcmpl-202609030317516353935078268d9d6OctRLXwI",
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "created": 1788405478,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "export const metadata = {\n  title: \"Guía de WheelMates: Laboratorio y Garaje\",\n  description: \"Domina los puzles del laboratorio del Profesor Bloom con nuestra guía de WheelMates. Aprende a usar núcleos neuronales, imanes y el Friend's Pass.\",\n  category: \"guide\",\n  date: \"2026-09-03\",\n}\n\nNavegar por los entornos del laboratorio y el garaje en WheelMates requiere una coordinación precisa entre dos jugadores. Esta guía cubre los pasos esenciales para completar los puzles iniciales del laboratorio, controlar los coches teledirigidos (RC) y utilizar mecánicas cooperativas como el Friend's Pass. Al recolectar núcleos neuronales y activar nodos de energía, los jugadores pueden ayudar al Profesor Bloom a restaurar su consciencia y desbloquear nuevas áreas de la red de la casa.\n\n## Primeros pasos en WheelMates\n\nWheelMates está diseñado como una experiencia cooperativa para dos jugadores donde controlan coches RC a través de una serie de puzles basados en físicas. Antes de comenzar tu recorrido por las áreas del laboratorio y el garaje, asegúrate de que ambos jugadores estén conectados.\n\nEl juego cuenta con un sistema Friend's Pass, que permite a un propietario invitar a un segundo jugador de forma gratuita. Para usarlo, el propietario debe organizar una partida en línea y compartir un código de invitación que se encuentra en el lobby. El segundo jugador introduce este código en la versión \"Friend's Pass\" del juego para unirse a la sesión.\n\n### Controles y mecánicas básicas\nLos coches RC en WheelMates son conocidos por su manejo \"peculiar\" y a veces errático, que recuerda a los juguetes teledirigidos de los años 90. Dominar estos controles es el primer paso en cualquier guía:\n\n*   **Conducción:** Aceleración y dirección estándar.\n*   **Freno de mano:** Se usa para detenerse, aunque no ayuda significativamente a derrapar o tomar curvas cerradas.\n*   **Salto:** Esencial para el plataformeo y para alcanzar núcleos neuronales elevados.\n*   **Escáner:** Un módulo de recolección de datos que mejora la sincronización con la red de la casa.\n*   **Tecla de retorno:** Una función vital que reaparece tu vehículo si te quedas atascado o te caes por un borde.\n\n## Guía del laboratorio y la cocina\n\nEl viaje comienza en el laboratorio de la casa del Profesor Bloom. La consciencia del profesor está atrapada dentro de la red de la casa, y los jugadores deben usar cascos neuronales para sincronizarse con su sistema. El objetivo principal en esta zona es recolectar núcleos neuronales: esferas brillantes dispersas por todo el entorno.\n\n### Sincronización inicial\nConduce hasta las zonas resaltadas para iniciar la sincronización. Necesitarás recolectar suficientes núcleos neuronales para anular los protocolos de seguridad. Mientras un jugador explora el nivel del suelo, el otro debe buscar rampas que lleven a estantes más altos. Usa el escáner con frecuencia para maximizar el flujo de datos, necesario para desbloquear el camino al sótano y al patio trasero.\n\n### Navegando por la cocina\nLa cocina sirve como un desafío de plataformas vertical. Los jugadores pueden abrir cajones para crear escaleras improvisadas.\n1.  **Escalada de cajones:** Choca contra los tiradores de los cajones inferiores para abrirlos.\n2.  **El refrigerador:** Usa los cajones abiertos para llegar a la parte superior del refrigerador.\n3.  **Columpio de cuerda:** Ciertas áreas requieren la habilidad \"Columpio de cuerda\". Busca puertos específicos (a menudo asignados al botón LB en los mandos) para balancearte a través de los huecos. Si la cuerda no aparece para el segundo jugador, asegúrate de que ambos tengan la misma versión del juego, ya que este fue un problema conocido resuelto en parches recientes.\n\n## El condensador y los nodos de energía\n\nPara avanzar más allá del laboratorio, los jugadores deben localizar y activar un condensador local. Este actúa como un nodo de energía crítico que requiere un umbral específico de núcleos neuronales para funcionar.\n\n### Carga del acumulador\nUna vez que llegues al abismo que contiene el condensador, ambos jugadores deben trabajar juntos para \"enterrar\" sus núcleos neuronales recolectados en el acumulador. Esto a menudo implica que un jugador mantenga un interruptor o plataforma en su lugar mientras el otro salta para alcanzar la ranura de depósito del núcleo. Una vez que se alcanza el umbral crítico, una poderosa descarga eliminará los obstáculos que bloquean el pasillo hacia el sótano.\n\n### Manejo de riesgos conductores\nDurante este segmento, ten cuidado con el \"Subproducto BH19 Verde\". Esta sustancia es altamente conductora y dejará fuera de servicio instantáneamente tu coche RC al contacto, provocando que explote. Si eres destruido, tu compañero puede revivirte, o puedes usar la función de retorno para reaparecer en el último punto de control.\n\n## El cobertizo y las antenas del patio trasero\n\nA medida que avanzas hacia las áreas del garaje y el cobertizo, los puzles cambian hacia la inducción magnética y la gestión de baterías. El profesor presenta el \"Replicador Cuántico\", un dispositivo que proporciona un suministro infinito de baterías.\n\n### Puzles de inducción magnética\nEl techo del cobertizo cuenta con grandes imanes. Estos se utilizan para mover cilindros pesados que bloquean tu camino.\n*   **Sincronización:** Ambos jugadores a menudo deben activar paneles de control simultáneamente para mover los imanes a lo largo de una pista.\n*   **Colocación de cilindros:** Mueve los cilindros a las ranuras designadas para completar el circuito. Si un cilindro se cae, reaparecerá a través del replicador.\n\n### Dispensadores de baterías\nA lo largo del cobertizo y el patio trasero, encontrarás dispensadores de baterías. Estas baterías son necesarias para abrir puertas electrónicas y activar bombas de combustible.\n1.  **Recuperar:** Toma una batería del dispensador.\n2.  **Transportar:** Lleva la batería al enchufe cerca de la puerta cerrada. Ten en cuenta que llevar una batería hace que tu coche sea más pesado y difícil de maniobrar, especialmente durante los saltos.\n3.  **Activación:** Coloca la batería en el enchufe para alimentar la red local.\n\n## Consejos para superar obstáculos comunes\n\nLas físicas en WheelMates pueden ser desafiantes. Si sientes que la dirección es demasiado rígida, intenta alinear tus saltos desde una mayor distancia en lugar de hacer microajustes cerca del borde.\n\nSi encuentras problemas de progreso en las áreas del patio trasero o el cobertizo, verifica la esquina inferior izquierda del menú principal para asegurarte de que estás ejecutando la última versión. Los desarrolladores lanzaron recientemente parches para solucionar problemas de colisión en NeuroVoids y bloqueos de progreso en estas zonas específicas.\n\n## Preguntas frecuentes\n\n### ¿Cómo puedo jugar WheelMates con un amigo gratis?\nPuedes usar el Friend's Pass. El propietario del juego organiza una sesión y genera un código de invitación. El amigo descarga la versión \"Friend's Pass\" de WheelMates e introduce ese código para unirse al juego sin coste adicional.\n\n### ¿Qué debo hacer si mi coche RC se queda atascado en el entorno?\nUsa la tecla o botón de \"Retorno\". Esta función está diseñada para restablecer tu vehículo a la plataforma segura más cercana, lo cual es esencial para superar las cajas de colisión difíciles y las pendientes pronunciadas del juego.\n\n### ¿Cómo abro la puerta del sótano en el laboratorio?\nDebes recolectar un número suficiente de núcleos neuronales y llevarlos al acumulador del condensador. Una vez que se alcanza el umbral de energía, el sistema ejecutará una descarga que desbloqueará el camino al sótano y a las áreas posteriores del garaje/cobertizo.\n\n## Fuentes\n\n*   Página oficial de WheelMates en Steam: https://steamcommunity.com/app/3905450\n*   Sitio oficial de WheelMates: https://wheelmatesgame.com/\n*   WheelMates - Tráiler oficial de lanzamiento de la demo: https://www.youtube.com/watch?v=ntiYLcSDHN4\n*   Guía de juego de la demo de WheelMates: https://www.youtube.com/watch?v=7rYbO332jI0"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1770,
+    "completion_tokens": 1858,
+    "total_tokens": 3628,
+    "billing_usage": {
+      "source": "gemini_chat",
+      "semantic": "gemini",
+      "gemini_usage_metadata": {
+        "promptTokenCount": 1770,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 1858,
+        "totalTokenCount": 3628,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": [],
+        "toolUsePromptTokensDetails": [],
+        "candidatesTokensDetails": []
+      }
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1770,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}
