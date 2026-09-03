@@ -46,3 +46,28 @@ for (const [needle, replacement] of patches) {
 
 if (patched !== source) fs.writeFileSync(target, patched, 'utf8');
 
+for (const reactServerFile of [
+  'react-server-dom-webpack-server.node.production.js',
+  'react-server-dom-webpack-server.node.unbundled.production.js'
+]) {
+  const reactTarget = path.join(
+    process.cwd(),
+    'node_modules',
+    'next',
+    'dist',
+    'compiled',
+    'react-server-dom-webpack',
+    'cjs',
+    reactServerFile
+  );
+  const reactSource = fs.readFileSync(reactTarget, 'utf8');
+  const needle = 'function logRecoverableError(request, error) {';
+  const replacement = `${needle}\n  console.error('[react-rsc-source-error] ' + encodeURIComponent(error && typeof error.message === 'string' ? error.message.slice(0, 2000) : 'non-error throw'));`;
+  if (!reactSource.includes(replacement)) {
+    if (!reactSource.includes(needle)) {
+      throw new Error(`Unable to find React server diagnostic target in ${reactServerFile}.`);
+    }
+    fs.writeFileSync(reactTarget, reactSource.replace(needle, replacement), 'utf8');
+  }
+}
+
