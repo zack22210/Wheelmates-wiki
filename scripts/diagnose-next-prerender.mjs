@@ -13,6 +13,10 @@ const target = path.join(
 const source = fs.readFileSync(target, 'utf8');
 const patches = [
   [
+    'function eM(e,t){var r=ey;',
+    'function eM(e,t){console.error("[rsc-original-error] "+(null!=t&&"string"==typeof t.message?t.message:"non-error throw"));var r=ey;'
+  ],
+  [
     'e&&tt(d),!(t&&',
     'console.error("[next-prerender-recovered-error] "+(null!=s&&"string"==typeof s.message?s.message:"non-error throw")),e&&tt(d),!(t&&'
   ]
