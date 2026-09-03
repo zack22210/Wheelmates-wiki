@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "prebuild": "node scripts/diagnose-next-prerender.mjs",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
@@ -50,3 +49,4 @@
     "typescript": "^5.7.2"
   }
 }
+
