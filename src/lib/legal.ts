@@ -7,8 +7,8 @@ import {routing} from '@/i18n/routing';
 export type LegalPageKey = 'about' | 'privacy' | 'terms' | 'copyright';
 export type LegalSection = {title: string; body: string};
 
-export async function getLegalCopy(key: LegalPageKey, locale?: string) {
-  const t = locale ? await getTranslations({locale}) : await getTranslations();
+export async function getLegalCopy(key: LegalPageKey, locale: string) {
+  const t = await getTranslations({locale});
   return {
     title: t(`legal.${key}.title`),
     intro: t(`legal.${key}.intro`),

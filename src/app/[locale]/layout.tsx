@@ -119,7 +119,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
           <JsonLd data={organization} />
           <SiteHeader groups={navigationGroups} />
           {children}
-          <SiteFooter />
+          <SiteFooter locale={locale} />
           <CookieConsent />
         </NextIntlClientProvider>
       </body>

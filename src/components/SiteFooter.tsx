@@ -10,8 +10,11 @@ type FooterConfig = {
   links: Array<{label: string; kind: 'external' | 'internal'; href?: string; linkKey?: string}>;
 };
 
-export async function SiteFooter() {
-  const t = await getTranslations();
+export async function SiteFooter({locale}: {locale: string}) {
+  // Keep the locale explicit during parallel static generation. This component
+  // renders outside the page-level try/catch, so an implicit request locale can
+  // otherwise surface only as an opaque Server Components prerender error.
+  const t = await getTranslations({locale});
   const config = t.raw('footer') as FooterConfig;
   const externalLinks = t.raw('links') as Record<string, string>;
 
