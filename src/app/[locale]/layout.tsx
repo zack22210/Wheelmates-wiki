@@ -22,9 +22,11 @@ type Props = {
   params: Promise<{locale: string}>;
 };
 
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({locale}));
-}
+// Vercel's pnpm 10 build worker exits while prerendering this locale tree even
+// though the same Node 24 production build succeeds locally. Keep the pages
+// server-rendered so metadata and crawlable HTML remain intact without relying
+// on the failing static-generation worker.
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({params}: Omit<Props, 'children'>): Promise<Metadata> {
   const {locale} = await params;
@@ -126,3 +128,4 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     </html>
   );
 }
+
