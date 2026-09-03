@@ -13,8 +13,8 @@ const target = path.join(
 const source = fs.readFileSync(target, 'utf8');
 const patches = [
   [
-    'function eM(e,t){var r=ey;',
-    'function eM(e,t){globalThis.__wheelmatesRscError||(globalThis.__wheelmatesRscError=null!=t&&"string"==typeof t.message?encodeURIComponent(t.message.slice(0,2e3)):"non-error%20throw");var r=ey;'
+    'finally{ey=r}if(null!=n&&',
+    'finally{ey=r}(globalThis.__wheelmatesRscErrors||(globalThis.__wheelmatesRscErrors={}))[n]=null!=t&&"string"==typeof t.message?encodeURIComponent(t.message.slice(0,2e3)):"non-error%20throw";if(null!=n&&'
   ],
   [
     'let a=to(r);a.digest||',
@@ -30,7 +30,7 @@ const patches = [
   ],
   [
     'e&&tt(d),!(t&&',
-    'console.error("[next-prerender-recovered-error] "+(globalThis.__wheelmatesRscError||encodeURIComponent(null!=s&&"string"==typeof s.message?s.message.slice(0,2e3):"non-error throw"))),e&&tt(d),!(t&&'
+    'console.error("[next-prerender-recovered-error] "+(globalThis.__wheelmatesRscErrors&&globalThis.__wheelmatesRscErrors[d.digest]||encodeURIComponent(null!=s&&"string"==typeof s.message?s.message.slice(0,2e3):"non-error throw"))),e&&tt(d),!(t&&'
   ]
 ];
 
