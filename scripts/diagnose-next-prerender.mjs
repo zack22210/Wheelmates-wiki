@@ -14,7 +14,8 @@ const source = fs.readFileSync(target, 'utf8');
 const patches = [
   ['let a=to(r);a.digest||', 'let a=to(r);console.error("[next-prerender-original-error]",a);a.digest||'],
   ['let l=to(i);if(l.digest||', 'let l=to(i);console.error("[next-prerender-original-error]",l);if(l.digest||'],
-  ['let d=to(s);if(d.digest?', 'let d=to(s);console.error("[next-prerender-original-error]",d);if(d.digest?']
+  ['let d=to(s);if(d.digest?', 'let d=to(s);console.error("[next-prerender-original-error]",d);if(d.digest?'],
+  ['e&&tt(d),!(t&&', 'console.error("[next-prerender-recovered-error]",s),e&&tt(d),!(t&&']
 ];
 
 let patched = source;
