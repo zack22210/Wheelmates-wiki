@@ -13,8 +13,8 @@ const target = path.join(
 const source = fs.readFileSync(target, 'utf8');
 const patches = [
   [
-    'function eM(e,t){var r=ey;',
-    'function eM(e,t){console.error("[rsc-original-error] "+(null!=t&&"string"==typeof t.message?t.message:"non-error throw"));var r=ey;'
+    'return n||""}function e$(e,t){',
+    'return null!=t&&"string"==typeof t.message?"[rsc-original] "+t.message:n||""}function e$(e,t){'
   ],
   [
     'e&&tt(d),!(t&&',
