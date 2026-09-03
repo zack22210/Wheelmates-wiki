@@ -5,7 +5,7 @@ import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {ArrowUpRight, BookOpenText, CheckCircle2, ExternalLink} from 'lucide-react';
 import {JsonLd} from '@/components/JsonLd';
 import {ArticleToc} from '@/components/ArticleToc';
-import {getAllContent, getAllContentPaths, getContent, getContentTypes} from '@/lib/content';
+import {getAllContent, getContent, getContentTypes} from '@/lib/content';
 import {routing} from '@/i18n/routing';
 import {absoluteUrl, SITE_IMAGE_PATH, SITE_LOGO_PATH, SITE_URL} from '@/config/site';
 import {EXTERNAL_LINKS} from '@/config/external-links';
@@ -15,19 +15,13 @@ type Props = {
   params: Promise<{locale: string; slug: string[]}>;
 };
 
+export const dynamic = 'force-dynamic';
+
 type ReferenceItem = {key: keyof typeof EXTERNAL_LINKS; title: string; meta: string};
 type ContentTypeOverview = {overviewTitle: string; overviewDescription: string};
 
 function localePath(locale: string, path: string) {
   return locale === routing.defaultLocale ? path : `/${locale}${path}`;
-}
-
-export async function generateStaticParams() {
-  const [paths, contentTypes] = await Promise.all([getAllContentPaths('en'), getContentTypes('en')]);
-  const listPaths = contentTypes.map((contentType) => ({
-    slug: [contentType]
-  }));
-  return [...listPaths, ...paths.map((item) => ({slug: item.pathSegments}))];
 }
 
 export async function generateMetadata({params}: Props): Promise<Metadata> {
@@ -298,3 +292,4 @@ export default async function UnifiedContentPage({params}: Props) {
     throw error;
   }
 }
+
