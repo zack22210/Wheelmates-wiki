@@ -2,6 +2,7 @@ import type {Metadata} from 'next';
 import type {ReactNode} from 'react';
 import {hasLocale, NextIntlClientProvider} from 'next-intl';
 import {getMessages, getTranslations, setRequestLocale} from 'next-intl/server';
+import {headers} from 'next/headers';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import {SiteHeader} from '@/components/SiteHeader';
@@ -102,6 +103,30 @@ export default async function LocaleLayout({children, params}: Props) {
     logo: absoluteUrl(SITE_LOGO_PATH),
     image: absoluteUrl(SITE_IMAGE_PATH)
   };
+  const probe = (await headers()).get('x-wheelmates-layout-probe');
+
+  if (probe) {
+    const includeShell = probe === 'shell';
+    return (
+      <html lang={locale} suppressHydrationWarning>
+        {includeShell ? (
+          <head>
+            <script dangerouslySetInnerHTML={{__html: `(function(){try{var t=localStorage.getItem('game-wiki-theme');var d=t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.classList.toggle('dark',d);document.documentElement.dataset.theme=d?'dark':'light'}catch(e){}})()`}} />
+          </head>
+        ) : null}
+        <body>
+          {includeShell ? <template dangerouslySetInnerHTML={{__html: '<!-- layout probe -->'}} /> : null}
+          <NextIntlClientProvider messages={messages}>
+            {probe === 'jsonld' ? <JsonLd data={organization} /> : null}
+            {probe === 'header' ? <SiteHeader groups={navigationGroups} /> : null}
+            {children}
+            {probe === 'footer' ? <SiteFooter locale={locale} /> : null}
+            {probe === 'cookie' ? <CookieConsent /> : null}
+          </NextIntlClientProvider>
+        </body>
+      </html>
+    );
+  }
 
   return (
     <html lang={locale} suppressHydrationWarning>
