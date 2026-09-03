@@ -14,7 +14,7 @@ const source = fs.readFileSync(target, 'utf8');
 const patches = [
   [
     'e&&tt(d),!(t&&',
-    'console.error("[next-prerender-recovered-error] "+JSON.stringify({name:null==s?void 0:s.name,message:null==s?String(s):s.message,stack:null==s?void 0:s.stack,cause:null==s?void 0:s.cause})),e&&tt(d),!(t&&'
+    'console.error("[next-prerender-recovered-error] "+(null!=s&&"string"==typeof s.message?s.message:"non-error throw")),e&&tt(d),!(t&&'
   ]
 ];
 
