@@ -64,11 +64,23 @@ export default async function LocaleLayout({children, params}: Props) {
   if (!hasLocale(routing.locales, locale)) notFound();
 
   setRequestLocale(locale);
-  // Keep the locale explicit for deterministic parallel prerendering on Vercel.
-  const messages = await getMessages({locale});
-  const t = await getTranslations({locale});
+  let messages: Awaited<ReturnType<typeof getMessages>>;
+  let t: Awaited<ReturnType<typeof getTranslations>>;
+  let contentGroups: Awaited<ReturnType<typeof getAllContentGroups>>;
+
+  try {
+    // Keep the locale explicit for deterministic parallel prerendering on Vercel.
+    [messages, t, contentGroups] = await Promise.all([
+      getMessages({locale}),
+      getTranslations({locale}),
+      getAllContentGroups(locale)
+    ]);
+  } catch (error) {
+    console.error(`[locale-layout] Failed to prepare locale "${locale}"`, error);
+    throw error;
+  }
+
   const navigationLabels = t.raw('nav') as Record<string, string>;
-  const contentGroups = await getAllContentGroups(locale);
   const navigationGroups = contentGroups.map((group) => ({
     contentType: group.contentType,
     label: navigationLabels[group.contentType],

@@ -118,6 +118,7 @@ function extractHeadings(source: string): Array<{id: string; text: string}> {
 }
 
 const CONTENT_ROOT = path.join(process.cwd(), 'content');
+const summaryPromises = new Map<string, Promise<ContentSummary[]>>();
 
 export function fileNameToSlug(value: string): string {
   return value
@@ -176,7 +177,7 @@ function relativeFileToSlug(file: string, typeDirectory: string): string {
     .join('/');
 }
 
-async function readContentSummaries(
+async function readContentSummariesUncached(
   contentType: string,
   locale: Locale
 ): Promise<ContentSummary[]> {
@@ -195,6 +196,19 @@ async function readContentSummaries(
   );
 
   return entries;
+}
+
+function readContentSummaries(
+  contentType: string,
+  locale: Locale
+): Promise<ContentSummary[]> {
+  const cacheKey = `${locale}/${contentType}`;
+  const cached = summaryPromises.get(cacheKey);
+  if (cached) return cached;
+
+  const pending = readContentSummariesUncached(contentType, locale);
+  summaryPromises.set(cacheKey, pending);
+  return pending;
 }
 
 export async function getAllContent(contentType: string, language: string): Promise<ContentSummary[]> {

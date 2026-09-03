@@ -284,7 +284,17 @@ export default async function UnifiedContentPage({params}: Props) {
   const {locale, slug} = await params;
   setRequestLocale(locale);
 
-  if (slug.length === 1) return <NavigationPage locale={locale} contentType={slug[0]} />;
-  const [contentType, ...articlePath] = slug;
-  return <DetailPage locale={locale} contentType={contentType} articleSlug={articlePath.join('/')} />;
+  try {
+    if (slug.length === 1) {
+      return await NavigationPage({locale, contentType: slug[0]});
+    }
+
+    const [contentType, ...articlePath] = slug;
+    return await DetailPage({locale, contentType, articleSlug: articlePath.join('/')});
+  } catch (error) {
+    // Next.js hides Server Component messages in production. Log the original
+    // failure before rethrowing so hosted build logs remain actionable.
+    console.error(`[content-prerender] Failed /${locale}/${slug.join('/')}`, error);
+    throw error;
+  }
 }
