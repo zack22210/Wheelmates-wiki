@@ -13,6 +13,10 @@ const target = path.join(
 const source = fs.readFileSync(target, 'utf8');
 const patches = [
   [
+    'function eM(e,t){var r=ey;',
+    'function eM(e,t){console.error("[embedded-rsc-source-error] "+encodeURIComponent(null!=t&&"string"==typeof t.message?t.message.slice(0,2e3):"non-error throw"));var r=ey;'
+  ],
+  [
     'finally{ey=r}if(null!=n&&',
     'finally{ey=r}(globalThis.__wheelmatesRscErrors||(globalThis.__wheelmatesRscErrors=[])).push([n,null!=t&&"string"==typeof t.message?encodeURIComponent(t.message.slice(0,2e3)):"non-error%20throw"]);if(null!=n&&'
   ],
@@ -45,6 +49,25 @@ for (const [needle, replacement] of patches) {
 }
 
 if (patched !== source) fs.writeFileSync(target, patched, 'utf8');
+
+const turboTarget = path.join(
+  process.cwd(),
+  'node_modules',
+  'next',
+  'dist',
+  'compiled',
+  'next-server',
+  'app-page-turbo.runtime.prod.js'
+);
+const turboSource = fs.readFileSync(turboTarget, 'utf8');
+const turboNeedle = 'function eM(e,t){var r=ey;';
+const turboReplacement = 'function eM(e,t){console.error("[turbo-rsc-source-error] "+encodeURIComponent(null!=t&&"string"==typeof t.message?t.message.slice(0,2e3):"non-error throw"));var r=ey;';
+if (!turboSource.includes(turboReplacement)) {
+  if (!turboSource.includes(turboNeedle)) {
+    throw new Error('Unable to find turbo RSC diagnostic target.');
+  }
+  fs.writeFileSync(turboTarget, turboSource.replace(turboNeedle, turboReplacement), 'utf8');
+}
 
 for (const reactServerFile of [
   'react-server-dom-webpack-server.node.production.js',
