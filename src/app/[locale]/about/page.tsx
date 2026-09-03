@@ -3,8 +3,6 @@ import {getLegalCopy, getLegalMetadata} from '@/lib/legal';
 
 type Props = {params: Promise<{locale: string}>};
 
-export const dynamic = 'force-dynamic';
-
 export async function generateMetadata({params}: Props) {
   const {locale} = await params;
   return getLegalMetadata('about', '/about', locale);
@@ -14,4 +12,3 @@ export default async function AboutPage({params}: Props) {
   const {locale} = await params;
   return <LegalPage {...await getLegalCopy('about', locale)} />;
 }
-
