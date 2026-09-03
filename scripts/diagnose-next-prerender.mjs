@@ -13,20 +13,24 @@ const target = path.join(
 const source = fs.readFileSync(target, 'utf8');
 const patches = [
   [
+    'function eM(e,t){var r=ey;',
+    'function eM(e,t){globalThis.__wheelmatesRscError||(globalThis.__wheelmatesRscError=null!=t&&"string"==typeof t.message?encodeURIComponent(t.message.slice(0,2e3)):"non-error%20throw");var r=ey;'
+  ],
+  [
     'let a=to(r);a.digest||',
-    'let a=to(r);console.error("[next-prerender-source-error] "+encodeURIComponent(a.message.slice(0,2e3)));a.digest||'
+    'let a=to(r);console.error("[next-prerender-td-error] "+encodeURIComponent(a.message.slice(0,2e3)));a.digest||'
   ],
   [
     'let l=to(i);if(l.digest||',
-    'let l=to(i);console.error("[next-prerender-source-error] "+encodeURIComponent(l.message.slice(0,2e3)));if(l.digest||'
+    'let l=to(i);console.error("[next-prerender-tf-error] "+encodeURIComponent(l.message.slice(0,2e3)));if(l.digest||'
   ],
   [
     'let d=to(s);if(d.digest?',
-    'let d=to(s);console.error("[next-prerender-source-error] "+encodeURIComponent(d.message.slice(0,2e3)));if(d.digest?'
+    'let d=to(s);console.error("[next-prerender-th-error] "+encodeURIComponent(d.message.slice(0,2e3)));if(d.digest?'
   ],
   [
     'e&&tt(d),!(t&&',
-    'console.error("[next-prerender-recovered-error] "+encodeURIComponent(null!=s&&"string"==typeof s.message?s.message.slice(0,2e3):"non-error throw")),e&&tt(d),!(t&&'
+    'console.error("[next-prerender-recovered-error] "+(globalThis.__wheelmatesRscError||encodeURIComponent(null!=s&&"string"==typeof s.message?s.message.slice(0,2e3):"non-error throw"))),e&&tt(d),!(t&&'
   ]
 ];
 
