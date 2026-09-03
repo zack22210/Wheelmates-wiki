@@ -9,6 +9,8 @@ import {routing} from '@/i18n/routing';
 type Props = {params: Promise<{locale: string}>};
 type ContentTypeOverview = {overviewTitle: string; overviewDescription: string};
 
+export const dynamic = 'force-dynamic';
+
 export async function generateMetadata({params}: Props): Promise<Metadata> {
   const {locale} = await params;
   const t = await getTranslations({locale});
@@ -92,3 +94,4 @@ export default async function HomePage({params}: Props) {
     </>
   );
 }
+
