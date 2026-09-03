@@ -64,7 +64,8 @@ export default async function LocaleLayout({children, params}: Props) {
   if (!hasLocale(routing.locales, locale)) notFound();
 
   setRequestLocale(locale);
-  const messages = await getMessages();
+  // Keep the locale explicit for deterministic parallel prerendering on Vercel.
+  const messages = await getMessages({locale});
   const t = await getTranslations({locale});
   const navigationLabels = t.raw('nav') as Record<string, string>;
   const contentGroups = await getAllContentGroups(locale);

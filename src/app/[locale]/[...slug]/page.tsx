@@ -101,7 +101,9 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
 async function NavigationPage({locale, contentType}: {locale: string; contentType: string}) {
   const contentTypes = await getContentTypes(locale);
   if (!contentTypes.includes(contentType)) notFound();
-  const t = await getTranslations();
+  // Bind translations explicitly during static generation. Relying on the
+  // implicit request locale can fail when Vercel prerenders routes in parallel.
+  const t = await getTranslations({locale});
   const available = await getAllContent(contentType, locale);
   const category = (t.raw('contentTypes') as Record<string, ContentTypeOverview>)[contentType];
   const categoryLabel = category.overviewTitle;
@@ -164,7 +166,7 @@ async function NavigationPage({locale, contentType}: {locale: string; contentTyp
 }
 
 async function DetailPage({locale, contentType, articleSlug}: {locale: string; contentType: string; articleSlug: string}) {
-  const t = await getTranslations();
+  const t = await getTranslations({locale});
   const content = await getContent(contentType, articleSlug, locale);
   if (!content) notFound();
   const categoryLabel = (t.raw('contentTypes') as Record<string, ContentTypeOverview>)[contentType].overviewTitle;
