@@ -69,6 +69,34 @@ if (!turboSource.includes(turboReplacement)) {
   fs.writeFileSync(turboTarget, turboSource.replace(turboNeedle, turboReplacement), 'utf8');
 }
 
+for (const experimentalRuntime of [
+  'app-page-experimental.runtime.prod.js',
+  'app-page-turbo-experimental.runtime.prod.js'
+]) {
+  const experimentalTarget = path.join(
+    process.cwd(),
+    'node_modules',
+    'next',
+    'dist',
+    'compiled',
+    'next-server',
+    experimentalRuntime
+  );
+  const experimentalSource = fs.readFileSync(experimentalTarget, 'utf8');
+  const experimentalNeedle = 'function eW(e,t){var r=ex;';
+  const experimentalReplacement = 'function eW(e,t){console.error("[experimental-rsc-source-error] "+encodeURIComponent(null!=t&&"string"==typeof t.message?t.message.slice(0,2e3):"non-error throw"));var r=ex;';
+  if (!experimentalSource.includes(experimentalReplacement)) {
+    if (!experimentalSource.includes(experimentalNeedle)) {
+      throw new Error(`Unable to find experimental RSC diagnostic target in ${experimentalRuntime}.`);
+    }
+    fs.writeFileSync(
+      experimentalTarget,
+      experimentalSource.replace(experimentalNeedle, experimentalReplacement),
+      'utf8'
+    );
+  }
+}
+
 for (const reactServerFile of [
   'react-server-dom-webpack-server.node.production.js',
   'react-server-dom-webpack-server.node.unbundled.production.js'
