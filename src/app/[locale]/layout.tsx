@@ -6,6 +6,7 @@ import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import {SiteHeader} from '@/components/SiteHeader';
 import {SiteFooter} from '@/components/SiteFooter';
+import {AdsterraBottomBanner} from '@/components/ads/AdsterraBottomBanner';
 import {JsonLd} from '@/components/JsonLd';
 import {CookieConsent} from '@/components/CookieConsent';
 import {getAllContentGroups} from '@/lib/content';
@@ -118,6 +119,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
           <JsonLd data={organization} />
           <SiteHeader groups={navigationGroups} />
           {children}
+          <AdsterraBottomBanner />
           <SiteFooter locale={locale} />
           <CookieConsent />
         </NextIntlClientProvider>
