@@ -27,7 +27,9 @@ function hostname(value) {
 let configuredSiteHost = '';
 try {
   const siteConfig = await readFile(path.join(root, 'src', 'config', 'site.ts'), 'utf8');
-  const configuredSiteUrl = siteConfig.match(/NEXT_PUBLIC_SITE_URL\s*\?\?\s*['"]([^'"]+)['"]/)?.[1];
+  const configuredSiteUrl =
+    siteConfig.match(/DEFAULT_SITE_URL\s*=\s*['"]([^'"]+)['"]/)?.[1] ??
+    siteConfig.match(/NEXT_PUBLIC_SITE_URL\s*\?\?\s*['"]([^'"]+)['"]/)?.[1];
   configuredSiteHost = hostname(configuredSiteUrl ?? '');
 } catch {
   configuredSiteHost = '';

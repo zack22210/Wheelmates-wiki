@@ -207,7 +207,7 @@
       "intro": "WheelMates Wiki funciona con almacenamiento esencial; las analíticas opcionales permanecen desactivadas hasta que las aceptes.",
       "sections": [
         {"title": "Información que procesamos", "body": "El sitio puede recibir registros básicos del servidor y datos técnicos agregados necesarios para la seguridad, fiabilidad y prevención de abusos. No solicitamos cuentas de WheelMates ni Steam."},
-        {"title": "Analíticas, publicidad y cookies", "body": "El almacenamiento analítico opcional permanece desactivado sin consentimiento. El almacenamiento publicitario no está activo en la configuración actual; esta política se actualizará antes de cambiarlo."},
+        {"title": "Analíticas, publicidad y cookies", "body": "El almacenamiento analítico opcional permanece desactivado sin consentimiento. La publicidad display se sirve con Adsterra mediante scripts e iframes de terceros; esas peticiones pueden establecer cookies publicitarias en sus dominios. Este sitio no usa una cookie publicitaria de origen."},
         {"title": "Tus opciones y los cambios", "body": "Puedes elegir el uso solo esencial en el aviso de privacidad. Esta política se revisará si cambian de forma importante los servicios o las prácticas de datos."}
       ]
     },

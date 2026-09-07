@@ -207,7 +207,7 @@
       "intro": "WheelMates Wiki funktioniert mit erforderlicher Speicherung; optionale Analyse bleibt aus, bis du zustimmst.",
       "sections": [
         {"title": "Verarbeitete Informationen", "body": "Die Website kann grundlegende Serverprotokolle und zusammengefasste technische Daten für Sicherheit, Zuverlässigkeit und Missbrauchsschutz erhalten. Wir fragen nicht nach einem WheelMates- oder Steam-Konto."},
-        {"title": "Analyse, Werbung und Cookies", "body": "Optionale Analysespeicherung bleibt bis zur Einwilligung deaktiviert. Werbespeicherung ist in der aktuellen Konfiguration nicht aktiv; vor einer Änderung wird diese Erklärung aktualisiert."},
+        {"title": "Analyse, Werbung und Cookies", "body": "Optionale Analysespeicherung bleibt bis zur Einwilligung deaktiviert. Display-Werbung wird über Adsterra per Drittanbieter-Skripten und Iframes ausgeliefert; diese Anfragen können Werbe-Cookies auf deren Domains setzen. Diese Website setzt kein eigenes Werbe-Cookie."},
         {"title": "Deine Auswahl und Änderungen", "body": "Im Datenschutzbanner kannst du nur erforderliche Nutzung wählen. Diese Erklärung wird angepasst, wenn sich Dienste oder Datenpraxis wesentlich ändern."}
       ]
     },

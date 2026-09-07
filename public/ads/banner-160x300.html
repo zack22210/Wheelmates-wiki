@@ -7,9 +7,9 @@
     <style>html,body{width:160px;height:300px;margin:0;overflow:hidden;background:transparent}</style>
   </head>
   <body>
-    <script>
+    <script data-cfasync="false">
       var atOptions = {
-        key: new URLSearchParams(location.search).get('key')?.trim() || '',
+        key: (new URLSearchParams(location.search).get('key') || '').replace(/^\s+|\s+$/g, ''),
         format: 'iframe',
         height: 300,
         width: 160,

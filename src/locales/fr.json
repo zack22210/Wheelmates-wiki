@@ -207,7 +207,7 @@
       "intro": "WheelMates Wiki fonctionne avec le stockage essentiel ; les statistiques facultatives restent désactivées sans votre accord.",
       "sections": [
         {"title": "Informations traitées", "body": "Le site peut recevoir des journaux serveur de base et des données techniques agrégées nécessaires à la sécurité, à la fiabilité et à la prévention des abus. Aucun compte WheelMates ou Steam n’est demandé."},
-        {"title": "Statistiques, publicité et cookies", "body": "Le stockage statistique facultatif reste désactivé sans consentement. Le stockage publicitaire n’est pas actif dans la configuration actuelle ; cette politique sera mise à jour avant tout changement."},
+        {"title": "Statistiques, publicité et cookies", "body": "Le stockage statistique facultatif reste désactivé sans consentement. La publicité display est diffusée via Adsterra par des scripts et iframes tiers ; ces requêtes peuvent poser des cookies publicitaires sur leurs domaines. Ce site n’utilise pas de cookie publicitaire first-party."},
         {"title": "Vos choix et les changements", "body": "Vous pouvez choisir l’usage essentiel dans la bannière de confidentialité. Cette politique sera révisée si les services ou pratiques de données évoluent sensiblement."}
       ]
     },

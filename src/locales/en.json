@@ -207,7 +207,7 @@
       "intro": "WheelMates Wiki is designed to work with essential storage only; optional analytics remains off unless you allow it.",
       "sections": [
         {"title": "Information we process", "body": "The site may receive basic server logs and aggregated technical information needed for security, reliability, and abuse prevention. We do not ask for a WheelMates or Steam account."},
-        {"title": "Analytics, advertising, and cookies", "body": "Optional analytics storage remains disabled until consent is provided. Advertising storage is not enabled by the current site configuration; this policy will be updated before that changes."},
+        {"title": "Analytics, advertising, and cookies", "body": "Optional analytics storage remains disabled until consent is provided. Display advertising is served by Adsterra through third-party scripts and iframes; those requests may set advertising cookies on their domains. This site does not use a first-party advertising cookie."},
         {"title": "Your choices and changes", "body": "You can choose essential-only use in the privacy banner. This policy will be revised when the site’s services or data practices materially change."}
       ]
     },
