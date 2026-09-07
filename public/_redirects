@@ -1,0 +1,23 @@
+/ /en 301
+
+/guide /en/guide 301
+/guide/* /en/guide/:splat 301
+/multiplayer /en/multiplayer 301
+/multiplayer/* /en/multiplayer/:splat 301
+/collectibles /en/collectibles 301
+/collectibles/* /en/collectibles/:splat 301
+/gadgets /en/gadgets 301
+/gadgets/* /en/gadgets/:splat 301
+/achievements /en/achievements 301
+/achievements/* /en/achievements/:splat 301
+/controls /en/controls 301
+/controls/* /en/controls/:splat 301
+/technical /en/technical 301
+/technical/* /en/technical/:splat 301
+/information /en/information 301
+/information/* /en/information/:splat 301
+
+/about /en/about 301
+/privacy-policy /en/privacy-policy 301
+/terms-of-service /en/terms-of-service 301
+/copyright /en/copyright 301

@@ -20,9 +20,9 @@ export async function getLegalCopy(key: LegalPageKey, locale: string) {
 
 export async function getLegalMetadata(key: LegalPageKey, pathname: string, locale: string): Promise<Metadata> {
   const t = await getTranslations({locale});
-  const canonical = locale === routing.defaultLocale ? pathname : `/${locale}${pathname}`;
+  const canonical = `/${locale}${pathname}`;
   const languages = Object.fromEntries(
-    routing.locales.map((item) => [item, item === routing.defaultLocale ? pathname : `/${item}${pathname}`])
+    routing.locales.map((item) => [item, `/${item}${pathname}`])
   );
   return {
     title: t(`legal.${key}.metaTitle`),

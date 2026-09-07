@@ -4,6 +4,8 @@ import {CONTENT_TYPES} from '@/config/navigation';
 import {routing} from '@/i18n/routing';
 import {SITE_URL} from '@/config/site';
 
+export const dynamic = 'force-static';
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const contentPaths = await getAllContentPaths('en');
   const staticPaths = ['', ...CONTENT_TYPES.map((type) => `/${type}`), '/privacy-policy', '/terms-of-service', '/copyright', '/about'];
@@ -13,7 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return routing.locales.flatMap((locale) =>
     [...staticPaths, ...articlePaths.keys()].map((pathname) => {
-      const prefix = locale === routing.defaultLocale ? '' : `/${locale}`;
+      const prefix = `/${locale}`;
       const isArticle = articlePaths.has(pathname);
       return {
         url: `${SITE_URL}${prefix}${pathname || '/'}`,

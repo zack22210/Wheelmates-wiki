@@ -11,9 +11,13 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
   reactStrictMode: true,
   poweredByHeader: false,
+  images: {
+    unoptimized: true
+  },
   experimental: {
     // Each route reads the shared MDX catalogue. Keep hosted static generation
     // below the file-descriptor and memory pressure of highly parallel workers.

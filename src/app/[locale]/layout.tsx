@@ -46,7 +46,7 @@ export async function generateMetadata({params}: Omit<Props, 'children'>): Promi
       type: 'website',
       locale,
       siteName,
-      url: SITE_URL,
+      url: absoluteUrl(`/${locale}`),
       title: siteName,
       description,
       images: [{url: image, width: 1920, height: 1080, alt: t('media.heroAlt')}]

@@ -14,9 +14,9 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
   const t = await getTranslations({locale});
   const title = t('seo.homeTitle');
   const description = t('seo.homeDescription');
-  const canonical = locale === routing.defaultLocale ? '/' : `/${locale}`;
+  const canonical = `/${locale}`;
   const languages = Object.fromEntries(
-    routing.locales.map((item) => [item, item === routing.defaultLocale ? '/' : `/${item}`])
+    routing.locales.map((item) => [item, `/${item}`])
   );
   return {
     title,
@@ -61,7 +61,7 @@ export default async function HomePage({params}: Props) {
     '@type': 'WebSite',
     '@id': `${SITE_URL}/#website`,
     name: t('site.name'),
-    url: SITE_URL,
+    url: absoluteUrl(`/${locale}`),
     publisher: {'@id': `${SITE_URL}/#organization`}
   };
   const game = {

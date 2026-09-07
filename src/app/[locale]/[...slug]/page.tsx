@@ -21,7 +21,7 @@ type ReferenceItem = {key: keyof typeof EXTERNAL_LINKS; title: string; meta: str
 type ContentTypeOverview = {overviewTitle: string; overviewDescription: string};
 
 function localePath(locale: string, path: string) {
-  return locale === routing.defaultLocale ? path : `/${locale}${path}`;
+  return `/${locale}${path}`;
 }
 
 export async function generateMetadata({params}: Props): Promise<Metadata> {
