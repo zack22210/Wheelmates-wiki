@@ -4,8 +4,9 @@
   "private": true,
   "packageManager": "pnpm@10.15.1",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "dev": "pnpm ads:sync && next dev --turbopack",
+    "build": "pnpm ads:sync && next build",
+    "ads:sync": "node scripts/sync-ad-html.mjs",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",

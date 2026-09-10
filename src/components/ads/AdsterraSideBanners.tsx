@@ -3,14 +3,14 @@
 import {useEffect, useState} from 'react';
 import {X} from 'lucide-react';
 import {AdBanner} from '@/components/ads/AdsterraBanner';
-import {ADSTERRA_ADS} from '@/config/ads';
+import {getBannerConfig} from '@/lib/ad-config';
 
 type Side = 'left' | 'right';
 
-function DismissibleSideBanner({adKey, side}: {adKey: string; side: Side}) {
+function DismissibleSideBanner({side}: {side: Side}) {
   const [dismissed, setDismissed] = useState(false);
 
-  if (dismissed || !adKey.trim()) return null;
+  if (dismissed || !getBannerConfig('160x300')) return null;
 
   const position = side === 'left'
     ? {left: 'max(0px, calc(50% - 876px))'}
@@ -24,7 +24,7 @@ function DismissibleSideBanner({adKey, side}: {adKey: string; side: Side}) {
     >
       <div className="sticky top-20 z-20 py-2">
         <div className="relative">
-          <AdBanner type="banner-160x300" adKey={adKey} eager />
+          <AdBanner type="banner-160x300" eager />
           <button
             type="button"
             aria-label="关闭广告"
@@ -41,7 +41,7 @@ function DismissibleSideBanner({adKey, side}: {adKey: string; side: Side}) {
 
 export function AdsterraSideBanners() {
   const [isWideDesktop, setIsWideDesktop] = useState(false);
-  const adKey = ADSTERRA_ADS.banner160x300;
+  const hasSidebarAd = Boolean(getBannerConfig('160x300'));
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(min-width: 1760px)');
@@ -53,12 +53,12 @@ export function AdsterraSideBanners() {
     return () => mediaQuery.removeEventListener('change', updateVisibility);
   }, []);
 
-  if (!isWideDesktop || !adKey) return null;
+  if (!isWideDesktop || !hasSidebarAd) return null;
 
   return (
     <>
-      <DismissibleSideBanner adKey={adKey} side="left" />
-      <DismissibleSideBanner adKey={adKey} side="right" />
+      <DismissibleSideBanner side="left" />
+      <DismissibleSideBanner side="right" />
     </>
   );
 }

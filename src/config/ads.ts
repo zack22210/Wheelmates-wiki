@@ -1,9 +1,12 @@
+import {AD_NATIVE_BANNER_KEY, AD_NATIVE_BANNER_SCRIPT, getBannerConfig} from '@/lib/ad-config';
+
+/** @deprecated Keys live in public/ads HTML and NEXT_PUBLIC_AD_* env vars. Kept for compatibility. */
 export const ADSTERRA_ADS = {
-  banner320x50: 'cf37f798be2e1edd6a4b54a58e83b52e',
-  banner160x300: '5b6dec58e28d6437e4ea3938ef40b1a0',
-  banner728x90: '868b5066f64fd75fff8dc83031cf0e77',
+  banner320x50: getBannerConfig('320x50')?.key ?? '',
+  banner160x300: getBannerConfig('160x300')?.key ?? '',
+  banner728x90: getBannerConfig('728x90')?.key ?? '',
   native: {
-    key: '3fe3943c3b3af1709633e30d40f528b0',
-    scriptSrc: 'https://pl31211927.profitableratecpmnetwork.com/3fe3943c3b3af1709633e30d40f528b0/invoke.js'
+    key: AD_NATIVE_BANNER_KEY,
+    scriptSrc: AD_NATIVE_BANNER_SCRIPT
   }
 } as const;

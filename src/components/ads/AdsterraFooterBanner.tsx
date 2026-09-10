@@ -2,12 +2,11 @@
 
 import {useEffect, useRef, useState} from 'react';
 import {AdBanner} from '@/components/ads/AdsterraBanner';
-import {ADSTERRA_ADS} from '@/config/ads';
+import {getBannerConfig} from '@/lib/ad-config';
 
 export function AdsterraFooterBanner({title = 'Advertisement'}: {title?: string}) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [containerWidth, setContainerWidth] = useState(0);
-  const adKey = ADSTERRA_ADS.banner728x90;
 
   useEffect(() => {
     const container = containerRef.current;
@@ -22,7 +21,7 @@ export function AdsterraFooterBanner({title = 'Advertisement'}: {title?: string}
     return () => resizeObserver.disconnect();
   }, []);
 
-  if (!adKey) return null;
+  if (!getBannerConfig('728x90')) return null;
 
   const scale = containerWidth ? Math.min(1, containerWidth / 728) : 1;
 
@@ -37,7 +36,7 @@ export function AdsterraFooterBanner({title = 'Advertisement'}: {title?: string}
           className="h-[90px] w-[728px] origin-top-left"
           style={{transform: `scale(${scale})`}}
         >
-          <AdBanner adKey={adKey} eager type="banner-728x90" title={title} />
+          <AdBanner eager type="banner-728x90" title={title} />
         </div>
       </div>
     </div>
