@@ -33,7 +33,9 @@ function DismissibleSideBanner({side}: {side: Side}) {
             type="button"
             aria-label="关闭广告"
             onClick={() => setDismissed(true)}
-            className="absolute right-0 top-0 z-10 flex size-8 items-center justify-center rounded-full bg-slate-900 text-white shadow-md transition-colors hover:bg-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900"
+            className={`absolute top-0 z-10 flex size-8 items-center justify-center rounded-full bg-slate-900 text-white shadow-md transition-colors hover:bg-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900 ${
+              side === 'left' ? 'left-0' : 'right-0'
+            }`}
           >
             <X className="size-4" aria-hidden="true" />
           </button>
