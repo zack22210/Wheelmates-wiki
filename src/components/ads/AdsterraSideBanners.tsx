@@ -11,19 +11,17 @@ const SHELL_MAX_WIDTH = 1320;
 const BANNER_WIDTH = 160;
 const GUTTER = 8;
 const MIN_VIEWPORT = SHELL_MAX_WIDTH + (BANNER_WIDTH + GUTTER) * 2;
-const EDGE_OFFSET = `max(${GUTTER}px, calc(50% - ${SHELL_MAX_WIDTH / 2}px - ${BANNER_WIDTH + GUTTER}px))`;
 
 function DismissibleSideBanner({side}: {side: Side}) {
   const [dismissed, setDismissed] = useState(false);
 
   if (dismissed || !getBannerConfig('160x300')) return null;
 
-  const position = side === 'left' ? {left: EDGE_OFFSET} : {right: EDGE_OFFSET};
-
   return (
     <aside
-      className="absolute inset-y-0 hidden w-[160px] pt-48 min-[1640px]:block"
-      style={position}
+      className={`absolute inset-y-0 hidden w-[160px] pt-48 min-[1640px]:block ${
+        side === 'left' ? 'left-2' : 'right-2'
+      }`}
       aria-label="Advertisement"
     >
       <div className="sticky top-20 z-20 py-2">
