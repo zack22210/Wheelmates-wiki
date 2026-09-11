@@ -23,7 +23,7 @@ function resolveFormat(format?: BannerFormat, type?: BannerType): BannerFormat |
   return null;
 }
 
-export function AdBanner({ format, type, eager = false, title = "Advertisement", className = "" }: AdBannerProps) {
+export function AdBanner({ format, type, eager = true, title = "Advertisement", className = "" }: AdBannerProps) {
   const resolvedFormat = resolveFormat(format, type);
   if (!resolvedFormat) return null;
 
@@ -39,6 +39,7 @@ export function AdBanner({ format, type, eager = false, title = "Advertisement",
         height={config.height}
         scrolling="no"
         loading={eager ? "eager" : "lazy"}
+        referrerPolicy="no-referrer-when-downgrade"
         style={{ border: "none" }}
       />
     </div>
