@@ -7,18 +7,22 @@ import {getBannerConfig} from '@/lib/ad-config';
 
 type Side = 'left' | 'right';
 
+const SHELL_MAX_WIDTH = 1320;
+const BANNER_WIDTH = 160;
+const GUTTER = 8;
+const MIN_VIEWPORT = SHELL_MAX_WIDTH + (BANNER_WIDTH + GUTTER) * 2;
+const EDGE_OFFSET = `max(${GUTTER}px, calc(50% - ${SHELL_MAX_WIDTH / 2}px - ${BANNER_WIDTH + GUTTER}px))`;
+
 function DismissibleSideBanner({side}: {side: Side}) {
   const [dismissed, setDismissed] = useState(false);
 
   if (dismissed || !getBannerConfig('160x300')) return null;
 
-  const position = side === 'left'
-    ? {left: 'max(0px, calc(50% - 876px))'}
-    : {right: 'max(0px, calc(50% - 876px))'};
+  const position = side === 'left' ? {left: EDGE_OFFSET} : {right: EDGE_OFFSET};
 
   return (
     <aside
-      className="absolute inset-y-0 hidden w-[160px] pt-48 min-[1760px]:block"
+      className="absolute inset-y-0 hidden w-[160px] pt-48 min-[1640px]:block"
       style={position}
       aria-label="Advertisement"
     >
@@ -44,7 +48,7 @@ export function AdsterraSideBanners() {
   const hasSidebarAd = Boolean(getBannerConfig('160x300'));
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(min-width: 1760px)');
+    const mediaQuery = window.matchMedia(`(min-width: ${MIN_VIEWPORT}px)`);
     const updateVisibility = () => setIsWideDesktop(mediaQuery.matches);
 
     updateVisibility();
