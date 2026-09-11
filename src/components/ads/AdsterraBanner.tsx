@@ -1,4 +1,4 @@
-import { type BannerFormat, buildBannerSrcDoc, getBannerConfig } from "@/lib/ad-config";
+import { type BannerFormat, getBannerConfig } from "@/lib/ad-config";
 
 type BannerType = `banner-${BannerFormat}`;
 
@@ -28,13 +28,12 @@ export function AdBanner({ format, type, eager = true, title = "Advertisement", 
   if (!resolvedFormat) return null;
 
   const config = getBannerConfig(resolvedFormat);
-  const srcDoc = buildBannerSrcDoc(resolvedFormat);
-  if (!config || !srcDoc) return null;
+  if (!config) return null;
 
   return (
     <div className={`flex w-full justify-center overflow-hidden ${className}`}>
       <iframe
-        srcDoc={srcDoc}
+        src={config.htmlPath}
         title={`${title} ${resolvedFormat}`}
         width={config.width}
         height={config.height}

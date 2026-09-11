@@ -68,28 +68,3 @@ export function getBannerConfig(format: BannerFormat): BannerConfig | null {
   if (!key) return null;
   return { key, width: spec.width, height: spec.height, htmlPath: spec.htmlPath };
 }
-
-export function buildBannerSrcDoc(format: BannerFormat): string | null {
-  const config = getBannerConfig(format);
-  if (!config) return null;
-
-  return `<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <style>html,body{margin:0;padding:0;overflow:hidden;background:transparent}</style>
-  </head>
-  <body>
-    <script type="text/javascript">
-      atOptions = {
-        key: "${config.key}",
-        format: "iframe",
-        height: ${config.height},
-        width: ${config.width},
-        params: {},
-      };
-    </script>
-    <script type="text/javascript" src="https://www.highperformanceformat.com/${config.key}/invoke.js"></script>
-  </body>
-</html>`;
-}
